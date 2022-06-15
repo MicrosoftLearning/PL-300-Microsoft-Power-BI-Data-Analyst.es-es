@@ -2,12 +2,12 @@
 title: Instrucciones hospedadas en línea
 permalink: index.html
 layout: home
-ms.openlocfilehash: f4e2e1489e1997cfd064aa74eb5345e302bb2424
-ms.sourcegitcommit: 3520e7d016e94549d408464207c1b91cd47867c2
+ms.openlocfilehash: 0c2c63aea8926ec06e02203a9ff9a9a5d5cc9b85
+ms.sourcegitcommit: 9f66e4932aaf188d3be327646561dc7fe8e5c7a5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "139840531"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "143996847"
 ---
 # <a name="content-directory"></a>Directorio de contenido
 
@@ -15,16 +15,8 @@ A continuación se enumeran hipervínculos a cada uno de los ejercicios de labor
 
 ## <a name="labs"></a>Laboratorios
 
-{% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
+{% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions'" %}
 | Módulo | Laboratorio |
 | --- | --- | 
 {% for activity in labs  %}| {{ activity.lab.module }} | [{{ activity.lab.title }}{% if activity.lab.type %} - {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
-{% endfor %}
-
-## <a name="demos"></a>Demostraciones
-
-{% assign demos = site.pages | where_exp:"page", "page.url contains '/Instructions/Demos'" %}
-| Módulo | Demostración |
-| --- | --- | 
-{% for activity in demos  %}| {{ activity.demo.module }} | [{{ activity.demo.title }}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
