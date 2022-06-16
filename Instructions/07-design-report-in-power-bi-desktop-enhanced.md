@@ -2,12 +2,12 @@
 lab:
   title: Diseño de un informe en Power BI Desktop, parte 2
   module: Module 7 - Create Reports
-ms.openlocfilehash: 13dbd8523318739a7e005f1023ab2ae8b32ce8a1
-ms.sourcegitcommit: 3520e7d016e94549d408464207c1b91cd47867c2
+ms.openlocfilehash: 113abb71cee132e348d3513f171efe6cec317046
+ms.sourcegitcommit: f09183b2093a7f8de629f89b54d70bcad85598b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "139840510"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "146109776"
 ---
 # <a name="design-a-report-in-power-bi-desktop-part-2"></a>**Diseño de un informe en Power BI Desktop, parte 2**
 
@@ -63,7 +63,7 @@ En esta tarea, configurará el entorno para el laboratorio iniciando sesión en 
 
     ![Imagen 12](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image1.png)
 
-1. En la ventana del explorador Microsoft Edge, vaya a **https://powerbi.com**.
+1. En la ventana del explorador Microsoft Edge, vaya a **https://powerbi.microsoft.com**.
 
     *Sugerencia: También puede usar el favorito del servicio Power BI en la barra de favoritos de Microsoft Edge.*
 
@@ -117,7 +117,7 @@ En esta tarea, configurará el entorno para el laboratorio abriendo el informe d
 
     ![Imagen 6](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image8.png)
 
-8. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\08-design-report-in-power-bi-desktop-enhanced\Starter**.
+8. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\07-design-report-in-power-bi-desktop-enhanced\Starter**.
 
 9. Seleccione el archivo **Sales Analysis**.
 
@@ -245,7 +245,7 @@ En esta tarea, creará una página y la configurará como una página de obtenci
 
     - Ventas \| Margen de beneficio
 
-12. Configure las opciones de formato para el objeto visual y, en la sección **Cuadrícula**, establezca la propiedad **Tamaño de texto** en **20pt**.
+12. Configure las opciones de formato para el objeto visual y, en la sección **Valores**, establezca la propiedad **Tamaño de texto** en **20pt**.
 
     *El diseño de la página de obtención de detalles está casi terminado. En el siguiente ejercicio mejorará la página con formato condicional.*
 
@@ -307,11 +307,11 @@ En esta tarea, mejorará la página de obtención de detalles con formato condic
 
 9. Configure el formato condicional de color de fondo para el campo **Color**.
 
-10. En la ventana **Color de fondo: Color**, en la lista desplegable **Dar formato por**, seleccione **Valor de campo**.
+10. En la ventana **Color de fondo: Color**, en la lista desplegable **Estilo de formato**, seleccione **Valor de campo**.
 
-    ![Imagen 113](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image35.png)
+    
 
-11. En la lista desplegable **Según el campo**, seleccione **Producto \| Formato \| Formato de color de fondo**.
+11. En la lista desplegable **¿En qué campo debemos basar esto?** , seleccione **Producto \| Formato \| Formato del color de fondo**.
 
     ![Imagen 114](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image36.png)
 
@@ -401,15 +401,15 @@ En esta tarea, agregará dos botones y les asignará acciones de marcador.
 
 2. Coloque el botón directamente debajo de la segmentación **Año**.
 
-3. Seleccione el botón y, después, en el panel **Format button** (Botón de formato), establezca la propiedad **Texto del botón** en **Activar**.
+3. Seleccione el botón y, a continuación, en el panel **Formato del botón**, haga clic en **General** y **active** la propiedad **Título**.
 
     ![Imagen 126](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image49.png)
 
-4. Expanda la sección **Texto del botón** y, en el cuadro **Texto del botón**, escriba **Gráfico de barras**.
+4. Expanda la sección **Título** y luego, en el cuadro **Texto**, escriba **Gráfico de barras**.
 
 5. Expanda la sección **Fondo** y, a continuación, establezca un color de fondo mediante un color complementario.
 
-6. Establezca la propiedad **Acción** en **Activar** (situada cerca de la parte inferior de la lista).
+6. Haga clic en **Botón** y **active** la propiedad **Acción**.
 
     ![Imagen 127](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image50.png)
 
@@ -471,7 +471,7 @@ En este ejercicio, explorará el informe en el servicio Power BI.
 
 En esta tarea, explorará el informe en el servicio Power BI.
 
-1. En la ventana del explorador Microsoft Edge, en el panel **Navegación** del servicio Power BI, haga clic en el informe **Análisis de ventas**.
+1. En la ventana del explorador Microsoft Edge, en el servicio Power BI, en el panel **Navegación**, seleccione **Mi área de trabajo** y luego haga clic en el informe **Análisis de ventas**.
 
 2. Para probar el informe de obtención de detalles, en la página **Información general**, en el objeto visual **Cantidad por categoría**, haga clic con el botón derecho en la barra **Clothing** (Ropa) y seleccione **Obtención de detalles \| Detalles del producto**.
 

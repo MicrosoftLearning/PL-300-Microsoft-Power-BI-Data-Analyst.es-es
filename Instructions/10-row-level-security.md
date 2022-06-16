@@ -1,13 +1,13 @@
 ---
 lab:
   title: Aplicación de seguridad de nivel de fila
-  module: Module 13 - Row-Level Security
-ms.openlocfilehash: b4b468b1c34d0cb562edd9ec407b07c9ee2efa1d
-ms.sourcegitcommit: 3520e7d016e94549d408464207c1b91cd47867c2
+  module: Module 12 - Row-Level Security
+ms.openlocfilehash: 6ccc19e9835dca06ec613e386c82fb0270a28ed5
+ms.sourcegitcommit: 51f448b208842f1333cb683b7775618edb41c126
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "139840328"
+ms.lasthandoff: 04/09/2022
+ms.locfileid: "141580177"
 ---
 # <a name="enforce-row-level-security"></a>**Aplicación de seguridad de nivel de fila**
 
@@ -73,7 +73,7 @@ En esta tarea configurará el entorno para el laboratorio.
 
     ![Imagen 5](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image4.png)
 
-1. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\12-row-level-security\Starter**.
+1. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\10-row-level-security\Starter**.
 
 1. Seleccione el archivo **Sales Analysis**.
 
@@ -185,7 +185,7 @@ En esta tarea aplicará seguridad de nivel de fila para asegurarse de que los ve
 
     ![Imagen 18](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image35.png)
 
-### <a name="task-2-finish-up"></a>**Tarea 2: Finalización**
+### <a name="task-3-finish-up"></a>**Tarea 3: Finalización**
 
 En esta tarea, completará el laboratorio.
 

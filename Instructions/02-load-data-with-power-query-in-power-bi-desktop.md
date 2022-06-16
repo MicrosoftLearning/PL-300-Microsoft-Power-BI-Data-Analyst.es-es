@@ -2,12 +2,12 @@
 lab:
   title: Carga de datos en Power BI Desktop
   module: Module 3 - Clean, Transform, and Load Data in Power BI
-ms.openlocfilehash: 8a19b8b1b243cc4c04bee3375f161098287dbf9d
-ms.sourcegitcommit: 3520e7d016e94549d408464207c1b91cd47867c2
+ms.openlocfilehash: 8e8373127cbc8023c0c299e3b2c75b4a82986308
+ms.sourcegitcommit: d88b7941fe3805f0bc2979ea864c5483ec289c75
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "139840522"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "146071894"
 ---
 # <a name="load-data-in-power-bi-desktop"></a>**Carga de datos en Power BI Desktop**
 
@@ -130,7 +130,7 @@ En esta tarea, se configurará la consulta **Salesperson**.
 
     *Ahora filtrará las filas de la consulta para recuperar solo los empleados que son vendedores.*
 
-4. Para buscar una columna específica, en la pestaña **Inicio** de la cinta de opciones, desde dentro del grupo **Administrar columnas**, haga clic en la flecha hacia abajo **Elegir columnas** y, después, seleccione **Ir a columna**.
+4. Para ubicar una columna específica, en la ficha de cinta **Inicio**, haga clic en la flecha hacia abajo **Administrar columnas**, haga clic en la flecha hacia abajo **Elegir columnas** y luego seleccione **Ir a columna**.
 
     ![Imagen 88](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image13.png)
 
@@ -156,7 +156,7 @@ En esta tarea, se configurará la consulta **Salesperson**.
 
     *Cada transformación que se cree tiene como resultado una lógica de paso adicional. Es posible editar o eliminar pasos. También es posible seleccionar un paso para obtener una vista previa de los resultados de la consulta en esa fase de transformación.*
 
-10. Para quitar columnas, en la pestaña **Inicio** de la cinta de opciones, desde dentro del grupo **Administrar columnas**, haga clic en el icono **Elegir columnas**.
+10. Para quitar columnas, en la pestaña **Inicio**, haga clic en el grupo **Administrar columnas** y, luego, en el icono **Elegir columnas**.
 
     ![Imagen 99](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image18.png)
 
@@ -216,7 +216,7 @@ En esta tarea, se configurará la consulta **Salesperson**.
 
 23. Use los pasos anteriores para cambiar el nombre de la columna **EmailAddress** a **UPN**.
 
-    *UPN es un acrónimo para el nombre principal de usuario. Los valores de esta columna se usarán al configurar la seguridad de nivel de fila en el laboratorio **Modelado de datos en Power BI Desktop, parte 2**.*
+    *UPN es un acrónimo para el nombre principal de usuario.*
 
 24. En la parte inferior izquierda, en la barra de estado, compruebe que la consulta tiene cinco columnas y 18 filas.
 
@@ -349,7 +349,6 @@ En esta tarea, se configurará la consulta **Reseller**.
     ![Imagen 2](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image38.png)
 
   
-‎ 
 
 6. Haga clic con el botón secundario en el encabezado de columna **Business Type** y, después, seleccione **Reemplazar valores**.
 
@@ -648,7 +647,7 @@ En esta tarea se actualizará la consulta **Product** mediante la combinación d
 
     ![Imagen 5690](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image70.png)
 
-2. Para combinar la consulta **ColorFormats**, en la pestaña **Inicio** de la cinta de opciones, desde el grupo **Combinar**, haga clic en **Combinar consultas**.
+2. Para combinar la consulta **ColorFormats**, en la ficha de cinta **Inicio**, haga clic en la flecha hacia abajo **Combinar** y, luego, en **Combinar consultas**.
 
     ![Imagen 5654](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image71.png)
 
@@ -748,4 +747,4 @@ En esta tarea, completará el laboratorio.
 
 5. Si quiere iniciar el siguiente laboratorio, deje Power BI Desktop abierto.
 
-    *Configurará tablas y relaciones de modelos de datos en el laboratorio **Modelado de datos en Power BI Desktop, parte 1**.*
+    *Configurará tablas y relaciones de modelos de datos en el laboratorio **Modelado de datos en Power BI Desktop**.*

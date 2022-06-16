@@ -2,12 +2,12 @@
 lab:
   title: Preparación de datos en Power BI Desktop
   module: Module 2 - Get Data in Power BI
-ms.openlocfilehash: deaa403224e029a08c91ed5137693d51ac30fcab
-ms.sourcegitcommit: 3520e7d016e94549d408464207c1b91cd47867c2
+ms.openlocfilehash: c44eb33136e3d429a44f6e091897388f4eed4135
+ms.sourcegitcommit: 6853b027da7f5e739951c3eef54f4cd458854c66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "139840413"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "146274818"
 ---
 # <a name="prepare-data-in-power-bi-desktop"></a>**Preparación de datos en Power BI Desktop**
 
@@ -133,6 +133,8 @@ En esta tarea, creará consultas basadas en tablas de SQL Server.
 
     ![Imagen 22](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image13.png)
 
+4. Si se le solicitan las credenciales, en la ventana **Base de datos de SQL Server**, seleccione **Usar mis credenciales actuales**. A continuación, **conéctese**.
+
 4. En la ventana **Navegador**, a la izquierda, expanda la base de datos **AdventureWorksDW2020**.
 
     La base de datos **AdventureWorksDW2020** está basada en la base de datos de ejemplo **AdventureWorksDW2017**. Se ha modificado para admitir los objetivos de aprendizaje de los laboratorios del curso.
@@ -213,13 +215,13 @@ En esta tarea, obtendrá una vista previa de los datos de las consultas de SQL 
 
     ![Imagen 43](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image26.png)
 
-    Cuando los recuentos distintos y únicos son iguales, significa que la columna contiene valores únicos. Al realizar el modelado, es importante que algunas tablas del modelo tengan columnas únicas, Estas columnas únicas se pueden usar para crear relaciones de uno a varios, que se realizarán en el laboratorio **Modelado de datos en Power BI Desktop, parte 1**.
+    Cuando los recuentos distintos y únicos son iguales, significa que la columna contiene valores únicos. Al realizar el modelado, es importante que algunas tablas del modelo tengan columnas únicas, Estas columnas únicas se pueden usar para crear relaciones de uno a varios, que se realizarán en el laboratorio **Modelado de datos en Power BI Desktop**.
 
 11. En el panel **Consultas**, seleccione la consulta **DimEmployeeSalesTerritory**.
 
     ![Imagen 44](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image27.png)
 
-    La tabla **DimEmployeeSalesTerritory** almacena una fila para cada uno de los empleados y las regiones del territorio de ventas que administran. La tabla permite relacionar varias regiones con un solo empleado. Algunos empleados administran una, dos o posiblemente más regiones. Al modelar estos datos, deberá definir una relación de varios a varios, que llevará a cabo en el laboratorio **Modelado de datos en Power BI Desktop, parte 2**.
+    La tabla **DimEmployeeSalesTerritory** almacena una fila para cada uno de los empleados y las regiones del territorio de ventas que administran. La tabla permite relacionar varias regiones con un solo empleado. Algunos empleados administran una, dos o posiblemente más regiones. Cuando realice el modelado de estos datos, tendrá que definir una relación de varios a varios.
 
 12. En el panel **Consultas**, seleccione la consulta **DimProduct**.
 
@@ -261,7 +263,7 @@ En esta tarea, obtendrá una vista previa de los datos de las consultas de SQL 
 
     ![Imagen 52](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image32.png)
 
-    La tabla **DimSalesTerritory** contiene una fila por región de ventas, que incluye **Corporate HQ** (Sede corporativa). Las regiones se asignan a un país y los países se asignan a los grupos. En el laboratorio **Modelado de datos de Power BI Desktop, parte 1**, creará una jerarquía para admitir el análisis en el nivel de región, país o grupo.
+    La tabla **DimSalesTerritory** contiene una fila por región de ventas, que incluye **Corporate HQ** (Sede corporativa). Las regiones se asignan a un país y los países se asignan a los grupos. En el laboratorio **Modelado de datos de Power BI Desktop**, creará una jerarquía para admitir el análisis en el nivel de región, país o grupo.
 
 23. En el panel **Consultas**, seleccione la consulta **FactResellerSales**.
 
@@ -274,6 +276,7 @@ En esta tarea, obtendrá una vista previa de los datos de las consultas de SQL 
     ![Imagen 63](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image34.png)
 
     El hecho de que falten valores en la columna **TotalProductCost** supone un problema de calidad de los datos. Para solucionarlo en el laboratorio **Carga de datos en Power BI Desktop**, aplicará transformaciones a fin de rellenar los valores que faltan con el costo estándar del producto, que se almacena en la tabla relacionada **DimProduct**.
+
 
 ### <a name="task-5-get-data-from-a-csv-file"></a>**Tarea 5: Obtención de datos de un archivo CSV**
 
@@ -292,9 +295,7 @@ En esta tarea, creará una consulta basada en un archivo CSV.
 5. Haga clic en **Aceptar**.
 
     ![Imagen 71](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image36.png)
-
-  
-‎ 
+ 
 
 6. En el panel **Consultas**, observe la adición de la consulta **ResellerSalesTargets**.
 

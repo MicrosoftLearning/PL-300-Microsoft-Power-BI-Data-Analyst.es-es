@@ -2,12 +2,12 @@
 lab:
   title: Diseño de un informe en Power BI Desktop, parte 1
   module: Module 7 - Create Reports
-ms.openlocfilehash: 9aa794d25d2eb2ec611315a7ec6ac472e9a3a141
-ms.sourcegitcommit: 3520e7d016e94549d408464207c1b91cd47867c2
+ms.openlocfilehash: 952409822e622f744edcaef603bea5058670c3e8
+ms.sourcegitcommit: 40a8c8608a0adde23300c2b6833db02193f36dfe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "139840520"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "146072547"
 ---
 # <a name="design-a-report-in-power-bi-desktop-part-1"></a>**Diseño de un informe en Power BI Desktop, parte 1**
 
@@ -59,7 +59,7 @@ En esta tarea, configurará el entorno para el laboratorio iniciando sesión en 
 
     ![Imagen 65](Linked_image_Files/07-design-report-in-power-bi-desktop_image1.png)
 
-1. En la ventana del explorador Microsoft Edge, vaya a **https://powerbi.com**.
+1. En la ventana del explorador Microsoft Edge, vaya a **https://powerbi.microsoft.com**.
 
     *Sugerencia: También puede usar el favorito del servicio Power BI en la barra de favoritos de Microsoft Edge.*
 
@@ -141,7 +141,7 @@ En esta tarea, configurará el entorno para el laboratorio abriendo el informe d
 
     ![Imagen 30](Linked_image_Files/07-design-report-in-power-bi-desktop_image7.png)
 
-8. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\07-design-report-in-power-bi-desktop\Starter**.
+8. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\06-design-report-in-power-bi-desktop\Starter**.
 
 9. Seleccione el archivo **Sales Analysis**.
 
@@ -230,21 +230,6 @@ En esta tarea se diseñará la primera página del informe. Cuando haya completa
 
     ![Imagen 21](Linked_image_Files/07-design-report-in-power-bi-desktop_image22.png)
 
-17. Para dar formato a la segmentación, debajo del panel **Visualizaciones**, abra el panel **Formato**.
-
-    ![Imagen 50](Linked_image_Files/07-design-report-in-power-bi-desktop_image23.png)
-
-18. Expanda el grupo **Controles de selección**.
-
-    ![Imagen 23](Linked_image_Files/07-design-report-in-power-bi-desktop_image24.png)
-
-19. Establezca la **opción Mostrar "Seleccionar todo"** como **Activada**.
-
-    ![Imagen 24](Linked_image_Files/07-design-report-in-power-bi-desktop_image25.png)
-
-20. En la segmentación **Región**, observe que ahora el primer elemento es **Seleccionar todo**.
-
-    *Al seleccionarlo, este elemento selecciona todos los elementos o anula su selección. Facilita a los usuarios del informe establecer los elementos de segmentación necesarios.*
 
 21. Anule la selección de la segmentación haciendo clic en un área vacía de la página del informe.
 
@@ -262,13 +247,13 @@ En esta tarea se diseñará la primera página del informe. Cuando haya completa
 
     - Ventas \| Ventas
 
-25. En el panel de campos del objeto visual (no en el panel **Campos**, que se encuentra debajo del panel **Visualizaciones**), fíjese en que los campos están asignados a los apartados o áreas **Eje compartido** y **Valores de columnas**.
+25. En el panel de campos del objeto visual (no en el panel **Campos**; el panel de campos del objeto visual se encuentra debajo del panel **Visualizaciones**), fíjese en que los campos están asignados a los apartados o áreas **Eje X** y **Eje Y de columna**.
 
     ![Imagen 27](Linked_image_Files/07-design-report-in-power-bi-desktop_image28.png)
 
     *Si arrastra campos a un objeto visual, se agregarán a los apartados o áreas predeterminados. Para mayor precisión, puede arrastrar campos directamente a los apartados, como hará a continuación.*
 
-26. En el panel **Campos**, arrastre el campo **Ventas \| Margen de beneficio** al apartado o área **Valores de líneas**.
+26. En el panel **Campos**, arrastre el campo **Ventas \| Margen de beneficio** al apartado o área **Eje Y de línea**.
 
     ![Imagen 28](Linked_image_Files/07-design-report-in-power-bi-desktop_image29.png)
 
@@ -276,7 +261,7 @@ En esta tarea se diseñará la primera página del informe. Cuando haya completa
 
     *El último mes del año actual, junio de 2020, no tiene ninguna venta (todavía). De forma predeterminada, el objeto visual ha eliminado los meses con ventas en blanco. Ahora configurará el objeto visual para que muestre todos los meses.*
 
-28. En el panel de campos del objeto visual, en el apartado o área **Eje compartido**, haga clic en la flecha hacia abajo del campo **Mes** y luego seleccione **Mostrar elementos sin datos**.
+28. En el panel de campos del objeto visual, en el apartado o área **Eje X**, haga clic en la flecha hacia abajo del campo **Mes** y luego seleccione **Mostrar elementos sin datos**.
 
     ![Imagen 52](Linked_image_Files/07-design-report-in-power-bi-desktop_image30.png)
 
@@ -320,7 +305,7 @@ En esta tarea se diseñará la primera página del informe. Cuando haya completa
 
     ![Imagen 3](Linked_image_Files/07-design-report-in-power-bi-desktop_image35.png)
 
-39. Expanda el grupo **Colores de datos** y, después, establezca la propiedad **Color predeterminado** en un color adecuado (para complementar el gráfico de columnas o líneas).
+39. Expanda las **Barras** y el grupo **Colores**, y luego establezca la propiedad **Color predeterminado** en un color adecuado (para complementar el gráfico de columnas o líneas).
 
 40. Establezca la propiedad **Etiquetas de datos** como **activada**.
 
@@ -347,11 +332,10 @@ En esta tarea, diseñará la segunda página del informe. Cuando haya completado
     ![Imagen 43](Linked_image_Files/07-design-report-in-power-bi-desktop_image39.png)
 
   
-‎ 
 
 3. Agregue una segmentación basada en el campo **Región \| Región**.
 
-4. Use el panel **Formato** para habilitar la opción "Seleccionar todo" (en el grupo **Controles de selección**).
+4. Use el panel **Formato** para habilitar la opción "Seleccionar todo" (en el grupo **Selección**).
 
 5. Cambie el tamaño y coloque la segmentación para situarla en el lado izquierdo de la página del informe y que tenga aproximadamente la mitad de la altura de la página.
 
@@ -445,7 +429,7 @@ En esta tarea, diseñará la tercera y última página del informe. Cuando haya 
 
 1. Aplique formato al objeto visual:
 
-    - En el grupo **Etiquetas de datos**, aumente la propiedad **Tamaño del texto** a **28 puntos**.
+    - En el grupo **Valores de llamada**, aumente la propiedad **Tamaño del texto** a **28 puntos**.
 
     - En el grupo **Fondo**, establezca gris claro como **Color**.
 

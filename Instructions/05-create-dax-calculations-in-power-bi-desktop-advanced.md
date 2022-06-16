@@ -2,12 +2,12 @@
 lab:
   title: Creación de cálculos DAX en Power BI Desktop, parte 2
   module: Module 5 - Create Model Calculations using DAX in Power BI
-ms.openlocfilehash: 80cfdfcfcb2072277760670c549cebaaca434cb9
-ms.sourcegitcommit: 3520e7d016e94549d408464207c1b91cd47867c2
+ms.openlocfilehash: 01d7f76dff212103ec9d08e6fe284356be9887f5
+ms.sourcegitcommit: d88b7941fe3805f0bc2979ea864c5483ec289c75
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "139839816"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "146071625"
 ---
 # <a name="create-dax-calculations-in-power-bi-desktop-part-2"></a>**Creación de cálculos DAX en Power BI Desktop, parte 2**
 
@@ -73,7 +73,7 @@ En esta tarea configurará el entorno para el laboratorio.
 
     ![Imagen 9](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image4.png)
 
-1. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Starter**.
+1. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Starter**.
 
 1. Seleccione el archivo **Sales Analysis**.
 
@@ -125,13 +125,11 @@ En esta tarea, creará un objeto visual de matriz para admitir la prueba de las 
 
     *Recordará que la jerarquía **Regions** tiene los niveles **Group**, **Country** y **Region**.*
 
-7. Para dar formato al objeto visual, debajo del panel **Visualizaciones**, seleccione el panel **Formato**.
+7. Para dar formato al objeto visual, en el panel **Visualizaciones**, seleccione el panel **Formato**.
 
     ![Imagen 14](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image12.png)
 
 8. En el cuadro **Buscar**, escriba **Escalonado**.
-
-    ![Imagen 15](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image13.png)
 
 9. Establezca la propiedad **Diseño escalonado** en **Desactivado**.
 
@@ -151,7 +149,7 @@ En esta tarea, creará varias medidas con expresiones DAX que usan la función C
 
 1. Agregue una medida a la tabla **Sales** (Ventas), en función de la siguiente expresión:
 
-    *Para su comodidad, todas las definiciones de DAX de este laboratorio se pueden copiar desde el archivo **D:\PL300\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt**.*
+    *Para su comodidad, todas las definiciones de DAX de este laboratorio se pueden copiar desde el archivo **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt**.*
 
 
     **DAX**
