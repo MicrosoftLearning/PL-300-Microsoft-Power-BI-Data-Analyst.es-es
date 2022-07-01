@@ -2,12 +2,12 @@
 lab:
   title: Carga de datos en Power BI Desktop
   module: Module 3 - Clean, Transform, and Load Data in Power BI
-ms.openlocfilehash: 8e8373127cbc8023c0c299e3b2c75b4a82986308
-ms.sourcegitcommit: d88b7941fe3805f0bc2979ea864c5483ec289c75
+ms.openlocfilehash: aced37b7bfdd2ccf94a9d3e7bdb8f8ff7013c125
+ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "146071894"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146650229"
 ---
 # <a name="load-data-in-power-bi-desktop"></a>**Carga de datos en Power BI Desktop**
 
@@ -23,7 +23,7 @@ En este laboratorio, aprenderá a:
 
 ### <a name="lab-story"></a>**Caso de laboratorio**
 
-Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, para los diez primeros le recomendamos que siga el orden siguiente:
+Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, le recomendamos que siga el orden siguiente:
 
 1. Preparación de datos en Power BI Desktop
 

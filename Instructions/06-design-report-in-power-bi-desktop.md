@@ -2,12 +2,12 @@
 lab:
   title: Diseño de un informe en Power BI Desktop, parte 1
   module: Module 7 - Create Reports
-ms.openlocfilehash: 952409822e622f744edcaef603bea5058670c3e8
-ms.sourcegitcommit: 40a8c8608a0adde23300c2b6833db02193f36dfe
+ms.openlocfilehash: 426892501790aaecbe21ed2e7f9161c4490c9e3b
+ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "146072547"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146650220"
 ---
 # <a name="design-a-report-in-power-bi-desktop-part-1"></a>**Diseño de un informe en Power BI Desktop, parte 1**
 
@@ -23,7 +23,7 @@ En este laboratorio, aprenderá a:
 
 ### <a name="lab-story"></a>**Caso de laboratorio**
 
-Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, para los diez primeros le recomendamos que siga el orden siguiente:
+Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, le recomendamos que siga el orden siguiente:
 
 1. Preparación de datos en Power BI Desktop
 

@@ -2,28 +2,27 @@
 lab:
   title: Aplicación de seguridad de nivel de fila
   module: Module 12 - Row-Level Security
-ms.openlocfilehash: 6ccc19e9835dca06ec613e386c82fb0270a28ed5
-ms.sourcegitcommit: 51f448b208842f1333cb683b7775618edb41c126
+ms.openlocfilehash: f47cc7c54428589aaa9d6b37afd9ee4d11c5884e
+ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2022
-ms.locfileid: "141580177"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146650112"
 ---
 # <a name="enforce-row-level-security"></a>**Aplicación de seguridad de nivel de fila**
 
 **El tiempo estimado para completar el laboratorio es de 45 minutos.**
 
-En este laboratorio, creará una relación de varios a varios entre las tablas **Salesperson** y **Sales**. También aplicará la seguridad de nivel de fila para asegurarse de que un vendedor solo puede analizar los datos de ventas de las regiones que tenga asignadas.
+En este laboratorio, aplicará la seguridad de nivel de fila para asegurarse de que un vendedor solo pueda analizar los datos de ventas de las regiones que tenga asignadas.
 
 En este laboratorio, aprenderá a:
 
-- Configurar relaciones de varios a varios
 
 - Aplicar seguridad de nivel de fila
 
 ### <a name="lab-story"></a>**Caso de laboratorio**
 
-Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, para los diez primeros le recomendamos que siga el orden siguiente:
+Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, le recomendamos que siga el orden siguiente:
 
 1. Preparación de datos en Power BI Desktop
 
