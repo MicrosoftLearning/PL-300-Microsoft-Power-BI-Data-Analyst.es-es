@@ -2,12 +2,12 @@
 lab:
   title: Modelado de datos en Power BI Desktop
   module: Module 4 - Design a Data Model in Power BI
-ms.openlocfilehash: e6ffd23cf2b7861dad63a522734941b8f914bf88
-ms.sourcegitcommit: 6853b027da7f5e739951c3eef54f4cd458854c66
+ms.openlocfilehash: 1617d6a1a50e37a5dc7d9094eaa86057b2ddeee2
+ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "146274827"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "147015369"
 ---
 # <a name="model-data-in-power-bi-desktop"></a>**Modelado de datos en Power BI Desktop**
 
@@ -26,7 +26,7 @@ En este laboratorio, aprenderá a:
 
 ### <a name="lab-story"></a>**Caso de laboratorio**
 
-Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, para los diez primeros le recomendamos que siga el orden siguiente:
+Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, le recomendamos que siga el orden siguiente:
 
 1. Preparación de datos en Power BI Desktop
 
