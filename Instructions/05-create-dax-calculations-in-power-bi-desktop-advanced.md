@@ -15,7 +15,7 @@ ms.locfileid: "146650202"
 
 En este laboratorio creará medidas con expresiones DAX que impliquen la manipulación del contexto de filtro.
 
-En este laboratorio, aprenderá a:
+En este laboratorio, aprenderá a realizar lo siguiente:
 
 - Usar la función CALCULATE () para manipular el contexto de filtro
 
@@ -198,7 +198,7 @@ En esta tarea, creará varias medidas con expresiones DAX que usan la función C
 
     *Se ha cambiado el nombre de la medida para reflejar con precisión la fórmula actualizada. La función DIVIDE() divide la medida **Sales** (Ventas) (no modificada por el contexto del filtro) por la medida **Sales** (Ventas) en un contexto modificado que quita los filtros aplicados a la tabla **Region** (Región).*
 
-5. En el visual de matriz, observe que se ha cambiado el nombre de la medida y que ahora aparece un valor diferente para cada grupo, país y región.
+5. En el objeto visual de matriz, observe que se ha cambiado el nombre de la medida y que ahora aparece un valor diferente para cada grupo, país y región.
 
 6. Aplique formato a la medida **Sales % All Region** (% ventas toda la región) como un porcentaje con dos posiciones decimales.
 

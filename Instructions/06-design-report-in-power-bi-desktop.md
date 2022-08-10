@@ -15,7 +15,7 @@ ms.locfileid: "146650220"
 
 En este laboratorio, creará un informe de tres páginas. Luego se publica en Power BI, desde donde se puede abrir e interactuar con él.
 
-En este laboratorio, aprenderá a:
+En este laboratorio, aprenderá a realizar lo siguiente:
 
 - Diseñar un informe
 
@@ -449,7 +449,7 @@ En esta tarea, diseñará la tercera y última página del informe. Cuando haya 
 
     ![Imagen 80](Linked_image_Files/07-design-report-in-power-bi-desktop_image56.png)
 
-1. Para crear una copia del control visual, presione **Ctrl+C** y, a continuación, **Ctrl+V**.
+1. Para crear una copia del objeto visual, presione **Ctrl+C** y, a continuación, **Ctrl+V**.
 
 1. Coloque el objeto visual nuevo a la derecha del original.
 

@@ -15,7 +15,7 @@ ms.locfileid: "147015351"
 
 En este laboratorio, empezará a desarrollar una solución de Power BI Desktop para la empresa Adventure Works. A lo largo del proceso, conectará con datos de origen, obtendrá una vista previa de los datos y usará técnicas de vista previa de datos para comprender las características y la calidad de los datos de origen.
 
-En este laboratorio, aprenderá a:
+En este laboratorio, aprenderá a realizar lo siguiente:
 
 - Abrir Power BI Desktop
 
@@ -275,7 +275,7 @@ En esta tarea, obtendrá una vista previa de los datos de las consultas de SQL 
 
     ![Imagen 63](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image34.png)
 
-    El hecho de que falten valores en la columna **TotalProductCost** supone un problema de calidad de los datos. Para solucionarlo en el laboratorio **Carga de datos en Power BI Desktop**, aplicará transformaciones a fin de rellenar los valores que faltan con el costo estándar del producto, que se almacena en la tabla relacionada **DimProduct**.
+    El hecho de que falten valores en la columna **TotalProductCost** supone un problema de calidad de los datos. Para solucionarlo en el laboratorio **Carga de datos en Power BI Desktop**, aplicará transformaciones a fin de rellenar los valores que faltan con el coste estándar del producto, que se almacena en la tabla relacionada **DimProduct**.
 
 
 ### <a name="task-5-get-data-from-a-csv-file"></a>**Tarea 5: Obtención de datos de un archivo CSV**

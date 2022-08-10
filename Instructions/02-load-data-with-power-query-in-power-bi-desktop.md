@@ -15,7 +15,7 @@ ms.locfileid: "146650229"
 
 En este laboratorio, se empezarán a aplicar transformaciones a cada una de las consultas creadas en el laboratorio anterior. Después, se aplicarán las consultas para que se cargue cada una de ellas como una tabla en el modelo de datos.
 
-En este laboratorio, aprenderá a:
+En este laboratorio, aprenderá a realizar lo siguiente:
 
 - Aplicar varias transformaciones
 
@@ -146,7 +146,7 @@ En esta tarea, se configurará la consulta **Salesperson**.
 
     ![Imagen 95](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image15.png)
 
-8. Haga clic en **OK**.
+8. Haga clic en **Aceptar**.
 
     ![Imagen 96](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image16.png)
 
@@ -160,7 +160,7 @@ En esta tarea, se configurará la consulta **Salesperson**.
 
     ![Imagen 99](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image18.png)
 
-11. En la ventana **Elegir columnas**, para desactivar todas las columnas, desactive el elemento **(Seleccionar todas las columnas)** .
+11. En la ventana **Elegir columnas**, para desactivar todas las columnas, desactive el elemento **(Seleccionar todas las columnas)**.
 
     ![Imagen 102](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image19.png)
 
@@ -192,7 +192,7 @@ En esta tarea, se configurará la consulta **Salesperson**.
 
     ![Imagen 116](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image22.png)
 
-17. Haga clic con el botón secundario en cualquiera de los encabezados de columna seleccionados y, después, en el menú contextual, seleccione **Combinar columnas**.
+17. Haga clic con el botón derecho en cualquiera de los encabezados de columna seleccionados y, después, en el menú contextual, seleccione **Combinar columnas**.
 
     ![Imagen 117](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image23.png)
 
@@ -204,7 +204,7 @@ En esta tarea, se configurará la consulta **Salesperson**.
 
     ![Imagen 119](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image24.png)
 
-20. Haga clic en **OK**.
+20. Haga clic en **Aceptar**.
 
     ![Imagen 5636](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image25.png)
 
@@ -292,7 +292,7 @@ En esta tarea, configurará la consulta **Product**.
 
     *Los nombres de columna de la consulta deben ser siempre únicos. Cuando está activada, esta casilla prefijaría cada columna con el nombre de columna expandido (en este caso, **DimProductSubcategory**). Como se sabe que los nombres de columna seleccionados no entran en conflicto con los de la consulta **Product**, se anula la selección de la opción.*
 
-10. Haga clic en **OK**.
+10. Haga clic en **Aceptar**.
 
     ![Imagen 5648](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image34.png)
 
@@ -362,7 +362,7 @@ En esta tarea, se configurará la consulta **Reseller**.
 
     ![Imagen 5](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image40.png)
 
-8. Haga clic en **OK**.
+8. Haga clic en **Aceptar**.
 
     ![Imagen 6](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image41.png)
 
@@ -503,9 +503,9 @@ En esta tarea, se configurará la consulta **Sales**.
 
     - Unit Price
 
-    - Ventas
+    - Sales
 
-    - Costo
+    - Cost
 
     ![Imagen 5668](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image51.png)
 
@@ -557,7 +557,7 @@ En esta tarea se configurará la consulta **Targets**.
 
     ![Imagen 5677](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image57.png)
 
-10. Haga clic en **OK**.
+10. Haga clic en **Aceptar**.
 
 11. Modifique el tipo de datos de la columna **MonthNumber** a **Número entero**.
 
@@ -613,7 +613,7 @@ En esta tarea se configurará la consulta **Targets**.
 
     ![Imagen 5683](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image64.png)
 
-24. Haga clic en **OK**.
+24. Haga clic en **Aceptar**.
 
     ![Imagen 5684](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image65.png)
 
@@ -707,7 +707,7 @@ En esta tarea, se actualizará la consulta **ColorFormats** para deshabilitar su
 
     Deshabilitar la carga significa que no se cargará como una tabla en el modelo de datos. Esto se hace porque la consulta se ha combinado con la consulta **Product**, que está habilitada para cargar en el modelo de datos.
 
-4. Haga clic en **OK**.
+4. Haga clic en **Aceptar**.
 
     ![Imagen 324](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image82.png)
 

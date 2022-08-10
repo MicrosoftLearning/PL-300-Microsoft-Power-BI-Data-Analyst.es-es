@@ -15,7 +15,7 @@ ms.locfileid: "147015369"
 
 En este laboratorio, comenzará a desarrollar el modelo de datos. Implicará la creación de relaciones entre las tablas y, después, la configuración de las propiedades de tabla y columna para mejorar la facilidad de uso del modelo de datos. También creará jerarquías y medidas rápidas.
 
-En este laboratorio, aprenderá a:
+En este laboratorio, aprenderá a realizar lo siguiente:
 
 - Crear relaciones de modelos
 
@@ -172,7 +172,7 @@ En esta tarea, creará relaciones del modelo.
 
     *Las relaciones activas propagan los filtros. Una relación se puede marcar como inactiva para que los filtros no se propaguen. Pueden existir relaciones inactivas cuando hay varias rutas de relación entre las tablas. En este caso, los cálculos del modelo pueden usar funciones especiales para activarlas.*
 
-17. Haga clic en **OK**.
+17. Haga clic en **Aceptar**.
 
     ![Imagen 335](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image18.png)
 
@@ -295,7 +295,7 @@ En esta tarea, se configurará la tabla **Reseller**.
 
 1. En la tabla **Reseller**, cree una jerarquía denominada **Resellers**, con los dos niveles siguientes:
 
-    - Business Type (Tipo de empresa)
+    - Business Type
 
     - Reseller
 
@@ -303,11 +303,11 @@ En esta tarea, se configurará la tabla **Reseller**.
 
 2. Cree una segunda jerarquía denominada **Geography** (Geografía), con los cuatro niveles siguientes:
 
-    - Country-Region (País o región)
+    - Country-Region
 
     - State-Province
 
-    - City (Ciudad)
+    - City
 
     - Reseller
 
@@ -335,7 +335,7 @@ En esta tarea, se configurará la tabla **Sales**.
 
 5. Seleccione la columna **Precio unitario**.
 
-6. En el panel **Propiedades**, desde dentro de la sección **Formato**, establezca la propiedad **Lugares decimales** en **2**.
+6. En el panel **Propiedades**, desde dentro de la sección **Formato**, establezca la propiedad **Posiciones decimales** en **2**.
 
 7. En el grupo **Avanzado** (es posible que tenga que desplazarse hacia abajo para encontrarlo), en la lista desplegable **Resumir por**, seleccione **Promedio**.
 
@@ -393,7 +393,7 @@ En esta tarea, actualizará varias columnas mediante actualizaciones únicas mas
 
     - Sales \| Sales
 
-5. En el panel **Propiedades**, desde dentro de la sección **Formato**, establezca la propiedad **Lugares decimales** en **0**.
+5. En el panel **Propiedades**, desde dentro de la sección **Formato**, establezca la propiedad **Posiciones decimales** en **0**.
 
     ![Imagen 356](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image39.png)
 
@@ -443,7 +443,7 @@ En esta tarea, cambiará a la vista Informe y revisará la interfaz del modelo.
 
     ![Imagen 362](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image43.png)
 
-8. Haga clic en **OK**.
+8. Haga clic en **Aceptar**.
 
     ![Imagen 9](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image44.png)
 
@@ -578,7 +578,7 @@ En esta tarea, creará una relación de varios a varios entre las tablas **Sales
 
     ![Imagen 381](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image12.png)
 
-11. Haga clic en **OK**.
+11. Haga clic en **Aceptar**.
 
     ![Imagen 335](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image13.png)
 

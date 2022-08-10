@@ -15,7 +15,7 @@ ms.locfileid: "146650112"
 
 En este laboratorio, aplicará la seguridad de nivel de fila para asegurarse de que un vendedor solo pueda analizar los datos de ventas de las regiones que tenga asignadas.
 
-En este laboratorio, aprenderá a:
+En este laboratorio, aprenderá a realizar lo siguiente:
 
 
 - Aplicar seguridad de nivel de fila

@@ -15,7 +15,7 @@ ms.locfileid: "147015342"
 
 En este laboratorio, creará tablas calculadas, columnas calculadas y medidas simples mediante expresiones de análisis de datos (DAX).
 
-En este laboratorio, aprenderá a:
+En este laboratorio, aprenderá a realizar lo siguiente:
 
 - Crear tablas calculadas
 
@@ -137,7 +137,7 @@ En esta tarea, creará la tabla **Salesperson** (Comercial) (relación directa c
 
 6. Cree una relación desde la columna **Salesperson \| EmployeeKey** (Comercial | Clave de empleado) a la columna **Sales \| EmployeeKey** (Ventas | Clave de empleado).
 
-7. Haga clic con el botón secundario en la relación inactiva entre las tablas **Salesperson (Performance)** (Comercial [Rendimiento]) y **Sales** (Ventas) y, a continuación, seleccione **Eliminar**.
+7. Haga clic con el botón derecho en la relación inactiva entre las tablas **Salesperson (Performance)** (Comercial [Rendimiento]) y **Sales** (Ventas) y, a continuación, seleccione **Eliminar**.
 
     ![Imagen 2](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image12.png)
 
@@ -288,7 +288,7 @@ En esta tarea, agregará columnas adicionales para habilitar el filtrado y la ag
 
     *Esta fórmula calcula un valor numérico para cada combinación de año/mes.*
 
-14. En la vista de datos, compruebe que la nueva columna contiene valores numéricos (por ejemplo, 201707 para el julio de 2017, etc.).
+14. En la vista de datos, compruebe que la nueva columna contiene valores numéricos (por ejemplo, 201707 para julio de 2017, etc.).
 
     ![Imagen 21](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image28.png)
 

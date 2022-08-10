@@ -15,7 +15,7 @@ ms.locfileid: "147015333"
 
 En este laboratorio, creará el informe **Exploración de ventas**.
 
-En este laboratorio, aprenderá a:
+En este laboratorio, aprenderá a realizar lo siguiente:
 
 - Crear gráficos de dispersión animados
 

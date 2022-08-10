@@ -15,7 +15,7 @@ ms.locfileid: "146650211"
 
 En este laboratorio, mejorará el **Análisis de ventas** con características de diseño avanzadas.
 
-En este laboratorio, aprenderá a:
+En este laboratorio, aprenderá a realizar lo siguiente:
 
 - Sincronizar segmentaciones
 
@@ -235,7 +235,7 @@ En esta tarea, creará una página y la configurará como una página de obtenci
 
 11. Agregue los campos siguientes al objeto visual:
 
-    - Product \| Subcategory
+    - Producto \| Subcategoría
 
     - Producto \| Color
 
@@ -297,7 +297,7 @@ En esta tarea, mejorará la página de obtención de detalles con formato condic
 
     *Las reglas se pueden interpretar de la siguiente manera: mostrar un rombo de color rojo si el valor de margen de beneficio es menor que 0; de lo contrario, si el valor es mayor o igual a cero, mostrar un círculo de color verde.*
 
-7. Haga clic en **OK**.
+7. Haga clic en **Aceptar**.
 
     ![Imagen 111](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image33.png)
 

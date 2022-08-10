@@ -15,7 +15,7 @@ ms.locfileid: "147015360"
 
 En este laboratorio se creará el panel **Supervisión de ventas**.
 
-En este laboratorio, aprenderá a:
+En este laboratorio, aprenderá a realizar lo siguiente:
 
 - Anclar objetos visuales en un panel
 
@@ -167,7 +167,7 @@ En esta tarea, configurará el entorno para el laboratorio creando un conjunto d
 
 ### <a name="task-4-create-a-dashboard"></a>**Tarea 4: Creación de un panel**
 
-En esta tarea, se creará el panel **Supervisión de ventas**. Anclará un objeto visual del informe y agregará un icono basado en un URI de datos de imagen, además de usar Q&A para crear un icono.
+En esta tarea, se creará el panel **Supervisión de ventas**. Anclará un objeto visual del informe y agregará un icono basado en un URI de datos de imagen, además de usar Preguntas y respuestas para crear un icono.
 
 1. En la ventana del explorador Microsoft Edge, en el servicio Power BI, abra el informe **Sales Analysis**.
 
@@ -177,7 +177,7 @@ En esta tarea, se creará el panel **Supervisión de ventas**. Anclará un objet
 
 3. Establezca la segmentación **Región** en **Seleccionar todo**.
 
-    *Al anclar objetos visuales a un panel, usarán el contexto de filtro actual. Una vez anclados, no se puede cambiar el contexto del filtro. En el caso de los filtros basados en el tiempo, se recomienda usar una segmentación de fecha relativa (o Q&A con una pregunta relativa basada en el tiempo).*
+    *Al anclar objetos visuales a un panel, usarán el contexto de filtro actual. Una vez anclados, no se puede cambiar el contexto del filtro. En el caso de los filtros basados en el tiempo, se recomienda usar una segmentación de fecha relativa (o Preguntas y respuestas con una pregunta relativa basada en el tiempo).*
 
 4. Para crear un panel y anclar un objeto visual, mantenga el cursor sobre el objeto visual de columna/línea **Ventas y margen de beneficio por mes**.
 
@@ -205,9 +205,9 @@ En esta tarea, se creará el panel **Supervisión de ventas**. Anclará un objet
 
     ![Imagen 7](Linked_image_Files/09-create-power-bi-dashboard_image23.png)
 
-    *Puede usar la característica Q&A para formular una pregunta y Power BI responderá con un objeto visual.*
+    *Puede usar la característica Preguntas y respuestas para formular una pregunta y Power BI responderá con un objeto visual.*
 
-11. Haga clic en una de las preguntas sugeridas bajo el cuadro de Q&A, en los cuadros azules.
+11. Haga clic en una de las preguntas sugeridas bajo el cuadro Preguntas y respuestas, en los cuadros azules.
 
 12. Revise la respuesta.
 
@@ -253,7 +253,7 @@ En esta tarea, se creará el panel **Supervisión de ventas**. Anclará un objet
 
     ![Imagen 47](Linked_image_Files/09-create-power-bi-dashboard_image32.png)
 
-23. Haga clic en **Next**.
+23. Haga clic en **Siguiente**.
 
     ![Imagen 48](Linked_image_Files/09-create-power-bi-dashboard_image33.png)
 
