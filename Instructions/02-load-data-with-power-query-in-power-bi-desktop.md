@@ -569,7 +569,7 @@ En esta tarea se configurará la consulta **Targets**.
 
 13. Observe que la primera fila es para el año **2017** y el número de mes **7**.
 
-14. En la columna **Column1**, en la primera celda de la cuadrícula, empiece a escribir **1/7/2017** y luego presione **Entrar**.
+14. En la columna **Column1**, en la primera celda de la cuadrícula, empiece a escribir **7/1/2017** y luego presione **Entrar**.
 
     *La máquina virtual usa la configuración regional de EE. UU., por lo que esta fecha es el 1 de julio de 2017.*
 
