@@ -1,21 +1,17 @@
 ---
 lab:
-  title: Creación de un panel de Power BI
+  title: "Creación de un panel de Power\_BI"
   module: Module 8 - Create Dashboards
-ms.openlocfilehash: 0f8abb8670c71f5063dc28032daa321bf4b742f9
-ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "147015360"
 ---
+
+
 # <a name="create-a-power-bi-dashboard"></a>**Creación de un panel de Power BI**
 
 **El tiempo estimado para completar el laboratorio es de 45 minutos.**
 
 En este laboratorio se creará el panel **Supervisión de ventas**.
 
-En este laboratorio, aprenderá a realizar lo siguiente:
+En este laboratorio, aprenderá a:
 
 - Anclar objetos visuales en un panel
 
@@ -23,7 +19,7 @@ En este laboratorio, aprenderá a realizar lo siguiente:
 
 ### <a name="lab-story"></a>**Caso de laboratorio**
 
-Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, le recomendamos que siga el orden siguiente:
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. Preparación de datos en Power BI Desktop
 
@@ -47,7 +43,7 @@ Este laboratorio es una de las muchas series de laboratorios que se diseñaron c
 
 ## <a name="exercise-1-create-a-dashboard"></a>**Ejercicio 1: Creación de un panel**
 
-En este ejercicio, se creará el panel **Supervisión de ventas**. El panel completado tendrá un aspecto similar al siguiente:
+In this exercise you will create the <bpt id="p1">**</bpt>Sales Monitoring<ept id="p1">**</ept> dashboard. The completed dashboard will look like the following:
 
 ![Imagen del panel completado, que consta de tres iconos.](Linked_image_Files/09-create-power-bi-dashboard_image1.png)
 
@@ -61,7 +57,7 @@ En esta tarea, configurará el entorno para el laboratorio iniciando sesión en 
 
     ![Imagen 42](Linked_image_Files/09-create-power-bi-dashboard_image2.png)
 
-2. En la ventana del explorador Microsoft Edge, vaya a **https://powerbi.microsoft.com**.
+2. En la ventana del explorador Microsoft Edge, vaya a **https://powerbi.com**.
 
     *Sugerencia: También puede usar el favorito del servicio Power BI en la barra de favoritos de Microsoft Edge.*
 
@@ -115,7 +111,7 @@ En esta tarea, configurará el entorno para el laboratorio abriendo el informe d
 
     ![Imagen 34](Linked_image_Files/09-create-power-bi-dashboard_image9.png)
 
-8. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\08-create-power-bi-dashboard\Starter**.
+8. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\09-create-power-bi-dashboard\Starter**.
 
 9. Seleccione el archivo **Sales Analysis**.
 
@@ -159,15 +155,15 @@ En esta tarea, configurará el entorno para el laboratorio creando un conjunto d
 
     ![Imagen 5](Linked_image_Files/09-create-power-bi-dashboard_image16.png)
 
-4. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\08-create-power-bi-dashboard\Solution**.
+4. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\08-design-report-in-power-bi-desktop-enhanced\Solution**.
 
 5. Seleccione el archivo **Sales Analysis.pbix** y, después, haga clic en **Abrir**.
 
-6. Si se le pide que reemplace el conjunto de datos, haga clic en **Reemplazarlo**.
+6. Si se le pide que reemplace el conjunto de datos, haga clic en **Reemplazar**.
 
 ### <a name="task-4-create-a-dashboard"></a>**Tarea 4: Creación de un panel**
 
-En esta tarea, se creará el panel **Supervisión de ventas**. Anclará un objeto visual del informe y agregará un icono basado en un URI de datos de imagen, además de usar Preguntas y respuestas para crear un icono.
+In this task you will create the <bpt id="p1">**</bpt>Sales Monitoring<ept id="p1">**</ept> dashboard. You will pin a visual from the report, and add a tile based on an image data URI, and use Q&amp;A to create a tile.
 
 1. En la ventana del explorador Microsoft Edge, en el servicio Power BI, abra el informe **Sales Analysis**.
 
@@ -181,7 +177,7 @@ En esta tarea, se creará el panel **Supervisión de ventas**. Anclará un objet
 
 4. Para crear un panel y anclar un objeto visual, mantenga el cursor sobre el objeto visual de columna/línea **Ventas y margen de beneficio por mes**.
 
-5. En la esquina inferior derecha, haga clic en la chincheta.
+5. En la esquina superior derecha, haga clic en la chincheta.
 
     ![Imagen 43](Linked_image_Files/09-create-power-bi-dashboard_image18.png)
 
@@ -193,7 +189,7 @@ En esta tarea, se creará el panel **Supervisión de ventas**. Anclará un objet
 
     ![Imagen 1](Linked_image_Files/09-create-power-bi-dashboard_image20.png)
 
-8. Abra el panel **Navegación**, seleccione **Mi área de trabajo** y luego abra el panel **Supervisión de ventas**.
+8. Abra el panel **Navegación** y luego el panel **Supervisión de ventas**.
 
     ![Imagen 44](Linked_image_Files/09-create-power-bi-dashboard_image21.png)
 
@@ -253,7 +249,7 @@ En esta tarea, se creará el panel **Supervisión de ventas**. Anclará un objet
 
     ![Imagen 47](Linked_image_Files/09-create-power-bi-dashboard_image32.png)
 
-23. Haga clic en **Siguiente**.
+23. Haga clic en **Next**.
 
     ![Imagen 48](Linked_image_Files/09-create-power-bi-dashboard_image33.png)
 
@@ -311,7 +307,7 @@ En esta tarea, se modificarán los detalles de dos iconos.
 
 ## <a name="exercise-2-refresh-the-dataset"></a>**Ejercicio 2: Actualización del conjunto de datos**
 
-En este ejercicio, primero se cargarán los datos del pedido de ventas de junio de 2020 en la base de datos **AdventureWorksDW2020**. Posteriormente, se abrirá el archivo de Power BI Desktop, se realizará una actualización de datos y, después, se cargará el archivo en el área de trabajo.
+In this exercise you will first load sales order data for June 2020 into the <bpt id="p1">**</bpt>AdventureWorksDW2020<ept id="p1">**</ept> database. You will then open your Power BI Desktop file, perform a data refresh, and then upload the file to your workspace.
 
 ### <a name="task-1-update-the-lab-database"></a>**Tarea 1: Actualización de la base de datos de laboratorio**
 
@@ -337,7 +333,7 @@ En esta tarea, se abrirá el archivo **Análisis de ventas** de Power BI Deskto
 
 2. Cuando finalice la actualización, guarde el archivo de Power BI Desktop.
 
-3. Para publicar el archivo en su área de trabajo, en la ficha de cinta **Inicio**, dentro del grupo **Compartir**, haga clic en **Publicar** y, luego, en **Seleccionar**.
+3. Para publicar el archivo en el área de trabajo, en la ficha de cinta **Inicio**, desde el grupo **Compartir**, haga clic en **Publicar**.
 
     ![Imagen 59](Linked_image_Files/09-create-power-bi-dashboard_image48.png)
 
@@ -351,11 +347,11 @@ En esta tarea, se abrirá el archivo **Análisis de ventas** de Power BI Deskto
 
 ## <a name="exercise-3-review-the-dashboard"></a>**Ejercicio 3: Revisión del panel**
 
-En este ejercicio, revisará el panel para consultar las ventas actualizadas.
+En este ejercicio, se revisará el panel para observar las ventas actualizadas y que se ha desencadenado la alerta.
 
 ### <a name="task-1-review-the-dashboard"></a>**Tarea 1: Revisión del panel**
 
-En esta tarea, revisará el panel para consultar las ventas actualizadas.
+En esta tarea, se revisará el panel para observar las ventas actualizadas y que se ha desencadenado la alerta.
 
 1. En la ventana del explorador Microsoft Edge, en el servicio Power BI, revise el panel **Supervisión de ventas**.
 
@@ -367,6 +363,22 @@ En esta tarea, revisará el panel para consultar las ventas actualizadas.
 
     ![Imagen 33](Linked_image_Files/09-create-power-bi-dashboard_image50.png)
 
-    
+    *También se debe haber desencadenado la alerta en el icono **Ventas del año hasta la fecha**. Tras un breve periodo de tiempo, la alerta debe notificar que las ventas ahora superan el valor de umbral configurado.*
 
-4. Para cerrar el panel, haga clic en **Cerrar**.
+4. Observe que el icono **Ventas del año hasta la fecha** se ha actualizado a **37 M USD**.
+
+5. Compruebe que el icono **Ventas del año hasta la fecha** muestra un icono de notificación de alerta.
+
+    *Si no ve la notificación, es posible que tenga que presionar **F5** para volver a cargar el explorador. Si continúa sin ver la notificación, espere unos minutos más.*
+
+    ![Imagen 35](Linked_image_Files/09-create-power-bi-dashboard_image51.png)
+
+    *Las notificaciones de alertas aparecen en el icono del panel, y se pueden entregar por correo electrónico y notificaciones de inserción a las aplicaciones móviles, incluido el Apple Watch.*
+
+6. En la esquina superior derecha de la página web, haga clic en el icono **Notificaciones**.
+
+    ![Imagen 58](Linked_image_Files/09-create-power-bi-dashboard_image52.png)
+
+7. En el panel **Todas las notificaciones**, revise los detalles de la notificación de alerta.
+
+8. Para cerrar el panel, haga clic en **Cerrar**.

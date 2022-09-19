@@ -1,28 +1,25 @@
 ---
 lab:
   title: Aplicación de seguridad de nivel de fila
-  module: Module 12 - Row-Level Security
-ms.openlocfilehash: f47cc7c54428589aaa9d6b37afd9ee4d11c5884e
-ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146650112"
+  module: Module 13 - Row-Level Security
 ---
+
+
 # <a name="enforce-row-level-security"></a>**Aplicación de seguridad de nivel de fila**
 
 **El tiempo estimado para completar el laboratorio es de 45 minutos.**
 
-En este laboratorio, aplicará la seguridad de nivel de fila para asegurarse de que un vendedor solo pueda analizar los datos de ventas de las regiones que tenga asignadas.
+In this lab you will create a many-to-many relationship between the <bpt id="p1">**</bpt>Salesperson<ept id="p1">**</ept> table and the <bpt id="p2">**</bpt>Sales<ept id="p2">**</ept> table. You will also enforce row-level security to ensure that a salesperson can only analyze sales data for their assigned region(s).
 
-En este laboratorio, aprenderá a realizar lo siguiente:
+En este laboratorio, aprenderá a:
 
+- Configurar relaciones de varios a varios
 
 - Aplicar seguridad de nivel de fila
 
 ### <a name="lab-story"></a>**Caso de laboratorio**
 
-Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, le recomendamos que siga el orden siguiente:
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. Preparación de datos en Power BI Desktop
 
@@ -72,7 +69,7 @@ En esta tarea configurará el entorno para el laboratorio.
 
     ![Imagen 5](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image4.png)
 
-1. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\10-row-level-security\Starter**.
+1. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\12-row-level-security\Starter**.
 
 1. Seleccione el archivo **Sales Analysis**.
 
@@ -184,7 +181,7 @@ En esta tarea aplicará seguridad de nivel de fila para asegurarse de que los ve
 
     ![Imagen 18](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image35.png)
 
-### <a name="task-3-finish-up"></a>**Tarea 3: Finalización**
+### <a name="task-2-finish-up"></a>**Tarea 2: Finalización**
 
 En esta tarea, completará el laboratorio.
 

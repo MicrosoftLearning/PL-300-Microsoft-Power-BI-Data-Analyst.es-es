@@ -1,21 +1,17 @@
 ---
 lab:
-  title: Análisis de datos en Power BI Desktop
-  module: Module 9 - Identify Patterns and Trends
-ms.openlocfilehash: 42ec8ac1a9fd160fe2181ae8d966d85d04b9b82d
-ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "147015333"
+  title: "Análisis de datos en Power\_BI Desktop"
+  module: Module 10 - Perform Advanced Analytics
 ---
+
+
 # <a name="perform-data-analysis-in-power-bi-desktop"></a>**Análisis de datos en Power BI Desktop**
 
 **El tiempo estimado para completar el laboratorio es de 45 minutos.**
 
 En este laboratorio, creará el informe **Exploración de ventas**.
 
-En este laboratorio, aprenderá a realizar lo siguiente:
+En este laboratorio, aprenderá a:
 
 - Crear gráficos de dispersión animados
 
@@ -25,7 +21,7 @@ En este laboratorio, aprenderá a realizar lo siguiente:
 
 ### <a name="lab-story"></a>**Caso de laboratorio**
 
-Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, le recomendamos que siga el orden siguiente:
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. Preparación de datos en Power BI Desktop
 
@@ -61,7 +57,7 @@ En esta tarea, configurará el entorno para el laboratorio iniciando sesión en 
 
     ![Imagen 7](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image1.png)
 
-1. En la ventana del explorador Microsoft Edge, vaya a **https://powerbi.microsoft.com**.
+1. En la ventana del explorador Microsoft Edge, vaya a **https://powerbi.com**.
 
     *Sugerencia: También puede usar el favorito del servicio Power BI en la barra de favoritos de Microsoft Edge.*
 
@@ -103,11 +99,11 @@ En esta tarea, configurará el entorno para el laboratorio creando un conjunto d
 
     ![Imagen 11](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image6.png)
 
-4. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\08-create-power-bi-dashboard\Solution**.
+4. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\09-create-power-bi-dashboard\Solution**.
 
 5. Seleccione el archivo **Sales Analysis.pbix** y, después, haga clic en **Abrir**.
 
-6. Si se le pide que reemplace el conjunto de datos, haga clic en **Reemplazarlo**.
+6. Si se le pide que reemplace el conjunto de datos, haga clic en **Reemplazar**.
 
 ### <a name="task-3-create-the-report"></a>**Tarea 3: Creación del informe**
 
@@ -137,7 +133,7 @@ En esta tarea, creará el informe **Exploración de ventas**.
 
 7. En la ventana **Guardar como**, vaya a la carpeta **D:\PL300\MySolution**.
 
-8. En el cuadro **Nombre de archivo**, escriba **Exploración de ventas** y haga clic en **Guardar**.
+8. En el cuadro **Nombre de archivo**, escriba **Exploración de ventas**.
 
     ![Imagen 1](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image11.png)
 
@@ -153,7 +149,7 @@ En esta tarea, creará el informe **Exploración de ventas**.
 
 12. Guarde el archivo de Power BI Desktop.
 
-    *Ahora creará dos páginas de informe, y en cada una trabajará con un objeto visual diferente para analizar y explorar los datos.*
+    *Ahora creará cuatro páginas de informe, y en cada una trabajará con un objeto visual diferente para analizar y explorar los datos.*
 
 ## <a name="exercise-2-create-a-scatter-chart"></a>**Ejercicio 2: Creación de un gráfico de dispersión**
 
@@ -175,15 +171,13 @@ En esta tarea, creará un gráfico de dispersión que se puede animar.
 
 3. Agregue los campos siguientes a los apartados o áreas del objeto visual:
 
-    Los laboratorios usan una notación abreviada para hacer referencia a un campo. Tendrá este aspecto: **Revendedor** **\|** **Tipo de negocio**. En este ejemplo, **Reseller** es el nombre de la tabla y **Business Type** es el nombre del campo.
+    The labs use a shorthand notation to reference a field. It will look like this: <bpt id="p1">**</bpt>Reseller<ept id="p1">**</ept> <bpt id="p2">**</bpt><ph id="ph1">\|</ph><ept id="p2">**</ept> <bpt id="p3">**</bpt>Business Type<ept id="p3">**</ept>. In this example, <bpt id="p1">**</bpt>Reseller<ept id="p1">**</ept> is the table name and <bpt id="p2">**</bpt>Business Type<ept id="p2">**</ept> is the field name.
 
-    
+    - Leyenda: **Revendedor \| Tipo de negocio**
 
     - Eje X: **Ventas \| Ventas** 
 
     - Eje Y: **Ventas \| Margen de beneficio**
-
-    - Leyenda: **Revendedor \| Tipo de negocio**
 
     - Tamaño: **Ventas \| Cantidad**
 
@@ -239,9 +233,9 @@ En esta tarea, creará una previsión para determinar los posibles ingresos de v
 
 3. Agregue los campos siguientes a los apartados o áreas del objeto visual:
 
-    - Eje X: **Fecha \| Fecha**
+    - Eje: **Fecha \| Fecha**
 
-    - Eje Y: **Ventas \| Ventas** 
+    - Valores: **Ventas \| Ventas** 
 
     ![Imagen 46](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image23.png)
 
@@ -265,25 +259,21 @@ En esta tarea, creará una previsión para determinar los posibles ingresos de v
 
 8. Expanda la sección **Previsión**.
 
-
+    ![Imagen 50](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image27.png)
 
     *Si la sección **Previsión** no está disponible, probablemente se deba a que el objeto visual no se ha configurado correctamente. La previsión solo está disponible cuando se cumplen dos condiciones: el eje tiene un único campo de tipo Fecha y solo hay un campo de valor.*
 
-9. **Active** la opción **Previsión**.
+9. Haga clic en **Agregar**.
 
     ![Imagen 51](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image28.png)
 
 10. Configure las propiedades de previsión siguientes:
 
-    - Unidades: Meses
-
     - Predecir duración: 1 mes
 
-    - Estacionalidad: 365
-    
     - Intervalo de confianza: 80 %
 
-
+    - Estacionalidad: 365
 
 11. Haga clic en **Aplicar**.
 
@@ -308,7 +298,7 @@ En esta tarea, completará el laboratorio.
 
 2. Guarde el archivo de Power BI Desktop.
 
-3. Para publicar el archivo en **Mi área de trabajo**, en la ficha de cinta **Inicio**, dentro del grupo **Compartir**, haga clic en **Publicar** y, luego, en **Seleccionar**.
+3. Para publicar el archivo en el área de trabajo, en la ficha de cinta **Inicio**, desde el grupo **Compartir**, haga clic en **Publicar**.
 
     ![Imagen 23](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image46.png)
 

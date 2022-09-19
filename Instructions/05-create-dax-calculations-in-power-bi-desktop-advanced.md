@@ -1,21 +1,17 @@
 ---
 lab:
-  title: Creación de cálculos DAX en Power BI Desktop, parte 2
+  title: "Creación de cálculos DAX en Power\_BI Desktop, parte\_2"
   module: Module 5 - Create Model Calculations using DAX in Power BI
-ms.openlocfilehash: 064f5bb2c313448f7d15b01bd0e69a84aa85811f
-ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146650202"
 ---
+
+
 # <a name="create-dax-calculations-in-power-bi-desktop-part-2"></a>**Creación de cálculos DAX en Power BI Desktop, parte 2**
 
 **El tiempo estimado para completar el laboratorio es de 45 minutos.**
 
 En este laboratorio creará medidas con expresiones DAX que impliquen la manipulación del contexto de filtro.
 
-En este laboratorio, aprenderá a realizar lo siguiente:
+En este laboratorio, aprenderá a:
 
 - Usar la función CALCULATE () para manipular el contexto de filtro
 
@@ -23,7 +19,7 @@ En este laboratorio, aprenderá a realizar lo siguiente:
 
 ### <a name="lab-story"></a>**Caso de laboratorio**
 
-Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, le recomendamos que siga el orden siguiente:
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. Preparación de datos en Power BI Desktop
 
@@ -73,7 +69,7 @@ En esta tarea configurará el entorno para el laboratorio.
 
     ![Imagen 9](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image4.png)
 
-1. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Starter**.
+1. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Starter**.
 
 1. Seleccione el archivo **Sales Analysis**.
 
@@ -125,11 +121,13 @@ En esta tarea, creará un objeto visual de matriz para admitir la prueba de las 
 
     *Recordará que la jerarquía **Regions** tiene los niveles **Group**, **Country** y **Region**.*
 
-7. Para dar formato al objeto visual, en el panel **Visualizaciones**, seleccione el panel **Formato**.
+7. Para dar formato al objeto visual, debajo del panel **Visualizaciones**, seleccione el panel **Formato**.
 
     ![Imagen 14](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image12.png)
 
 8. En el cuadro **Buscar**, escriba **Escalonado**.
+
+    ![Imagen 15](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image13.png)
 
 9. Establezca la propiedad **Diseño escalonado** en **Desactivado**.
 
@@ -149,7 +147,7 @@ En esta tarea, creará varias medidas con expresiones DAX que usan la función C
 
 1. Agregue una medida a la tabla **Sales** (Ventas), en función de la siguiente expresión:
 
-    *Para su comodidad, todas las definiciones de DAX de este laboratorio se pueden copiar desde el archivo **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt**.*
+    *Para su comodidad, todas las definiciones de DAX de este laboratorio se pueden copiar desde el archivo **D:\PL300\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt**.*
 
 
     **DAX**
