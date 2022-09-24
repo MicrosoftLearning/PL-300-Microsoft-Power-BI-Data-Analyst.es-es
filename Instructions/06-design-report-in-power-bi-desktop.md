@@ -1,21 +1,17 @@
 ---
 lab:
-  title: Diseño de un informe en Power BI Desktop, parte 1
+  title: "Diseño de un informe en Power\_BI Desktop, parte\_1"
   module: Module 7 - Create Reports
-ms.openlocfilehash: 426892501790aaecbe21ed2e7f9161c4490c9e3b
-ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146650220"
 ---
+
+
 # <a name="design-a-report-in-power-bi-desktop-part-1"></a>**Diseño de un informe en Power BI Desktop, parte 1**
 
 **El tiempo estimado para completar el laboratorio es de 45 minutos.**
 
-En este laboratorio, creará un informe de tres páginas. Luego se publica en Power BI, desde donde se puede abrir e interactuar con él.
+In this lab you will create a three-page report. You will then publish it to Power BI, whereupon you will open and interact with the report.
 
-En este laboratorio, aprenderá a realizar lo siguiente:
+En este laboratorio, aprenderá a:
 
 - Diseñar un informe
 
@@ -23,7 +19,7 @@ En este laboratorio, aprenderá a realizar lo siguiente:
 
 ### <a name="lab-story"></a>**Caso de laboratorio**
 
-Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, le recomendamos que siga el orden siguiente:
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. Preparación de datos en Power BI Desktop
 
@@ -59,7 +55,7 @@ En esta tarea, configurará el entorno para el laboratorio iniciando sesión en 
 
     ![Imagen 65](Linked_image_Files/07-design-report-in-power-bi-desktop_image1.png)
 
-1. En la ventana del explorador Microsoft Edge, vaya a **https://powerbi.microsoft.com**.
+1. En la ventana del explorador Microsoft Edge, vaya a **https://powerbi.com**.
 
     *Sugerencia: También puede usar el favorito del servicio Power BI en la barra de favoritos de Microsoft Edge.*
 
@@ -92,7 +88,7 @@ En esta tarea, habilitará los elementos visuales de mapa y relleno en el entorn
 
     ![Imagen 102](Linked_image_Files/07-design-report-in-power-bi-desktop_image102.png)
 
-1. Desplácese hacia abajo por la página hasta Configuración de integración. Haga clic en la flecha para expandir la opción Map and filled map visuals (Elementos visuales de mapa y relleno).
+1. Scroll down the page to Integration settings. Click the arrow to expand the Map and filled map visuals option.
 
     ![Imagen 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image103.png)
 
@@ -141,7 +137,7 @@ En esta tarea, configurará el entorno para el laboratorio abriendo el informe d
 
     ![Imagen 30](Linked_image_Files/07-design-report-in-power-bi-desktop_image7.png)
 
-8. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\06-design-report-in-power-bi-desktop\Starter**.
+8. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\07-design-report-in-power-bi-desktop\Starter**.
 
 9. Seleccione el archivo **Sales Analysis**.
 
@@ -169,7 +165,7 @@ En esta tarea, configurará el entorno para el laboratorio abriendo el informe d
 
 ### <a name="task-4-design-page-1"></a>**Tarea 4: Diseño de la página 1**
 
-En esta tarea se diseñará la primera página del informe. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
+In this task you will design the first report page. When you’ve completed the design, the page will look like the following:
 
 ![Imagen de la página 1, que consta de un logotipo, dos segmentaciones y tres objetos visuales.](Linked_image_Files/07-design-report-in-power-bi-desktop_image12.png)
 
@@ -230,6 +226,21 @@ En esta tarea se diseñará la primera página del informe. Cuando haya completa
 
     ![Imagen 21](Linked_image_Files/07-design-report-in-power-bi-desktop_image22.png)
 
+17. Para dar formato a la segmentación, debajo del panel **Visualizaciones**, abra el panel **Formato**.
+
+    ![Imagen 50](Linked_image_Files/07-design-report-in-power-bi-desktop_image23.png)
+
+18. Expanda el grupo **Controles de selección**.
+
+    ![Imagen 23](Linked_image_Files/07-design-report-in-power-bi-desktop_image24.png)
+
+19. Establezca la **opción Mostrar "Seleccionar todo"** como **Activada**.
+
+    ![Imagen 24](Linked_image_Files/07-design-report-in-power-bi-desktop_image25.png)
+
+20. En la segmentación **Región**, observe que ahora el primer elemento es **Seleccionar todo**.
+
+    *Al seleccionarlo, este elemento selecciona todos los elementos o anula su selección. Facilita a los usuarios del informe establecer los elementos de segmentación necesarios.*
 
 21. Anule la selección de la segmentación haciendo clic en un área vacía de la página del informe.
 
@@ -247,13 +258,13 @@ En esta tarea se diseñará la primera página del informe. Cuando haya completa
 
     - Ventas \| Ventas
 
-25. En el panel de campos del objeto visual (no en el panel **Campos**; el panel de campos del objeto visual se encuentra debajo del panel **Visualizaciones**), fíjese en que los campos están asignados a los apartados o áreas **Eje X** y **Eje Y de columna**.
+25. En el panel de campos del objeto visual (no en el panel **Campos**, que se encuentra debajo del panel **Visualizaciones**), fíjese en que los campos están asignados a los apartados o áreas **Eje compartido** y **Valores de columnas**.
 
     ![Imagen 27](Linked_image_Files/07-design-report-in-power-bi-desktop_image28.png)
 
     *Si arrastra campos a un objeto visual, se agregarán a los apartados o áreas predeterminados. Para mayor precisión, puede arrastrar campos directamente a los apartados, como hará a continuación.*
 
-26. En el panel **Campos**, arrastre el campo **Ventas \| Margen de beneficio** al apartado o área **Eje Y de línea**.
+26. En el panel **Campos**, arrastre el campo **Ventas \| Margen de beneficio** al apartado o área **Valores de líneas**.
 
     ![Imagen 28](Linked_image_Files/07-design-report-in-power-bi-desktop_image29.png)
 
@@ -261,7 +272,7 @@ En esta tarea se diseñará la primera página del informe. Cuando haya completa
 
     *El último mes del año actual, junio de 2020, no tiene ninguna venta (todavía). De forma predeterminada, el objeto visual ha eliminado los meses con ventas en blanco. Ahora configurará el objeto visual para que muestre todos los meses.*
 
-28. En el panel de campos del objeto visual, en el apartado o área **Eje X**, haga clic en la flecha hacia abajo del campo **Mes** y luego seleccione **Mostrar elementos sin datos**.
+28. En el panel de campos del objeto visual, en el apartado o área **Eje compartido**, haga clic en la flecha hacia abajo del campo **Mes** y luego seleccione **Mostrar elementos sin datos**.
 
     ![Imagen 52](Linked_image_Files/07-design-report-in-power-bi-desktop_image30.png)
 
@@ -305,7 +316,7 @@ En esta tarea se diseñará la primera página del informe. Cuando haya completa
 
     ![Imagen 3](Linked_image_Files/07-design-report-in-power-bi-desktop_image35.png)
 
-39. Expanda las **Barras** y el grupo **Colores**, y luego establezca la propiedad **Color predeterminado** en un color adecuado (para complementar el gráfico de columnas o líneas).
+39. Expanda el grupo **Colores de datos** y, después, establezca la propiedad **Color predeterminado** en un color adecuado (para complementar el gráfico de columnas o líneas).
 
 40. Establezca la propiedad **Etiquetas de datos** como **activada**.
 
@@ -317,7 +328,7 @@ En esta tarea se diseñará la primera página del informe. Cuando haya completa
 
 ### <a name="task-5-design-page-2"></a>**Tarea 5: Diseño de la página 2**
 
-En esta tarea, diseñará la segunda página del informe. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
+En este laboratorio, creará un informe de tres páginas.
 
 ![Imagen de la página 2, que consta de una segmentación y una matriz.](Linked_image_Files/07-design-report-in-power-bi-desktop_image37.png)
 
@@ -332,10 +343,11 @@ En esta tarea, diseñará la segunda página del informe. Cuando haya completado
     ![Imagen 43](Linked_image_Files/07-design-report-in-power-bi-desktop_image39.png)
 
   
+‎ 
 
 3. Agregue una segmentación basada en el campo **Región \| Región**.
 
-4. Use el panel **Formato** para habilitar la opción "Seleccionar todo" (en el grupo **Selección**).
+4. Use el panel **Formato** para habilitar la opción "Seleccionar todo" (en el grupo **Controles de selección**).
 
 5. Cambie el tamaño y coloque la segmentación para situarla en el lado izquierdo de la página del informe y que tenga aproximadamente la mitad de la altura de la página.
 
@@ -391,7 +403,7 @@ En esta tarea, diseñará la segunda página del informe. Cuando haya completado
 
 ### <a name="task-6-design-page-3"></a>**Tarea 6: Diseño de la página 3**
 
-En esta tarea, diseñará la tercera y última página del informe. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
+Luego se publica en Power BI, desde donde se puede abrir e interactuar con él.
 
 ![Imagen de la página 3, que consta de una segmentación y tres objetos visuales.](Linked_image_Files/07-design-report-in-power-bi-desktop_image47.png)
 
@@ -401,7 +413,7 @@ En esta tarea, diseñará la tercera y última página del informe. Cuando haya 
     
     ![Imagen del campo Vendedor en el panel de filtro.](Linked_image_Files/07-design-report-in-power-bi-desktop_image999.png) 
 
-1. Seleccione **Michael Blythe**. Los datos de la página del informe **Mi rendimiento** ahora se filtrarán para mostrar solo los datos de Michael Blythe.
+1. Select <bpt id="p1">**</bpt>Michael Blythe<ept id="p1">**</ept>. Data on the <bpt id="p1">**</bpt>My Performance<ept id="p1">**</ept> report page will now be filtered to display data for Michael Blythe only.
 
 1. Agregue una segmentación desplegable basada en el campo **Fecha \| Año** y luego cambie el tamaño y colóquela para que se sitúe en la esquina superior izquierda de la página.
 
@@ -429,7 +441,7 @@ En esta tarea, diseñará la tercera y última página del informe. Cuando haya 
 
 1. Aplique formato al objeto visual:
 
-    - En el grupo **Valores de llamada**, aumente la propiedad **Tamaño del texto** a **28 puntos**.
+    - En el grupo **Etiquetas de datos**, aumente la propiedad **Tamaño del texto** a **28 puntos**.
 
     - En el grupo **Fondo**, establezca gris claro como **Color**.
 

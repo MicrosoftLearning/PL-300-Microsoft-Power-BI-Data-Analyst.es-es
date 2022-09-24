@@ -1,21 +1,16 @@
 ---
 lab:
-  title: Carga de datos en Power BI Desktop
-  module: Module 3 - Clean, Transform, and Load Data in Power BI
-ms.openlocfilehash: aced37b7bfdd2ccf94a9d3e7bdb8f8ff7013c125
-ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146650229"
+  title: "Carga de datos en Power\_BI Desktop"
+  module: 'Module 3 - Clean, Transform, and Load Data in Power BI'
 ---
+
 # <a name="load-data-in-power-bi-desktop"></a>**Carga de datos en Power BI Desktop**
 
 **El tiempo estimado para completar el laboratorio es de 45 minutos.**
 
-En este laboratorio, se empezarán a aplicar transformaciones a cada una de las consultas creadas en el laboratorio anterior. Después, se aplicarán las consultas para que se cargue cada una de ellas como una tabla en el modelo de datos.
+In this lab you will commence apply transformations to each of the queries created in the previous lab. You will then apply the queries to load each as a table to the data model.
 
-En este laboratorio, aprenderá a realizar lo siguiente:
+En este laboratorio, aprenderá a:
 
 - Aplicar varias transformaciones
 
@@ -23,7 +18,7 @@ En este laboratorio, aprenderá a realizar lo siguiente:
 
 ### <a name="lab-story"></a>**Caso de laboratorio**
 
-Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, le recomendamos que siga el orden siguiente:
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. Preparación de datos en Power BI Desktop
 
@@ -130,7 +125,7 @@ En esta tarea, se configurará la consulta **Salesperson**.
 
     *Ahora filtrará las filas de la consulta para recuperar solo los empleados que son vendedores.*
 
-4. Para ubicar una columna específica, en la ficha de cinta **Inicio**, haga clic en la flecha hacia abajo **Administrar columnas**, haga clic en la flecha hacia abajo **Elegir columnas** y luego seleccione **Ir a columna**.
+4. Para buscar una columna específica, en la pestaña **Inicio** de la cinta de opciones, desde dentro del grupo **Administrar columnas**, haga clic en la flecha hacia abajo **Elegir columnas** y, después, seleccione **Ir a columna**.
 
     ![Imagen 88](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image13.png)
 
@@ -146,7 +141,7 @@ En esta tarea, se configurará la consulta **Salesperson**.
 
     ![Imagen 95](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image15.png)
 
-8. Haga clic en **Aceptar**.
+8. Haga clic en **OK**.
 
     ![Imagen 96](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image16.png)
 
@@ -156,7 +151,7 @@ En esta tarea, se configurará la consulta **Salesperson**.
 
     *Cada transformación que se cree tiene como resultado una lógica de paso adicional. Es posible editar o eliminar pasos. También es posible seleccionar un paso para obtener una vista previa de los resultados de la consulta en esa fase de transformación.*
 
-10. Para quitar columnas, en la pestaña **Inicio**, haga clic en el grupo **Administrar columnas** y, luego, en el icono **Elegir columnas**.
+10. Para quitar columnas, en la pestaña **Inicio** de la cinta de opciones, desde dentro del grupo **Administrar columnas**, haga clic en el icono **Elegir columnas**.
 
     ![Imagen 99](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image18.png)
 
@@ -204,7 +199,7 @@ En esta tarea, se configurará la consulta **Salesperson**.
 
     ![Imagen 119](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image24.png)
 
-20. Haga clic en **Aceptar**.
+20. Haga clic en **OK**.
 
     ![Imagen 5636](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image25.png)
 
@@ -216,7 +211,7 @@ En esta tarea, se configurará la consulta **Salesperson**.
 
 23. Use los pasos anteriores para cambiar el nombre de la columna **EmailAddress** a **UPN**.
 
-    *UPN es un acrónimo para el nombre principal de usuario.*
+    *UPN es un acrónimo para el nombre principal de usuario. Los valores de esta columna se usarán al configurar la seguridad de nivel de fila en el laboratorio **Modelado de datos en Power BI Desktop, parte 2**.*
 
 24. En la parte inferior izquierda, en la barra de estado, compruebe que la consulta tiene cinco columnas y 18 filas.
 
@@ -292,7 +287,7 @@ En esta tarea, configurará la consulta **Product**.
 
     *Los nombres de columna de la consulta deben ser siempre únicos. Cuando está activada, esta casilla prefijaría cada columna con el nombre de columna expandido (en este caso, **DimProductSubcategory**). Como se sabe que los nombres de columna seleccionados no entran en conflicto con los de la consulta **Product**, se anula la selección de la opción.*
 
-10. Haga clic en **Aceptar**.
+10. Haga clic en **OK**.
 
     ![Imagen 5648](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image34.png)
 
@@ -349,6 +344,7 @@ En esta tarea, se configurará la consulta **Reseller**.
     ![Imagen 2](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image38.png)
 
   
+‎ 
 
 6. Haga clic con el botón secundario en el encabezado de columna **Business Type** y, después, seleccione **Reemplazar valores**.
 
@@ -362,7 +358,7 @@ En esta tarea, se configurará la consulta **Reseller**.
 
     ![Imagen 5](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image40.png)
 
-8. Haga clic en **Aceptar**.
+8. Haga clic en **OK**.
 
     ![Imagen 6](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image41.png)
 
@@ -505,7 +501,7 @@ En esta tarea, se configurará la consulta **Sales**.
 
     - Sales
 
-    - Cost
+    - Costo
 
     ![Imagen 5668](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image51.png)
 
@@ -557,7 +553,7 @@ En esta tarea se configurará la consulta **Targets**.
 
     ![Imagen 5677](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image57.png)
 
-10. Haga clic en **Aceptar**.
+10. Haga clic en **OK**.
 
 11. Modifique el tipo de datos de la columna **MonthNumber** a **Número entero**.
 
@@ -603,7 +599,7 @@ En esta tarea se configurará la consulta **Targets**.
 
     - **TargetMonth** por fecha
 
-22. Para multiplicar los valores de **Target** por 1000, seleccione el encabezado de columna **Target** y, después, en la pestaña **Transformar** de la cinta de opciones, desde el grupo **Columna de número**, haga clic en **, Estándar** y luego seleccione **Multiplicar**.
+22. Para multiplicar los valores de**Target** por 1000, seleccione el encabezado de columna **Target** y, después, en la pestaña **Transformar** de la cinta de opciones, desde el grupo **Columna de número**, haga clic en **, Estándar** y luego seleccione **Multiplicar**.
 
     *Puede que recuerde que los valores de destino se almacenaron como miles.*
 
@@ -613,7 +609,7 @@ En esta tarea se configurará la consulta **Targets**.
 
     ![Imagen 5683](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image64.png)
 
-24. Haga clic en **Aceptar**.
+24. Haga clic en **OK**.
 
     ![Imagen 5684](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image65.png)
 
@@ -647,7 +643,7 @@ En esta tarea se actualizará la consulta **Product** mediante la combinación d
 
     ![Imagen 5690](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image70.png)
 
-2. Para combinar la consulta **ColorFormats**, en la ficha de cinta **Inicio**, haga clic en la flecha hacia abajo **Combinar** y, luego, en **Combinar consultas**.
+2. Para combinar la consulta **ColorFormats**, en la pestaña **Inicio** de la cinta de opciones, desde el grupo **Combinar**, haga clic en **Combinar consultas**.
 
     ![Imagen 5654](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image71.png)
 
@@ -705,9 +701,9 @@ En esta tarea, se actualizará la consulta **ColorFormats** para deshabilitar su
 
     ![Imagen 323](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image81.png)
 
-    Deshabilitar la carga significa que no se cargará como una tabla en el modelo de datos. Esto se hace porque la consulta se ha combinado con la consulta **Product**, que está habilitada para cargar en el modelo de datos.
+    Disabling the load means it will not load as a table to the data model. This is done because the query was merged with the <bpt id="p1">**</bpt>Product<ept id="p1">**</ept> query, which is enabled to load to the data model.
 
-4. Haga clic en **Aceptar**.
+4. Haga clic en **OK**.
 
     ![Imagen 324](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image82.png)
 
@@ -747,4 +743,4 @@ En esta tarea, completará el laboratorio.
 
 5. Si quiere iniciar el siguiente laboratorio, deje Power BI Desktop abierto.
 
-    *Configurará tablas y relaciones de modelos de datos en el laboratorio **Modelado de datos en Power BI Desktop**.*
+    *Configurará tablas y relaciones de modelos de datos en el laboratorio **Modelado de datos en Power BI Desktop, parte 1**.*
