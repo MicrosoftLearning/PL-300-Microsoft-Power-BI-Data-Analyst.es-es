@@ -23,7 +23,7 @@ En este laboratorio, aprenderá a:
 
 ### <a name="lab-story"></a>**Caso de laboratorio**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, para los diez primeros le recomendamos que siga el orden siguiente:
 
 1. Preparación de datos en Power BI Desktop
 
@@ -175,7 +175,7 @@ En esta tarea, sincronizará las segmentaciones **Año** y **Región**.
 
 ## <a name="exercise-2-configure-drill-through"></a>**Ejercicio 2: Configuración de la obtención de detalles**
 
-In this exercise you will create a new page and configure it as a drill through page. When you’ve completed the design, the page will look like the following:
+En este ejercicio, creará una página y la configurará como una página de obtención de detalles. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
 
 ![Imagen de la página nueva, que consta de un objeto visual de tarjeta y un objeto visual de tabla.](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image17.png)
 
@@ -247,7 +247,7 @@ En esta tarea, creará una página y la configurará como una página de obtenci
 
 ## <a name="exercise-3-add-conditional-formatting"></a>**Ejercicio 3: Incorporación de formato condicional**
 
-In this exercise you will enhance the drill through page with conditional formatting. When you’ve completed the design, the page will look like the following:
+En este ejercicio, mejorará la página de obtención de detalles con formato condicional. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
 
 ![Imagen de una página actualizada, que muestra iconos y valores con formato de color.](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image28.png)
 
@@ -321,7 +321,7 @@ En esta tarea, mejorará la página de obtención de detalles con formato condic
 
 ## <a name="exercise-4-add-bookmarks-and-buttons"></a>**Ejercicio 4: Incorporación de marcadores y botones**
 
-In this exercise you will enhance the <bpt id="p1">**</bpt>My Performance<ept id="p1">**</ept> page with buttons, allowing the report user to select the visual type to display. When you’ve completed the design, the page will look like the following:
+En este ejercicio, mejorará la página **Mi rendimiento** con botones, lo que permite al usuario del informe seleccionar el tipo de objeto visual que se va a mostrar. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
 
 ![Imagen de una página 3 actualizada, en la que se muestran dos botones y ahora solo dos objetos visuales.](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image38.png)
 

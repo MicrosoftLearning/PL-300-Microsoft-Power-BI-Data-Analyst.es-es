@@ -19,7 +19,7 @@ En este laboratorio, aprenderá a:
 
 ### <a name="lab-story"></a>**Caso de laboratorio**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, para los diez primeros le recomendamos que siga el orden siguiente:
 
 1. Preparación de datos en Power BI Desktop
 
@@ -43,7 +43,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 ## <a name="exercise-1-create-a-dashboard"></a>**Ejercicio 1: Creación de un panel**
 
-In this exercise you will create the <bpt id="p1">**</bpt>Sales Monitoring<ept id="p1">**</ept> dashboard. The completed dashboard will look like the following:
+En este ejercicio, se creará el panel **Supervisión de ventas**. El panel completado tendrá un aspecto similar al siguiente:
 
 ![Imagen del panel completado, que consta de tres iconos.](Linked_image_Files/09-create-power-bi-dashboard_image1.png)
 
@@ -163,7 +163,7 @@ En esta tarea, configurará el entorno para el laboratorio creando un conjunto d
 
 ### <a name="task-4-create-a-dashboard"></a>**Tarea 4: Creación de un panel**
 
-In this task you will create the <bpt id="p1">**</bpt>Sales Monitoring<ept id="p1">**</ept> dashboard. You will pin a visual from the report, and add a tile based on an image data URI, and use Q&amp;A to create a tile.
+En esta tarea, se creará el panel **Supervisión de ventas**. Anclará un objeto visual del informe y agregará un icono basado en un URI de datos de imagen, además de usar Preguntas y respuestas para crear un icono.
 
 1. En la ventana del explorador Microsoft Edge, en el servicio Power BI, abra el informe **Sales Analysis**.
 
@@ -307,7 +307,7 @@ En esta tarea, se modificarán los detalles de dos iconos.
 
 ## <a name="exercise-2-refresh-the-dataset"></a>**Ejercicio 2: Actualización del conjunto de datos**
 
-In this exercise you will first load sales order data for June 2020 into the <bpt id="p1">**</bpt>AdventureWorksDW2020<ept id="p1">**</ept> database. You will then open your Power BI Desktop file, perform a data refresh, and then upload the file to your workspace.
+En este ejercicio, primero se cargarán los datos del pedido de ventas de junio de 2020 en la base de datos **AdventureWorksDW2020**. Posteriormente, se abrirá el archivo de Power BI Desktop, se realizará una actualización de datos y, después, se cargará el archivo en el área de trabajo.
 
 ### <a name="task-1-update-the-lab-database"></a>**Tarea 1: Actualización de la base de datos de laboratorio**
 

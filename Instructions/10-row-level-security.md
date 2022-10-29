@@ -9,7 +9,7 @@ lab:
 
 **El tiempo estimado para completar el laboratorio es de 45 minutos.**
 
-In this lab you will create a many-to-many relationship between the <bpt id="p1">**</bpt>Salesperson<ept id="p1">**</ept> table and the <bpt id="p2">**</bpt>Sales<ept id="p2">**</ept> table. You will also enforce row-level security to ensure that a salesperson can only analyze sales data for their assigned region(s).
+En este laboratorio, creará una relación de varios a varios entre las tablas **Salesperson** y **Sales**. También aplicará la seguridad de nivel de fila para asegurarse de que un vendedor solo puede analizar los datos de ventas de las regiones que tenga asignadas.
 
 En este laboratorio, aprenderá a:
 
@@ -19,7 +19,7 @@ En este laboratorio, aprenderá a:
 
 ### <a name="lab-story"></a>**Caso de laboratorio**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, para los diez primeros le recomendamos que siga el orden siguiente:
 
 1. Preparación de datos en Power BI Desktop
 

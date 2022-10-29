@@ -8,7 +8,7 @@ lab:
 
 **El tiempo estimado para completar el laboratorio es de 45 minutos.**
 
-In this lab you will commence apply transformations to each of the queries created in the previous lab. You will then apply the queries to load each as a table to the data model.
+En este laboratorio, se empezarán a aplicar transformaciones a cada una de las consultas creadas en el laboratorio anterior. Después, se aplicarán las consultas para que se cargue cada una de ellas como una tabla en el modelo de datos.
 
 En este laboratorio, aprenderá a:
 
@@ -18,7 +18,7 @@ En este laboratorio, aprenderá a:
 
 ### <a name="lab-story"></a>**Caso de laboratorio**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, para los diez primeros le recomendamos que siga el orden siguiente:
 
 1. Preparación de datos en Power BI Desktop
 
@@ -499,7 +499,7 @@ En esta tarea, se configurará la consulta **Sales**.
 
     - Unit Price
 
-    - Sales
+    - Ventas
 
     - Costo
 
@@ -701,7 +701,7 @@ En esta tarea, se actualizará la consulta **ColorFormats** para deshabilitar su
 
     ![Imagen 323](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image81.png)
 
-    Disabling the load means it will not load as a table to the data model. This is done because the query was merged with the <bpt id="p1">**</bpt>Product<ept id="p1">**</ept> query, which is enabled to load to the data model.
+    Deshabilitar la carga significa que no se cargará como una tabla en el modelo de datos. Esto se hace porque la consulta se ha combinado con la consulta **Product**, que está habilitada para cargar en el modelo de datos.
 
 4. Haga clic en **OK**.
 

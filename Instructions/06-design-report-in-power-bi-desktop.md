@@ -9,7 +9,7 @@ lab:
 
 **El tiempo estimado para completar el laboratorio es de 45 minutos.**
 
-In this lab you will create a three-page report. You will then publish it to Power BI, whereupon you will open and interact with the report.
+En este laboratorio, creará un informe de tres páginas. Luego se publica en Power BI, desde donde se puede abrir e interactuar con él.
 
 En este laboratorio, aprenderá a:
 
@@ -19,7 +19,7 @@ En este laboratorio, aprenderá a:
 
 ### <a name="lab-story"></a>**Caso de laboratorio**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, para los diez primeros le recomendamos que siga el orden siguiente:
 
 1. Preparación de datos en Power BI Desktop
 
@@ -88,7 +88,7 @@ En esta tarea, habilitará los elementos visuales de mapa y relleno en el entorn
 
     ![Imagen 102](Linked_image_Files/07-design-report-in-power-bi-desktop_image102.png)
 
-1. Scroll down the page to Integration settings. Click the arrow to expand the Map and filled map visuals option.
+1. Desplácese hacia abajo por la página hasta Configuración de integración. Haga clic en la flecha para expandir la opción Map and filled map visuals (Elementos visuales de mapa y relleno).
 
     ![Imagen 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image103.png)
 
@@ -165,7 +165,7 @@ En esta tarea, configurará el entorno para el laboratorio abriendo el informe d
 
 ### <a name="task-4-design-page-1"></a>**Tarea 4: Diseño de la página 1**
 
-In this task you will design the first report page. When you’ve completed the design, the page will look like the following:
+En esta tarea se diseñará la primera página del informe. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
 
 ![Imagen de la página 1, que consta de un logotipo, dos segmentaciones y tres objetos visuales.](Linked_image_Files/07-design-report-in-power-bi-desktop_image12.png)
 
@@ -328,7 +328,7 @@ In this task you will design the first report page. When you’ve completed the 
 
 ### <a name="task-5-design-page-2"></a>**Tarea 5: Diseño de la página 2**
 
-En este laboratorio, creará un informe de tres páginas.
+En esta tarea, diseñará la segunda página del informe. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
 
 ![Imagen de la página 2, que consta de una segmentación y una matriz.](Linked_image_Files/07-design-report-in-power-bi-desktop_image37.png)
 
@@ -403,7 +403,7 @@ En este laboratorio, creará un informe de tres páginas.
 
 ### <a name="task-6-design-page-3"></a>**Tarea 6: Diseño de la página 3**
 
-Luego se publica en Power BI, desde donde se puede abrir e interactuar con él.
+En esta tarea, diseñará la tercera y última página del informe. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
 
 ![Imagen de la página 3, que consta de una segmentación y tres objetos visuales.](Linked_image_Files/07-design-report-in-power-bi-desktop_image47.png)
 
@@ -413,7 +413,7 @@ Luego se publica en Power BI, desde donde se puede abrir e interactuar con él.
     
     ![Imagen del campo Vendedor en el panel de filtro.](Linked_image_Files/07-design-report-in-power-bi-desktop_image999.png) 
 
-1. Select <bpt id="p1">**</bpt>Michael Blythe<ept id="p1">**</ept>. Data on the <bpt id="p1">**</bpt>My Performance<ept id="p1">**</ept> report page will now be filtered to display data for Michael Blythe only.
+1. Seleccione **Michael Blythe**. Los datos de la página del informe **Mi rendimiento** ahora se filtrarán para mostrar solo los datos de Michael Blythe.
 
 1. Agregue una segmentación desplegable basada en el campo **Fecha \| Año** y luego cambie el tamaño y colóquela para que se sitúe en la esquina superior izquierda de la página.
 

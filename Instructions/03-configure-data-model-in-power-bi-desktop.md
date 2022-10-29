@@ -9,7 +9,7 @@ lab:
 
 **El tiempo estimado para completar el laboratorio es de 45 minutos.**
 
-In this lab you will commence developing the data model. It will involve creating relationships between tables, and then configuring table and column properties to improve the friendliness and usability of the data model. You will also create hierarchies and create quick measures.
+En este laboratorio, comenzará a desarrollar el modelo de datos. Implicará la creación de relaciones entre las tablas y, después, la configuración de las propiedades de tabla y columna para mejorar la facilidad de uso del modelo de datos. También creará jerarquías y medidas rápidas.
 
 En este laboratorio, aprenderá a:
 
@@ -22,7 +22,7 @@ En este laboratorio, aprenderá a:
 
 ### <a name="lab-story"></a>**Caso de laboratorio**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, para los diez primeros le recomendamos que siga el orden siguiente:
 
 1. Preparación de datos en Power BI Desktop
 
@@ -208,7 +208,7 @@ En esta tarea, creará relaciones del modelo.
 
     *En este laboratorio, las tablas **SalespersonRegion** y **Targets** permanecerán desconectadas. Hay una relación de varios a varios entre vendedores y regiones, y se trabajará con este escenario avanzado en el laboratorio **Modelado de datos en Power BI Desktop, parte 2**.*
 
-25. In the diagram, arrange the tables so that the <bpt id="p1">**</bpt>Sales<ept id="p1">**</ept> table is positioned in the center of the diagram, and the related tables are arranged about it. Position the disconnected tables to the side.
+25. En el diagrama, organice las tablas para que la tabla **Sales** se coloque en el centro del diagrama y las tablas relacionadas estén organizadas a su alrededor. Coloque las tablas desconectadas al lado.
 
     ![Imagen 340](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image23.png)
 
@@ -304,7 +304,7 @@ En esta tarea, se configurará la tabla **Reseller**.
 
     - State-Province
 
-    - City (Ciudad)
+    - City
 
     - Reseller
 
@@ -348,7 +348,7 @@ En esta tarea, se configurará la tabla **Sales**.
 
 ### <a name="task-5-bulk-update-properties"></a>**Tarea 5: Actualización masiva de propiedades**
 
-In this task you will update multiple columns using single bulk updates. You will use this approach to hide columns, and format column values.
+En esta tarea, actualizará varias columnas mediante actualizaciones únicas masivas. Usará este enfoque para ocultar columnas y dar formato a los valores de columna.
 
 1. En el panel **Campos**, seleccione la columna **Product \| ProductKey**.
 
