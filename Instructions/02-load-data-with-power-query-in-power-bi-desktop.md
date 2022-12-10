@@ -141,7 +141,7 @@ En esta tarea, se configurará la consulta **Salesperson**.
 
     ![Imagen 95](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image15.png)
 
-8. Haga clic en **Aceptar**.
+8. Haga clic en **OK**.
 
     ![Imagen 96](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image16.png)
 
@@ -199,7 +199,7 @@ En esta tarea, se configurará la consulta **Salesperson**.
 
     ![Imagen 119](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image24.png)
 
-20. Haga clic en **Aceptar**.
+20. Haga clic en **OK**.
 
     ![Imagen 5636](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image25.png)
 
@@ -287,7 +287,7 @@ En esta tarea, configurará la consulta **Product**.
 
     *Los nombres de columna de la consulta deben ser siempre únicos. Cuando está activada, esta casilla prefijaría cada columna con el nombre de columna expandido (en este caso, **DimProductSubcategory**). Como se sabe que los nombres de columna seleccionados no entran en conflicto con los de la consulta **Product**, se anula la selección de la opción.*
 
-10. Haga clic en **Aceptar**.
+10. Haga clic en **OK**.
 
     ![Imagen 5648](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image34.png)
 
@@ -358,7 +358,7 @@ En esta tarea, se configurará la consulta **Reseller**.
 
     ![Imagen 5](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image40.png)
 
-8. Haga clic en **Aceptar**.
+8. Haga clic en **OK**.
 
     ![Imagen 6](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image41.png)
 
@@ -553,7 +553,7 @@ En esta tarea se configurará la consulta **Targets**.
 
     ![Imagen 5677](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image57.png)
 
-10. Haga clic en **Aceptar**.
+10. Haga clic en **OK**.
 
 11. Modifique el tipo de datos de la columna **MonthNumber** a **Número entero**.
 
@@ -609,7 +609,7 @@ En esta tarea se configurará la consulta **Targets**.
 
     ![Imagen 5683](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image64.png)
 
-24. Haga clic en **Aceptar**.
+24. Haga clic en **OK**.
 
     ![Imagen 5684](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image65.png)
 
@@ -703,7 +703,7 @@ En esta tarea, se actualizará la consulta **ColorFormats** para deshabilitar su
 
     Deshabilitar la carga significa que no se cargará como una tabla en el modelo de datos. Esto se hace porque la consulta se ha combinado con la consulta **Product**, que está habilitada para cargar en el modelo de datos.
 
-4. Haga clic en **Aceptar**.
+4. Haga clic en **OK**.
 
     ![Imagen 324](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image82.png)
 
