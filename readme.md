@@ -4,7 +4,7 @@ Este repositorio contiene los ejercicios del laboratorio práctico del curso de 
 
 - **¿Es MCT?** Consulte nuestra [guía de usuario de GitHub para MCT](https://microsoftlearning.github.io/MCT-User-Guide/).
 - **¿Necesita crear manualmente las instrucciones de laboratorio?** Las instrucciones están disponibles en el repositorio [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build).
-- **¿Necesita un recordatorio sobre qué laboratorios van con cada módulo?** - Consulte la [página de GitHub](https://microsoftlearning.github.io/DA-100-Analyzing-Data-with-Power-BI/).
+- **¿Necesita un recordatorio sobre qué laboratorios corresponden a cada presentación del curso?** - Consulte la [página de GitHub](https://microsoftlearning.github.io/PL-300-Microsoft-Power-BI-Data-Analyst/).
 
 ## <a name="what-are-we-doing"></a>¿Qué vamos a hacer?
 
