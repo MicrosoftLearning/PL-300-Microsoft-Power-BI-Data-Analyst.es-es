@@ -1,15 +1,10 @@
 ---
 lab:
-  title: Carga de datos en Power BI Desktop
-  module: Module 3 - Clean, Transform, and Load Data in Power BI
-ms.openlocfilehash: 8a19b8b1b243cc4c04bee3375f161098287dbf9d
-ms.sourcegitcommit: 3520e7d016e94549d408464207c1b91cd47867c2
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "139840522"
+  title: "Carga de datos en Power\_BI Desktop"
+  module: '3 - Clean, Transform, and Load Data in Power BI'
 ---
-# <a name="load-data-in-power-bi-desktop"></a>**Carga de datos en Power BI Desktop**
+
+# <a name="load-data-in-power-bi-desktop"></a>Carga de datos en Power BI Desktop
 
 **El tiempo estimado para completar el laboratorio es de 45 minutos.**
 
@@ -21,30 +16,29 @@ En este laboratorio, aprenderá a:
 
 - Aplicar consultas para cargarlas en el modelo de datos
 
-### <a name="lab-story"></a>**Caso de laboratorio**
+## <a name="lab-story"></a>**Caso de laboratorio**
 
-Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, para los diez primeros le recomendamos que siga el orden siguiente:
+Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, le recomendamos que siga el orden siguiente:
 
 1. Preparación de datos en Power BI Desktop
 
 2. **Carga de datos en Power BI Desktop**
 
-3. Modelado de datos en Power BI Desktop
+3. Diseño de un modelo de datos en Power BI
 
+4. Creación de cálculos DAX en Power BI Desktop, parte 1
 
-5. Creación de cálculos DAX en Power BI Desktop, parte 1
+5. Creación de cálculos DAX en Power BI Desktop, parte 2
 
-6. Creación de cálculos DAX en Power BI Desktop, parte 2
+6. Diseño de un informe en Power BI Desktop, parte 1
 
-7. Diseño de un informe en Power BI Desktop, parte 1
+7. Diseño de un informe en Power BI Desktop, parte 2
 
-8. Diseño de un informe en Power BI Desktop, parte 2
+8. Análisis de datos con objetos visuales de IA
 
 9. Creación de un panel de Power BI
 
-10. Análisis de datos en Power BI Desktop
-
-11. Aplicación de seguridad de nivel de fila
+10. Aplicación de seguridad de nivel de fila
 
 ## <a name="exercise-1-load-data"></a>**Ejercicio 1: Carga de datos**
 
@@ -130,7 +124,7 @@ En esta tarea, se configurará la consulta **Salesperson**.
 
     *Ahora filtrará las filas de la consulta para recuperar solo los empleados que son vendedores.*
 
-4. Para buscar una columna específica, en la pestaña **Inicio** de la cinta de opciones, desde dentro del grupo **Administrar columnas**, haga clic en la flecha hacia abajo **Elegir columnas** y, después, seleccione **Ir a columna**.
+4. Para ubicar una columna específica, en la ficha de cinta **Inicio**, haga clic en la flecha hacia abajo **Administrar columnas**, haga clic en la flecha hacia abajo **Elegir columnas** y luego seleccione **Ir a columna**.
 
     ![Imagen 88](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image13.png)
 
@@ -156,11 +150,11 @@ En esta tarea, se configurará la consulta **Salesperson**.
 
     *Cada transformación que se cree tiene como resultado una lógica de paso adicional. Es posible editar o eliminar pasos. También es posible seleccionar un paso para obtener una vista previa de los resultados de la consulta en esa fase de transformación.*
 
-10. Para quitar columnas, en la pestaña **Inicio** de la cinta de opciones, desde dentro del grupo **Administrar columnas**, haga clic en el icono **Elegir columnas**.
+10. Para quitar columnas, en la pestaña **Inicio**, haga clic en el grupo **Administrar columnas** y, luego, en el icono **Elegir columnas**.
 
     ![Imagen 99](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image18.png)
 
-11. En la ventana **Elegir columnas**, para desactivar todas las columnas, desactive el elemento **(Seleccionar todas las columnas)** .
+11. En la ventana **Elegir columnas**, para desactivar todas las columnas, desactive el elemento **(Seleccionar todas las columnas)**.
 
     ![Imagen 102](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image19.png)
 
@@ -192,7 +186,7 @@ En esta tarea, se configurará la consulta **Salesperson**.
 
     ![Imagen 116](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image22.png)
 
-17. Haga clic con el botón secundario en cualquiera de los encabezados de columna seleccionados y, después, en el menú contextual, seleccione **Combinar columnas**.
+17. Haga clic con el botón derecho en cualquiera de los encabezados de columna seleccionados y, después, en el menú contextual, seleccione **Combinar columnas**.
 
     ![Imagen 117](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image23.png)
 
@@ -216,7 +210,7 @@ En esta tarea, se configurará la consulta **Salesperson**.
 
 23. Use los pasos anteriores para cambiar el nombre de la columna **EmailAddress** a **UPN**.
 
-    *UPN es un acrónimo para el nombre principal de usuario. Los valores de esta columna se usarán al configurar la seguridad de nivel de fila en el laboratorio **Modelado de datos en Power BI Desktop, parte 2**.*
+    *UPN es un acrónimo para el nombre principal de usuario.*
 
 24. En la parte inferior izquierda, en la barra de estado, compruebe que la consulta tiene cinco columnas y 18 filas.
 
@@ -349,7 +343,6 @@ En esta tarea, se configurará la consulta **Reseller**.
     ![Imagen 2](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image38.png)
 
   
-‎ 
 
 6. Haga clic con el botón secundario en el encabezado de columna **Business Type** y, después, seleccione **Reemplazar valores**.
 
@@ -391,11 +384,7 @@ En esta tarea, se configurará la consulta **Region**.
 
 2. Cambie el nombre de la consulta a **Region**.
 
-3. Aplique un filtro a la columna **SalesTerritoryAlternateKey** para quitar el valor 0 (cero).
-
-    ![Imagen 5660](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image44.png)
-
-4. Quite todas las columnas, excepto las siguientes:
+3. Quite todas las columnas, excepto las siguientes:
 
     - SalesTerritoryKey
 
@@ -405,7 +394,7 @@ En esta tarea, se configurará la consulta **Region**.
 
     - SalesTerritoryGroup
 
-5. Cambie el nombre de las tres columnas siguientes:
+4. Cambie el nombre de las tres columnas siguientes:
 
     - **SalesTerritoryRegion** por **Region**
 
@@ -413,7 +402,7 @@ En esta tarea, se configurará la consulta **Region**.
 
     - **SalesTerritoryGroup** por **Group**
 
-6. En la barra de estado, compruebe que la consulta tiene cuatro columnas y 10 filas.
+5. En la barra de estado, compruebe que la consulta tiene cuatro columnas y 10 filas.
 
     ![Imagen 5661](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image45.png)
 
@@ -465,28 +454,26 @@ En esta tarea, se configurará la consulta **Sales**.
 
 7. En el cuadro **Fórmula de columna personalizada**, escriba la siguiente expresión (después del símbolo igual):
 
-8. Para su comodidad, puede copiar la expresión desde el archivo **D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt**.
-
-
-   **Power Query**
-   ```
+   `
    if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]
-   ```
-
+   `
 
 *Esta expresión comprueba si falta el valor **TotalProductCost**. De ser así, genere un valor multiplicando el valor de **OrderQuantity** por el de **StandardCost**; de lo contrario, utiliza el valor existente de **TotalProductCost**.*
 
-9. Haga clic en **Aceptar**.
+Para su comodidad, puede copiar la expresión desde el archivo **D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt**.
+
+8. Haga clic en **Aceptar**.
 
     ![Imagen 5666](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image49.png)
 
-10. Quite las dos columnas siguientes:
+
+9. Quite las dos columnas siguientes:
 
     - TotalProductCost
 
     - StandardCost
 
-11. Cambie el nombre de las tres columnas siguientes:
+10. Cambie el nombre de las tres columnas siguientes:
 
     - **OrderQuantity** por **Quantity**
 
@@ -494,17 +481,17 @@ En esta tarea, se configurará la consulta **Sales**.
 
     - **SalesAmount** por **Sales**
 
-12. Para modificar el tipo de datos de la columna, en el encabezado de columna **Quantity**, a la izquierda del nombre de la columna, haga clic en el icono **1.2** y luego seleccione **Número entero**.
+11. Para modificar el tipo de datos de la columna, en el encabezado de columna **Quantity**, a la izquierda del nombre de la columna, haga clic en el icono **1.2** y luego seleccione **Número entero**.
 
     ![Imagen 5667](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image50.png)
 
     *Es importante configurar el tipo de datos correcto. Cuando la columna contiene un valor numérico, también es importante elegir el tipo correcto si espera realizar cálculos de matemáticos.*
 
-13. Modifique los tipos de datos siguientes de tres columnas a **Número decimal fijo**.
+12. Modifique los tipos de datos siguientes de tres columnas a **Número decimal fijo**.
 
     - Unit Price
 
-    - Ventas
+    - Sales
 
     - Costo
 
@@ -512,7 +499,7 @@ En esta tarea, se configurará la consulta **Sales**.
 
     *El tipo de datos número decimal fijo almacena valores con precisión completa, por lo que requiere más espacio de almacenamiento que el tipo número decimal. Es importante usar el tipo número decimal fijo para valores financieros o tipos (como los tipos de cambio).*
 
-14. En la barra de estado, compruebe que la consulta tiene 10 columnas y más de 999 filas.
+13. En la barra de estado, compruebe que la consulta tiene 10 columnas y más de 999 filas.
 
     ![Imagen 5669](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image52.png)
 
@@ -570,7 +557,7 @@ En esta tarea se configurará la consulta **Targets**.
 
 13. Observe que la primera fila es para el año **2017** y el número de mes **7**.
 
-14. En la columna **Column1**, en la primera celda de la cuadrícula, empiece a escribir **1/7/2017** y luego presione **Entrar**.
+14. En la columna **Column1**, en la primera celda de la cuadrícula, empiece a escribir **07/01/2017** y luego presione **Entrar**.
 
     *La máquina virtual usa la configuración regional de EE. UU., por lo que esta fecha es el 1 de julio de 2017.*
 
@@ -604,7 +591,7 @@ En esta tarea se configurará la consulta **Targets**.
 
     - **TargetMonth** por fecha
 
-22. Para multiplicar los valores de **Target** por 1000, seleccione el encabezado de columna **Target** y, después, en la pestaña **Transformar** de la cinta de opciones, desde el grupo **Columna de número**, haga clic en **, Estándar** y luego seleccione **Multiplicar**.
+22. Para multiplicar los valores de**Target** por 1000, seleccione el encabezado de columna **Target** y, después, en la pestaña **Transformar** de la cinta de opciones, desde el grupo **Columna de número**, haga clic en **, Estándar** y luego seleccione **Multiplicar**.
 
     *Puede que recuerde que los valores de destino se almacenaron como miles.*
 
@@ -648,7 +635,7 @@ En esta tarea se actualizará la consulta **Product** mediante la combinación d
 
     ![Imagen 5690](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image70.png)
 
-2. Para combinar la consulta **ColorFormats**, en la pestaña **Inicio** de la cinta de opciones, desde el grupo **Combinar**, haga clic en **Combinar consultas**.
+2. Para combinar la consulta **ColorFormats**, en la ficha de cinta **Inicio**, haga clic en la flecha hacia abajo **Combinar** y, luego, en **Combinar consultas**.
 
     ![Imagen 5654](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image71.png)
 
@@ -748,4 +735,4 @@ En esta tarea, completará el laboratorio.
 
 5. Si quiere iniciar el siguiente laboratorio, deje Power BI Desktop abierto.
 
-    *Configurará tablas y relaciones de modelos de datos en el laboratorio **Modelado de datos en Power BI Desktop, parte 1**.*
+    *Configurará tablas y relaciones de modelos de datos en el laboratorio **Modelado de datos en Power BI Desktop**.*

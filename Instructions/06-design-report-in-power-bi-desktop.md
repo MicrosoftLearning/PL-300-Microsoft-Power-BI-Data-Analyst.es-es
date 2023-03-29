@@ -1,15 +1,11 @@
 ---
 lab:
-  title: Diseño de un informe en Power BI Desktop, parte 1
-  module: Module 7 - Create Reports
-ms.openlocfilehash: 9aa794d25d2eb2ec611315a7ec6ac472e9a3a141
-ms.sourcegitcommit: 3520e7d016e94549d408464207c1b91cd47867c2
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "139840520"
+  title: "Diseño de un informe en Power\_BI Desktop, parte\_1"
+  module: 7 - Create Reports
 ---
-# <a name="design-a-report-in-power-bi-desktop-part-1"></a>**Diseño de un informe en Power BI Desktop, parte 1**
+
+
+# <a name="design-a-report-in-power-bi-desktop-part-1"></a>Diseño de un informe en Power BI Desktop, parte 1
 
 **El tiempo estimado para completar el laboratorio es de 45 minutos.**
 
@@ -23,27 +19,27 @@ En este laboratorio, aprenderá a:
 
 ### <a name="lab-story"></a>**Caso de laboratorio**
 
-Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, para los diez primeros le recomendamos que siga el orden siguiente:
+Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, le recomendamos que siga el orden siguiente:
 
 1. Preparación de datos en Power BI Desktop
 
 2. Carga de datos en Power BI Desktop
 
-3. Modelado de datos en Power BI Desktop
+3. Diseño de un modelo de datos en Power BI
 
-5. Creación de cálculos DAX en Power BI Desktop, parte 1
+4. Creación de cálculos DAX en Power BI Desktop, parte 1
 
-6. Creación de cálculos DAX en Power BI Desktop, parte 2
+5. Creación de cálculos DAX en Power BI Desktop, parte 2
 
-7. **Diseño de un informe en Power BI Desktop, parte 1**
+6. **Diseño de un informe en Power BI Desktop, parte 1**
 
-8. Diseño de un informe en Power BI Desktop, parte 2
+7. Diseño de un informe en Power BI Desktop, parte 2
+
+8. Análisis de datos con objetos visuales de IA
 
 9. Creación de un panel de Power BI
 
-10. Análisis de datos en Power BI Desktop
-
-11. Aplicación de seguridad de nivel de fila
+10. Aplicación de seguridad de nivel de fila
 
 ## <a name="exercise-1-create-a-report"></a>**Ejercicio 1: Creación de un informe**
 
@@ -59,19 +55,13 @@ En esta tarea, configurará el entorno para el laboratorio iniciando sesión en 
 
     ![Imagen 65](Linked_image_Files/07-design-report-in-power-bi-desktop_image1.png)
 
-1. En la ventana del explorador Microsoft Edge, vaya a **https://powerbi.com**.
+1. En la ventana del explorador Microsoft Edge, vaya a **https://powerbi.microsoft.com**.
 
     *Sugerencia: También puede usar el favorito del servicio Power BI en la barra de favoritos de Microsoft Edge.*
 
 1. Haga clic en **Iniciar sesión**, ubicado en la esquina superior derecha.
 
     ![Imagen 63](Linked_image_Files/07-design-report-in-power-bi-desktop_image2.png)
-
-1. Escriba los detalles de la cuenta que se le han proporcionado (consulte los **Recursos**).
-
-1. Si se le pide que actualice la contraseña, vuelva a escribir la proporcionada y, luego, escriba y confirme una nueva.
-
-    *Importante: Asegúrese de anotar la contraseña nueva.*
 
 1. Complete el proceso de inicio de sesión.
 
@@ -81,35 +71,36 @@ En esta tarea, configurará el entorno para el laboratorio iniciando sesión en 
 
 ### <a name="task-2-get-started--enable-map-and-filled-map-visuals"></a>**Tarea 2: Introducción: Habilitación de Map and filled map visuals (Elementos visuales de mapa y relleno)**
 
-En esta tarea, habilitará los elementos visuales de mapa y relleno en el entorno para el laboratorio actualizando la Configuración de integración en el portal de administración de Power BI. 
+En esta tarea, habilitará los elementos visuales de mapa y relleno en el entorno para el laboratorio actualizando la Configuración global en Power BI Desktop y la Configuración de integración en el portal de administración de Power BI.
 
+1. En Power BI Desktop, vaya a **Opciones > Opciones y configuración > Global** y active la casilla **Usar objetos visuales de mapa y mapa rellenado**.
 
-1. Para abrir el portal de administración de Power BI, en la parte superior derecha del explorador, haga clic el icono **Configuración**.
+![Imagen 103b](Linked_image_Files/07-design-report-in-power-bi-desktop_image103b.png)
+
+2. Para abrir el portal de administración de Power BI, en la parte superior derecha del explorador Edge, haga clic en el icono **Configuración**.
 
     ![Imagen 101](Linked_image_Files/07-design-report-in-power-bi-desktop_image101.png)
 
-1. Seleccione **Portal de administración**.
+3. Seleccione **Portal de administración**.
 
     ![Imagen 102](Linked_image_Files/07-design-report-in-power-bi-desktop_image102.png)
 
-1. Desplácese hacia abajo por la página hasta Configuración de integración. Haga clic en la flecha para expandir la opción Map and filled map visuals (Elementos visuales de mapa y relleno).
+4. Desplácese hacia abajo por la página hasta Configuración de integración. Haga clic en la flecha para expandir la opción Map and filled map visuals (Elementos visuales de mapa y relleno).
 
     ![Imagen 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image103.png)
 
-1. Establezca la opción Map and filled map visuals (Elementos visuales de mapa y relleno) en **Habilitado**.
+5. Establezca la opción Map and filled map visuals (Elementos visuales de mapa y relleno) en **Habilitado**.
 
-1. Haga clic en **Aplicar** para aplicar los cambios. 
+6. Haga clic en **Aplicar** para aplicar los cambios. 
 
     ![Imagen 104](Linked_image_Files/07-design-report-in-power-bi-desktop_image104.png)
 
-1. Aparecerá un mensaje en la parte superior derecha del explorador que indica que los cambios en la Configuración de inquilinos se aplicarán en los próximos 15 minutos. 
+7. Aparecerá un mensaje en la parte superior derecha del explorador que indica que los cambios en la Configuración de inquilinos se aplicarán en los próximos 15 minutos.
 
 
     ![Imagen 105](Linked_image_Files/07-design-report-in-power-bi-desktop_image105.png)
 
-
-
-1. Deje abierta la ventana del explorador Microsoft Edge.
+8. Deje abierta la ventana del explorador Microsoft Edge.
 
 ### <a name="task-3-get-started--open-report"></a>**Tarea 3: Introducción y apertura del informe**
 
@@ -141,7 +132,7 @@ En esta tarea, configurará el entorno para el laboratorio abriendo el informe d
 
     ![Imagen 30](Linked_image_Files/07-design-report-in-power-bi-desktop_image7.png)
 
-8. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\07-design-report-in-power-bi-desktop\Starter**.
+8. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\06-design-report-in-power-bi-desktop\Starter**.
 
 9. Seleccione el archivo **Sales Analysis**.
 
@@ -230,21 +221,6 @@ En esta tarea se diseñará la primera página del informe. Cuando haya completa
 
     ![Imagen 21](Linked_image_Files/07-design-report-in-power-bi-desktop_image22.png)
 
-17. Para dar formato a la segmentación, debajo del panel **Visualizaciones**, abra el panel **Formato**.
-
-    ![Imagen 50](Linked_image_Files/07-design-report-in-power-bi-desktop_image23.png)
-
-18. Expanda el grupo **Controles de selección**.
-
-    ![Imagen 23](Linked_image_Files/07-design-report-in-power-bi-desktop_image24.png)
-
-19. Establezca la **opción Mostrar "Seleccionar todo"** como **Activada**.
-
-    ![Imagen 24](Linked_image_Files/07-design-report-in-power-bi-desktop_image25.png)
-
-20. En la segmentación **Región**, observe que ahora el primer elemento es **Seleccionar todo**.
-
-    *Al seleccionarlo, este elemento selecciona todos los elementos o anula su selección. Facilita a los usuarios del informe establecer los elementos de segmentación necesarios.*
 
 21. Anule la selección de la segmentación haciendo clic en un área vacía de la página del informe.
 
@@ -262,13 +238,13 @@ En esta tarea se diseñará la primera página del informe. Cuando haya completa
 
     - Ventas \| Ventas
 
-25. En el panel de campos del objeto visual (no en el panel **Campos**, que se encuentra debajo del panel **Visualizaciones**), fíjese en que los campos están asignados a los apartados o áreas **Eje compartido** y **Valores de columnas**.
+25. En el panel de campos del objeto visual (no en el panel **Campos**; el panel de campos del objeto visual se encuentra debajo del panel **Visualizaciones**), fíjese en que los campos están asignados a los apartados o áreas **Eje X** y **Eje Y de columna**.
 
-    ![Imagen 27](Linked_image_Files/07-design-report-in-power-bi-desktop_image28.png)
+    ![Imagen 27](Linked_image_Files/07-design-report-in-power-bi-desktop_image28_N.png)
 
     *Si arrastra campos a un objeto visual, se agregarán a los apartados o áreas predeterminados. Para mayor precisión, puede arrastrar campos directamente a los apartados, como hará a continuación.*
 
-26. En el panel **Campos**, arrastre el campo **Ventas \| Margen de beneficio** al apartado o área **Valores de líneas**.
+26. En el panel **Campos**, arrastre el campo **Ventas \| Margen de beneficio** al apartado o área **Eje Y de línea**.
 
     ![Imagen 28](Linked_image_Files/07-design-report-in-power-bi-desktop_image29.png)
 
@@ -276,7 +252,7 @@ En esta tarea se diseñará la primera página del informe. Cuando haya completa
 
     *El último mes del año actual, junio de 2020, no tiene ninguna venta (todavía). De forma predeterminada, el objeto visual ha eliminado los meses con ventas en blanco. Ahora configurará el objeto visual para que muestre todos los meses.*
 
-28. En el panel de campos del objeto visual, en el apartado o área **Eje compartido**, haga clic en la flecha hacia abajo del campo **Mes** y luego seleccione **Mostrar elementos sin datos**.
+28. En el panel de campos del objeto visual, en el apartado o área **Eje X**, haga clic en la flecha hacia abajo del campo **Mes** y luego seleccione **Mostrar elementos sin datos**.
 
     ![Imagen 52](Linked_image_Files/07-design-report-in-power-bi-desktop_image30.png)
 
@@ -320,7 +296,7 @@ En esta tarea se diseñará la primera página del informe. Cuando haya completa
 
     ![Imagen 3](Linked_image_Files/07-design-report-in-power-bi-desktop_image35.png)
 
-39. Expanda el grupo **Colores de datos** y, después, establezca la propiedad **Color predeterminado** en un color adecuado (para complementar el gráfico de columnas o líneas).
+39. Expanda las **Barras** y el grupo **Colores**, y luego establezca la propiedad **Color predeterminado** en un color adecuado (para complementar el gráfico de columnas o líneas).
 
 40. Establezca la propiedad **Etiquetas de datos** como **activada**.
 
@@ -347,11 +323,10 @@ En esta tarea, diseñará la segunda página del informe. Cuando haya completado
     ![Imagen 43](Linked_image_Files/07-design-report-in-power-bi-desktop_image39.png)
 
   
-‎ 
 
 3. Agregue una segmentación basada en el campo **Región \| Región**.
 
-4. Use el panel **Formato** para habilitar la opción "Seleccionar todo" (en el grupo **Controles de selección**).
+4. Use el panel **Formato** para habilitar la opción "Seleccionar todo" (en el grupo **Selección**).
 
 5. Cambie el tamaño y coloque la segmentación para situarla en el lado izquierdo de la página del informe y que tenga aproximadamente la mitad de la altura de la página.
 
@@ -445,7 +420,7 @@ En esta tarea, diseñará la tercera y última página del informe. Cuando haya 
 
 1. Aplique formato al objeto visual:
 
-    - En el grupo **Etiquetas de datos**, aumente la propiedad **Tamaño del texto** a **28 puntos**.
+    - En el grupo **Valores de llamada**, aumente la propiedad **Tamaño del texto** a **28 puntos**.
 
     - En el grupo **Fondo**, establezca gris claro como **Color**.
 
@@ -459,13 +434,13 @@ En esta tarea, diseñará la tercera y última página del informe. Cuando haya 
 
 1. Agregue los campos siguientes a los apartados o áreas del objeto visual:
 
-    - Eje: **Fecha \| Mes**
+    - Eje Y: **Fecha \| Mes**
 
-    - Valor: **Ventas \| Ventas** y **Destinos \| Destino**
+    - Eje X: **Ventas \| Ventas** y **Objetivos \| Objetivo**
 
     ![Imagen 80](Linked_image_Files/07-design-report-in-power-bi-desktop_image56.png)
 
-1. Para crear una copia del control visual, presione **Ctrl+C** y, a continuación, **Ctrl+V**.
+1. Para crear una copia del objeto visual, presione **Ctrl+C** y, a continuación, **Ctrl+V**.
 
 1. Coloque el objeto visual nuevo a la derecha del original.
 
@@ -527,7 +502,9 @@ En esta tarea, explorará el informe que se publicó en Power BI.
 
 3. Para abrir el informe, haga clic en el informe **Sales Analysis**.
 
-4. A la izquierda, en el panel **Páginas**, seleccione la página **Información general**. 
+4. A la izquierda, en el panel **Páginas**, seleccione la página **Información general**.
+ 
+    ***Nota**: si ve un error que indica que el objeto visual de mapa está deshabilitado, actualice el explorador.*
 
 5. En la segmentación **Regiones**, mientras presiona la tecla **Ctrl**, seleccione varias regiones.
 

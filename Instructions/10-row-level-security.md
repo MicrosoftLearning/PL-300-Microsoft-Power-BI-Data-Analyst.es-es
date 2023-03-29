@@ -1,49 +1,43 @@
 ---
 lab:
   title: Aplicación de seguridad de nivel de fila
-  module: Module 13 - Row-Level Security
-ms.openlocfilehash: b4b468b1c34d0cb562edd9ec407b07c9ee2efa1d
-ms.sourcegitcommit: 3520e7d016e94549d408464207c1b91cd47867c2
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "139840328"
+  module: 12 - Row-Level Security
 ---
+
+
 # <a name="enforce-row-level-security"></a>**Aplicación de seguridad de nivel de fila**
 
 **El tiempo estimado para completar el laboratorio es de 45 minutos.**
 
-En este laboratorio, creará una relación de varios a varios entre las tablas **Salesperson** y **Sales**. También aplicará la seguridad de nivel de fila para asegurarse de que un vendedor solo puede analizar los datos de ventas de las regiones que tenga asignadas.
+En este laboratorio, aplicará la seguridad de nivel de fila para asegurarse de que un vendedor solo pueda analizar los datos de ventas de las regiones que tenga asignadas.
 
 En este laboratorio, aprenderá a:
-
-- Configurar relaciones de varios a varios
 
 - Aplicar seguridad de nivel de fila
 
 ### <a name="lab-story"></a>**Caso de laboratorio**
 
-Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, para los diez primeros le recomendamos que siga el orden siguiente:
+Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, le recomendamos que siga el orden siguiente:
 
 1. Preparación de datos en Power BI Desktop
 
 2. Carga de datos en Power BI Desktop
 
-3. Modelado de datos en Power BI Desktop
+3. Diseño de un modelo de datos en Power BI
 
-5. Creación de cálculos DAX en Power BI Desktop, parte 1
+4. Creación de cálculos DAX en Power BI Desktop, parte 1
 
-6. Creación de cálculos DAX en Power BI Desktop, parte 2
+5. Creación de cálculos DAX en Power BI Desktop, parte 2
 
-7. Diseño de un informe en Power BI Desktop, parte 1
+6. Diseño de un informe en Power BI Desktop, parte 1
 
-8. Diseño de un informe en Power BI Desktop, parte 2
+7. Diseño de un informe en Power BI Desktop, parte 2
+
+8. Análisis de datos con objetos visuales de IA
 
 9. Creación de un panel de Power BI
 
-10. Análisis de datos en Power BI Desktop
-
-11. **Aplicación de seguridad de nivel de fila**
+10. **Aplicación de seguridad de nivel de fila**
 
 ## <a name="exercise-1-enforce-row-level-security"></a>**Ejercicio 1: Aplicación de seguridad de nivel de fila**
 
@@ -73,7 +67,7 @@ En esta tarea configurará el entorno para el laboratorio.
 
     ![Imagen 5](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image4.png)
 
-1. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\12-row-level-security\Starter**.
+1. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\10-row-level-security\Starter**.
 
 1. Seleccione el archivo **Sales Analysis**.
 
@@ -185,7 +179,7 @@ En esta tarea aplicará seguridad de nivel de fila para asegurarse de que los ve
 
     ![Imagen 18](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image35.png)
 
-### <a name="task-2-finish-up"></a>**Tarea 2: Finalización**
+### <a name="task-3-finish-up"></a>**Tarea 3: Finalización**
 
 En esta tarea, completará el laboratorio.
 
