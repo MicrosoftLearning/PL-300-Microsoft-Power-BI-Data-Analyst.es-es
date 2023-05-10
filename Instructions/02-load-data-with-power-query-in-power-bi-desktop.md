@@ -384,7 +384,11 @@ En esta tarea, se configurará la consulta **Region**.
 
 2. Cambie el nombre de la consulta a **Region**.
 
-3. Quite todas las columnas, excepto las siguientes:
+3. Aplique un filtro a la columna **SalesTerritoryAlternateKey** para quitar el valor 0 (cero).
+
+    ![Imagen 5660](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image44.png)
+
+4. Quite todas las columnas, excepto las siguientes:
 
     - SalesTerritoryKey
 
@@ -394,7 +398,7 @@ En esta tarea, se configurará la consulta **Region**.
 
     - SalesTerritoryGroup
 
-4. Cambie el nombre de las tres columnas siguientes:
+5. Cambie el nombre de las tres columnas siguientes:
 
     - **SalesTerritoryRegion** por **Region**
 
@@ -402,7 +406,7 @@ En esta tarea, se configurará la consulta **Region**.
 
     - **SalesTerritoryGroup** por **Group**
 
-5. En la barra de estado, compruebe que la consulta tiene cuatro columnas y 10 filas.
+6. En la barra de estado, compruebe que la consulta tiene cuatro columnas y 10 filas.
 
     ![Imagen 5661](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image45.png)
 
