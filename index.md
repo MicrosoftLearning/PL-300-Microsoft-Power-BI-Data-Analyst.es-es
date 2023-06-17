@@ -4,11 +4,11 @@ permalink: index.html
 layout: home
 ---
 
-# <a name="content-directory"></a>Directorio de contenido
+# Directorio de contenido
 
 A continuación se enumeran hipervínculos a cada uno de los ejercicios de laboratorio y demostraciones.
 
-## <a name="labs"></a>Laboratorios
+## Laboratorios
 
 {% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions'" %}
 | Sección | Laboratorio |
