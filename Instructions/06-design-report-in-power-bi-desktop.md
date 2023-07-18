@@ -1,13 +1,13 @@
 ---
 lab:
   title: "Diseño de un informe en Power\_BI Desktop"
-  module: 7 - Create Reports
+  module: Create Reports in Power BI Desktop
 ---
 
 
 # Diseño de un informe en Power BI Desktop
 
-**El tiempo estimado para completar el laboratorio es de 45 minutos.**
+## **Caso de laboratorio**
 
 En este laboratorio, creará un informe de tres páginas. Luego, lo publicará en Power BI, desde donde lo podrá abrir e interactuar con él.
 
@@ -16,26 +16,9 @@ En este laboratorio, aprenderá a:
 - Diseñar un informe
 - Configurar campos visuales y aplicar formato a propiedades
 
-### **Caso de laboratorio**
+**Este laboratorio debe durar unos 45 minutos**.
 
-Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, le recomendamos que siga el orden siguiente:
-
-1. Preparación de datos en Power BI Desktop
-1. Carga de datos en Power BI Desktop
-1. Diseño de un modelo de datos en Power BI
-1. Creación de cálculos DAX en Power BI Desktop
-1. Creación de cálculos DAX avanzados en Power BI Desktop
-1. **Diseño de un informe en Power BI Desktop**
-1. Mejora de un informe en Power BI Desktop
-1. Análisis de datos en Power BI
-1. Creación de un panel de Power BI
-1. Aplicación de seguridad de nivel de fila
-
-## **Ejercicio 1: Creación de un informe**
-
-En este ejercicio creará un informe de tres páginas denominado **Informe de ventas**.
-
-### **Tarea 1: Introducción y apertura del informe**
+## **Creación de un informe**
 
 En esta tarea configurará el entorno para el laboratorio abriendo el informe de inicio.
 
@@ -45,7 +28,7 @@ En esta tarea configurará el entorno para el laboratorio abriendo el informe de
 
 1. Cree una copia del archivo. Para ello, vaya a **Archivo** > **Guardar como** y guarde la copia en la carpeta **D:\PL300\MySolution**.
 
-### **Tarea 2: Diseño de la página 1**
+## **Diseño de la página 1**
 
 En esta tarea diseñará la primera página del informe. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
 
@@ -71,7 +54,7 @@ En esta tarea diseñará la primera página del informe. Cuando haya completado 
 
      ![Imagen 49](Linked_image_Files/07-design-report-in-power-bi-desktop_image18.png)
 
-1. En el panel **Campos**, arrastre el campo **Date \| Year** (no el nivel **Año** de la jerarquía) a la segmentación **Campo** en el panel Visualizaciones.
+1. En el panel **Datos**, arrastre el campo **Fecha \| Año** (no el nivel **Año** de la jerarquía) a la segmentación **Campo** en el panel Visualizaciones.
     
     *Los laboratorios usan una notación abreviada para hacer referencia a un campo. Tendrá este aspecto: **Fecha \| Año**. En este ejemplo, **Fecha** es el nombre de la tabla y **Año** es el nombre del campo.*
 
@@ -111,13 +94,13 @@ En esta tarea diseñará la primera página del informe. Cuando haya completado 
      - Fecha \| Mes
      - Ventas \| Ventas
 
-1. En el panel de campos del objeto visual (no en el panel **Campos**; el panel de campos del objeto visual se encuentra debajo del panel **Visualizaciones**), fíjese en que los campos están asignados a los apartados o áreas **Eje X** y **Eje Y de columna**.
+1. En el panel de campos del objeto visual (situado debajo del panel **Visualizaciones**), fíjese en que los campos están asignados a los apartados o áreas **Eje X** y **Eje Y de columna**.
     
     *Si arrastra campos a un objeto visual, se agregarán a los apartados o áreas predeterminados. Para mayor precisión, puede arrastrar campos directamente a los apartados o áreas, como hará a continuación.*
 
      ![Imagen 27](Linked_image_Files/07-design-report-in-power-bi-desktop_image28_N.png)
 
-1. En el panel **Campos**, arrastre el campo **Ventas \| Margen de beneficio** al apartado o área **Eje Y de línea**.
+1. En el panel **Datos**, arrastre el campo **Ventas \| Margen de beneficio** al apartado o área **Eje Y de línea**.
 
      ![Imagen 28](Linked_image_Files/07-design-report-in-power-bi-desktop_image29.png)
 
@@ -176,7 +159,7 @@ En esta tarea diseñará la primera página del informe. Cuando haya completado 
 
 *Ahora se ha completado el diseño de la primera página.*
 
-### **Tarea 3: Diseño de la página 2**
+## **Diseño de la página 2**
 
 En esta tarea diseñará la segunda página del informe. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
 
@@ -216,7 +199,7 @@ En esta tarea diseñará la segunda página del informe. Cuando haya completado 
 
      ![Imagen 57](Linked_image_Files/07-design-report-in-power-bi-desktop_image44.png)
 
-1. En el panel **Campos**, arrastre el campo **Producto \|| Categoría** al apartado **Filtros de esta página**.
+1. En el panel **Datos**, arrastre el campo **Producto \| Categoría** al apartado **Filtros de esta página**.
     
     *Los campos agregados al panel **Filtros** pueden lograr el mismo resultado que una segmentación. Una diferencia es que no ocupan espacio en la página del informe. Otra diferencia es que se pueden configurar para alcanzar requisitos de filtrado más avanzados.*
 
@@ -234,7 +217,7 @@ En esta tarea diseñará la segunda página del informe. Cuando haya completado 
 
  *Ahora se ha completado el diseño de la segunda página.*
 
-### **Tarea 4: Diseño de la página 3**
+## **Página de diseño 3**
 
 En esta tarea diseñará la tercera y última página del informe. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
 
@@ -304,11 +287,7 @@ En esta tarea diseñará la tercera y última página del informe. Cuando haya c
 
  *Ahora se ha completado el diseño de la tercera y última página.*
 
-## **Ejercicio 2: Exploración del informe**
-
-En este ejercicio publicará el informe en el servicio Power BI y explorará el informe de consumidor de solo lectura.
-
-### **Tarea 1: Publicación del informe**
+## **Publicación del informe**
 
 En esta tarea publicará el informe en el servicio Power BI.
 
@@ -327,7 +306,7 @@ En esta tarea publicará el informe en el servicio Power BI.
 1. Para publicar el informe, elija **Seleccionar**. Esta operación puede tardar unos minutos. 
 1. Cuando la publicación se haya realizado correctamente, seleccione **Entendido**.
 
-### **Tarea 2: Exploración del informe**
+## **Exploración del informe**
 
 En esta tarea explorará el informe que se publicó en Power BI.
 
@@ -410,7 +389,7 @@ En esta tarea explorará el informe que se publicó en Power BI.
 
      ![Imagen 91](Linked_image_Files/07-design-report-in-power-bi-desktop_image71.png)
 
-### **Tarea 3: Finalización**
+### **Finalización**
 
 En esta tarea, completará el laboratorio.
 

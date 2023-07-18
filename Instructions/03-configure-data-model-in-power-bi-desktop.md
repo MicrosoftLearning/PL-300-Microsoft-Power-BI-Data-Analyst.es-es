@@ -1,13 +1,13 @@
 ---
 lab:
   title: "Diseño de un modelo de datos en Power\_BI"
-  module: 4 - Design a Data Model in Power BI
+  module: Design a Data Model in Power BI
 ---
 
 
 # Diseño de un modelo de datos en Power BI
 
-**El tiempo estimado para completar el laboratorio es de 45 minutos.**
+## **Caso de laboratorio**
 
 En este laboratorio, comenzará a desarrollar el modelo de datos. Implicará la creación de relaciones entre las tablas y, después, la configuración de las propiedades de tabla y columna para mejorar la facilidad de uso del modelo de datos. También creará jerarquías y medidas rápidas.
 
@@ -17,26 +17,9 @@ En este laboratorio, aprenderá a:
 - Configurar propiedades de tablas y columnas
 - Crear jerarquías
 
-### **Caso de laboratorio**
+**Este laboratorio debe durar unos 45 minutos**.
 
-Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, le recomendamos que siga el orden siguiente:
-
-1. Preparación de datos en Power BI Desktop
-1. Carga de datos en Power BI Desktop
-1. **Diseño de un modelo de datos en Power BI**
-1. Creación de cálculos DAX en Power BI Desktop
-1. Creación de cálculos DAX avanzados en Power BI Desktop
-1. Diseño de un informe en Power BI Desktop
-1. Mejora de un informe en Power BI Desktop
-1. Análisis de datos en Power BI
-1. Creación de un panel de Power BI
-1. Aplicación de seguridad de nivel de fila
-
-## **Ejercicio 1: Creación de relaciones del modelo**
-
-En este ejercicio creará relaciones del modelo.
-
-### **Tarea 1: Primeros pasos**
+## **Introducción**
 
 En esta tarea configurará el entorno para el laboratorio.
 
@@ -54,7 +37,7 @@ En esta tarea configurará el entorno para el laboratorio.
 
 1. Vaya a **Archivo > Guardar como** y guarde el archivo en la carpeta **D:\PL300\MySolution**.
 
-### **Tarea 2: Creación de relaciones del modelo**
+## **Crear relaciones de modelos**
 
 En esta tarea, creará relaciones del modelo. El archivo se ha configurado para no identificar relaciones entre las tablas de los laboratorios anteriores. Esta no es la configuración predeterminada, pero se recomienda para evitar el trabajo adicional de crear las relaciones correctas para el modelo.
 
@@ -72,14 +55,14 @@ En esta tarea, creará relaciones del modelo. El archivo se ha configurado para 
 
      ![Imagen 327](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image10.png)
 
-1. Para ver todos los campos de tabla, en el panel **Campos**, haga clic con el botón derecho en un área vacía y, después, seleccione **Expandir todo**.
+1. Para ver todos los campos de tabla, en el panel **Datos**, haga clic con el botón derecho en un área vacía y, después, seleccione **Expandir todo**.
 
-1. Para crear un objeto visual de tabla, en el panel **Campos**, desde dentro de la tabla **Product** (Producto), active el campo **Categoría**.
+1. Para crear un objeto visual de tabla, en el panel **Datos**, desde dentro de la tabla **Producto**, active el campo **Categoría**.
 
-1. Para agregar una columna a la tabla, en el panel **Campos**, active el campo **Sales \| Sales**.
+1. Para agregar otra columna a la tabla, en el panel **Datos**, active el campo **Ventas \| Ventas**.
 
 1. Observe que en el objeto visual de tabla se enumeran cuatro categorías de productos y que el importe de ventas es el mismo para cada una de ellas, y el mismo para el total.
-    
+
     *El problema es que la tabla se basa en campos de otras tablas. La expectativa es que en cada categoría de producto se muestren las ventas de esa categoría. Pero como no hay una relación del modelo entre estas tablas, la tabla **Sales** no se filtra. Ahora agregará una relación para propagar filtros entre las tablas.*
 
      ![Imagen 330](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image13.png)
@@ -101,19 +84,19 @@ En esta tarea, creará relaciones del modelo. El archivo se ha configurado para 
      ![Imagen 334](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image17.png)
 
 1. Observe que se han seleccionado automáticamente las columnas **ProductKey** (Clave de producto) de cada tabla.
-    
+
     *Las columnas se han seleccionado porque comparten el mismo nombre y tipo de datos. Es posible que tenga que buscar columnas coincidentes con nombres diferentes en datos reales.*
 
 1. En la lista desplegable **Cardinalidad**, observe que se ha seleccionado **Uno a varios (1:*)**.
-    
+
     *La cardinalidad se ha detectado de forma automática, ya que Power BI entiende que la columna **ProductKey** de la tabla **Product** contiene valores únicos. Las relaciones uno a varios son la cardinalidad más común y todas las relaciones que cree en este laboratorio serán de este tipo.*
 
 1. En la lista desplegable **Dirección del filtro cruzado**, observe que está seleccionado el valor **Único**.
-    
+
     *La dirección de filtro único significa que los filtros se propagan de "un lado" a "varios lados". En este caso, significa que los filtros que se aplican a la tabla **Product** se propagarán a la tabla **Sales**, pero no en la dirección contraria.*
 
 1. Observe que la opción **Mark This Relationship Active** (Marcar esta relación activa) está seleccionada.
-    
+
     *Las relaciones activas propagan los filtros. Una relación se puede marcar como inactiva para que los filtros no se propaguen. Pueden existir relaciones inactivas cuando hay varias rutas de relación entre las tablas. En este caso, los cálculos del modelo pueden usar funciones especiales para activarlas.*
 
 1. Seleccione **Aceptar**. En la ventana **Administrar relaciones**, observe que aparece la nueva relación. Seleccione **Cerrar**.
@@ -129,7 +112,7 @@ En esta tarea, creará relaciones del modelo. El archivo se ha configurado para 
      Hay una manera más fácil de crear una relación. En el diagrama del modelo, puede arrastrar y colocar columnas para crear una relación.
 
 1. Para crear una relación usando una técnica distinta, en la tabla **Reseller** arrastre la columna **ResellerKey** a la columna **ResellerKey** de la tabla **Sales**.
-    
+
     *Sugerencia: A veces una columna no se deja arrastrar. Si se produce esta situación, seleccione otra columna y, después, vuelva a seleccionar la columna que quiere arrastrar e inténtelo de nuevo. Cerciórese de que se ve la nueva relación agregada al diagrama.*
 
      ![Arrastre ResellerKey desde la tabla Reseller a Sales | ResellerKey](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image22.png)
@@ -144,28 +127,28 @@ En esta tarea, creará relaciones del modelo. El archivo se ha configurado para 
      ![Diseño de esquema de estrella en la Vista de modelo](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image23.png)
 
 1. En la vista Informe, observe que el objeto visual de la tabla se ha actualizado para mostrar valores diferentes para cada categoría de producto.
-    
+
     *Los filtros que se aplican a la tabla **Product** ahora se propagan a la tabla **Sales**.*
 
      ![Se han actualizado los números de categoría y ventas con nuevas relaciones.](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image20.png)
 
 1. Guarde el archivo de Power BI Desktop.
 
-## **Ejercicio 2: Configuración de tablas**
+## **Configuración de tablas**
 
 En este ejercicio configurará cada tabla. Para ello, creará jerarquías y ocultará, clasificará y aplicará formato a columnas.
 
-### **Tarea 1: Configuración de la tabla Product**
+## **Configuración de la tabla Product**
 
 En esta tarea configurará la tabla **Product**.
 
-1. En la vista Modelo, en el panel **Campos**, expanda la tabla **Product** si es necesario para mostrar todos los campos.
+1. En la vista Modelo, en el panel **Datos**, expanda la tabla **Producto** si es necesario para mostrar todos los campos.
 
-1. Para crear una jerarquía, en el panel **Campos**, haga clic con el botón derecho en la columna **Categoría** y, después, seleccione **Crear jerarquía**.
+1. Para crear una jerarquía, en el panel **Datos**, haga clic con el botón derecho en la columna **Categoría** y, después, seleccione **Crear jerarquía**.
 
      ![Cuadro de diálogo Crear jerarquía.](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image24.png)
 
-1. En el panel **Propiedades** (a la izquierda del panel **Campos**), reemplace el texto en el cuadro **Nombre** con **Products**.
+1. En el panel **Propiedades** (a la izquierda del panel **Datos**), reemplace el texto en el cuadro **Nombre** con **Productos**.
 
 1. Para agregar el segundo nivel de jerarquía, en el panel **Propiedades**, en la lista desplegable **Jerarquía**, seleccione **Subcategoría** (es posible que tenga que desplazarse hacia abajo dentro del panel).
 
@@ -177,7 +160,7 @@ En esta tarea configurará la tabla **Product**.
 
     *Sugerencia: No olvide seleccionar **Aplicar cambios en el nivel**. Es un error habitual pasar por alto este paso.*
 
-1. En el panel **Campos**, observe la jerarquía **Products**.
+1. En el panel **Datos**, observe la jerarquía **Productos**.
 
      ![Imagen 347](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image27.png)
 
@@ -185,7 +168,7 @@ En esta tarea configurará la tabla **Product**.
 
      ![Imagen 346](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image28.png)
 
-1. Para organizar las columnas en una carpeta para mostrar, seleccione primero la columna **Formato de color de fondo** en el panel **Campos**.
+1. Para organizar las columnas en una carpeta para mostrar, seleccione primero la columna **Formato de color de fondo** en el panel **Datos**.
 
 1. Mientras presiona la tecla **Ctrl**, seleccione la columna **Formato de color de fuente**.
 
@@ -193,13 +176,13 @@ En esta tarea configurará la tabla **Product**.
 
      ![Imagen 348](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image29.png)
 
-1. En el panel **Campos**, observe que ahora las dos columnas están dentro de una carpeta.
+1. En el panel **Datos**, observe que ahora las dos columnas están dentro de una carpeta.
     
-    *Las carpetas para mostrar son una excelente manera de descongestionar las tablas, especialmente las que contienen muchos campos. Son una presentación lógica solamente.*
+   *Las carpetas para mostrar son una excelente manera de descongestionar las tablas, especialmente las que contienen muchos campos. Son una presentación lógica solamente.*
 
      ![Imagen 349](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image30.png)
 
-### **Tarea 2: Configuración de la tabla Region**
+## **Configuración de la tabla Region**
 
 En esta tarea configurará la tabla **Region**.
 
@@ -214,12 +197,12 @@ En esta tarea configurará la tabla **Region**.
 1. Seleccione la columna **Country** (País) (no el nivel de jerarquía **Country**).
 
 1. En el panel **Propiedades**, expanda la sección **Avanzado** en la parte inferior del panel y, después, en la lista desplegable **Categoría de datos**, seleccione **País o región**.
-    
+
     *La categorización de datos puede proporcionar sugerencias al diseñador de informes. En este caso, la categorización de la columna como país o región proporciona información más precisa a Power BI cuando representa una visualización de mapa.*
 
      ![Imagen 352](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image32.png)
 
-### **Tarea 3: Configuración de la tabla Reseller**
+## **Configuración de la tabla Reseller**
 
 En esta tarea configurará la tabla **Reseller**.
 
@@ -237,15 +220,15 @@ En esta tarea configurará la tabla **Reseller**.
 
 1. Establezca la **Categoría de datos** para las columnas **Country-Region**, **State-Province** y **City** (no el nivel de jerarquía) en **País o región**, **Estado o Provincia**, y **Ciudad**, respectivamente.
 
-### **Tarea 4: Configuración de la tabla Sales**
+## **Configuración de la tabla Sales**
 
 En esta tarea configurará la tabla **Sales**.
 
 1. En la tabla **Sales**, seleccione la columna **Cost**.
 
 1. En el panel **Propiedades**, en el cuadro **Descripción**, escriba: *Basado en el costo estándar*.
-    
-    *Las descripciones se pueden aplicar a tablas, columnas, jerarquías o medidas. En el panel **Campos**, el texto descriptivo se muestra en una información sobre herramientas cuando el autor del informe mantiene el cursor sobre el campo.*
+
+    *Las descripciones se pueden aplicar a tablas, columnas, jerarquías o medidas. En el panel **Datos**, el texto descriptivo se muestra en una información sobre herramientas cuando el autor del informe mantiene el cursor sobre el campo.*
 
 1. Seleccione la columna **Cantidad**.
 
@@ -256,14 +239,14 @@ En esta tarea configurará la tabla **Sales**.
 1. En el panel **Propiedades**, desde dentro de la sección **Formato**, establezca la propiedad **Posiciones decimales** en **2**.
 
 1. En el grupo **Avanzado** (es posible que tenga que desplazarse hacia abajo para encontrarlo), en la lista desplegable **Resumir por**, seleccione **Promedio**.
-    
+
     *De forma predeterminada, las columnas numéricas se resumen mediante la suma de valores. Este comportamiento predeterminado no es adecuado para una columna como **Unit Price**, que representa una tarifa. Al establecer el resumen predeterminado en el promedio se generará un resultado significativo.*
 
-### **Tarea 5: Actualización masiva de propiedades**
+## **Actualización masiva de propiedades**
 
 En esta tarea actualizará varias columnas mediante actualizaciones masivas únicas. Usará este enfoque para ocultar columnas y darle formato a los valores de columna.
 
-1. En el panel **Campos**, seleccione la columna **Product \| ProductKey**.
+1. En el panel **Datos**, seleccione la columna **Producto \| Clave de producto**.
 
 1. Mientras presiona la tecla **Ctrl**, seleccione las 13 columnas siguientes (que abarcan varias tablas):
 
@@ -282,7 +265,7 @@ En esta tarea actualizará varias columnas mediante actualizaciones masivas úni
      - Targets \| EmployeeID
 
 1. En el panel **Propiedades**, deslice la propiedad **Está oculta** a **Sí**.
-    
+
     *Las columnas estaban ocultas porque las usan las relaciones, o se usarán en la configuración de seguridad de nivel de fila o en la lógica de cálculo.*
 
     *Usará **SalesOrderNumber** en un cálculo en el laboratorio **Creación de cálculos DAX en Power BI Desktop**.*
@@ -295,17 +278,17 @@ En esta tarea actualizará varias columnas mediante actualizaciones masivas úni
 
 1. En el panel **Propiedades**, desde dentro de la sección **Formato**, establezca la propiedad **Posiciones decimales** en **0**.
 
-## **Ejercicio 3: Revisión de la interfaz del modelo**
+## **Revisión de la interfaz del modelo**
 
 En este ejercicio cambiará a la vista Informe y revisará la interfaz del modelo.
 
-### **Tarea 1: Revisión de la interfaz del modelo**
+## **Revisión de la interfaz del modelo**
 
 En esta tarea cambiará a la vista Informe y revisará la interfaz del modelo.
 
 1. Cambio a la vista Informe.
 
-1. En el panel **Campos**, observe lo siguiente:
+1. En el panel **Datos**, observe lo siguiente:
 
      - Las columnas, las jerarquías y sus niveles son campos, que se pueden usar para configurar los objetos visuales del informe
      - Solo se ven los campos relevantes para la creación de informes
@@ -315,7 +298,7 @@ En esta tarea cambiará a la vista Informe y revisará la interfaz del modelo.
      - Aparece una información sobre herramientas al mantener el cursor sobre el campo **Sales \| Cost** (Ventas | Costo).
 
 1. Expanda el campo **Sales \| OrderDate** (Ventas | Fecha de pedido) y, después, observe que muestra una jerarquía de fecha.
-    
+
     *El campo **Targets \| TargetMonth** presenta una jerarquía similar. Estas jerarquías no las ha creado usted. Se han creado de forma automática. Pero hay un problema. El año fiscal de Adventure Works comienza el 1 de julio de cada año. Pero en estas jerarquías de fechas creadas automáticamente, la jerarquía de fecha comienza el 1 de enero de cada año.*
 
      ![Imagen 359](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image40.png)
@@ -327,21 +310,21 @@ En esta tarea cambiará a la vista Informe y revisará la interfaz del modelo.
 
      ![Imagen 362](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image43.png)
 
-1. En el panel **Campos**, observe que las jerarquías de fecha ya no están disponibles.
+1. En el panel **Datos**, observe que las jerarquías de fecha ya no están disponibles.
 
      ![Imagen 363](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image45.png)
 
-## **Ejercicio 4: Creación de medidas rápidas**
+## **Creación de medidas rápidas**
 
 En este ejercicio creará dos medidas rápidas.
 
-### **Tarea 1: Creación de medidas rápidas**
+## **Crear medidas rápidas**
 
 En esta tarea creará dos medidas rápidas para calcular los beneficios y el margen de beneficio.
 
 *Una medida rápida crea la fórmula de cálculo de forma automática. Son fáciles y rápidas de crear para cálculos simples y comunes. Creará medidas sin usar esta herramienta en el laboratorio **Creación de cálculos DAX en Power BI Desktop**.*
 
-1. En el panel **Campos**, haga clic con el botón derecho en la tabla **Sales** y seleccione **Nueva medida rápida**.
+1. En el panel **Datos**, haga clic con el botón derecho en la tabla **Ventas** y seleccione **Nueva medida rápida**.
 
      ![Imagen 366](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image46.png)
 
@@ -349,7 +332,7 @@ En esta tarea creará dos medidas rápidas para calcular los beneficios y el mar
 
      ![Imagen 367](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image47.png)
 
-1. En el panel **Campos** de la ventana**Medidas rápidas**, expanda la tabla **Sales**.
+1. En el panel **Datos** de la ventana **Medidas rápidas**, expanda la tabla **Ventas**.
 
 1. Arrastre el campo **Sales** al cuadro **Valor base**.
 
@@ -357,13 +340,13 @@ En esta tarea creará dos medidas rápidas para calcular los beneficios y el mar
 
      ![Imagen 368](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image48.png)
 
-1. En el panel **Campos**, dentro de la tabla **Sales**, observe la nueva medida.
+1. En el panel **Datos**, dentro de la tabla **Ventas**, observe la nueva medida.
     1. *Las medidas usan el icono de calculadora.*
 
      ![Imagen 370](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image50.png)
 
 1. Para cambiar el nombre de la medida, haga clic con el botón derecho en ella, seleccione **Cambiar nombre** y dele el nombre **Beneficios**.
-    
+
     *Sugerencia: Para cambiar el nombre de un campo, también puede hacer doble clic en él, o bien seleccionarlo y presionar **F2**.*
 
 1. En la tabla **Sales**, agregue una segunda medida rápida, en función de los requisitos siguientes:
@@ -379,7 +362,7 @@ En esta tarea creará dos medidas rápidas para calcular los beneficios y el mar
 
 1. Para probar las dos medidas, seleccione primero el objeto visual **Tabla** en la página del informe.
 
-1. En el panel **Campos**, active las dos medidas.
+1. En el panel **Datos**, active las dos medidas.
 
      ![Imagen 375](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image55.png)
 
@@ -391,13 +374,13 @@ En esta tarea creará dos medidas rápidas para calcular los beneficios y el mar
 
      ![Imagen 378](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image57.png)
 
-### **Tarea 2: Creación de una relación de varios a varios**
+## **Creación de una relación de varios a varios**
 
 En esta tarea creará una relación de varios a varios entre las tablas **Salesperson** y **Sales**.
 
  *Los laboratorios usan una notación abreviada para hacer referencia a un campo. Tendrá este aspecto: **Salesperson \| Salesperson**. En este ejemplo, **Salesperson** es el nombre de la tabla y **Salesperson** es el nombre del campo.*
 
-1. En Power BI Desktop, en la vista Informe, en el panel **Campos**, active los dos campos siguientes para crear un objeto visual **Tabla**.
+1. En Power BI Desktop, en la vista Informe, en el panel **Datos**, active los dos campos siguientes para crear un objeto visual de **tabla**.
 
      - Salesperson \| Salesperson
      - Sales \| Sales
@@ -421,8 +404,8 @@ En esta tarea creará una relación de varios a varios entre las tablas **Salesp
 
 1. Cambie a la vista Informe y observe que el objeto visual no se ha actualizado. El resultado de ventas de Michael Blythe no ha cambiado.
 
-1. Vuelva a la vista Modelo y, luego, siga la dirección del filtro de relación (la punta de flecha) desde la tabla **Salesperson**. 
-    
+1. Vuelva a la vista Modelo y, luego, siga la dirección del filtro de relación (la punta de flecha) desde la tabla **Salesperson**.
+
     *Tenga en cuenta la tabla **Salesperson** filtra la tabla **Sales**. También filtra la tabla **SalespersonRegion**, pero no continúa propagando filtros hasta la tabla **Region** (la flecha apunta hacia la dirección equivocada).*
 
      ![Imagen 380](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image11.png)
@@ -440,13 +423,13 @@ En esta tarea creará una relación de varios a varios entre las tablas **Salesp
      ![Imagen 382](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image14.png)
 
 1. Cambie a la vista Informe y, después, observe que los valores de ventas todavía no han cambiado.
-    
+
     *Ahora el problema está relacionado con el hecho de que hay dos posibles rutas de propagación de filtros entre las tablas **Salesperson** y **Sales**. Esta ambigüedad se resuelve de manera interna, en función de una evaluación del "número mínimo de tablas". Para ser claros, no debería diseñar modelos con este tipo de ambigüedad, el problema se solucionará en parte más adelante en este laboratorio y al completar el laboratorio **Creación de cálculos DAX en Power BI Desktop**.*
 
 1. Cambie a la Vista de modelo para forzar la propagación de filtros a través de la tabla puente. Edite (doble clic) la relación entre las tablas **Salesperson** y **Sales**.
 
 1. En la ventana **Editar relación**, desactive la casilla **Activar esta relación** y seleccione **Aceptar**.
-    
+
     *Ahora la propagación del filtro seguirá la única ruta activa.*
 
 1. En el diagrama, observe que la relación inactiva se representa mediante una línea discontinua.
@@ -469,7 +452,7 @@ En esta tarea creará una relación de varios a varios entre las tablas **Salesp
 
 *La tabla con el nombre cambiado ahora refleja su finalidad: se usa para notificar y analizar el rendimiento de los vendedores en función de las ventas de sus regiones de ventas asignadas.*
 
-### **Tarea 3: Relación con la tabla Targets**
+## **Relación con la tabla Targets**
 
 En esta tarea creará una relación con la tabla **Targets**.
 
@@ -483,7 +466,7 @@ En esta tarea creará una relación con la tabla **Targets**.
 
  *Ahora se pueden visualizar las ventas y los destinos, pero debe tener cuidado por dos motivos. En primer lugar, no hay ningún filtro de período de tiempo, por lo que los destinos también incluyen cantidades de destino futuras. En segundo lugar, los destinos no son aditivos y, por tanto, no se debe mostrar el total. Se pueden deshabilitar dándole formato al objeto visual, o bien se pueden quitar usando lógica de cálculo. Seguirá el segundo enfoque con la creación de una medida de destino en el laboratorio **Creación de cálculos DAX avanzados en Power BI Desktop**, que devolverá un valor en blanco cuando se filtre más de un vendedor.*
 
-### **Tarea 4: Finalización**
+### **Finalización**
 
 En esta tarea, completará el laboratorio.
 

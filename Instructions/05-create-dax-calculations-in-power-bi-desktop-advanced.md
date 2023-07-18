@@ -1,44 +1,24 @@
 ---
 lab:
   title: "Creación de cálculos DAX avanzados en Power\_BI Desktop"
-  module: 5 - Create Model Calculations using DAX in Power BI
+  module: Create Model Calculations using DAX in Power BI
 ---
 
 
 # Creación de cálculos DAX avanzados en Power BI Desktop
 
-**El tiempo estimado para completar el laboratorio es de 45 minutos.**
+## **Caso de laboratorio**
 
 En este laboratorio creará medidas con expresiones DAX que impliquen la manipulación del contexto de filtro.
 
 En este laboratorio, aprenderá a:
 
 - Usar la función CALCULATE () para manipular el contexto de filtro
-
 - Usar funciones de inteligencia de tiempo
 
-### **Caso de laboratorio**
+**Este laboratorio debe durar unos 45 minutos**.
 
-Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, le recomendamos que siga el orden siguiente:
-
-1. Preparación de datos en Power BI Desktop
-1. Carga de datos en Power BI Desktop
-1. Diseño de un modelo de datos en Power BI
-1. Creación de cálculos DAX en Power BI Desktop
-1. **Creación de cálculos DAX avanzados en Power BI Desktop**
-1. Diseño de un informe en Power BI Desktop
-1. Mejora de un informe en Power BI Desktop
-1. Análisis de datos en Power BI
-1. Creación de un panel de Power BI
-1. Aplicación de seguridad de nivel de fila
-
-## **Ejercicio 1: Trabajo con contexto de filtro**
-
-En este ejercicio creará medidas con expresiones DAX que impliquen la manipulación del contexto de filtro.
-
-### **Tarea 1: Primeros pasos**
-
-En esta tarea configurará el entorno para el laboratorio.
+## **Trabajo con contexto de filtro**
 
 *Importante: Si ha realizado el laboratorio anterior (y lo ha completado correctamente) no realice esta tarea, continúe a partir de la siguiente.*
 
@@ -58,11 +38,11 @@ En esta tarea configurará el entorno para el laboratorio.
 
     *Este mensaje le avisa de que no se han aplicado consultas para cargar el archivo como tablas de modelo. Aplicará consultas más adelante en este laboratorio.*
     
-    *Para ignorar el mensaje de advertencia, a la derecha del mensaje de advertencia en amarillo, seleccione la **X**.*
+    *Para descartar el mensaje de advertencia, a la derecha del mensaje de advertencia en amarillo, seleccione la **X**.*
 
 1. Para crear una copia del archivo, vaya a **Archivo > Guardar como** y guárdelo en la carpeta **D:\PL300\MySolution**.
 
-### **Tarea 2: Creación de un objeto visual de matriz**
+## **Creación de un objeto visual de matriz**
 
 En esta tarea creará un objeto visual Matriz para probar las nuevas medidas.
 
@@ -74,7 +54,7 @@ En esta tarea creará un objeto visual Matriz para probar las nuevas medidas.
 
 1. Cambie el tamaño del objeto visual de matriz para rellenar toda la página.
 
-1. Para configurar los campos de los objetos visuales de matriz, en el panel **Campos**, arrastre la jerarquía **Region \| Regions** y colóquela en el objeto visual.
+1. Para configurar los campos de los objetos visuales de matriz, en el panel **Datos**, arrastre la jerarquía **Región \| Regiones** y colóquela en el objeto visual.
     
     *Los laboratorios usan una notación abreviada para hacer referencia a un campo o jerarquía. Tendrá este aspecto: **Region \| Regions**. En este ejemplo, **Region** es el nombre de la tabla y **Regions** es el nombre de la jerarquía.*
 
@@ -104,7 +84,7 @@ En esta tarea creará un objeto visual Matriz para probar las nuevas medidas.
 
     *En este ejercicio creará varias medidas y, a continuación, las probará agregándolas al objeto visual de matriz.*
 
-### **Tarea 3: Manipulación del contexto de filtro**
+## **Manipulación del contexto de filtro**
 
 En esta tarea creará varias medidas con expresiones DAX que usan la función CALCULATE() para manipular el contexto de filtro.
 
@@ -137,7 +117,7 @@ En esta tarea creará varias medidas con expresiones DAX que usan la función CA
 
     *La medida nueva aún no ofrece un resultado útil. Cuando las ventas de un grupo, un país o una región se dividen por este valor, se generará una relación útil conocida como "porcentaje de total general".*
 
-1. En el panel **Campos**, asegúrese de que esté seleccionada la medida **Sales All Region** (Ventas de toda la región) (al seleccionarla, tendrá un fondo gris) y, después, en la barra de fórmulas, reemplace el nombre y la fórmula de la medida por la fórmula siguiente:
+1. En el panel **Datos**, asegúrese de que esté seleccionada la medida **Ventas de toda la región** (al seleccionarla, tendrá un fondo gris) y, después, en la barra de fórmulas, reemplace el nombre y la fórmula de la medida por la fórmula siguiente:
 
     *Sugerencia: Para reemplazar la fórmula, copie primero el fragmento de código. Seleccione la barra de fórmulas y presione **Ctrl+A** para seleccionar todo el texto. A continuación, presione **Ctrl+V** para pegar el fragmento de código y sobrescribir el texto seleccionado. Después, presione **Entrar**.*
 
@@ -283,11 +263,11 @@ En esta tarea creará varias medidas con expresiones DAX que usan la función CA
 
 *Las medidas agregadas a la tabla **Sales** (Ventas) han modificado el contexto de filtro para lograr una navegación jerárquica. Tenga en cuenta que el patrón para lograr el cálculo de un subtotal requiere quitar algunas columnas del contexto de filtro y, para llegar a un total general, se deben quitar todas las columnas.*
 
-## **Ejercicio 2: Trabajo con inteligencia de tiempo**
+## **Trabajo con inteligencia de tiempo**
 
 En este ejercicio creará una medida de ventas del año hasta la fecha y una medida del aumento interanual de las ventas.
 
-### **Tarea 1: Creación de una medida del año hasta la fecha**
+## **Creación de una medida del año hasta la fecha**
 
 En esta tarea creará una medida de ventas del año hasta la fecha.
 
@@ -319,7 +299,7 @@ En esta tarea creará una medida de ventas del año hasta la fecha.
 
     *Hay muchas funciones de inteligencia de tiempo disponibles en DAX para admitir las manipulaciones de filtro de tiempo comunes.*
 
-### **Tarea 2: Creación de una medida de crecimiento de ventas de año a año**
+## **Creación de una medida de crecimiento de ventas de año a año**
 
 En esta tarea creará una medida del aumento interanual de las ventas.
 
@@ -398,7 +378,7 @@ En esta tarea creará una medida del aumento interanual de las ventas.
 
     ![Imagen 63](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image24.png)
 
-### **Tarea 3: Finalización**
+### **Finalización**
 
 En esta tarea, completará el laboratorio.
 

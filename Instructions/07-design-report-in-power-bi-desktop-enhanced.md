@@ -1,45 +1,28 @@
 ---
 lab:
   title: "Mejora de un informe en Power\_BI Desktop"
-  module: 7 - Create Reports
+  module: Create Reports in Power BI desktop
 ---
 
 
 # Mejora de un informe en Power BI Desktop
 
-**El tiempo estimado para completar el laboratorio es de 45 minutos.**
+## **Caso de laboratorio**
 
 En este laboratorio, mejorará el **análisis de ventas** con características de diseño avanzadas.
 
 En este laboratorio, aprenderá a:
 
 - Sincronizar segmentaciones
-- Crear una página de obtención de detalles
+- Creación de una página de obtención de detalles
 - Aplicar formato condicional
 - Crear y usar marcadores
 
-### **Caso de laboratorio**
+**Este laboratorio debe durar unos 45 minutos**.
 
-Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, le recomendamos que siga el orden siguiente:
+## **Introducción e inicio de sesión**
 
-1. Preparación de datos en Power BI Desktop
-1. Carga de datos en Power BI Desktop
-1. Diseño de un modelo de datos en Power BI
-1. Creación de cálculos DAX en Power BI Desktop
-1. Creación de cálculos DAX avanzados en Power BI Desktop
-1. Diseño de un informe en Power BI Desktop
-1. **Mejora de un informe en Power BI Desktop**
-1. Análisis de datos en Power BI
-1. Creación de un panel de Power BI
-1. Aplicación de seguridad de nivel de fila
-
-## **Ejercicio 1: Configuración de segmentaciones de sincronización**
-
-En este ejercicio, sincronizará las segmentaciones de página del informe.
-
-### Tarea 1: Introducción e inicio de sesión
-
-En esta tarea, configurará el entorno para el laboratorio iniciando sesión en Power BI.
+En esta tarea configurará el entorno para el laboratorio iniciando sesión en Power BI.
 
 *Nota: Si ya ha iniciado sesión en Power BI, pase a la siguiente tarea.*
 
@@ -57,7 +40,7 @@ En esta tarea, configurará el entorno para el laboratorio iniciando sesión en 
 
      ![Imagen 22](Linked_image_Files/07-my-workspace-new.png)
 
-### Tarea 2: Introducción y apertura del informe
+## **Introducción y apertura del informe**
 
 En esta tarea, configurará el entorno para el laboratorio abriendo el informe de inicio.
 
@@ -67,7 +50,7 @@ En esta tarea, configurará el entorno para el laboratorio abriendo el informe d
 
     ![Icono de Power BI Desktop](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-    *Sugerencia: De forma predeterminada, se abre el cuadro de diálogo Introducción delante de Power BI Desktop. Puede optar por iniciar sesión y, a continuación, cerrar la ventana emergente.*
+    *Sugerencia: De forma predeterminada, se abre el cuadro de diálogo Introducción delante de Power BI Desktop. Puede optar por iniciar sesión y cerrar la ventana emergente.*
 
 1. Para abrir el archivo de inicio de Power BI Desktop, seleccione **Archivo > Abrir informe > Examinar informes**.
 
@@ -75,7 +58,7 @@ En esta tarea, configurará el entorno para el laboratorio abriendo el informe d
 
 1. Cierre todas las ventanas informativas que se abran.
 
-1. Fíjese en el mensaje de advertencia amarillo bajo la cinta. 
+1. Fíjese en el mensaje de advertencia amarillo bajo la cinta.
 
     *Este mensaje le avisa de que no se han aplicado consultas para cargar el archivo como tablas de modelo. Aplicará consultas más adelante en este laboratorio.*
 
@@ -85,14 +68,14 @@ En esta tarea, configurará el entorno para el laboratorio abriendo el informe d
 
 1. Si se le pide que aplique los cambios, seleccione **Aplicar más tarde**.
 
-### **Tarea 3: Segmentación de la sincronización**
+## **Sincronizar segmentaciones**
 
 En esta tarea, sincronizará las segmentaciones **Año** y **Región**, continuando con el desarrollo del informe creado en el laboratorio **Diseñar un informe en Power BI Desktop** laboratorio.
 
 1. En Power BI Desktop, en la página **Información general**, establezca la segmentación **Año** en **FY2018**.
 
 1. Vaya a la página **Mi rendimiento** y, después, observe que la segmentación **Año** es otro valor.
-    
+
     *Cuando las segmentaciones no están sincronizadas, pueden contribuir a la representación errónea de los datos y a la frustración de los usuarios del informe. Ahora sincronizará las segmentaciones del informe.*
 
 1. Vuelva a la página **Información general** y, después, seleccione la segmentación **Año**.
@@ -115,24 +98,24 @@ En esta tarea, sincronizará las segmentaciones **Año** y **Región**, continua
 
 1. Para cerrar la página **Sincronizar segmentaciones**, seleccione la **X** situada en la parte superior derecha del panel.
 
-## **Ejercicio 2: Configuración de la obtención de detalles**
+## **Configuración de la obtención de detalles**
 
 En este ejercicio, creará una página y la configurará como una página de obtención de detalles. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
 
 ![Imagen de la página nueva, que consta de un objeto visual de tarjeta y un objeto visual de tabla.](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image17.png)
 
-### **Tarea 1: Creación de una página de obtención de detalles**
+## **Creación de una página de obtención de detalles**
 
 En esta tarea, creará una página y la configurará como una página de obtención de detalles.
 
 1. Agregue una nueva página de informe con el nombre **Detalles del producto**.
 
 1. Haga clic con el botón derecho en la pestaña de la página **Detalles del producto** y después seleccione **Ocultar página**.
-    
+
     *Los usuarios del informe no podrán ir directamente a la página de obtención de detalles. Tendrán que acceder a ella desde objetos visuales en otras páginas. En el ejercicio final de este laboratorio descubrirá cómo obtener detalles de la página.*
 
 1. Debajo del panel **Visualizaciones**, en la sección **Obtener detalles**, agregue el campo **Producto \| Categoría** al cuadro **Add Drill-Through Fields Here** (Agregar los campos de obtención de detalles aquí).
-    
+
     *Los laboratorios usan una notación abreviada para hacer referencia a un campo. Tendrá este aspecto: **Producto \| Categoría**. En este ejemplo, **Product** es el nombre de la tabla y **Category** es el nombre del campo.*
 
      ![Imagen 96](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image20.png)
@@ -142,7 +125,7 @@ En esta tarea, creará una página y la configurará como una página de obtenci
      ![Imagen 99](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image21.png)
 
 1. En la parte superior izquierda de la página del informe, observe el botón de flecha.
-    
+
     *Un botón de flecha se agrega automáticamente cuando se agrega un campo al apartado o área de obtención de detalles. Permite a los usuarios del informe retroceder a la página desde la que han obtenido detalles.*
 
 1. Agregue un objeto visual **Tarjeta** a la página y, después, cambie el tamaño y colóquelo para ubicarlo a la derecha del botón y rellenar el ancho restante de la página.
@@ -179,13 +162,13 @@ En esta tarea, creará una página y la configurará como una página de obtenci
 
 *El diseño de la página de obtención de detalles está casi terminado. En el siguiente ejercicio mejorará la página con formato condicional.*
 
-## **Ejercicio 3: Incorporación de formato condicional**
+## **Adición de formato condicional**
 
 En este ejercicio, mejorará la página de obtención de detalles con formato condicional. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
 
 ![Imagen de una página actualizada, que muestra iconos y valores con formato de color.](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image28.png)
 
-### **Tarea 1: Adición de formato condicional**
+## **Adición de formato condicional**
 
 En esta tarea, mejorará la página de obtención de detalles con formato condicional.
 
@@ -209,7 +192,7 @@ En esta tarea, mejorará la página de obtención de detalles con formato condic
     - En el sexto control, seleccione **Número**
 
 1. Configure la segunda regla (el círculo de color verde) de esta manera y, a continuación, seleccione **Aceptar**:
-    
+
     *Las reglas se pueden interpretar de la siguiente manera: mostrar un rombo de color rojo si el valor de margen de beneficio es menor que 0; de lo contrario, si el valor es mayor o igual a cero, mostrar un círculo de color verde.*
 
      - En el segundo control, escriba **0**
@@ -235,13 +218,13 @@ En esta tarea, mejorará la página de obtención de detalles con formato condic
 
 *Puede que recuerde que los colores de fondo y fuente se crearon a partir del archivo **ColorFormats.csv** en el laboratorio **Preparación de datos de Power BI Desktop** y, después, se integraron en la consulta **Producto** en el laboratorio **Carga de datos en Power BI Desktop**.*
 
-## **Ejercicio 4: Incorporación de marcadores y botones**
+## **Adición de marcadores y botones**
 
 En este ejercicio, mejorará la página **Mi rendimiento** con botones, lo que permite al usuario del informe seleccionar el tipo de objeto visual que se va a mostrar. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
 
 ![Imagen de una página 3 actualizada, en la que se muestran dos botones y ahora solo dos objetos visuales.](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image38.png)
 
-### **Tarea 1: Adición de marcadores**
+## **Adición de marcadores**
 
 En esta tarea, agregará dos marcadores, para mostrar cada uno de los objetos visuales de ventas mensuales y destinos.
 
@@ -256,7 +239,7 @@ En esta tarea, agregará dos marcadores, para mostrar cada uno de los objetos vi
      ![Imagen 120](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image41.png)
 
 1. En el panel **Marcadores**, haga clic en **Agregar**.
-    
+
     *Para cambiar el nombre del marcador, haga doble clic en él.*
 
      ![Imagen 121](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image42.png)
@@ -270,11 +253,11 @@ En esta tarea, agregará dos marcadores, para mostrar cada uno de los objetos vi
      ![Imagen 16](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image43.png)
 
 1. Para actualizar el marcador, seleccione los puntos suspensivos de nuevo y, a continuación, seleccione **Actualizar**.
-     
+
      *En los pasos siguientes, creará y configurará un segundo marcador para mostrar el segundo objeto visual.*
 
 1. En el panel **Selección**, alterne la visibilidad de los dos elementos **Ventas y destino por mes**.
-     
+
      *En otras palabras, oculte el objeto visual visible y haga visible el objeto visual oculto.*
 
      ![Imagen 122](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image45.png)
@@ -288,7 +271,7 @@ En esta tarea, agregará dos marcadores, para mostrar cada uno de los objetos vi
 1. En el panel **Selección**, para que los dos objetos visuales sean visibles, basta con mostrar el objeto visual oculto.
 
 1. Cambie el tamaño y la posición de los dos objetos visuales para que rellenen la página debajo del objeto visual de tarjeta de varias filas y se superpongan por completo.
-    
+
     *Para seleccionar el objeto visual que está oculto, selecciónelo en el panel **Selección**.*
 
     ![Imagen 124](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image47.png)
@@ -297,7 +280,7 @@ En esta tarea, agregará dos marcadores, para mostrar cada uno de los objetos vi
 
 *La siguiente fase de diseño consiste en agregar dos botones a la página, lo que permitirá al usuario del informe seleccionar los marcadores.*
 
-### **Tarea 2: Adición de botones**
+## **Agregar botones**
 
 En esta tarea, agregará dos botones y les asignará acciones de marcador.
 
@@ -334,7 +317,7 @@ En esta tarea, agregará dos botones y les asignará acciones de marcador.
 
 *Ahora se ha completado el diseño del informe Sales Analysis.*
 
-### **Tarea 3: Publicación del informe**
+## **Publicación del informe**
 
 En esta tarea, publicará el informe.
 
@@ -345,7 +328,7 @@ En esta tarea, publicará el informe.
 1. En la segmentación **Región**, seleccione **Seleccionar todo**.
 
 1. Guarde el archivo de Power BI Desktop.
-    
+
     *El archivo se debe guardar siempre antes de publicarlo en el servicio Power BI.*
 
 1. En la pestaña de la cinta **Inicio**, en el grupo **Compartir**, seleccione **Publicar**.
@@ -362,11 +345,7 @@ En esta tarea, publicará el informe.
 
 *En el siguiente ejercicio, explorará el informe en el servicio Power BI.*
 
-## **Ejercicio 5: Exploración del informe**
-
-En este ejercicio, explorará el informe en el servicio Power BI.
-
-### **Tarea 1: Exploración del informe**
+## **Exploración del informe**
 
 En esta tarea, explorará el informe en el servicio Power BI.
 
@@ -381,13 +360,13 @@ En esta tarea, explorará el informe en el servicio Power BI.
 1. Para volver a la página de origen, seleccione el botón de flecha en la esquina superior izquierda de la página.
 
 1. Seleccione la página **Mi rendimiento**.
-    
+
     *Seleccione cada uno de los botones y, después, observe que se muestra otro objeto visual.*
 
-### **Tarea 2: Finalización**
+### **Finalización**
 
 En esta tarea, completará el laboratorio.
 
 Para volver al área de trabajo, en el banner de la página web de la ventana, seleccione **Mi área de trabajo**.
 
- ![Imagen 23](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image56.png)
+![Imagen 23](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image56.png)
