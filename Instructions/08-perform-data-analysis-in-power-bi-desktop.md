@@ -1,13 +1,13 @@
 ---
 lab:
-  title: "Análisis de datos en Power\_BI"
-  module: 8 - Perform Data Analysis in Power BI
+  title: "Realización de análisis avanzados en Power\_BI"
+  module: Perform Data Analysis in Power BI
 ---
 
 
 # **Análisis de datos en Power BI**
 
-**El tiempo estimado para completar el laboratorio es de 45 minutos.**
+## **Caso de laboratorio**
 
 En este laboratorio, creará el informe **Exploración de ventas**.
 
@@ -16,26 +16,9 @@ En este laboratorio, aprenderá a:
 - Crear gráficos de dispersión animados
 - Usar un objeto visual para pronosticar valores
 
-### **Caso de laboratorio**
+**Este laboratorio debe durar unos 30 minutos**.
 
-Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, le recomendamos que siga el orden siguiente:
-
-1. Preparación de datos en Power BI Desktop
-1. Carga de datos en Power BI Desktop
-1. Modelado de datos en Power BI Desktop
-1. Creación de cálculos DAX en Power BI Desktop
-1. Creación de cálculos DAX avanzados en Power BI Desktop
-1. Diseño de un informe en Power BI Desktop
-1. Mejora de un informe en Power BI Desktop
-1. **Análisis de datos en Power BI**
-1. Creación de un panel de Power BI
-1. Aplicación de seguridad de nivel de fila
-
-## **Ejercicio 1: Creación del informe**
-
-En este ejercicio creará el informe **Exploración de ventas**.
-
-### **Tarea 1: Introducción e inicio de sesión**
+## **Introducción e inicio de sesión**
 
 En esta tarea configurará el entorno para el laboratorio iniciando sesión en Power BI.
 
@@ -55,7 +38,7 @@ En esta tarea configurará el entorno para el laboratorio iniciando sesión en P
 
      ![Imagen 22](Linked_image_Files/07-my-workspace-new.png)
 
-### **Tarea 2: Introducción y creación de un conjunto de datos**
+## **Introducción y creación de un conjunto de datos**
 
 En esta tarea configurará el entorno para el laboratorio creando un conjunto de datos. *Si ya ha publicado el conjunto de datos, pase a la siguiente tarea.*
 
@@ -71,7 +54,7 @@ En esta tarea configurará el entorno para el laboratorio creando un conjunto de
 
 *Este método creará un informe y un conjunto de datos. Solo usaremos el conjunto de datos para crear un nuevo informe en este ejercicio. Este mismo proceso se puede realizar con un conjunto de datos de otro informe en lugar de cargar uno nuevo. Además, si no va a usar el informe, los procedimientos recomendados del área de trabajo sugieren eliminar el archivo innecesario.*
 
-### **Tarea 3: Creación del informe**
+## **Creación del informe**
 
 En esta tarea creará una conexión dinámica al conjunto de datos de Power BI que creó en la última tarea y, a continuación, creará un nuevo informe **Exploración de ventas**.
 
@@ -91,11 +74,7 @@ En esta tarea creará una conexión dinámica al conjunto de datos de Power BI 
 
 *Ahora creará dos páginas de informe, y en cada una trabajará con un objeto visual diferente para analizar y explorar los datos.*
 
-## **Ejercicio 2: Creación de un gráfico de dispersión**
-
-En este ejercicio, creará un gráfico de dispersión que se puede animar.
-
-### **Tarea 1: Creación de un gráfico de dispersión animado**
+## **Creación de un gráfico de dispersión animado**
 
 En esta tarea, creará un gráfico de dispersión que se puede animar.
 
@@ -141,11 +120,8 @@ En esta tarea, creará un gráfico de dispersión que se puede animar.
 
 1. Guarde el archivo de Power BI Desktop.
 
-## **Ejercicio 3: Creación de una previsión**
 
-En este ejercicio creará una previsión para determinar los posibles ingresos de ventas futuros.
-
-### **Tarea 1: Creación de una previsión**
+## **Creación de una previsión**
 
 En esta tarea creará una previsión para determinar los posibles ingresos de ventas futuros.
 
@@ -197,7 +173,7 @@ En esta tarea creará una previsión para determinar los posibles ingresos de ve
 
 1. En el panel **Filtros**, filtre solo por **Ropa** y observe que genera un resultado diferente.
 
-### **Tarea 2: Finalización**
+### **Finalizar**
 
 En esta tarea completará el laboratorio en Power BI Desktop.
 
@@ -209,4 +185,4 @@ En esta tarea completará el laboratorio en Power BI Desktop.
 
     ![Imagen 23](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image46.png)
 
-1.  Cierre Power BI Desktop.
+1. Cierre Power BI Desktop.
