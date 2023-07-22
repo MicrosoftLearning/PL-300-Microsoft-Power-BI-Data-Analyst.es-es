@@ -1,40 +1,24 @@
 ---
 lab:
   title: Aplicación de seguridad de nivel de fila
-  module: 12 - Row-Level Security
+  module: Enforce Row-Level Security
 ---
 
 
 # **Aplicación de seguridad de nivel de fila**
 
-**El tiempo estimado para completar el laboratorio es de 45 minutos.**
+## **Caso de laboratorio**
 
 En este laboratorio, aplicará la seguridad de nivel de fila para asegurarse de que un vendedor solo pueda analizar los datos de ventas de las regiones que tenga asignadas.
 
 En este laboratorio, aprenderá a:
 
 - Aplicar seguridad de nivel de fila
+- Elección entre métodos dinámicos y estáticos
 
-### **Caso de laboratorio**
+**Este laboratorio debe durar unos 45 minutos**.
 
-Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, le recomendamos que siga el orden siguiente:
-
-1. Preparación de datos en Power BI Desktop
-1. Carga de datos en Power BI Desktop
-1. Diseño de un modelo de datos en Power BI
-1. Creación de cálculos DAX en Power BI Desktop
-1. Creación de cálculos DAX avanzados en Power BI Desktop
-1. Diseño de un informe en Power BI Desktop
-1. Mejora de un informe en Power BI Desktop
-1. Análisis de datos en Power BI Desktop
-1. Creación de un panel de Power BI
-1. **Aplicación de seguridad de nivel de fila**
-
-## **Ejercicio 1: Aplicación de seguridad de nivel de fila**
-
-En este ejercicio aplicará seguridad de nivel de fila para asegurarse de que los vendedores solo puedan ver las ventas realizadas en sus regiones asignadas.
-
-### **Tarea 1: Primeros pasos**
+## **Introducción**
 
 En esta tarea, configurará el entorno para el laboratorio.
 
@@ -60,7 +44,7 @@ En esta tarea, configurará el entorno para el laboratorio.
 
 1. Si se le pide que aplique los cambios, seleccione **Aplicar más tarde**.
 
-### **Tarea 2: Aplicación de seguridad de nivel de fila**
+## **Aplicar seguridad de nivel de fila**
 
 En esta tarea, aplicará seguridad de nivel de fila para asegurarse de que los vendedores solo puedan ver las ventas realizadas en sus regiones asignadas.
 
@@ -68,7 +52,7 @@ En esta tarea, aplicará seguridad de nivel de fila para asegurarse de que los v
 
    ![Imagen 5701](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image20.png)
 
-1. En el panel **Campos**, seleccione la tabla **Salesperson (Performance)** (Vendedor [Rendimiento]).
+1. En el panel **Campos**, seleccione la tabla **Vendedor (Rendimiento)** .
 
 
 1. Revise los datos y verá que Michael Blythe (EmployeeKey 281) tiene un valor de UPN de **michael-blythe@adventureworks.com** .
@@ -126,6 +110,10 @@ En esta tarea, aplicará seguridad de nivel de fila para asegurarse de que los v
 1. En la ventana **Administrar roles**, seleccione **Eliminar**. Cuando se le pida que confirme la eliminación, seleccione **Sí, eliminar**.
 
    ![Imagen 17](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image34.png)
+
+### **Finalización**
+
+En esta tarea, completará el laboratorio.
 
 1. Seleccione **Guardar** y guarde el archivo de Power BI Desktop para finalizar el laboratorio.
 

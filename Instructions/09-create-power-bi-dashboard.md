@@ -1,43 +1,24 @@
 ---
 lab:
   title: "Creación de un panel de Power\_BI"
-  module: 11 - Create Dashboards
+  module: Create Dashboards
 ---
 
 
 # **Creación de un panel de Power BI**
 
-**El tiempo estimado para completar el laboratorio es de 45 minutos.**
+## **Caso de laboratorio**
 
-En este laboratorio creará el panel **Supervisión de ventas**.
+En este laboratorio, creará el panel **Supervisión de ventas** en el servicio Power BI mediante un informe existente.
 
 En este laboratorio, aprenderá a:
 
 - Anclar objetos visuales en un panel
 - Usar Preguntas y respuestas para crear iconos de panel
 
-### **Caso de laboratorio**
+**Este laboratorio debe durar unos 45 minutos**.
 
-Este laboratorio es una de las muchas series de laboratorios que se diseñaron como una historia completa sobre la preparación de datos para publicarlos como informes y paneles. Puede completar los laboratorios en cualquier orden. Sin embargo, si piensa trabajar en varios de ellos, le recomendamos que siga el orden siguiente:
-
-1. Preparación de datos en Power BI Desktop
-1. Carga de datos en Power BI Desktop
-1. Modelado de datos en Power BI Desktop
-1. Creación de cálculos DAX en Power BI Desktop
-1. Creación de cálculos DAX avanzados en Power BI Desktop
-1. Diseño de un informe en Power BI Desktop
-1. Mejora de un informe en Power BI Desktop
-1. Análisis de datos en Power BI Desktop
-1. **Creación de un panel de Power BI**
-1. Aplicación de seguridad de nivel de fila
-
-## **Ejercicio 1: Creación de un panel**
-
-En este ejercicio creará el panel **Supervisión de ventas**. El panel completado tendrá un aspecto similar al siguiente:
-
-![Imagen del panel completado, que consta de tres iconos.](Linked_image_Files/09-create-power-bi-dashboard_image1.png)
-
-### **Tarea 1: Introducción e inicio de sesión**
+## **Introducción e inicio de sesión**
 
 En esta tarea configurará el entorno para el laboratorio iniciando sesión en Power BI.
 
@@ -57,7 +38,7 @@ En esta tarea configurará el entorno para el laboratorio iniciando sesión en P
 
      ![Imagen 22](Linked_image_Files/07-my-workspace-new.png)
 
-### **Tarea 2: Introducción y apertura del informe**
+## **Introducción y apertura del informe**
 
 En esta tarea configurará el entorno para el laboratorio abriendo el informe de inicio.
 
@@ -83,7 +64,7 @@ En esta tarea configurará el entorno para el laboratorio abriendo el informe de
 
 1. Si se le pide que aplique los cambios, seleccione **Aplicar más tarde**.
 
-### **Tarea 3: Introducción y publicación del informe**
+## **Introducción y publicación del informe**
 
 En esta tarea configurará el entorno para el laboratorio creando un conjunto de datos. *Si ya ha publicado el conjunto de datos, pase a la siguiente tarea.*
 
@@ -97,7 +78,7 @@ En esta tarea configurará el entorno para el laboratorio creando un conjunto de
 
 *Si se le pide que reemplace el conjunto de datos, seleccione **Reemplazarlo**.*
 
-### **Tarea 4: Creación de un panel**
+## **Creación de un panel**
 
 En esta tarea creará el panel **Supervisión de ventas**. Anclará un visual del informe y agregará un icono basado en un URI de datos de imagen, además de usar Preguntas y respuestas para crear un icono.
 
@@ -173,7 +154,7 @@ En esta tarea creará el panel **Supervisión de ventas**. Anclará un visual de
 
     ![Imagen 52](Linked_image_Files/09-create-power-bi-dashboard_image35.png)
 
-### **Tarea 5: Edición de los detalles del icono**
+## **Edición de los detalles del icono**
 
 En esta tarea modificará los detalles de dos iconos.
 
@@ -197,11 +178,11 @@ En esta tarea modificará los detalles de dos iconos.
 
 *Actualizará el conjunto de datos en el siguiente ejercicio. En función de los datos y el informe, puede hacer una actualización de datos ad hoc en cualquier momento o establecer una programación. Sin embargo, las actualizaciones programadas requieren puertas de enlace que no se pueden configurar para este laboratorio. Por tanto, desde Power BI Desktop, realizará una actualización de datos manual y, después, cargará el archivo en el área de trabajo.*
 
-## **Ejercicio 2: Actualización del conjunto de datos**
+## **Actualización del conjunto de datos**
 
 En este ejercicio, primero se cargarán los datos del pedidos de ventas de junio de 2020 en la base de datos **AdventureWorksDW2020**. A continuación, abrirá el archivo de Power BI Desktop, actualizará los datos y cargará el archivo en el área de trabajo.
 
-### **Tarea 1: Actualización de la base de datos de laboratorio**
+## **Actualización de la base de datos de laboratorio**
 
 En esta tarea, se ejecutará un script de PowerShell para actualizar los datos de la base de datos **AdventureWorksDW2020**.
 
@@ -215,11 +196,11 @@ En esta tarea, se ejecutará un script de PowerShell para actualizar los datos d
 
 *La base de datos **AdventureWorksDW2020** ahora incluye los pedidos de ventas realizados en junio de 2020.*
 
-### **Tarea 2: Actualización del archivo de Power BI Desktop**
+## **Actualización del archivo de Power BI Desktop**
 
 En esta tarea abrirá el archivo **Sales Analysis** de Power BI Desktop, actualizará los datos y cargará el archivo en su área de trabajo **Sales Analysis**.
 
-1. En el archivo de Power BI Desktop, en el panel **Campos**, haga clic con el botón derecho en la tabla **Ventas** y, después, seleccione **Actualizar datos**.
+1. En el archivo de Power BI Desktop, en el panel **Datos**, haga clic con el botón derecho en la tabla **Ventas** y, a continuación, seleccione **Actualizar datos**.
 
     ![Imagen 55](Linked_image_Files/09-create-power-bi-dashboard_image47.png)
 
@@ -235,11 +216,7 @@ En esta tarea abrirá el archivo **Sales Analysis** de Power BI Desktop, actual
 
 *El conjunto de datos en el servicio Power BI ahora incluye los datos de ventas de junio de 2020.*
 
-## **Ejercicio 3: Revisión del panel**
-
-En este ejercicio revisará el panel para ver las ventas actualizadas.
-
-### **Tarea 1: Revisión del panel**
+### **Revisión del panel**
 
 En esta tarea revisará el panel para ver las ventas actualizadas.
 
@@ -252,3 +229,9 @@ En esta tarea revisará el panel para ver las ventas actualizadas.
     *Si no ve los datos de junio de 2020, es posible que tenga que presionar **F5** para volver a cargar el explorador web.*
 
     ![Imagen 33](Linked_image_Files/09-create-power-bi-dashboard_image50.png)
+
+### **Finalización**
+
+En esta tarea, completará el laboratorio.
+
+1. Guarde el informe y cierre el explorador.
