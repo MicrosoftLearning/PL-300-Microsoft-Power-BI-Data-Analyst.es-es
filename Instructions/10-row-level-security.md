@@ -16,11 +16,11 @@ En este laboratorio, aprenderá a:
 - Aplicar seguridad de nivel de fila
 - Elección entre métodos dinámicos y estáticos
 
-**Este laboratorio debe durar unos 45 minutos**.
+**Este laboratorio debe durar unos 20 minutos**.
 
 ## **Introducción**
 
-En esta tarea, configurará el entorno para el laboratorio.
+En esta tarea configurará el entorno para el laboratorio.
 
 *Importante: Si ha realizado el laboratorio anterior (y lo ha completado correctamente) no realice esta tarea, continúe a partir de la siguiente.*
 
