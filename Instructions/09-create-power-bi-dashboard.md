@@ -16,7 +16,7 @@ En este laboratorio, aprenderá a:
 - Anclar objetos visuales en un panel
 - Usar Preguntas y respuestas para crear iconos de panel
 
-**Este laboratorio debe durar unos 45 minutos**.
+**Este laboratorio debe durar unos 30 minutos**.
 
 ## **Introducción e inicio de sesión**
 

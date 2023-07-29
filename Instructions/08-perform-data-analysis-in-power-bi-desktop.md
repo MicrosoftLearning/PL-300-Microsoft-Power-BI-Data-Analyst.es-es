@@ -1,6 +1,6 @@
 ---
 lab:
-  title: "Realización de análisis avanzados en Power\_BI"
+  title: Realización de un análisis avanzado con objetos visuales de inteligencia artificial
   module: Perform Data Analysis in Power BI
 ---
 
