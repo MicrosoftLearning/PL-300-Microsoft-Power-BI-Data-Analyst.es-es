@@ -1,52 +1,52 @@
 ---
 demo:
-    title: 'Design a data model in Power BI'
-    module: 'Design a data model in Power BI'
+  "\_\_ title": Design a data model in Power BI
+  "\_\_ module": Design a data model in Power BI
 ---
-# Design a data model in Power BI
+# Diseño de un modelo de datos en Power BI
 
-## Review the model
+## Revisión del modelo
 
-1. In the Data pane, expand all tables to reveal all fields.
+1. En el panel Datos, expanda todas las tablas para revelar los campos.
 
-1. In the Sales table, point out the OrderDate hierarchy, which was created automatically.
+1. En la tabla Sales, señale la jerarquía OrderDate, que se creó automáticamente.
 
-1. Explain that a Date table will be created in the next demo.
+1. Explique que se creará una tabla de fechas en la próxima demostración.
 
-1. In Model view, hover over the automatically-created relationship between the two tables.
+1. En la vista de modelo, mantenga el cursor sobre la relación creada automáticamente entre las dos tablas.
 
-1. Explain how filters will propagate from the Product table to the Sales table.
+1. Explique cómo se propagarán los filtros de la tabla Product a la tabla Sales.
 
-## Create a hierarchy
+## Creación de una jerarquía
 
-1. Create a hierarchy based on the Product table Category column.
+1. Cree una jerarquía basada en la columna Categoría de la tabla Producto.
 
-1. Rename the hierarchy as Products.
+1. Cambie el nombre de la jerarquía a Products.
 
-1. Add the Product column as the second level.
+1. Agregue la columna Product como segundo nivel.
 
-## Set model properties
+## Establecimiento de las propiedades de modelo
 
-1. Hide both the ProductID columns.
+1. Oculte ambas columnas de ProductID.
 
-1. Format the Quantity column to use the thousands separator.
+1. Aplíquele formato a la columna Quantity para usar el separador de miles.
 
-1. Multi-select the Sales and Unit Price columns, and format them to use two decimal places.
+1. Realice una selección múltiple de las columnas Sales y Unit Price y aplíqueles formato para usar dos posiciones decimales.
 
-## Validate the model design with a matrix visual
+## Validación del diseño del modelo con un objeto visual de matriz
 
-1. In Report view, add a matrix visual to the page, and then size it to fill the entire page.
+1. En la vista Informe, agregue un objeto visual de matriz a la página y, a continuación, cambie su tamaño para que llene toda la página.
 
-1. Add the Products hierarchy to the rows, and then add the Quantity, Sales, and Unit Price fields.
+1. Agregue la jerarquía Products a las filas y luego agregue los campos Quantity, Sales y Unit Price.
 
-1. Expand all levels of the Products hierarchy.
+1. Expanda todos los niveles de la jerarquía Products.
 
-1. Point out that the Unit Price values are the sum of prices, which is not correct.
+1. Señale que los valores de Unit Price son la suma de los precios, lo cual no es correcto.
 
-1. In the Data pane, select the Unit Price field, and configure its summarization to use Average.
+1. En el panel Datos, seleccione el campo Precio unitario y configure su resumen para usar Promedio.
 
-1. Remove the Sum of Unit Price column from the matrix visual, and then add the Unit Price field back again.
+1. Elimine la columna Sum of Unit Price del objeto visual de matriz y luego vuelva a agregar el campo Unit Price.
 
-1. Save the Power BI Desktop file.
+1. Guarde el archivo de Power BI Desktop.
 
-1. Leave the Power BI Desktop file open for the next demo.
+1. Deje el archivo de Power BI Desktop abierto para la próxima demostración.
