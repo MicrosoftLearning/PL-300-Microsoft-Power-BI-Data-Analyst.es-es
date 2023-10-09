@@ -33,4 +33,4 @@ demo:
 
 1. Cierre Power BI Desktop.
 
-> **Nota**: Se pueden encontrar recursos de demostración en el [repositorio de GitHub](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/tree/Main/Allfiles/Demo) PL-300 Power BI Data Analyst.
+> **Nota**: En el [repositorio de GitHub](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/tree/Main/Allfiles/Demo) PL-300 Power BI Data Analyst se pueden encontrar recursos de demostración.
