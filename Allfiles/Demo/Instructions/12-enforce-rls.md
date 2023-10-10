@@ -1,74 +1,74 @@
 ---
 demo:
-    title: 'Enforce Row-level security in Power BI'
-    module: 'Deploy and manage Power BI service items'
+  "\_\_ title": Enforce Row-level security in Power BI
+  "\_\_ module": Deploy and manage Power BI service items
 ---
-# Enforce Row-level security in Power BI
+# Implementación de seguridad a nivel de fila en Power BI
 
-## Add a security table to the model
+## Adición de una tabla de seguridad al modelo
 
-1. In Power BI Desktop, open the Power Query Editor window.
+1. En Power BI Desktop, abra la ventana Editor de Power Query.
 
-1. Add a new query based on the `D:\Demo\Data\**ManagerCategory**.xlsx` file.
+1. Agregue una nueva consulta basada en el archivo `D:\Demo\Data\**ManagerCategory**.xlsx`.
 
-1. Use the **ManagerCategory** table in the file.
+1. Use la tabla **ManagerCategory** en el archivo.
 
-1. Remove the **Manager** column.
+1. Elimine la columna **Manager**.
 
-1. Split the **Category** column by the semicolon delimiter and split into rows (advanced options).
+1. Divida la columna **Categoría** por el delimitador de punto y coma y divídala en filas (opciones avanzadas).
 
-1. In the **Email** column, replace the value **<ty-johnston@tailspintoys.com>** with the recipient account (from the MySettings.txt file).
+1. En la columna **Email**, reemplace el valor **<ty-johnston@tailspintoys.com>** por la cuenta del destinatario (del archivo MySettings.txt).
 
-1. Point out that this user is able to see three product categories: **Collective pitch, Trainer, and Warbird**.
+1. Señale que este usuario puede ver tres categorías de productos: **Collective pitch, Trainer y Warbird**.
 
-1. Close and apply the queries.
+1. Cierre y aplique las consultas.
 
-1. In Model view, create a relationship between the **ManagerCategory** and Product tables relating the **Category** column.
+1. En la vista Modelo, cree una relación entre las tablas **ManagerCategory** y Product relacionando la columna **Category**.
 
-1. Set the cross filter direction to Single (**ManagerCategory** filters Product).
+1. Establezca la dirección del filtro cruzado en Único (**ManagerCategory** filtra Product).
 
-1. Hide the **ManagerCategory** table.
+1. Oculte la tabla **ManagerCategory**.
 
-## Add a role
+## Agregar un rol
 
-1. In Report view, open Manage Roles, and then create a role named **Manager**.
+1. En la vista Informe, abra Administrar roles y cree un rol denominado **Manager**.
 
-1. In the role, filter the **ManagerCategory** table Email address column as follows:
+1. En el rol, filtre la columna Dirección de correo electrónico de la tabla **ManagerCategory** de la siguiente manera:
 
   ```dax
    [Email] = USERPRINCIPALNAME()
    ```
 
-1. **Save**.
+1. Seleccione **Guardar**.
 
-## Validate the role
+## Validación del rol
 
-1. Open View As, and then configure the following settings:
+1. Abra Ver como y luego configure los siguientes ajustes:
 
-    - Other User: Check, then enter the recipient account.
+    - Otro usuario: verifique y luego escriba la cuenta del destinatario.
 
-    - Manager role: Check
+    - Rol de administrador: Comprobar
 
-1. Point out that the filter visual shows just three product categories.
+1. Señale que el objeto visual de filtro muestra solo tres categorías de productos.
 
-1. Stop viewing the report using the view-as options.
+1. Deje de ver el informe usando las opciones de ver como.
 
-1. Save the Power BI Desktop file.
+1. Guarde el archivo de Power BI Desktop.
 
-1. Publish the Power BI Desktop file to the workspace, overwriting the dataset and report in the service.
+1. Publique el archivo de Power BI Desktop en el área de trabajo, sobrescribiendo el conjunto de datos y el informe en el servicio.
 
-1. Close Power BI Desktop.
+1. Cierre Power BI Desktop.
 
-## Configure dataset security
+## Configuración de la seguridad del conjunto de datos
 
-1. In the Power BI service for the instructor, from the Navigation pane, open the security page for the **Sales Analysis** dataset.
+1. En el servicio Power BI para el instructor, desde el panel Navegación, abra la página de seguridad para el conjunto de datos **Análisis de ventas**.
 
-1. In the Members section, enter the recipient account (representing **Ty Johnston**).
+1. En la sección Miembros, escriba la cuenta del destinatario (que representa a **Ty Johnston**).
 
-1. Add and Save.
+1. Agréguela y guarde los cambios.
 
-## Test row-level security in the app
+## Prueba de la seguridad de nivel de fila en la aplicación
 
-1. In the Power BI service for the recipient, refresh the dashboard (left open from the previous demo).
+1. En el servicio Power BI para el destinatario, actualice el panel (que se dejó abierto desde la demostración anterior).
 
-1. In the **Profit Margin** dashboard tile, verify that only three product categories can be seen.
+1. En el icono del panel **Profit Margin**, compruebe que solo se ven tres categorías de productos.
