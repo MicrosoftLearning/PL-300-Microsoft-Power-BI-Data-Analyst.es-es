@@ -9,13 +9,13 @@ demo:
 
 1. Agregue otra página nueva al informe denominada **Análisis de categoría**.
 
-1. Copie, pegue y, luego, sincronice la **segmentación Year** de la página **Análisis de beneficios** con la nueva página.
+1. Copie, pegue y después sincronice el **Year Slicer** de la página **Análisis de beneficios** con la nueva página.
 
 1. Agregue un nuevo grupo basado en la columna **Categoría** de la tabla **Producto**.
 
 1. Cree un grupo basado en el valor Trainer.
 
-1. Active la casilla **Incluir otro grupo**.
+1. Marque la casilla **Incluir otro grupo**.
 
 1. Agregue un objeto visual de matriz y colóquelo y cambie su tamaño para que llene la página.
 

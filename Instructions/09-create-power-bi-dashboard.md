@@ -60,8 +60,6 @@ En esta tarea configurará el entorno para el laboratorio abriendo el informe de
     
     *Para ignorar el mensaje de advertencia, a la derecha del mensaje de advertencia en amarillo, seleccione la **X**.*
 
-1. Para crear una copia del archivo, vaya a **Archivo > Guardar como** y guárdelo en la carpeta **D:\PL300\MySolution**.
-
 1. Si se le pide que aplique los cambios, seleccione **Aplicar más tarde**.
 
 ## **Introducción y publicación del informe**
