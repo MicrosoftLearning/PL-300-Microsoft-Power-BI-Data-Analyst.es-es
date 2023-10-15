@@ -1,81 +1,75 @@
----
-demo:
-  "\_\_ title": (Optional) Optimize model performance in Power BI
-  "\_\_ module": Optimize model performance in Power BI
----
+# (Optional) Optimize model performance
 
-# (Opcional) Optimización del rendimiento del modelo
+## Review a DirectQuery model design
 
-## Revisión de un diseño de modelo de DirectQuery
+> **Note**: This demo uses a different Power BI Desktop file.
 
-> **Nota:** Esta demostración usa un archivo diferente de Power BI Desktop.
+1. Open the D:\PL300\Demo\Resources\AW Sales Analysis.pbix file.
 
-1. Abra el archivo D:\PL300\Demo\Resources\AW Sales Analysis.pbix.
+1. If prompted to connect to the data source, click Connect.
 
-1. Si se le solicita que se conecte al origen de datos, haga clic en Conectar.
+1. At the bottom-right corner, point out that the data model comprises DirectQuery tables.
 
-1. En la esquina inferior derecha, señale que el modelo de datos comprende tablas de DirectQuery.
+1. Save the Power BI Desktop file to the D:\PL300\Demo\MySolution folder.
 
-1. Guarde el archivo de Power BI Desktop en la carpeta D:\PL300\Demo\MySolution.
+1. In Model view, introduce the model design, which includes two related tables.
 
-1. En la vista Modelo, introduzca el diseño del modelo, que incluye dos tablas relacionadas.
+1. In Report view, interact with the report by selecting different items in the Fiscal Year slicer.
 
-1. En la vista Informe, interactúe con el informe seleccionando diferentes elementos en la segmentación Fiscal Year.
+1. Drill through on any month column to reveal order details.
 
-1. Obtenga detalles de cualquier columna de mes para revelar los detalles del pedido.
+1. Return to the Sales Summary page.
 
-1. Vuelva a la página Resumen de ventas.
+## Review query performance
 
-## Revisión del rendimiento de consultas
+1. On the View ribbon tab, show the Performance Analyzer pane.
 
-1. En la pestaña de la cinta Ver, muestre el panel Analizador de rendimiento.
+1. Refresh the visuals, and then expand the slicer and Sales by Month visual.
 
-1. Actualice los objetos visuales y, a continuación, expanda la segmentación y el objeto visual Sales by Month.
+1. Point out that they used DirectQuery mode (data was requested from the data source).
 
-1. Indique que se ha usado el modo DirectQuery (los datos se han solicitado del origen de datos).
+## Configure Dual storage tables
 
-## Configuración de tablas de almacenamiento Dual
+1. In Model view, select the Date table, and then select the storage mode to Dual.
 
-1. En la vista Modelo, seleccione la tabla Date y luego seleccione el modo de almacenamiento en Dual.
+1. When the data has imported, switch to Report view, and then in the Performance Analyzer pane, refresh the visuals.
 
-1. Cuando los datos se hayan importado, cambie a la vista Informe y, después, en el panel Analizador de rendimiento, actualice los objetos visuales.
+1. Point out that the Date table is now queried from the model cache.
 
-1. Señale que la tabla Fecha ahora se consulta desde la memoria caché del modelo.
+## Create aggregations
 
-## Creación de agregaciones
+1. Open the Power Query Editor window, and in the Queries pane, duplicate the Reseller Sales query.
 
-1. Abra la ventana del Editor de Power Query y, en el panel Consultas, duplique la consulta Ventas del distribuidor.
+1. Rename the new query Reseller Sales Agg.
 
-1. Cambie el nombre de la nueva consulta a Agregación de ventas del distribuidor.
+1. Apply a group by transformation, as follows:
 
-1. Aplique un grupo por transformación de la siguiente manera:
+    - Group by OrderDate.
 
-    - Agrupe por OrderDate.
+    - New column: Sales, which is the sum of the SalesAmount column.
 
-    - Nueva columna: Sales, que es la suma de la columna SalesAmount.
+1. Close and apply the queries.
 
-1. Cierre y aplique las consultas.
+1. In Model view, set the storage mode for the Reseller Sales Agg table to Import.
 
-1. En la vista Modelo, configure el modo de almacenamiento para la tabla Reseller Sales Agg en Importar.
+1. Create a relationship from the Date table Date column to the Reseller Sales Agg table OrderDate column—ensure that the column cardinality is set to one-to-many, with the Date table on the one-side.
 
-1. Cree una relación desde la columna Fecha de la tabla Fecha hasta la columna OrderDate de la tabla Agregación de ventas del distribuidor. Asegúrese de que la columna tenga una cardinalidad de uno a varios, con la tabla Fecha en el lado de uno.
+1. Manage aggregations on the Reseller Sales Agg table:
 
-1. Administre agregaciones en la tabla Agregación de ventas del distribuidor:
+    - OrderDate: Group by the Reseller Sales table OrderDate column.
 
-    - OrderDate: agrupe por la columna OrderDate de la tabla Ventas del distribuidor.
+    - Sales: Sum the Reseller Sales table SalesAmount column.
 
-    - Sales: sume la columna SalesAmount de la tabla Ventas del distribuidor.
+1. Point out that the aggregation table is now hidden.
 
-1. Señale que la tabla de agregación ahora está oculta.
+1. Switch to Report view, and in the Performance Analyzer pane, and then refresh the visuals.
 
-1. Cambie a la vista Informe y, después, en el panel Analizador de rendimiento, actualice los objetos visuales.
+1. Point out that the Sales by Month table is now queried from the model cache.
 
-1. Señale que la tabla Sales by Month ahora se consulta desde la memoria caché del modelo.
+1. Drill through from any month, and point out that the details in the table are requested as DirectQuery from the data source.
 
-1. Obtenga detalles de cualquier mes y señale que los detalles de la tabla se solicitan como DirectQuery desde el origen de datos.
+1. Save the Power BI Desktop file.
 
-1. Guarde el archivo de Power BI Desktop.
+1. Close Power BI Desktop.
 
-1. Cierre Power BI Desktop.
-
-> **Nota:** No volverá a usar esta solución de Power BI Desktop.
+> **Note**: You will not use this Power BI Desktop solution again.

@@ -1,8 +1,3 @@
----
-demo:
-    title: 'Get data in Power BI'
-    module: 'Get data in Power BI'
----
 # Get data in Power BI
 
 ## Start the development of a Power BI report
