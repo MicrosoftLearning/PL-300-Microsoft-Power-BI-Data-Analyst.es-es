@@ -1,51 +1,57 @@
-# Create and manage workspaces
+---
+demo:
+  "\_\_ title": Create and manage workspaces in Power BI
+  "\_\_ module": Deploy and manage Power BI service items
+---
 
-## Share a dashboard
+# Crear y administrar áreas de trabajo
 
-1. Open another Microsoft Edge window, in a new InPrivate window.
+## Uso compartido de un panel
 
-1. Sign in to the Power BI service, and accept the Power BI Pro trial license if not already done.
+1. Abra otra ventana de Microsoft Edge, en una nueva ventana de InPrivate.
 
-## Open the shared dashboard
+1. Inicie sesión en el servicio Power BI y acepte la licencia de prueba de Power BI Pro si aún no lo ha hecho.
 
-1. Switch to the **instructor** Power BI service window.
+## Apertura del panel compartido
 
-1. Open the **Sales Monitoring** dashboard.
+1. Cambie a la ventana del servicio Power BI del **instructor**.
 
-1. On the menu, select Share.
+1. Abra el panel **Supervisión de ventas**.
 
-1. Share the dashboard to the recipient account.
+1. En el menú, seleccione Compartir.
 
-1. Switch to the **recipient** Power BI service window.
+1. Comparta el panel con la cuenta del destinatario.
 
-1. Open **Shared with Me** and open the Sales Monitoring dashboard.
+1. Cambie a la ventana del servicio Power BI del **destinatario**.
 
-1. Point out that the dashboard is read-only.
+1. Abra **Compartido conmigo** y luego el panel Supervisión de ventas.
 
-## Create an app
+1. Señale que el panel es de solo lectura.
 
-1. Switch to the **instructor** Power BI service window.
+## Creación de una aplicación
 
-1. In the Navigation pane, select the workspace name.
+1. Cambie a la ventana del servicio Power BI del **instructor**.
 
-1. At the top-right, select **Create App**.
+1. En el panel Navegación, seleccione el nombre del área de trabajo.
 
-1. In the Setup section, enter description text and optionally choose a theme color.
+1. En la esquina superior derecha, seleccione **Crear aplicación**.
 
-1. In the Navigation section, optionally sequence the report before the dashboard.
+1. En la sección Configuración, escriba un texto de descripción y, opcionalmente, elija un color de tema.
 
-1. In the Permissions section, grant access to the recipient account.
+1. En la sección Navegación, secuencie opcionalmente el informe antes del panel.
 
-1. Publish the app.
+1. En la sección Permisos, conceda acceso a la cuenta del destinatario.
 
-## Get and open the app
+1. Publique la aplicación.
 
-1. Switch to the **recipient** Power BI service window.
+## Obtención y apertura de la aplicación
 
-1. Open Apps, and then get the app you just published.
+1. Cambie a la ventana del servicio Power BI del **destinatario**.
 
-1. Once added, open the app.
+1. Abra Aplicaciones y obtenga la aplicación que acaba de publicar.
 
-1. Navigate between the report pages and the dashboard.
+1. Una vez agregada, abra la aplicación.
 
-1. Leave the app open. It will be used in the row-level security demo later.
+1. Navegue entre las páginas del informe y el panel.
+
+1. Deje la aplicación abierta. Se usará en la demostración de seguridad de nivel de fila más adelante.

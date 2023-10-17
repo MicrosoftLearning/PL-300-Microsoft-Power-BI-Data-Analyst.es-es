@@ -1,30 +1,36 @@
-# Demo Setup
+---
+demo:
+  "\_\_ title": Setup demo environment
+  "\_\_ module": Setup demo environment
+---
 
-## VM Setup
+# Configuración de la demostración
 
-1. Sign in to the virtual machine environment using the Student account.
+## Configuración de la máquina virtual
 
-1. Open Microsoft Edge, then navigate to <https://powerbi.com> and sign in using the instructor account.
-    > **Tip**: If prompted to change the password, be sure to record it in the D:\PL300\Demo\Setup\MySettings.txt file.
+1. Inicie sesión en el entorno de máquina virtual mediante la cuenta Estudiante.
 
-1. In the Power BI service, accept the Power BI Pro trial.
+1. Abra Microsoft Edge y, después, vaya a <https://powerbi.com> e inicie sesión mediante la cuenta del instructor.
+    > **Sugerencia**: Si se le solicita que cambie de contraseña, asegúrese de registrarla en el archivo D:\PL300\Demo\Setup\MySettings.txt.
 
-## First demo setup
+1. En el servicio Power BI, acepte la prueba de Power BI Pro.
 
-1. Create a workspace and use the D:\PL300\Demo\Resources\Icon-Star.jpg image as its icon.
+## Primera configuración de demostración
 
-1. Open the D:\PL300\Demo\Setup\Sales Analysis.pbix file in Power BI Desktop.
+1. Cree un área de trabajo y use la imagen D:\PL300\Demo\Resources\Icon-Star.jpg como icono.
 
-1. In Power BI Desktop, sign in by using the instructor account.
+1. Abra el archivo D:\PL300\Demo\Setup\Sales Analysis.pbix en Power BI Desktop.
 
-1. Publish the report to the workspace you created earlier.
+1. En Power BI Desktop, inicie sesión mediante la cuenta del instructor.
 
-1. In the Power BI service, open the Sales Analysis report, and then pin the column/line chart visual to create a new dashboard named Sales Monitoring.
+1. Publique el informe en el área de trabajo que ha creado anteriormente.
 
-1. Pin the funnel chart to the dashboard, also.
+1. En el servicio Power BI, abra el informe Análisis de ventas y, después, ancle el objeto visual de gráfico de columnas/líneas para crear un nuevo panel denominado Supervisión de ventas.
 
-1. Open the dashboard and leave it ready for the first demo.
+1. Ancle también el gráfico de embudo al panel.
 
-1. Close Power BI Desktop.
+1. Abra el panel y déjelo listo para la primera demostración.
 
-> **Note**: Demo assets can be found in the PL-300 Power BI Data Analyst [GitHub Repository](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/tree/Main/Allfiles/Demo).
+1. Cierre Power BI Desktop.
+
+> **Nota**: Se pueden encontrar recursos de demostración en el [repositorio de GitHub](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/tree/Main/Allfiles/Demo) PL-300 Power BI Data Analyst.

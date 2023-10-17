@@ -1,28 +1,33 @@
-# Clean, transform, and load data in Power BI
+---
+demo:
+  "\_\_ title": 'Clean, transform, and load data in Power BI'
+  "\_\_ module": 'Clean, transform, and load data in Power BI'
+---
+# Limpieza, transformación y carga de datos en Power BI
 
-## Apply query transformations
+## Aplicación de transformaciones de consulta
 
-1. First, apply transformations to the Product query.
+1. Primero, aplique transformaciones a la consulta Product.
 
-1. Remove the RetailPrice, Photo, and Sales columns.
+1. Elimine las columnas RetailPrice, Photo y Sales.
 
-1. Change the data type of the Channels column to Whole Number.
+1. Cambie el tipo de datos de la columna Canales a Número entero.
 
-1. Rename the following columns:
+1. Cambiar el nombre de las columnas siguientes:
 
-    - ProductSKU to SKU
+    - ProductSKU a SKU
 
-    - ProductName to Product
+    - ProductName a Product
 
-    - ProductCategory to Category
+    - ProductCategory a Category
 
-    - ItemGroup to Item Group
+    - ItemGroup a Item Group
 
-    - KitType to Kit Type
+    - KitType a Kit Type
 
-1. Second, apply transformations to the Sales query.
+1. En segundo lugar, aplique transformaciones a la consulta Sales.
 
-1. Remove all columns, except:
+1. Elimine todas las columnas, excepto las siguientes:
 
     - OrderDate
 
@@ -32,38 +37,38 @@
 
     - UnitPrice
 
-1. Change the data type of the UnitPrice column to Fixed Decimal Number.
+1. Cambie el tipo de datos de la columna UnitPrice a Número decimal fijo.
 
-1. Rename the UnitPrice column to Unit Price.
+1. Cambie el nombre de la columna UnitPrice a Precio unitario.
 
-1. Multi-select the Quantity and Unit Price columns, and then add a new column based on their multiplication.
+1. Realice una selección múltiple de las columnas Cantidad y Unit Price y, a continuación, agregue una nueva columna en función de su multiplicación.
 
-1. Rename the new column as Sales.
+1. Cambie el nombre de la nueva columna a Sales.
 
-## Integrate queries
+## Integración de consultas
 
-1. Create a new query using the Excel connector, connecting to the D:\PL300\Demo\Data\ProductCost.xlsx file.
+1. Cree una nueva consulta utilizando el conector de Excel, conectándose al archivo D:\PL300\Demo\Data\ProductCost.xlsx.
 
-1. Remove the Product column.
+1. Elimine la columna Product.
 
-1. Change the data type of the ProductCost column to Fixed Decimal Number.
+1. Cambie el tipo de datos de la columna ProductCost a Número decimal fijo.
 
-1. Select the Product query, and then merge with the ProductCost query, relating the SKU columns.
+1. Seleccione la consulta Product y luego combínela con la consulta ProductCost, relacionando las columnas SKU.
 
-1. In the Privacy Levels window, set the privacy level for the D:\ to Organizational.
+1. En la ventana Niveles de privacidad, establezca el nivel de privacidad de D:\ en Organizativo.
 
-1. Expand the ProductCost column to include the ProductCost column (from the ProductCost query).
+1. Expanda la columna ProductCost para incluir la columna ProductCost (de la consulta ProductCost).
 
-1. Rename the new column as Cost.
+1. Cambie el nombre de la nueva columna a Cost.
 
-## Disable and load queries to the data model
+## Deshabilitar y cargar consultas en el modelo de datos
 
-1. In the Queries pane, disable the ProductCost query.
+1. En el panel Consultas, deshabilite la consulta ProductCost.
 
-1. On the Home ribbon tab, click the Close & Apply icon.
+1. En la pestaña de la cinta Inicio, haga clic en el icono Cerrar y aplicar.
 
-1. In Power BI Desktop, point out the two tables in the Data pane.
+1. En Power BI Desktop, señale las dos tablas en el panel Datos.
 
-1. Save the Power BI Desktop file.
+1. Guarde el archivo de Power BI Desktop.
 
-1. Leave the Power BI Desktop file open for the next demo.
+1. Deje el archivo de Power BI Desktop abierto para la próxima demostración.

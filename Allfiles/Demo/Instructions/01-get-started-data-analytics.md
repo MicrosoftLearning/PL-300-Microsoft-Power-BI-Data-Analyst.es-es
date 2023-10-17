@@ -1,25 +1,30 @@
-# Get started with Microsoft data analytics
+---
+demo:
+  "\_\_ title": Get started with Microsoft data analytics
+  "\_\_ module": Get started with Microsoft data analytics
+---
+# Introducción al análisis de datos de Microsoft
 
-## Explore the dashboard
+## Exploración del panel
 
-1. Show the Sales Monitoring dashboard, and explain how it can be used to get at-a-glance facts.
+1. Muestre el panel Supervisión de ventas y explique cómo se puede utilizar para obtener datos de un vistazo.
 
-1. Click either tile to click through to the Sales Analysis report.
+1. Haga clic en cualquiera de los mosaicos para acceder al informe Análisis de ventas.
 
-## Explore the report
+## Exploración del informe
 
-1. Interact with various slicers and visuals across the pages.
+1. Interactúe con varias segmentaciones y objetos visuales en las páginas.
 
-1. Edit the report, and then expand all fields in the Data pane.
+1. Edite el informe y luego expanda todos los campos del panel Datos.
 
-## Describe the solution that will be developed during the course
+## Descripción de la solución que se desarrollará durante el curso
 
-1. Explain that the data model is based on a SQL Server database and an Excel workbook, which helps to determine cost of goods sold.
+1. Explique que el modelo de datos se basa en una base de datos de SQL Server y un libro de Excel, lo que ayuda a determinar el costo de los bienes vendidos.
 
-1. Explain that a gateway will be set up to keep data current.
+1. Explique que se configurará una puerta de enlace para mantener los datos actualizados.
 
-1. Explain that it will be shared with a recipient, and that recipients will only be allowed to see a subset of data being only the product categories they manage.
+1. Explique que se compartirá con un destinatario y que los destinatarios solo podrán ver un subconjunto de datos que pertenecen únicamente a las categorías de productos que administran.
 
-1. Return to the Power BI service home page, and collapse the workspace.
+1. Vuelva a la página principal del servicio Power BI y contraiga el área de trabajo.
 
-> **Note**: You will not use this pre-developed solution again.
+> **Nota**: no volverá a utilizar esta solución desarrollada previamente.
