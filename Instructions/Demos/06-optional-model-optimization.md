@@ -1,5 +1,5 @@
 ---
-demo:
+lab:
   "\_\_ title": (Optional) Optimize model performance in Power BI
   "\_\_ module": Optimize model performance in Power BI
 ---

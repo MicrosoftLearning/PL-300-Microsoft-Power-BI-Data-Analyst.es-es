@@ -1,5 +1,5 @@
 ---
-demo:
+lab:
   "\_\_ title": Create measures using DAX in Power BI
   "\_\_ module": Create measures using DAX in Power BI
 ---

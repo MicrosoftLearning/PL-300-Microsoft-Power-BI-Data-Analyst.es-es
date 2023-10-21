@@ -1,5 +1,5 @@
 ---
-demo:
+lab:
   "\_\_ title": 'Clean, transform, and load data in Power BI'
   "\_\_ module": 'Clean, transform, and load data in Power BI'
 ---

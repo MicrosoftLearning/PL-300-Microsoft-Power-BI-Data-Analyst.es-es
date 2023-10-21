@@ -1,5 +1,5 @@
 ---
-demo:
+lab:
   "\_\_ title": Get data in Power BI
   "\_\_ module": Get data in Power BI
 ---

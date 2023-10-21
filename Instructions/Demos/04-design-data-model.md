@@ -1,5 +1,5 @@
 ---
-demo:
+lab:
   "\_\_ title": Design a data model in Power BI
   "\_\_ module": Design a data model in Power BI
 ---
