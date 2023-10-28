@@ -1,44 +1,39 @@
----
-demo:
-  "\_\_ title": Perform data analysis in Power BI
-  "\_\_ module": Perform data analysis in Power BI
----
-# Realización de análisis de datos
+# Perform data analysis
 
-## Agregar un grupo
+## Add a group
 
-1. Agregue otra página nueva al informe denominada **Análisis de categoría**.
+1. Add another new page to the report named **Category Analysis**.
 
-1. Copie, pegue y, luego, sincronice la **segmentación Year** de la página **Análisis de beneficios** con la nueva página.
+1. Copy, paste, and then sync the **Year slicer** from the **Profit Analysis** page to the new page.
 
-1. Agregue un nuevo grupo basado en la columna **Categoría** de la tabla **Producto**.
+1. Add a new group based on the **Product** table **Category** column.
 
-1. Cree un grupo basado en el valor Trainer.
+1. Create a group based on the Trainer value.
 
-1. Active la casilla **Incluir otro grupo**.
+1. Select the **Include Other Group** checkbox.
 
-1. Agregue un objeto visual de matriz y colóquelo y cambie su tamaño para que llene la página.
+1. Add a matrix visual, and position and size it so it fills the page.
 
-1. Configure el objeto visual de matriz como sigue:
+1. Configure the matrix visual as follows:
 
-    - Filas: Product | Category (grupos) y Product | Product
+    - Rows: Product | Category (groups) and Product | Product
 
-    - Valores: Quantity, Sales, Profit y Profit Margin de la tablaSales
+    - Values: Quantity, Sales, Profit, and Profit Margin from the Sales table
 
-1. Expanda ambas categorías.
+1. Expand both categories.
 
-## Aplicar formato condicional
+## Apply conditional formatting
 
-1. En el objeto visual de matriz, aplíquele formato condicional de color de fondo al campo **Margen de beneficio**.
+1. In the matrix visual, apply background color conditional formatting to the **Profit Margin** field.
 
-1. Seleccione rojo para el color mínimo y verde para el color máximo.
+1. Select red for the minimum color, and green for the maximum color.
 
-1. Señale la gama de colores utilizada para transmitir valores de margen de beneficio de bajo a alto.
+1. Point out the range of colors used to convey low-to-high profit margin values.
 
-1. Guarde el archivo de Power BI Desktop.
+1. Save the Power BI Desktop file.
 
-1. Publique el informe en el área de trabajo más nueva, sobrescribiéndolo cuando se le solicite.
+1. Publish the report to the newer workspace, overwriting when prompted.
 
-1. En el servicio Power BI, abra el informe **Análisis de ventas** e interactúe con cada una de las páginas del informe.
+1. In the Power BI service, open the **Sales Analysis** report, and interact with each of the report pages.
 
-1. Deje el archivo de Power BI Desktop abierto.
+1. Leave the Power BI Desktop file open.

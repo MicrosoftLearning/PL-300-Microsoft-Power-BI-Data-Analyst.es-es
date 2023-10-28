@@ -1,5 +1,5 @@
 ---
-demo:
+lab:
   "\_\_ title": Manage files and datasets in Power BI
   "\_\_ module": Deploy and manage Power BI service items
 ---
