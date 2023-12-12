@@ -1,8 +1,9 @@
 ---
-lab:
-  "\_\_ title": 'Clean, transform, and load data in Power BI'
-  "\_\_ module": 'Clean, transform, and load data in Power BI'
+demo:
+  title: "Limpieza, transformación y carga de datos en Power\_BI"
+  module: 'Clean, transform, and load data in Power BI'
 ---
+
 # Limpieza, transformación y carga de datos en Power BI
 
 ## Aplicación de transformaciones de consulta
@@ -55,7 +56,7 @@ lab:
 
 1. Seleccione la consulta Product y luego combínela con la consulta ProductCost, relacionando las columnas SKU.
 
-1. En la ventana Niveles de privacidad, establezca el nivel de privacidad de D:\ en Organizativo.
+1. En la ventana Niveles de privacidad, establece el nivel de privacidad de D:\ en Organizativo.
 
 1. Expanda la columna ProductCost para incluir la columna ProductCost (de la consulta ProductCost).
 
@@ -65,7 +66,7 @@ lab:
 
 1. En el panel Consultas, deshabilite la consulta ProductCost.
 
-1. En la pestaña de la cinta Inicio, haga clic en el icono Cerrar y aplicar.
+1. En la pestaña de la cinta Inicio, haz clic en el icono Cerrar y aplicar.
 
 1. En Power BI Desktop, señale las dos tablas en el panel Datos.
 

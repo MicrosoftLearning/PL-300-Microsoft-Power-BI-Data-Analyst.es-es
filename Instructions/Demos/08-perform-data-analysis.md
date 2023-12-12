@@ -1,7 +1,7 @@
 ---
-lab:
-  "\_\_ title": Perform data analysis in Power BI
-  "\_\_ module": Perform data analysis in Power BI
+demo:
+  title: "Realización de análisis de datos en Power\_BI"
+  module: Perform data analysis in Power BI
 ---
 # Realización de análisis de datos
 
@@ -11,7 +11,7 @@ lab:
 
 1. Copie, pegue y después sincronice el **Year Slicer** de la página **Análisis de beneficios** con la nueva página.
 
-1. Agregue un nuevo grupo basado en la columna **Categoría** de la tabla **Producto**.
+1. Agregue un nuevo grupo basado en la columna **Category** de la tabla **Product**.
 
 1. Cree un grupo basado en el valor Trainer.
 
@@ -21,7 +21,7 @@ lab:
 
 1. Configure el objeto visual de matriz como sigue:
 
-    - Filas: Product | Category (grupos) y Product | Product
+    - Filas: Producto | Categoría (grupos) y Producto | Producto
 
     - Valores: Quantity, Sales, Profit y Profit Margin de la tablaSales
 

@@ -1,7 +1,7 @@
 ---
-lab:
-  "\_\_ title": Create reports in Power BI
-  "\_\_ module": Create reports in Power BI
+demo:
+  title: Creación de informes en Power BI
+  module: Create reports in Power BI
 ---
 # Crear informes
 
@@ -35,7 +35,7 @@ lab:
 
 1. Señale que se agrega diciembre de 2020 al eje, pero no hay columna de datos.
 
-1. Explique que los datos de ventas de diciembre de 2020 aún no han sucedido. *Ejecutará un script en una demostración posterior para cargar las ventas de diciembre de 2020.*
+1. Explique que los datos de ventas de diciembre de 2020 aún no han sucedido. *Ejecutarás un script en una demostración posterior para cargar las ventas de diciembre de 2020.*
 
 1. Agregue un gráfico de embudo y configúrelo de la siguiente manera:
 

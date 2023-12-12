@@ -1,9 +1,9 @@
 ---
-lab:
-  "\_\_ title": Create dashboards in the Power BI service
-  "\_\_ module": Deploy and manage Power BI service items
+demo:
+  title: "Creación de paneles en el servicio Power\_BI"
+  module: Deploy and manage Power BI service items
 ---
-# Creación de paneles en el servicio Power BI
+# Creación de paneles en el servicio Power BI
 
 ## Crear un panel
 
@@ -15,7 +15,7 @@ lab:
 
 1. Una vez publicado, vuelva al servicio Power BI.
 
-1. Abra el informe **Análisis de ventas** y luego asegúrese de que la segmentación Year se establezca en **CY2020**.
+1. Abre el informe **Análisis de ventas** y luego asegúrate de que la segmentación Año se establezca en **CY2020**.
 
 ## Anclaje de objetos visuales de informe
 

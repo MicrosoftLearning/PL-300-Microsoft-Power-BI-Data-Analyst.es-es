@@ -1,7 +1,7 @@
 ---
-lab:
-  "\_\_ title": Create measures using DAX in Power BI
-  "\_\_ module": Create measures using DAX in Power BI
+demo:
+  title: "Creación de medidas mediante DAX en Power\_BI"
+  module: Create measures using DAX in Power BI
 ---
 # Creación de medidas mediante DAX en Power BI
 
@@ -17,7 +17,7 @@ Date = CALENDARAUTO()
 
 1. Cambie a la vista de datos y revise la tabla, que consta de una sola columna de fecha.
 
-Crear columnas calculadas
+Creación de columnas calculadas
 
 1. Agregue una columna calculada a la tabla Date:
 
@@ -31,9 +31,9 @@ Year = "CY" & YEAR('Date'[Date])
 Month = FORMAT('Date'[Date], "YYYY-MM")
 ```
 
-1. En la vista Modelo, cree una relación arrastrando la columna Fecha de la tabla Fecha a la columna OrderDate de la tabla Ventas.
+1. En la vista Modelo, cree una relación arrastrando la columna Date de la tabla Date a la columna OrderDate de la tabla Sales.
 
-1. Oculte la columna OrderDate de la tabla Ventas.
+1. Oculte la columna OrderDate de la tabla Sales.
 
 1. En la tabla Date, cree la jerarquía Calendar, con los niveles Year y Month.
 
