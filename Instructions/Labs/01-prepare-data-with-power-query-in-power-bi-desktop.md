@@ -24,7 +24,7 @@ En esta tarea, comenzará abriendo un archivo de Power BI de inicio (.pbix). El
 - Carga de datos > Importar relaciones de orígenes de datos en la primera carga
 - Carga de datos > Detectar automáticamente nuevas relaciones cuando se carguen los datos
 
-*Nota: Aunque tener estas dos opciones habilitadas puede resultar útil al desarrollar un modelo de datos, las deshabilitó anteriormente para admitir la experiencia del laboratorio. Al crear relaciones en el laboratorio **Cargar datos en Power BI Desktop**, aprenderá por qué va a agregar cada una.*
+*Nota: aunque tener estas dos opciones habilitadas puede ser útil para desarrollar un modelo de datos, las has deshabilitado antes para que admitan la experiencia del laboratorio. Cuando crees relaciones en el laboratorio **Carga de datos transformados en Power BI Desktop**, aprenderás por qué agregas cada una de ellas.*
 
 1. Abra Power BI Desktop.
 
@@ -39,6 +39,7 @@ En esta tarea, comenzará abriendo un archivo de Power BI de inicio (.pbix). El
 1. Seleccione el archivo **Sales Analysis**.
 
 1. Guarde una copia del archivo con **Guardar como** en la carpeta **D:\PL300\MySolution**.
+
 
 ## **Obtención de datos de SQL Server**
 
@@ -73,8 +74,10 @@ Esta tarea le enseña a conectarse a una base de datos de SQL Server e importar 
     - DimSalesTerritory
     - FactResellerSales
 
-1. Para completar esta tarea, haga clic en **Transformar datos**, que abrirá el Editor de Power Query.
+1. Completa esta tarea seleccionando **Transformar datos**, lo que abrirá el editor de Power Query.
+    
     1. *Este laboratorio solo está pensado para conectarse a los datos y generar perfiles de estos, pero no para **transformarlos**.*
+
 
 ## **Vista previa de datos en el Editor de Power Query**
 
@@ -94,7 +97,7 @@ Esta tarea presenta el Editor de Power Query y permite revisar los datos y gener
 
 1. En el panel de vista previa de los datos, desplácese horizontalmente para revisar todas las columnas. Observe que las cinco últimas columnas contienen vínculos de tipo **Tabla** o **Valor**.
 
-    *Estas cinco columnas representan relaciones con otras tablas de la base de datos. Se pueden usar para combinar tablas. Las tablas se combinarán en el laboratorio **Carga de datos en Power BI Desktop**.*
+    *Estas cinco columnas representan relaciones con otras tablas de la base de datos. Se pueden usar para combinar tablas. Combinarás tablas en el laboratorio **Carga de datos transformados en Power BI Desktop**.*
 
 1. Para evaluar la calidad de las columnas, en la ficha de cinta **Vista**, en el grupo **Vista previa de los datos**, consulte **Calidad de columnas**. La característica calidad de las columnas permite determinar fácilmente el porcentaje de valores válidos, errores o valores vacíos encontrados en las columnas.
 
@@ -122,7 +125,7 @@ Esta tarea presenta el Editor de Power Query y permite revisar los datos y gener
 
 1. Desplácese horizontalmente para mostrar las últimas columnas. Observe la columna **DimProductSubcategory**.
 
-    *Al agregar transformaciones a esta consulta en el laboratorio **Carga de datos en Power BI Desktop**, usará la columna **DimProductSubcategory** para combinar tablas.*
+    *Cuando agregas transformaciones a esta consulta en el laboratorio **Carga de datos transformados en Power BI Desktop**, utilizarás la columna **DimProductSubcategory** para combinar tablas.*
 
 1. En el panel **Consultas**, seleccione la consulta **DimReseller**.
 
@@ -140,7 +143,7 @@ Esta tarea presenta el Editor de Power Query y permite revisar los datos y gener
 
 1. Si mantiene el puntero sobre la barra de **Ware House**, verá que hay cinco filas con este valor.
 
-    *Aplicará una transformación para cambiar la etiqueta de estas cinco filas en el laboratorio **Carga de datos en Power BI Desktop**.*
+    *Aplicarás una transformación para cambiar la etiqueta de estas cinco filas en el laboratorio **Carga de datos transformados en Power BI Desktop**.*
 
 1. En el panel **Consultas**, seleccione la consulta **DimSalesTerritory**.  
 
@@ -152,7 +155,8 @@ Esta tarea presenta el Editor de Power Query y permite revisar los datos y gener
 
 1. Revise la calidad de la columna **TotalProductCost** y observe que el 8 % de las filas están vacías.
 
-    *El hecho de que falten valores en la columna **TotalProductCost** supone un problema de calidad de los datos. Para solucionarlo en el laboratorio **Carga de datos en Power BI Desktop**, aplicará transformaciones a fin de rellenar los valores que faltan con el costo estándar del producto, que se almacena en la tabla relacionada **DimProduct**.*
+    *La falta de valores de la columna **TotalProductCost** es un problema de calidad de datos. Para solucionarlo, en el laboratorio **Carga de datos transformados en Power BI Desktop**, aplicarás transformaciones para rellenar los valores que faltan con el coste estándar del producto, que se almacena en la tabla **DimProduct** relacionada.*
+
 
 ## **Obtención de datos de un archivo CSV**
 
@@ -181,6 +185,7 @@ En esta tarea, creará una nueva consulta basada en archivos CSV.
 *Ahora debería tener dos nuevas consultas: **ResellerSalesTargets** y **ColorFormats**.*
 
  ![Lista de consultas](Linked_image_Files/01-all-queries-loaded.png)
+
 
 ### **Finalización**
 
