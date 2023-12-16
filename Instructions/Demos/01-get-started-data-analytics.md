@@ -1,8 +1,9 @@
 ---
 demo:
-  "\_\_ title": Get started with Microsoft data analytics
-  "\_\_ module": Get started with Microsoft data analytics
+  title: Introducción al análisis de datos de Microsoft
+  module: Get started with Microsoft data analytics
 ---
+
 # Introducción al análisis de datos de Microsoft
 
 ## Exploración del panel

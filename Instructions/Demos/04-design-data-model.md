@@ -1,9 +1,9 @@
 ---
-lab:
-  "\_\_ title": Design a data model in Power BI
-  "\_\_ module": Design a data model in Power BI
+demo:
+  title: Diseño de un modelo de datos en Power BI
+  module: Design a data model in Power BI
 ---
-# Diseño de un modelo de datos en Power BI
+# Diseño de un modelo de datos en Power BI
 
 ## Revisión del modelo
 
@@ -17,9 +17,9 @@ lab:
 
 1. Explique cómo se propagarán los filtros de la tabla Product a la tabla Sales.
 
-## Creación de una jerarquía
+## Crear una jerarquía
 
-1. Cree una jerarquía basada en la columna Categoría de la tabla Producto.
+1. Cree una jerarquía basada en la columna Category de la tabla Product.
 
 1. Cambie el nombre de la jerarquía a Products.
 

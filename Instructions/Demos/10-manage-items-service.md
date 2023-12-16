@@ -1,7 +1,7 @@
 ---
-lab:
-  "\_\_ title": Manage files and datasets in Power BI
-  "\_\_ module": Deploy and manage Power BI service items
+demo:
+  title: "Administración de archivos y conjuntos de datos en Power\_BI"
+  module: Deploy and manage Power BI service items
 ---
 # Administración de archivos y conjuntos de datos en Power BI
 
@@ -25,7 +25,7 @@ lab:
 
 1. En el servicio Power BI para el instructor, vuelva a cargar (F5) la página de configuración del conjunto de datos.
 
-1. Expanda la sección Conexión de la puerta de enlace e indique que no hay ninguna puerta de enlace instalada.
+1. Expande la sección Conexión de puerta de enlace e indica que no hay ninguna puerta de enlace instalada.
 
 1. Utilice la lista desplegable de descargas (ubicada en la parte superior derecha) y seleccione Puerta de enlace de datos.
 
@@ -47,10 +47,10 @@ lab:
 
 1. Antes de actualizar el conjunto de datos, abra el panel **Supervisión de ventas**.
 
-1. Edite los detalles del mosaico Sales, Profit Margin para mostrar la hora de la última actualización.
+1. Edita los detalles del icono Ventas, Margen de beneficio para mostrar la hora de la última actualización.
 
 1. Haga clic con el botón derecho en el archivo `D:\PL300\Demo\Resources\UpdateDatabase-LoadAdditionalSales.ps1`y, a continuación, ejecute con PowerShell. *Este script cargará los datos de ventas de diciembre de 2020 en la base de datos.*
 
-1. En el servicio Power BI para el instructor, desde el panel Navegación, actualice el conjunto de datos de **Análisis de ventas**.
+1. En el servicio Power BI para el instructor, en el panel de navegación, actualiza el conjunto de datos **Análisis de ventas**.
 
 1. Cuando se complete la actualización, indique cómo aparece la columna del icono del panel **Diciembre 2020** y que la hora de actualización es **AHORA**.

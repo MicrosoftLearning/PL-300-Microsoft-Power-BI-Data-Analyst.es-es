@@ -1,9 +1,10 @@
 ---
-lab:
-  "\_\_ title": Enforce Row-level security in Power BI
-  "\_\_ module": Deploy and manage Power BI service items
+demo:
+  title: "Implementación de seguridad a nivel de fila en Power\_BI"
+  module: Deploy and manage Power BI service items
 ---
-# Aplicación de seguridad en el nivel de fila en Power BI
+
+# Implementación de seguridad a nivel de fila en Power BI
 
 ## Adición de una tabla de seguridad al modelo
 
@@ -19,11 +20,11 @@ lab:
 
 1. En la columna **Email**, reemplace el valor **<ty-johnston@tailspintoys.com>** por la cuenta del destinatario (del archivo MySettings.txt).
 
-1. Señale que este usuario puede ver tres categorías de productos: **Presentación colectiva, Instructor y Warbird**.
+1. Señale que este usuario puede ver tres categorías de productos: **Collective pitch, Trainer y Warbird**.
 
 1. Cierre y aplique las consultas.
 
-1. En la vista Modelo, cree una relación entre las tablas **ManagerCategory** y Product en relación con la columna **Categoría**.
+1. En la vista Modelo, cree una relación entre las tablas **ManagerCategory** y Product relacionando la columna **Category**.
 
 1. Establezca la dirección del filtro cruzado en Único (**ManagerCategory** filtra Product).
 
@@ -31,23 +32,23 @@ lab:
 
 ## Agregar un rol
 
-1. En la vista Informe, abra Administrar roles y luego cree un rol denominado **Administrador**.
+1. En la vista Informe, abra Administrar roles y cree un rol denominado **Manager**.
 
-1. En el rol, filtre la columna Dirección de correo electrónico de la tabla **ManagerCategory** de la siguiente manera:
+1. En el rol, filtra la columna Dirección de correo electrónico de la tabla **ManagerCategory** de la siguiente manera:
 
   ```dax
    [Email] = USERPRINCIPALNAME()
    ```
 
-1. Seleccione **Guardar**.
+1. **Guardar**
 
 ## Validación del rol
 
 1. Abra Ver como y luego configure los siguientes ajustes:
 
-    - Otro usuario: verifique y luego escriba la cuenta del destinatario.
+    - Otro usuario: verifica y luego escribe la cuenta del destinatario.
 
-    - Rol de administrador: Comprobar
+    - Rol de administrador: Comprobación
 
 1. Señale que el objeto visual de filtro muestra solo tres categorías de productos.
 
@@ -61,14 +62,14 @@ lab:
 
 ## Configuración de la seguridad del conjunto de datos
 
-1. En el servicio Power BI para el instructor, desde el panel Navegación, abra la página de seguridad para el conjunto de datos **Análisis de ventas**.
+1. En el servicio Power BI para el instructor, en el panel Navegación, abre la página de seguridad para el conjunto de datos **Análisis de ventas**.
 
 1. En la sección Miembros, escriba la cuenta del destinatario (que representa a **Ty Johnston**).
 
-1. Agregue y guarde.
+1. Agréguela y guarde los cambios.
 
 ## Prueba de la seguridad de nivel de fila en la aplicación
 
 1. En el servicio Power BI para el destinatario, actualice el panel (que se dejó abierto desde la demostración anterior).
 
-1. En el icono del panel **Margen de beneficio**, compruebe que solo se pueden ver tres categorías de productos.
+1. En el icono del panel **Profit Margin**, compruebe que solo se ven tres categorías de productos.

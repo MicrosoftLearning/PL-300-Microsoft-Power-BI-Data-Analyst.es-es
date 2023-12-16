@@ -1,8 +1,9 @@
 ---
-lab:
-  "\_\_ title": Setup demo environment
-  "\_\_ module": Setup demo environment
+demo:
+  title: Configuración de su propio entorno
+  module: Set up your own environment
 ---
+
 
 # Configuración de la demostración
 
@@ -10,7 +11,7 @@ lab:
 
 1. Inicie sesión en el entorno de máquina virtual mediante la cuenta Estudiante.
 
-1. Abra Microsoft Edge y, después, vaya a <https://powerbi.com> e inicie sesión mediante la cuenta del instructor.
+1. Abre Microsoft Edge y luego ve a <https://powerbi.com> e inicia sesión mediante la cuenta del instructor.
     > **Sugerencia**: Si se le solicita que cambie de contraseña, asegúrese de registrarla en el archivo D:\PL300\Demo\Setup\MySettings.txt.
 
 1. En el servicio Power BI, acepte la prueba de Power BI Pro.
@@ -33,4 +34,4 @@ lab:
 
 1. Cierre Power BI Desktop.
 
-> **Nota**: En el [repositorio de GitHub](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/tree/Main/Allfiles/Demo) PL-300 Power BI Data Analyst se pueden encontrar recursos de demostración.
+> **Nota**: Se pueden encontrar recursos de demostración en el [repositorio de GitHub](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/tree/Main/Allfiles/Demo) PL-300 Power BI Data Analyst.

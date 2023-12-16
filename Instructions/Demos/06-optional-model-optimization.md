@@ -1,7 +1,7 @@
 ---
-lab:
-  "\_\_ title": (Optional) Optimize model performance in Power BI
-  "\_\_ module": Optimize model performance in Power BI
+demo:
+  title: "Optimización del rendimiento del modelo en Power\_BI (opcional)"
+  module: Optimize model performance in Power BI
 ---
 
 # (Opcional) Optimización del rendimiento del modelo

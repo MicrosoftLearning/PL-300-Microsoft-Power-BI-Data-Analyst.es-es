@@ -1,8 +1,9 @@
 ---
-lab:
-  "\_\_ title": Get data in Power BI
-  "\_\_ module": Get data in Power BI
+demo:
+  title: "Obtención de datos en Power\_BI"
+  module: Get data in Power BI
 ---
+
 # Obtención de datos en Power BI
 
 ## Inicio del desarrollo de un informe de Power BI
@@ -39,7 +40,7 @@ lab:
 
 1. Active la Distribución de columnas y señale columnas como ProductID (valores únicos) y ProductCategory (varios valores duplicados).
 
-1. Active Perfil de columna y luego seleccione la columna ProductCategory.
+1. Activa Perfil de columna y luego selecciona la columna ProductCategory.
 
 1. Revise las estadísticas y la distribución de columnas.
 

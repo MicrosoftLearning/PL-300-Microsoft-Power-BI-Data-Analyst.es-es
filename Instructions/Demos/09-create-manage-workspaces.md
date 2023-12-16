@@ -1,7 +1,7 @@
 ---
-lab:
-  "\_\_ title": Create and manage workspaces in Power BI
-  "\_\_ module": Deploy and manage Power BI service items
+demo:
+  title: "Creación y administración de áreas de trabajo en Power\_BI"
+  module: Deploy and manage Power BI service items
 ---
 
 # Crear y administrar áreas de trabajo
@@ -24,11 +24,11 @@ lab:
 
 1. Cambie a la ventana del servicio Power BI del **destinatario**.
 
-1. Abra **Compartido conmigo** y luego el panel Supervisión de ventas.
+1. Abre **Compartido conmigo** y abre el panel Supervisión de ventas.
 
 1. Señale que el panel es de solo lectura.
 
-## Creación de una aplicación
+## Crear una aplicación
 
 1. Cambie a la ventana del servicio Power BI del **instructor**.
 
@@ -42,7 +42,7 @@ lab:
 
 1. En la sección Permisos, conceda acceso a la cuenta del destinatario.
 
-1. Publique la aplicación.
+1. Publica la aplicación.
 
 ## Obtención y apertura de la aplicación
 
