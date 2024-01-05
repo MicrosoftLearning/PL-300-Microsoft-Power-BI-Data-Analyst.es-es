@@ -56,13 +56,13 @@ demo:
 
 1. Guarde el archivo de Power BI Desktop.
 
-1. Publique el archivo de Power BI Desktop en el área de trabajo, sobrescribiendo el conjunto de datos y el informe en el servicio.
+1. Publicar el archivo de Power BI Desktop en el área de trabajo, sobrescribiendo el modelo semántico y el informe en el servicio.
 
 1. Cierre Power BI Desktop.
 
-## Configuración de la seguridad del conjunto de datos
+## Configuración de la seguridad del modelo semántico
 
-1. En el servicio Power BI para el instructor, en el panel Navegación, abre la página de seguridad para el conjunto de datos **Análisis de ventas**.
+1. En el servicio Power BI para el instructor, en el panel de navegación, abre la página de seguridad para el modelo semántico del **Análisis de ventas**.
 
 1. En la sección Miembros, escriba la cuenta del destinatario (que representa a **Ty Johnston**).
 

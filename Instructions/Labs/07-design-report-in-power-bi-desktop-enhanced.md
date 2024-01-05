@@ -338,7 +338,7 @@ En esta tarea, publicará el informe.
 1. En la ventana **Publicar en Power BI**, observe que **Mi área de trabajo** esté seleccionado.
 
 1. Para publicar el informe, elija **Seleccionar**.
-    1. Si se le pide que reemplace el conjunto de datos, seleccione **Reemplazar**.
+    1. Si se te pide que sustituyas el conjunto de datos, selecciona **Sustituir**.
     1. Cuando la publicación se haya realizado correctamente, seleccione **Entendido**.
 
 1. Cierre Power BI Desktop.
