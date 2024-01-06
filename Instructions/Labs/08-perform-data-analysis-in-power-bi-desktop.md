@@ -38,9 +38,9 @@ En esta tarea configurará el entorno para el laboratorio iniciando sesión en P
 
      ![Imagen 22](Linked_image_Files/07-my-workspace-new.png)
 
-## **Introducción y creación de un conjunto de datos**
+## **Introducción: crear un modelo semántico**
 
-En esta tarea configurará el entorno para el laboratorio creando un conjunto de datos. *Si ya ha publicado el conjunto de datos, pase a la siguiente tarea.*
+En esta tarea, configurarás el entorno para el laboratorio creando un modelo semántico. *Si ya has publicado el modelo semántico, pasa a la siguiente tarea.*
 
 1. En la ventana del explorador Microsoft Edge, en el servicio Power BI, vaya a **Mi área de trabajo**.
 
@@ -50,13 +50,13 @@ En esta tarea configurará el entorno para el laboratorio creando un conjunto de
 
 1. Seleccione el archivo **Sales Analysis.pbix** y, a continuación, **Abrir**.
 
-    *Si se le pide que reemplace el conjunto de datos, seleccione **Reemplazarlo**.*
+    *Si se te pide que sustituyas el modelo semántico, selecciona **Sustituirlo**.*
 
-*Este método creará un informe y un conjunto de datos. Solo usaremos el conjunto de datos para crear un nuevo informe en este ejercicio. Este mismo proceso se puede realizar con un conjunto de datos de otro informe en lugar de cargar uno nuevo. Además, si no va a usar el informe, los procedimientos recomendados del área de trabajo sugieren eliminar el archivo innecesario.*
+*Este método creará un informe y un modelo semántico. Solo usaremos el modelo semántico para crear un nuevo informe en este ejercicio. Este mismo proceso se puede realizar con un modelo semántico de otro informe en lugar de cargar uno nuevo. Además, si no usas el informe, los procedimientos recomendados del área de trabajo recomiendan eliminar el archivo innecesario.*
 
 ## **Creación del informe**
 
-En esta tarea creará una conexión dinámica al conjunto de datos de Power BI que creó en la última tarea y, a continuación, creará un nuevo informe **Exploración de ventas**.
+En esta tarea, crearás una conexión dinámica al modelo semántico de Power BI que creaste en la última tarea y, a continuación, crearás un nuevo informe de **Exploración de ventas**.
 
 1. Abra Power BI Desktop.
 
@@ -66,9 +66,9 @@ En esta tarea creará una conexión dinámica al conjunto de datos de Power BI 
 
     *Sugerencia: De forma predeterminada, se abre el cuadro de diálogo Introducción delante de Power BI Desktop. Puede optar por iniciar sesión y cerrar la ventana emergente.*
 
-1. En la cinta Inicio, seleccione **Obtener datos > Conjuntos de datos de Power BI**.
+1. En la cinta de opciones Inicio, selecciona **Obtener datos > Modelos semánticos de Power BI**.
 
-1. En la ventana **Centro de datos**, seleccione el conjunto de datos **Sales Analysis** en **Mi área de trabajo** y **Conectar**, o bien haga doble clic para cargar el conjunto de datos.
+1. En la ventana **Centro de datos**, selecciona el modelo semántico de **Análisis de ventas** en **Mi área de trabajo** y luego  **Conectar**, o bien haz doble clic para cargar el modelo semántico.
 
 1. Vaya a **Archivo > Guardar** y guarde el nombre de archivo como **Exploración de ventas** en la carpeta **D:\PL300\MySolution** .
 

@@ -316,10 +316,10 @@ En esta tarea explorará el informe que se publicó en Power BI.
 
     ![Imagen 93](Linked_image_Files/06-my-workspace-new.png)
 
-1. Revise el contenido del área de trabajo. Observe las opciones de navegación de Todo, Contenido y Conjuntos de datos + flujos de datos.
-    1. *Hay cuatro tipos de elementos que pueden existir en un área de trabajo. Hablaremos acerca de los **informes** y los **conjuntos de datos**.*
-    1. *Es posible que tenga que actualizar el explorador Microsoft Edge si el conjunto de datos no está visible.*
-    1. *Al publicar el archivo de Power BI Desktop, el modelo de datos se publicó como un conjunto de datos.*
+1. Revise el contenido del área de trabajo. Observa las opciones de navegación de Todo, Contenido y Modelos semánticos más los flujos de datos.
+    1. *En un área de trabajo pueden existir cuatro tipos de elementos. Hablaremos de los **informes** y los **modelos semánticos**.*
+    1. *Puede que tengas que actualizar el navegador Microsoft Edge si el modelo semántico no es visible.*
+    1. *Al publicar el archivo de Power BI Desktop, el modelo de datos se publicó como modelo semántico.*
 
 1. Para abrir el informe, seleccione el informe **Sales Analysis**.
 

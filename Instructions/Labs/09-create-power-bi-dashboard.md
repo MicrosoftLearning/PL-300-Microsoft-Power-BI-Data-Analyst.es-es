@@ -38,33 +38,9 @@ En esta tarea configurará el entorno para el laboratorio iniciando sesión en P
 
      ![Imagen 22](Linked_image_Files/07-my-workspace-new.png)
 
-## **Introducción y apertura del informe**
-
-En esta tarea configurará el entorno para el laboratorio abriendo el informe de inicio.
-
-*Importante: Si ha realizado el laboratorio anterior (y lo ha completado correctamente) no realice esta tarea, continúe a partir de la siguiente.*
-
-1. Abra Power BI Desktop.
-    
-    *De forma predeterminada, se abre el cuadro de diálogo Introducción delante de Power BI Desktop. Inicie sesión y cierre la ventana emergente.*
-
-    ![Icono de Power BI Desktop](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
-
-1. Para abrir el archivo de inicio de Power BI Desktop, seleccione **Archivo > Abrir informe > Examinar informes**.
-
-1. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\09-create-power-bi-dashboard\Starter** y abra el archivo **Sales Analysis**.
-
-1. Cierre todas las ventanas informativas que se abran.
-
-1. Fíjese en el mensaje de advertencia amarillo bajo la cinta. *Este mensaje le avisa de que no se han aplicado consultas para cargar el archivo como tablas de modelo. Aplicará consultas más adelante en este laboratorio.*
-    
-    *Para ignorar el mensaje de advertencia, a la derecha del mensaje de advertencia en amarillo, seleccione la **X**.*
-
-1. Si se le pide que aplique los cambios, seleccione **Aplicar más tarde**.
-
 ## **Introducción y publicación del informe**
 
-En esta tarea configurará el entorno para el laboratorio creando un conjunto de datos. *Si ya ha publicado el conjunto de datos, pase a la siguiente tarea.*
+En esta tarea, configurarás el entorno para el laboratorio creando un modelo semántico. *Si ya has publicado el modelo semántico, pasa a la siguiente tarea.*
 
 1. En la ventana del explorador Microsoft Edge, en el servicio Power BI, vaya a **Mi área de trabajo**.
 
@@ -74,7 +50,7 @@ En esta tarea configurará el entorno para el laboratorio creando un conjunto de
 
 1. Seleccione el archivo **Sales Analysis.pbix** y, a continuación, **Abrir**.
 
-*Si se le pide que reemplace el conjunto de datos, seleccione **Reemplazarlo**.*
+*Si se te pide que sustituyas el modelo semántico, selecciona **Sustituirlo**.*
 
 ## **Creación de un panel**
 
@@ -174,9 +150,9 @@ En esta tarea modificará los detalles de dos iconos.
 
 1. Observe que el icono describe la hora de la última actualización (que se ha hecho al cargar el modelo de datos en Power BI Desktop).
 
-*Actualizará el conjunto de datos en el siguiente ejercicio. En función de los datos y el informe, puede hacer una actualización de datos ad hoc en cualquier momento o establecer una programación. Sin embargo, las actualizaciones programadas requieren puertas de enlace que no se pueden configurar para este laboratorio. Por tanto, desde Power BI Desktop, realizará una actualización de datos manual y, después, cargará el archivo en el área de trabajo.*
+*Debes actualizar el modelo semántico en el siguiente ejercicio. En función de tus datos y el informe, puedes hacer una actualización de datos ad hoc en cualquier momento o establecer una programación. Sin embargo, las actualizaciones programadas requieren puertas de enlace que no podemos configurar para este laboratorio. Por tanto, desde Power BI Desktop, debes realizar una actualización de datos manual y, posteriormente, cargar el archivo en tu área de trabajo.*
 
-## **Actualización del conjunto de datos**
+## **Actualiza el modelo semántico**
 
 En este ejercicio, primero se cargarán los datos del pedidos de ventas de junio de 2020 en la base de datos **AdventureWorksDW2020**. A continuación, abrirá el archivo de Power BI Desktop, actualizará los datos y cargará el archivo en el área de trabajo.
 
@@ -208,11 +184,11 @@ En esta tarea abrirá el archivo **Sales Analysis** de Power BI Desktop, actual
 
     ![Imagen 59](Linked_image_Files/09-create-power-bi-dashboard_image48.png)
 
-1. Cuando se le solicite que reemplace el conjunto de datos, seleccione **Reemplazar**.
+1. Cuando se te solicite que sustituyas el modelo semántico, selecciona **Sustituir**.
 
 1. Cierre Power BI Desktop.
 
-*El conjunto de datos en el servicio Power BI ahora incluye los datos de ventas de junio de 2020.*
+*El modelo semántico en el servicio Power BI incluye ahora los datos de ventas de junio de 2020.*
 
 ### **Revisión del panel**
 
