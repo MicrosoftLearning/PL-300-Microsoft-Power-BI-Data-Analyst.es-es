@@ -1,9 +1,8 @@
 ---
-demo:
-  title: "Limpieza, transformación y carga de datos en Power\_BI"
-  module: 'Clean, transform, and load data in Power BI'
+lab:
+  "\_\_ title": 'Clean, transform, and load data in Power BI'
+  "\_\_ module": 'Clean, transform, and load data in Power BI'
 ---
-
 # Limpieza, transformación y carga de datos en Power BI
 
 ## Aplicación de transformaciones de consulta

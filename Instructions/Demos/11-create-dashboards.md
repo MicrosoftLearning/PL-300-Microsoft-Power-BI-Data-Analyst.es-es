@@ -1,7 +1,7 @@
 ---
-demo:
-  title: "Creación de paneles en el servicio Power\_BI"
-  module: Deploy and manage Power BI service items
+lab:
+  "\_\_ title": Create dashboards in the Power BI service
+  "\_\_ module": Deploy and manage Power BI service items
 ---
 # Creación de paneles en el servicio Power BI
 
