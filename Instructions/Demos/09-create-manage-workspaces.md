@@ -1,7 +1,7 @@
 ---
-demo:
-  title: "Creación y administración de áreas de trabajo en Power\_BI"
-  module: Deploy and manage Power BI service items
+lab:
+  "\_\_ title": Create and manage workspaces in Power BI
+  "\_\_ module": Deploy and manage Power BI service items
 ---
 
 # Crear y administrar áreas de trabajo
