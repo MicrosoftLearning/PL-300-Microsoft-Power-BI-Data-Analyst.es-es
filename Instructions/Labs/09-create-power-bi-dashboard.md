@@ -1,5 +1,6 @@
 ---
 lab:
+  course: PL-300
   title: "Creación de un panel de Power\_BI"
   module: Create Dashboards
 ---
@@ -46,7 +47,7 @@ En esta tarea, configurarás el entorno para el laboratorio creando un modelo se
 
 1. Seleccione **Cargar > Examinar**.
 
-1. Vaya a la carpeta **D:\PL300\Labs\09-create-power-bi-dashboard\Starter**.
+1. Vaya a la carpeta **D:\Allfiles\Labs\09-create-power-bi-dashboard\Starter**.
 
 1. Seleccione el archivo **Sales Analysis.pbix** y, a continuación, **Abrir**.
 
@@ -116,7 +117,7 @@ En esta tarea creará el panel **Supervisión de ventas**. Anclará un visual de
 
 1. En el panel **Agregar icono** (a la derecha), seleccione el icono **Imagen** y elija **Siguiente**.
 
-1. En el panel **Agregar icono de imagen**, en el cuadro **URL**, escriba la dirección URL completa que se encuentra en el archivo **D:\PL300\Resources\AdventureWorksLogo_DataURL.txt** y elija **Aplicar**.
+1. En el panel **Agregar icono de imagen**, en el cuadro **URL**, escriba la dirección URL completa que se encuentra en el archivo **D:\Allfiles\Resources\AdventureWorksLogo_DataURL.txt** y elija **Aplicar**.
     
     *Puede insertar una imagen mediante su dirección URL o puede usar una dirección URL de datos, que inserta el contenido en línea.*
 
@@ -160,7 +161,7 @@ En este ejercicio, primero se cargarán los datos del pedidos de ventas de junio
 
 En esta tarea, se ejecutará un script de PowerShell para actualizar los datos de la base de datos **AdventureWorksDW2020**.
 
-1. En el Explorador de archivos, dentro de la carpeta **D:\PL300\Setup**, haga clic con el botón derecho en el archivo **UpdateDatabase-2-AddSales.ps1** y, después, seleccione **Ejecutar con PowerShell**.
+1. En el Explorador de archivos, dentro de la carpeta **D:\Allfiles\Setup**, haga clic con el botón derecho en el archivo **UpdateDatabase-2-AddSales.ps1** y, después, seleccione **Ejecutar con PowerShell**.
 
     ![Imagen 28](Linked_image_Files/09-create-power-bi-dashboard_image46.png)
 
