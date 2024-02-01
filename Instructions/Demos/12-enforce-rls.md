@@ -1,5 +1,6 @@
 ---
 demo:
+  course: PL-300
   title: "Implementación de seguridad a nivel de fila en Power\_BI"
   module: Deploy and manage Power BI service items
 ---
@@ -40,7 +41,7 @@ demo:
    [Email] = USERPRINCIPALNAME()
    ```
 
-1. **Guardar**
+1. Seleccione **Guardar**.
 
 ## Validación del rol
 
