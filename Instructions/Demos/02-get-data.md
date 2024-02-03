@@ -1,15 +1,17 @@
 ---
-lab:
-  "\_\_ title": Get data in Power BI
-  "\_\_ module": Get data in Power BI
+demo:
+  course: 'PL-300, DP-605'
+  title: "Obtención de datos en Power\_BI"
+  module: Get data in Power BI
 ---
+
 # Obtención de datos en Power BI
 
 ## Inicio del desarrollo de un informe de Power BI
 
 1. Abra Power BI Desktop y descarte la página de introducción.
 
-1. Guarde el archivo en la carpeta D:\PL300\Demo como Análisis de ventas.
+1. Guarde el archivo en la carpeta D:\Allfiles\Demo como Análisis de ventas.
 
 ## Conexión a una base de datos de SQL Server
 

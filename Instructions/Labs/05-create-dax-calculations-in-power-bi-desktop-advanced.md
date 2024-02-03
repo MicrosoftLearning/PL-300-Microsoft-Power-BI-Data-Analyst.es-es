@@ -1,5 +1,6 @@
 ---
 lab:
+  course: PL-300
   title: "Creación de cálculos DAX avanzados en Power\_BI Desktop"
   module: Create Model Calculations using DAX in Power BI
 ---
@@ -30,17 +31,17 @@ En este laboratorio, aprenderá a:
 
 1. Para abrir el archivo de inicio de Power BI Desktop, seleccione **Archivo > Abrir informe > Examinar informes**.
 
-1. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Starter** y abra el archivo **Sales Analysis**.
+1. En la ventana **Abrir**, vaya a la carpeta **D:\Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Starter** y abra el archivo **Sales Analysis**.
 
 1. Cierre todas las ventanas informativas que se abran.
 
-1. Fíjese en el mensaje de advertencia amarillo bajo la cinta. 
+1. Fíjese en el mensaje de advertencia debajo de la cinta. 
 
     *Este mensaje le avisa de que no se han aplicado consultas para cargar el archivo como tablas de modelo. Aplicará consultas más adelante en este laboratorio.*
     
-    *Para descartar el mensaje de advertencia, a la derecha del mensaje de advertencia en amarillo, seleccione la **X**.*
+    *Para descartar el mensaje de advertencia, seleccione la **X** situada a la derecha del mensaje de advertencia.*
 
-1. Para crear una copia del archivo, vaya a **Archivo > Guardar como** y guárdelo en la carpeta **D:\PL300\MySolution**.
+1. Para crear una copia del archivo, vaya a **Archivo > Guardar como** y guárdelo en la carpeta **D:\Allfiles\MySolution**.
 
 ## **Creación de un objeto visual de matriz**
 
@@ -90,7 +91,7 @@ En esta tarea creará varias medidas con expresiones DAX que usan la función CA
 
 1. Agregue una medida a la tabla **Sales** (Ventas), en función de la siguiente expresión:
     
-     *Para su comodidad, todas las definiciones de DAX de este laboratorio se pueden copiar desde el archivo **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt**.*
+     *Para su comodidad, todas las definiciones de DAX de este laboratorio se pueden copiar desde el archivo **D:\Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt**.*
 
 
     **DAX**

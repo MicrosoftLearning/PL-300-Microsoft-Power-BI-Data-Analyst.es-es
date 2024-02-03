@@ -1,5 +1,6 @@
 ---
 lab:
+  course: PL-300
   title: Aplicación de seguridad de nivel de fila
   module: Enforce Row-Level Security
 ---
@@ -32,15 +33,15 @@ En esta tarea configurará el entorno para el laboratorio.
 
 1. Para abrir el archivo de inicio de Power BI Desktop, seleccione **Archivo > Abrir informe > Examinar informes**.
 
-1. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\10-create-power-bi-dashboard\Starter** y abra el archivo **Análisis de ventas**.
+1. En la ventana **Abrir**, vaya a la carpeta **D:\Allfiles\Labs\10-create-power-bi-dashboard\Starter** y abra el archivo **Análisis de ventas**.
 
 1. Cierre todas las ventanas informativas que se abran.
 
-1. Fíjese en el mensaje de advertencia amarillo bajo la cinta. *Este mensaje le avisa de que no se han aplicado consultas para cargar el archivo como tablas de modelo. Aplicará consultas más adelante en este laboratorio.*
+1. Fíjese en el mensaje de advertencia debajo de la cinta. *Este mensaje le avisa de que no se han aplicado consultas para cargar el archivo como tablas de modelo. Aplicará consultas más adelante en este laboratorio.*
     
-    *Para descartar el mensaje de advertencia, a la derecha del mensaje de advertencia en amarillo, seleccione la **X**.*
+    *Para descartar el mensaje de advertencia, seleccione la **X** situada a la derecha del mensaje de advertencia.*
 
-1. Para crear una copia del archivo, vaya a **Archivo > Guardar como** y guárdelo en la carpeta **D:\PL300\MySolution**.
+1. Para crear una copia del archivo, vaya a **Archivo > Guardar como** y guárdelo en la carpeta **D:\Allfiles\MySolution**.
 
 1. Si se le pide que aplique los cambios, seleccione **Aplicar más tarde**.
 

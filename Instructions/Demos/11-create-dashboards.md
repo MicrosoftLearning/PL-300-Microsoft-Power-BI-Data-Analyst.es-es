@@ -1,7 +1,8 @@
 ---
-lab:
-  "\_\_ title": Create dashboards in the Power BI service
-  "\_\_ module": Deploy and manage Power BI service items
+demo:
+  course: PL-300
+  title: "Creación de paneles en el servicio Power\_BI"
+  module: Deploy and manage Power BI service items
 ---
 # Creación de paneles en el servicio Power BI
 
@@ -9,7 +10,7 @@ lab:
 
 1. En primer lugar, en el servicio Power BI, cree una nueva área de trabajo.
 
-1. Seleccione la imagen `D:\PL300\Demo\Resources\Icon-Airplane.jpg` del icono del área de trabajo.
+1. Seleccione la imagen `D:\Allfiles\Demo\Resources\Icon-Airplane.jpg` del icono del área de trabajo.
 
 1. En Power BI Desktop, publique el informe **Análisis de ventas** en la nueva área de trabajo.
 

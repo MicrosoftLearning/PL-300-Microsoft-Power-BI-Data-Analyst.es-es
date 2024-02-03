@@ -1,5 +1,6 @@
 ---
 lab:
+  course: 'PL-300, DP-605'
   title: Obtener datos en Power BI Desktop
   module: Get Data in Power BI
 ---
@@ -34,11 +35,11 @@ En esta tarea, comenzará abriendo un archivo de Power BI de inicio (.pbix). El
 
 1. Para abrir el archivo de inicio de Power BI Desktop, seleccione **Archivo > Abrir informe > Examinar informes**.
 
-1. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\01-load-data-with-power-query-in-power-bi-desktop\Starter**.
+1. En la ventana **Abrir**, vaya a la carpeta **D:\Allfiles\Labs\01-prepare-data-with-power-query-in-power-bi-desktop\Starter**.
 
 1. Seleccione el archivo **Sales Analysis**.
 
-1. Guarde una copia del archivo con **Guardar como** en la carpeta **D:\PL300\MySolution**.
+1. Guarde una copia del archivo con **Guardar como** en la carpeta **D:\Allfiles\MySolution**.
 
 
 ## **Obtención de datos de SQL Server**
@@ -164,7 +165,7 @@ En esta tarea, creará una nueva consulta basada en archivos CSV.
 
 1. Para agregar una nueva consulta, vaya a la ventana **Editor de Power Query**. En la ficha de cinta **Inicio**, en el grupo **Nueva consulta**, seleccione la flecha desplegable de **Nuevo origen** y, luego, seleccione **Texto o CSV**.
 
-1. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Resources** y seleccione el archivo **ResellerSalesTargets.csv**. Seleccione **Open** (Abrir).
+1. En la ventana **Abrir**, vaya a la carpeta **D:\Allfiles\Resources** y seleccione el archivo **ResellerSalesTargets.csv**. Seleccione **Open** (Abrir).
 
 1. En la ventana **ResellerSalesTargets.csv**, revise la vista previa de los datos. Seleccione **Aceptar**.
 
@@ -178,7 +179,7 @@ En esta tarea, creará una nueva consulta basada en archivos CSV.
 
      ![Imagen 74](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image38.png)
 
-1. Repita pasos para crear una consulta basada en el archivo **D:\PL300\Resources\ColorFormats.csv**.
+1. Repita pasos para crear una consulta basada en el archivo **D:\Allfiles\Resources\ColorFormats.csv**.
 
     *El archivo CSV **ColorFormats** contiene una fila por color del producto. Cada fila registra los códigos HEX para dar formato a los colores de fondo y de fuente.*
 

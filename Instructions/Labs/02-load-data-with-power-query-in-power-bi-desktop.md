@@ -1,5 +1,6 @@
 ---
 lab:
+  course: 'PL-300, DP-605'
   title: "Carga de datos transformados en Power\_BI Desktop"
   module: 'Clean, Transform, and Load Data in Power BI'
 ---
@@ -31,17 +32,17 @@ En esta tarea, configurará el entorno para el laboratorio.
 
 1. Para abrir el archivo de inicio de Power BI Desktop, seleccione **Archivo > Abrir informe > Examinar informes**.
 
-1. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Starter** y abra el archivo **Análisis de ventas**.
+1. En la ventana **Abrir**, vaya a la carpeta **D:\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Starter** y abra el archivo **Análisis de ventas**.
 
 1. Cierre todas las ventanas informativas que se abran.
 
-1. Fíjese en el mensaje de advertencia amarillo bajo la cinta.
+1. Fíjese en el mensaje de advertencia debajo de la cinta.
 
     *Este mensaje le avisa de que no se han aplicado consultas para cargar el archivo como tablas de modelo. Aplicará consultas más adelante en este laboratorio.*
 
-    Para descartar el mensaje de advertencia, a la derecha del mensaje de advertencia amarillo, haga clic en la **X**.
+    Para descartar el mensaje de advertencia, seleccione la **X** situada a la derecha del mensaje de advertencia.
 
-1. Para crear una copia del archivo, vaya a **Archivo > Guardar como** y guárdelo en la carpeta **D:\PL300\MySolution**.
+1. Para crear una copia del archivo, vaya a **Archivo > Guardar como** y guárdelo en la carpeta **D:\Allfiles\MySolution**.
 
 1. Si se le pide que aplique los cambios, seleccione **Aplicar más tarde**.
 
@@ -273,7 +274,7 @@ En esta tarea, configurará la consulte **Ventas**.
 1. En la ventana **Columna personalizada**, en el cuadro **Nuevo nombre de columna**, reemplace el texto por **Cost**.
 
 1. En el cuadro **Fórmula de columna personalizada**, escriba la siguiente expresión (después del símbolo igual):
-    - *Puede copiar la expresión desde el archivo **D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt**.*
+    - *Puede copiar la expresión desde el archivo **D:\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt**.*
     - *Esta expresión comprueba si falta el valor **TotalProductCost**. Si falta, genera un valor multiplicando el valor de **OrderQuantity** por el de **StandardCost**; de lo contrario, utiliza el valor existente de **TotalProductCost**.*
 
 

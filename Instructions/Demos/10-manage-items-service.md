@@ -1,9 +1,9 @@
 ---
-lab:
-  "\_\_ title": Manage files and semantic models in Power BI
-  "\_\_ module": Deploy and manage Power BI service items
+demo:
+  course: PL-300
+  title: Administración de archivos y modelos semánticos en Power BI
+  module: Deploy and manage Power BI service items
 ---
-
 # Administración de archivos y modelos semánticos en Power BI
 
 ## Preparación para la actualización de datos de la puerta de enlace
@@ -50,7 +50,7 @@ lab:
 
 1. Edita los detalles del icono Ventas, Margen de beneficio para mostrar la hora de la última actualización.
 
-1. Haga clic con el botón derecho en el archivo `D:\PL300\Demo\Resources\UpdateDatabase-LoadAdditionalSales.ps1`y, a continuación, ejecute con PowerShell. *Este script cargará los datos de ventas de diciembre de 2020 en la base de datos.*
+1. Haga clic con el botón derecho en el archivo `D:\Allfiles\Demo\Resources\UpdateDatabase-LoadAdditionalSales.ps1`y, a continuación, ejecute con PowerShell. *Este script cargará los datos de ventas de diciembre de 2020 en la base de datos.*
 
 1. En el servicio Power BI para el instructor, en el panel de navegación, actualiza el modelo semántico del **Análisis de ventas**.
 
