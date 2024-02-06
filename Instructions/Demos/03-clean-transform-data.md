@@ -1,8 +1,10 @@
 ---
-lab:
-  "\_\_ title": 'Clean, transform, and load data in Power BI'
-  "\_\_ module": 'Clean, transform, and load data in Power BI'
+demo:
+  course: 'PL-300, DP-605'
+  title: "Limpieza, transformación y carga de datos en Power\_BI"
+  module: 'Clean, transform, and load data in Power BI'
 ---
+
 # Limpieza, transformación y carga de datos en Power BI
 
 ## Aplicación de transformaciones de consulta
@@ -33,7 +35,7 @@ lab:
 
     - ProductID
 
-    - Quantity
+    - Cantidad
 
     - UnitPrice
 
@@ -47,7 +49,7 @@ lab:
 
 ## Integración de consultas
 
-1. Cree una nueva consulta utilizando el conector de Excel, conectándose al archivo D:\PL300\Demo\Data\ProductCost.xlsx.
+1. Cree una consulta mediante el conector de Excel, conectándose al archivo D:\Allfiles\Demo\Data\ProductCost.xlsx.
 
 1. Elimine la columna Product.
 
