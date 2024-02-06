@@ -1,7 +1,8 @@
 ---
-lab:
-  "\_\_ title": Create and manage workspaces in Power BI
-  "\_\_ module": Deploy and manage Power BI service items
+demo:
+  course: 'PL-300, DP-605'
+  title: "Creación y administración de áreas de trabajo en Power\_BI"
+  module: Deploy and manage Power BI service items
 ---
 
 # Crear y administrar áreas de trabajo
@@ -28,7 +29,7 @@ lab:
 
 1. Señale que el panel es de solo lectura.
 
-## Crear una aplicación
+## Creación de una aplicación
 
 1. Cambie a la ventana del servicio Power BI del **instructor**.
 
