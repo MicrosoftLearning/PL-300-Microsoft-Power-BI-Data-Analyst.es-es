@@ -1,5 +1,6 @@
 ---
 lab:
+  course: PL-300
   title: Realización de un análisis avanzado con objetos visuales de inteligencia artificial
   module: Perform Data Analysis in Power BI
 ---
@@ -46,7 +47,7 @@ En esta tarea, configurarás el entorno para el laboratorio creando un modelo se
 
 1. Seleccione **Cargar > Examinar**.
 
-1. Vaya a la carpeta **D:\PL300\Labs\08-perform-data-analysis-in-power-bi-desktop\Starter**.
+1. Vaya a la carpeta **D:\Allfiles\Labs\08-perform-data-analysis-in-power-bi-desktop\Starter**.
 
 1. Seleccione el archivo **Sales Analysis.pbix** y, a continuación, **Abrir**.
 
@@ -70,7 +71,7 @@ En esta tarea, crearás una conexión dinámica al modelo semántico de Power B
 
 1. En la ventana **Centro de datos**, selecciona el modelo semántico de **Análisis de ventas** en **Mi área de trabajo** y luego  **Conectar**, o bien haz doble clic para cargar el modelo semántico.
 
-1. Vaya a **Archivo > Guardar** y guarde el nombre de archivo como **Exploración de ventas** en la carpeta **D:\PL300\MySolution** .
+1. Vaya a **Archivo > Guardar** y guarde el nombre de archivo como **Exploración de ventas** en la carpeta **D:\Allfiles\MySolution**.
 
 *Ahora creará dos páginas de informe, y en cada una trabajará con un objeto visual diferente para analizar y explorar los datos.*
 

@@ -1,5 +1,6 @@
 ---
 lab:
+  course: PL-300
   title: "Mejora de un informe en Power\_BI Desktop"
   module: Create Reports in Power BI desktop
 ---
@@ -54,17 +55,17 @@ En esta tarea, configurará el entorno para el laboratorio abriendo el informe d
 
 1. Para abrir el archivo de inicio de Power BI Desktop, seleccione **Archivo > Abrir informe > Examinar informes**.
 
-1. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Labs\07-design-report-in-power-bi-desktop-enhanced\Starter** y abra el archivo **Sales Analysis**.
+1. En la ventana **Abrir**, vaya a la carpeta **D:\Allfiles\Labs\07-design-report-in-power-bi-desktop-enhanced\Starter** y abra el archivo **Sales Analysis**.
 
 1. Cierre todas las ventanas informativas que se abran.
 
-1. Fíjese en el mensaje de advertencia amarillo bajo la cinta.
+1. Fíjese en el mensaje de advertencia debajo de la cinta.
 
     *Este mensaje le avisa de que no se han aplicado consultas para cargar el archivo como tablas de modelo. Aplicará consultas más adelante en este laboratorio.*
 
-    *Para descartar el mensaje de advertencia, a la derecha del mensaje de advertencia en amarillo, seleccione la **X**.*
+    *Para descartar el mensaje de advertencia, seleccione la **X** situada a la derecha del mensaje de advertencia.*
 
-1. Para crear una copia del archivo, vaya a **Archivo > Guardar como** y guárdelo en la carpeta **D:\PL300\MySolution**.
+1. Para crear una copia del archivo, vaya a **Archivo > Guardar como** y guárdelo en la carpeta **D:\Allfiles\MySolution**.
 
 1. Si se le pide que aplique los cambios, seleccione **Aplicar más tarde**.
 

@@ -1,5 +1,6 @@
 ---
 lab:
+  course: 'PL-300, DP-605'
   title: "Diseño de un informe en Power\_BI Desktop"
   module: Create Reports in Power BI Desktop
 ---
@@ -24,9 +25,9 @@ En esta tarea configurará el entorno para el laboratorio abriendo el informe de
 
 1. En Power BI Desktop, vaya a **Archivo** > **Abrir informe** > **Examinar informes**.
 
-1. Abra el archivo **Sales Analysis** de la carpeta **D:\PL300\Labs\06-design-report-in-power-bi-desktop\Starter**.
+1. Abra el archivo **Sales Analysis** de la carpeta **D:\Allfiles\Labs\06-design-report-in-power-bi-desktop\Starter**.
 
-1. Cree una copia del archivo. Para ello, vaya a **Archivo** > **Guardar como** y guarde la copia en la carpeta **D:\PL300\MySolution**.
+1. Cree una copia del archivo. Para ello, vaya a **Archivo** > **Guardar como** y guarde la copia en la carpeta **D:\Allfiles0\MySolution**.
 
 ## **Diseño de la página 1**
 
@@ -42,7 +43,7 @@ En esta tarea diseñará la primera página del informe. Cuando haya completado 
 
     ![Imagen 1](Linked_image_Files/07-design-report-in-power-bi-desktop_image15.png)
 
-1. En la ventana **Abrir**, vaya a la carpeta **D:\PL300\Resources**.
+1. En la ventana **Abrir**, vaya a la carpeta **D:\Allfiles\Resources**.
 
 1. Seleccione el archivo **AdventureWorksLogo.jpg** y **Abrir**.
 

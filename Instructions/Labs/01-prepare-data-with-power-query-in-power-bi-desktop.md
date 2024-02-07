@@ -20,7 +20,7 @@ Este laboratorio está diseñado para presentarle la aplicación de Power BI Des
 
 ## **Introducción a Power BI Desktop**
 
-En esta tarea, comenzará abriendo un archivo de Power BI de inicio (.pbix). El archivo de inicio no contiene ningún dato, pero se ha configurado especialmente para ayudarle a completar el laboratorio. La siguiente configuración de nivel de informe se ha deshabilitado en el archivo de inicio:
+ En esta tarea, comenzará abriendo un archivo de Power BI de inicio (.pbix). El archivo de inicio no contiene ningún dato, pero se ha configurado especialmente para ayudarle a completar el laboratorio. La siguiente configuración de nivel de informe se ha deshabilitado en el archivo de inicio:
 
 - Carga de datos > Importar relaciones de orígenes de datos en la primera carga
 - Carga de datos > Detectar automáticamente nuevas relaciones cuando se carguen los datos
@@ -41,7 +41,6 @@ En esta tarea, comenzará abriendo un archivo de Power BI de inicio (.pbix). El
 
 1. Guarde una copia del archivo con **Guardar como** en la carpeta **D:\Allfiles\MySolution**.
 
-
 ## **Obtención de datos de SQL Server**
 
 Esta tarea le enseña a conectarse a una base de datos de SQL Server e importar tablas, que crean consultas en Power Query.
@@ -50,23 +49,23 @@ Esta tarea le enseña a conectarse a una base de datos de SQL Server e importar 
 
      ![Icono Obtener datos de SQL Server](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image11.png)
 
-1. En la ventana **Base de datos de SQL Server**, en el cuadro **Servidor**, escriba **localhost** y, a continuación, seleccione **Aceptar**.
+1. En la ventana **Base de datos de SQL Server**, en el cuadro **Servidor**, escriba **localhost** y deje **Base de datos** en blanco y, a continuación, seleccione **Aceptar**.
 
     *Nota: En este laboratorio, se conectará a la base de datos de SQL Server mediante **localhost** porque los orígenes de datos de puerta de enlace no pueden resolver **localhost**. Este no es un procedimiento recomendado al crear sus propias soluciones.*
 
 1. Si se le solicitan credenciales, en la ventana **Base de datos de SQL Server**, seleccione **Usar mis credenciales actuales** y, a continuación, haga clic en **Conectar**.
 
-1. En la ventana **Navegador**, a la izquierda, expanda la base de datos **AdventureWorksDW2020**.
+1. En el panel **Navegador**, expanda la base de datos **AdventureWorksDW2020**.
 
     *Nota: La base de datos **AdventureWorksDW2020** se basa en la base de datos de ejemplo **AdventureWorksDW2017**. Se ha modificado para apoyar los objetivos de aprendizaje de los laboratorios del curso.*
 
-1. Seleccione la tabla **DimEmployee**, pero no active su casilla.
+1. Seleccione la tabla **DimEmployee** y observe la vista previa de los datos de la tabla.
 
      ![Base de datos AdventureWorksDW2020 con DimEmployee indicado](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image18.png)
 
-1. En el panel de la derecha, fíjese en que hay una vista previa de los datos de la tabla. Los datos de la vista previa permiten ver las columnas y un ejemplo de filas.
+    *Nota: los datos de la vista previa permiten ver las columnas y un ejemplo de filas.*
 
-1. Para crear consultas, active la casilla situada junto a las seis tablas siguientes:
+1. Para importar los datos de tabla, **active la casilla** situada junto a las seis tablas siguientes:
 
     - DimEmployee
     - DimEmployeeSalesTerritory
@@ -76,13 +75,12 @@ Esta tarea le enseña a conectarse a una base de datos de SQL Server e importar 
     - FactResellerSales
 
 1. Completa esta tarea seleccionando **Transformar datos**, lo que abrirá el editor de Power Query.
-    
-    1. *Este laboratorio solo está pensado para conectarse a los datos y generar perfiles de estos, pero no para **transformarlos**.*
 
+Ahora ha importado datos en Power BI y tiene el Editor de Power Query abierto para la siguiente tarea.
 
 ## **Vista previa de datos en el Editor de Power Query**
 
-Esta tarea presenta el Editor de Power Query y permite revisar los datos y generar perfiles de estos. Esto le ayuda a determinar cómo limpiar y transformar los datos más adelante.
+Esta tarea presenta el Editor de Power Query y permite revisar los datos y generar perfiles de estos. Esto le ayuda a determinar cómo limpiar y transformar los datos más adelante. También revisará ambas tablas de dimensiones con el prefijo "Dim" y las tablas de hechos con el prefijo "Fact".
 
 1. En la ventana del **Editor de Power Query**, a la izquierda, observe el panel **Consultas**. El panel **Consultas** contiene una consulta para cada tabla seleccionada.
 
@@ -118,15 +116,9 @@ Esta tarea presenta el Editor de Power Query y permite revisar los datos y gener
 
      ![Distribución de columnas que muestra 296 valores distintos y 296 valores únicos](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image26.png)
 
-1. En el panel **Consultas**, seleccione la consulta **DimEmployeeSalesTerritory**.
+1. En el panel **Consultas**, seleccione la consulta **DimProduct**.
 
-    *La tabla **DimEmployeeSalesTerritory** almacena una fila para cada empleado y las regiones del territorio de ventas que administran. La tabla admite la relación de muchas regiones con un solo empleado. Algunos empleados administran una, dos o posiblemente más regiones. Al modelar estos datos, deberá definir una relación de varios a varios.*
-
-1. En el panel **Consultas**, seleccione la consulta **DimProduct**. La tabla **DimProduct** contiene una fila por producto vendido por la empresa.
-
-1. Desplácese horizontalmente para mostrar las últimas columnas. Observe la columna **DimProductSubcategory**.
-
-    *Cuando agregas transformaciones a esta consulta en el laboratorio **Carga de datos transformados en Power BI Desktop**, utilizarás la columna **DimProductSubcategory** para combinar tablas.*
+    *La tabla **DimProduct** contiene una fila por producto vendido por la empresa.*
 
 1. En el panel **Consultas**, seleccione la consulta **DimReseller**.
 
@@ -158,7 +150,6 @@ Esta tarea presenta el Editor de Power Query y permite revisar los datos y gener
 
     *La falta de valores de la columna **TotalProductCost** es un problema de calidad de datos. Para solucionarlo, en el laboratorio **Carga de datos transformados en Power BI Desktop**, aplicarás transformaciones para rellenar los valores que faltan con el coste estándar del producto, que se almacena en la tabla **DimProduct** relacionada.*
 
-
 ## **Obtención de datos de un archivo CSV**
 
 En esta tarea, creará una nueva consulta basada en archivos CSV.
@@ -186,7 +177,6 @@ En esta tarea, creará una nueva consulta basada en archivos CSV.
 *Ahora debería tener dos nuevas consultas: **ResellerSalesTargets** y **ColorFormats**.*
 
  ![Lista de consultas](Linked_image_Files/01-all-queries-loaded.png)
-
 
 ### **Finalización**
 

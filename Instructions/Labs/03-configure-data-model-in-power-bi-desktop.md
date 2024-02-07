@@ -1,5 +1,6 @@
 ---
 lab:
+  course: 'PL-300, DP-605'
   title: "Diseño de un modelo de datos en Power\_BI"
   module: Design a Data Model in Power BI
 ---
@@ -31,11 +32,11 @@ En esta tarea configurará el entorno para el laboratorio.
 
 1. Para abrir el archivo de inicio de Power BI Desktop, seleccione **Archivo > Abrir informe > Examinar informes**.
 
-1. Vaya a la carpeta **D:\PL300\Labs\03-configure-data-model-in-power-bi-desktop\Starter** y seleccione el archivo **Sales Analysis**.
+1. Vaya a la carpeta **D:\Allfiles\Labs\03-configure-data-model-in-power-bi-desktop\Starter** y seleccione el archivo **Sales Analysis**.
 
 1. Cierre todas las ventanas informativas que se abran.
 
-1. Vaya a **Archivo > Guardar como** y guarde el archivo en la carpeta **D:\PL300\MySolution**.
+1. Vaya a **Archivo > Guardar como** y guarde el archivo en la carpeta **D:\Allfiles\MySolution**.
 
 ## **Crear relaciones de modelos**
 
@@ -336,7 +337,7 @@ En esta tarea creará dos medidas rápidas para calcular los beneficios y el mar
 
 1. Arrastre el campo **Sales** al cuadro **Valor base**.
 
-1. Arrastre el campo **Costo** al cuadro **Valor que se restará**.
+1. Arrastre el campo **Costo** al cuadro **Valor que se restará**, a continuación seleccione **Agregar**.  
 
      ![Imagen 368](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image48.png)
 
