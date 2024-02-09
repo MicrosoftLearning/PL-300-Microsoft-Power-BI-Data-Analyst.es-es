@@ -273,14 +273,14 @@ En esta tarea, configurará la consulte **Ventas**.
 
 1. En la ventana **Columna personalizada**, en el cuadro **Nuevo nombre de columna**, reemplace el texto por **Cost**.
 
-1. En el cuadro **Fórmula de columna personalizada**, escriba la siguiente expresión (después del símbolo igual):
-    - *Puede copiar la expresión desde el archivo **D:\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt**.*
-    - *Esta expresión comprueba si falta el valor **TotalProductCost**. Si falta, genera un valor multiplicando el valor de **OrderQuantity** por el de **StandardCost**; de lo contrario, utiliza el valor existente de **TotalProductCost**.*
+1. En el cuadro **Fórmula de columna personalizada**, escriba la siguiente expresión (después del símbolo igual) y guarde la nueva columna:
 
+        `
+    if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]  `
 
-    `
-    if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]
-    `
+    *Puede copiar la expresión desde el archivo **D:\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt**.*
+
+    *Esta expresión comprueba si falta el valor **TotalProductCost**. Si falta, genera un valor multiplicando el valor de **OrderQuantity** por el de **StandardCost**; de lo contrario, utiliza el valor existente de **TotalProductCost**.*
 
 1. Quite las dos columnas siguientes:
 
