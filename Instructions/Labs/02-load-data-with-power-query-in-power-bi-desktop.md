@@ -275,8 +275,7 @@ En esta tarea, configurará la consulte **Ventas**.
 
 1. En el cuadro **Fórmula de columna personalizada**, escriba la siguiente expresión (después del símbolo igual) y guarde la nueva columna:
 
-        `
-    if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]  `
+   ` if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost] `
 
     *Puede copiar la expresión desde el archivo **D:\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt**.*
 
