@@ -87,7 +87,7 @@ En esta tarea creará el panel **Supervisión de ventas**. Anclará un visual de
 
     ![Imagen 7](Linked_image_Files/09-create-power-bi-dashboard_image23.png)
 
-1. Seleccione una de las preguntas sugeridas debajo del cuadro Preguntas y respuestas, en recuadros azules, y revise la respuesta.
+1. Selecciona cualquiera de las preguntas sugeridas debajo del cuadro de preguntas y respuestas y revisa la respuesta.
 
 1. Quite todo el texto del cuadro Preguntas y respuestas, y escriba lo siguiente: **Ventas hasta la fecha**.
 
@@ -121,7 +121,7 @@ En esta tarea creará el panel **Supervisión de ventas**. Anclará un visual de
     
     *Puede insertar una imagen mediante su dirección URL o puede usar una dirección URL de datos, que inserta el contenido en línea.*
 
-1. Para cambiar el tamaño del icono del logotipo, arrastre la esquina inferior derecha y cambie el tamaño del icono a una unidad de ancho y dos unidades de alto.
+1. Para cambiar el tamaño del icono del logotipo, arrastra la esquina inferior derecha y cambia el tamaño del icono a una unidad de ancho y una unidad de alto.
     
     *El tamaño de los iconos está limitado a una forma rectangular.*
 
