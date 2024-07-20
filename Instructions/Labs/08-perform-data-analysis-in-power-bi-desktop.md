@@ -65,11 +65,11 @@ En esta tarea, crearás una conexión dinámica al modelo semántico de Power B
 
     *Importante: Si ya tiene Power BI Desktop abierto (de un laboratorio anterior), cierre esa instancia.*
 
-    *Sugerencia: De forma predeterminada, se abre el cuadro de diálogo Introducción delante de Power BI Desktop. Puede optar por iniciar sesión y cerrar la ventana emergente.*
+1. Crea un informe nuevo.
 
-1. En la cinta de opciones Inicio, selecciona **Obtener datos > Modelos semánticos de Power BI**.
+1. En la cinta Inicio, selecciona **Centro de datos de OneLake > Modelos semánticos de Power BI**.
 
-1. En la ventana **Centro de datos**, selecciona el modelo semántico de **Análisis de ventas** en **Mi área de trabajo** y luego  **Conectar**, o bien haz doble clic para cargar el modelo semántico.
+1. En la ventana **Centro de datos de OneLake**, selecciona el modelo semántico de **Análisis de ventas** en **Mi área de trabajo** y luego **Conectar**, o bien haz doble clic para cargar el modelo semántico.
 
 1. Vaya a **Archivo > Guardar** y guarde el nombre de archivo como **Exploración de ventas** en la carpeta **D:\Allfiles\MySolution**.
 

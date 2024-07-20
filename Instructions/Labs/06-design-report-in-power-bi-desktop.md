@@ -23,9 +23,11 @@ En este laboratorio, aprenderá a:
 
 En esta tarea configurará el entorno para el laboratorio abriendo el informe de inicio.
 
-1. En Power BI Desktop, vaya a **Archivo** > **Abrir informe** > **Examinar informes**.
+1. En Power BI Desktop, ve a **Abrir > Examinar este dispositivo**.
 
 1. Abra el archivo **Sales Analysis** de la carpeta **D:\Allfiles\Labs\06-design-report-in-power-bi-desktop\Starter**.
+
+   *Nota: En este momento, Power BI te pedirá que inicies sesión si aún no lo has hecho. Puedes iniciar sesión o seleccionar **Cancelar** y continuar con el laboratorio.*
 
 1. Cree una copia del archivo. Para ello, vaya a **Archivo** > **Guardar como** y guarde la copia en la carpeta **D:\Allfiles0\MySolution**.
 
@@ -172,7 +174,7 @@ En esta tarea diseñará la segunda página del informe. Cuando haya completado 
 
 1. Agregue una segmentación basada en el campo **Región \| Región**.
 
-1. Use el panel **Formato** para habilitar la opción "Seleccionar todo" (en el grupo **Selección**).
+1. Usa el panel **Formato** para habilitar la opción “Seleccionar todo” (en el grupo **Configuración de la segmentación > Selección**).
 
 1. Cambie el tamaño y coloque la segmentación para situarla en el lado izquierdo de la página del informe y que tenga aproximadamente la mitad de la altura de la página.
 
@@ -191,8 +193,8 @@ En esta tarea diseñará la segunda página del informe. Cuando haya completado 
      - Pedidos (de la carpeta **Recuentos**)
      - Ventas
      - Costos
-     - Beneficios
-     - Margen de beneficio
+     - Ganancias (desde la carpeta **Precios**)
+     - Margen de beneficio (desde la carpeta **Precios**)
 
      ![Imagen 55](Linked_image_Files/07-design-report-in-power-bi-desktop_image43.png)
 
@@ -315,9 +317,9 @@ En esta tarea explorará el informe que se publicó en Power BI.
 
 1. En la ventana del explorador Microsoft Edge, en el panel **Navegación** del servicio Power BI (situado a la izquierda, podría estar contraído), expanda **Mi área de trabajo**.
 
-    ![Imagen 93](Linked_image_Files/06-my-workspace-new.png)
+    ![Captura de pantalla 2024-04-18 101424](https://github.com/afelix-95/PL-300-Microsoft-Power-BI-Data-Analyst/assets/148110824/346415bc-e559-4559-84b5-ef3a1f808461)
 
-1. Revise el contenido del área de trabajo. Observa las opciones de navegación de Todo, Contenido y Modelos semánticos más los flujos de datos.
+1. Revise el contenido del área de trabajo.
     1. *En un área de trabajo pueden existir cuatro tipos de elementos. Hablaremos de los **informes** y los **modelos semánticos**.*
     1. *Puede que tengas que actualizar el navegador Microsoft Edge si el modelo semántico no es visible.*
     1. *Al publicar el archivo de Power BI Desktop, el modelo de datos se publicó como modelo semántico.*

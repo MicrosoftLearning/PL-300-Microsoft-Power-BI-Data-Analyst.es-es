@@ -30,11 +30,11 @@ En este ejercicio, creará dos tablas calculadas. La primera será la tabla **Sa
 
     ![Icono de Power BI Desktop](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-    *Sugerencia: De forma predeterminada, se abre el cuadro de diálogo Introducción delante de Power BI Desktop. Puede optar por iniciar sesión y cerrar la ventana emergente.*
-
-1. Para abrir el archivo de inicio de Power BI Desktop, seleccione **Archivo > Abrir informe > Examinar informes**.
+1. Para abrir el archivo de inicio de Power BI Desktop, selecciona **Abrir > Examinar este dispositivo**.
 
 1. En la ventana **Abrir**, vaya a la carpeta **D:\Allfiles\Labs\04-create-dax-calculations-in-power-bi-desktop\Starter** y abra el archivo **Sales Analysis**.
+
+   *Nota: En este momento, Power BI te pedirá que inicies sesión si aún no lo has hecho. Puedes iniciar sesión o seleccionar **Cancelar** y continuar con el laboratorio.*
 
 1. Cierre todas las ventanas informativas que se abran.
 
@@ -70,7 +70,7 @@ La barra de fórmulas admite la entrada de una fórmula DAX válida. Incluye car
 
      *Sugerencia: Se recomienda especificar un "espacio en blanco" (es decir, retornos de carro y tabulaciones) para diseñar fórmulas con un formato intuitivo y fácil de leer, especialmente cuando las fórmulas son largas y complejas. Para especificar un retorno de carro, presione **Mayús + Entrar**. El "espacio en blanco" es opcional.*
 
-1. En el panel **Datos**, observe que el icono de tabla es un sombreado azul (lo que denota una tabla calculada).
+1. En el panel **Datos**, observa que el icono de la tabla tiene una calculadora adicional delante (lo que denota que se trata de una tabla calculada).
 
     ![Imagen 10](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image11.png)
 
@@ -104,7 +104,7 @@ La barra de fórmulas admite la entrada de una fórmula DAX válida. Incluye car
 
 En esta tarea, creará la tabla **Date** (Fecha).
 
-1. Cambie a la vista de datos. En la pestaña **Inicio** de la cinta de opciones, desde el grupo **Cálculos**, seleccione **Nueva tabla**.
+1. Cambia a la vista Tabla. En la pestaña **Inicio** de la cinta de opciones, desde el grupo **Cálculos**, seleccione **Nueva tabla**.
 
     ![Imagen 5](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image15.png)
 
@@ -201,7 +201,7 @@ En esta tarea agregará más columnas para habilitar el filtrado y la agrupació
 
     *De forma predeterminada, los valores de texto se ordenan alfabéticamente, los números se ordenan de menor a mayor y las fechas se ordenan de la más antigua a la más reciente.*
 
-1. Para personalizar el criterio de ordenación del campo **Month** (Mes), cambie a la vista de datos.
+1. Para personalizar el criterio de ordenación del campo **Mes**, cambia a la vista Tabla.
 
 1. Agregue la columna **MonthKey** (Clave de mes) a la tabla **Date** (Fecha).
 
@@ -217,7 +217,7 @@ En esta tarea agregará más columnas para habilitar el filtrado y la agrupació
 
     *Esta fórmula calcula un valor numérico para cada combinación de año/mes.*
 
-1. En la vista de datos, compruebe que la nueva columna contiene valores numéricos (por ejemplo, 201707 para el julio de 2017, etc.).
+1. En la vista Tabla, comprueba que la nueva columna contiene valores numéricos (por ejemplo, 201707 para julio de 2017, etc.).
 
     ![Imagen 21](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image28.png)
 
@@ -242,7 +242,6 @@ En esta tarea, completará el diseño de la tabla **Date** (Fecha) ocultando una
 
 1. Cambie el nombre de la jerarquía recién creada a **Fiscal**. Para ello, haga clic con el botón derecho y seleccione **Cambiar nombre**.
 
-
 1. Agregue los dos campos restantes a la jerarquía Fiscal. Para ello, selecciónelos en el panel **Datos**, haga clic con el botón derecho y seleccione**Agregar a la jerarquía** -> **Fiscal**.
 
     - Quarter (Trimestre)
@@ -255,6 +254,8 @@ En esta tarea, completará el diseño de la tabla **Date** (Fecha) ocultando una
     - **Date \| Date** (Fecha | Fecha) a **Sales \| OrderDate** (Ventas | Fecha de pedido)
     - **Date \| Date** (Fecha | Fecha) a **Targets \| TargetMonth** (Objetivos | Mes de destino)
 
+    *Los laboratorios usan una notación abreviada para hacer referencia a un campo. Tendrá este aspecto: **Sales \| Unit Price** (Ventas | Precio unitario). En este ejemplo, **Sales** (Ventas) es el nombre de la tabla y **Unit Price** (Precio unitario) es el nombre del campo.*
+
 1. Oculte las dos columnas siguientes:
 
     - Sales \| OrderDate (Ventas | Fecha de pedido)
@@ -266,13 +267,11 @@ En esta tarea, marcará la tabla **Date** (Fecha) como tabla de fechas.
 
 1. Cambie a la vista Informe. En el panel **Datos**, seleccione la tabla **Fecha** (no el campo **Fecha**).
 
-1. En la cinta contextual **Herramientas de tabla**, en el grupo **Calendarios**, seleccione **Marcar como tabla de fechas** y, a continuación, **Marcar como tabla de fechas**.
+1. En la cinta contextual **Herramientas de tabla**, dentro del grupo **Calendarios**, selecciona **Marcar como tabla de fechas**.
 
-    ![Imagen 8](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image32.png)
+1. En la ventana **Marcar como tabla de fechas**, desliza la propiedad **Marcar como tabla de fechas** a **Sí** y, en la lista desplegable **Elegir una columna de fecha**, selecciona **Fecha**. Seleccione **Guardar**.
 
-1. En la ventana **Marcar como tabla de fechas**, en la lista desplegable **Columna de fecha**, seleccione **Fecha**. Seleccione **Aceptar**.
-
-    ![Imagen 37](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image33.png)
+    ![Captura de pantalla 2024-04-17 164626](https://github.com/afelix-95/PL-300-Microsoft-Power-BI-Data-Analyst/assets/148110824/f316c96a-404d-4618-9bee-f12b0868ad01)
 
 1. Guarde el archivo de Power BI Desktop.
 
@@ -285,8 +284,6 @@ En esta tarea, marcará la tabla **Date** (Fecha) como tabla de fechas.
 En esta tarea, creará medidas simples. Las medidas simples agregan valores en una sola columna o recuento de filas de una tabla.
 
 1. En la vista Informe, en la **Página 2**, en el panel **Datos**, arrastre el campo **Ventas \| Precio unitario** hasta el objeto visual de matriz.
-
-    *Los laboratorios usan una notación abreviada para hacer referencia a un campo. Tendrá este aspecto: **Sales \| Unit Price** (Ventas | Precio unitario). En este ejemplo, **Sales** (Ventas) es el nombre de la tabla y **Unit Price** (Precio unitario) es el nombre del campo.*
 
     ![Imagen 27](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image35.png)
 
@@ -443,10 +440,6 @@ En esta tarea creará más medidas que usan fórmulas más complejas.
     ![Imagen 44](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image48.png)
 
     *Si bien parece que todos los vendedores no están cumpliendo con el objetivo, recuerde que el objeto visual Tabla aún no está filtrado por un período de tiempo específico. Generará informes de rendimiento de ventas que filtren por un período seleccionado por el usuario en el laboratorio **Diseño de un informe en Power BI Desktop**.*
-
-1. En la esquina superior derecha del panel **Datos**, contraiga el panel y, a continuación, expándalo.
-
-    *Al contraer y volver a abrir el panel, se restablece el contenido.*
 
 1. Observe que en la parte superior de la lista aparece la tabla **Targets** (Objetivos).
 

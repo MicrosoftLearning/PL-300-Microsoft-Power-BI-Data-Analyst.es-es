@@ -26,13 +26,13 @@ En esta tarea, configurará el entorno para el laboratorio.
 
 1. Abra Power BI Desktop.
 
-    *Sugerencia: De forma predeterminada, se abre el cuadro de diálogo Introducción delante de Power BI Desktop. Puede optar por iniciar sesión y, a continuación, cerrar la ventana emergente.*
-
     ![Icono de Power BI Desktop](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-1. Para abrir el archivo de inicio de Power BI Desktop, seleccione **Archivo > Abrir informe > Examinar informes**.
+1. Para abrir el archivo de inicio de Power BI Desktop, selecciona **Abrir > Examinar este dispositivo**.
 
 1. En la ventana **Abrir**, vaya a la carpeta **D:\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Starter** y abra el archivo **Análisis de ventas**.
+
+   *Nota: En este momento, Power BI te pedirá que inicies sesión si aún no lo has hecho. Puedes iniciar sesión o seleccionar **Cancelar** y continuar con el laboratorio.*
 
 1. Cierre todas las ventanas informativas que se abran.
 

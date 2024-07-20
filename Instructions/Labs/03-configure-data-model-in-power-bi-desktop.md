@@ -28,11 +28,11 @@ En esta tarea configurará el entorno para el laboratorio.
 
     ![Icono de Power BI Desktop](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-    *Sugerencia: De forma predeterminada, se abre el cuadro de diálogo Introducción delante de Power BI Desktop. Puede optar por iniciar sesión y cerrar la ventana emergente.*
-
-1. Para abrir el archivo de inicio de Power BI Desktop, seleccione **Archivo > Abrir informe > Examinar informes**.
+1. Para abrir el archivo de inicio de Power BI Desktop, selecciona **Abrir > Examinar este dispositivo**.
 
 1. Vaya a la carpeta **D:\Allfiles\Labs\03-configure-data-model-in-power-bi-desktop\Starter** y seleccione el archivo **Sales Analysis**.
+
+   *Nota: En este momento, Power BI te pedirá que inicies sesión si aún no lo has hecho. Puedes iniciar sesión o seleccionar **Cancelar** y continuar con el laboratorio.*
 
 1. Cierre todas las ventanas informativas que se abran.
 
@@ -76,7 +76,7 @@ En esta tarea, creará relaciones del modelo. El archivo se ha configurado para 
 
 1. Para crear una relación, seleccione **Nueva**.
 
-1. En la ventana **Crear relación**, en la primera lista desplegable, seleccione la tabla **Product** (Producto).
+1. En la ventana **Nueva relación**, en la primera lista desplegable, selecciona la tabla **Producto**.
 
      ![Imagen 333](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image16.png)
 
@@ -247,7 +247,7 @@ En esta tarea configurará la tabla **Sales**.
 
 En esta tarea actualizará varias columnas mediante actualizaciones masivas únicas. Usará este enfoque para ocultar columnas y darle formato a los valores de columna.
 
-1. En el panel **Datos**, seleccione la columna **Producto \| Clave de producto**.
+1. En el panel **Vista de modelo** > **Datos**, selecciona la columna **Producto \|ProductKey**.
 
 1. Mientras presiona la tecla **Ctrl**, seleccione las 13 columnas siguientes (que abarcan varias tablas):
 
@@ -378,8 +378,6 @@ En esta tarea creará dos medidas rápidas para calcular los beneficios y el mar
 ## **Creación de una relación de varios a varios**
 
 En esta tarea creará una relación de varios a varios entre las tablas **Salesperson** y **Sales**.
-
- *Los laboratorios usan una notación abreviada para hacer referencia a un campo. Tendrá este aspecto: **Salesperson \| Salesperson**. En este ejemplo, **Salesperson** es el nombre de la tabla y **Salesperson** es el nombre del campo.*
 
 1. En Power BI Desktop, en la vista Informe, en el panel **Datos**, active los dos campos siguientes para crear un objeto visual de **tabla**.
 

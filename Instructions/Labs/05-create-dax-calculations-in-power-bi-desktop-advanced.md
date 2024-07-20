@@ -27,11 +27,11 @@ En este laboratorio, aprenderá a:
 
     ![Icono de Power BI Desktop](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-    *Sugerencia: De forma predeterminada, se abre el cuadro de diálogo Introducción delante de Power BI Desktop. Puede optar por iniciar sesión y cerrar la ventana emergente.*
-
-1. Para abrir el archivo de inicio de Power BI Desktop, seleccione **Archivo > Abrir informe > Examinar informes**.
+1. Para abrir el archivo de inicio de Power BI Desktop, selecciona **Abrir > Examinar este dispositivo**.
 
 1. En la ventana **Abrir**, vaya a la carpeta **D:\Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Starter** y abra el archivo **Sales Analysis**.
+
+   *Nota: En este momento, Power BI te pedirá que inicies sesión si aún no lo has hecho. Puedes iniciar sesión o seleccionar **Cancelar** y continuar con el laboratorio.*
 
 1. Cierre todas las ventanas informativas que se abran.
 
@@ -42,6 +42,8 @@ En este laboratorio, aprenderá a:
     *Para descartar el mensaje de advertencia, seleccione la **X** situada a la derecha del mensaje de advertencia.*
 
 1. Para crear una copia del archivo, vaya a **Archivo > Guardar como** y guárdelo en la carpeta **D:\Allfiles\MySolution**.
+
+1. Si se le pide que aplique los cambios, seleccione **Aplicar más tarde**.
 
 ## **Creación de un objeto visual de matriz**
 
