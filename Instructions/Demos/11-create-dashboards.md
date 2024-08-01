@@ -1,6 +1,5 @@
 ---
 demo:
-  course: PL-300
   title: "Creación de paneles en el servicio Power\_BI"
   module: Deploy and manage Power BI service items
 ---

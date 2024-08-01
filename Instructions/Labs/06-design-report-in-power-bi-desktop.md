@@ -1,14 +1,12 @@
 ---
 lab:
-  course: 'PL-300, DP-605'
   title: "Diseño de un informe en Power\_BI Desktop"
   module: Create Reports in Power BI Desktop
 ---
 
-
 # Diseño de un informe en Power BI Desktop
 
-## **Caso de laboratorio**
+## Caso de laboratorio
 
 En este laboratorio, creará un informe de tres páginas. Luego, lo publicará en Power BI, desde donde lo podrá abrir e interactuar con él.
 
@@ -19,33 +17,34 @@ En este laboratorio, aprenderá a:
 
 **Este laboratorio debe durar unos 45 minutos**.
 
-## **Creación de un informe**
+## Introducción
 
-En esta tarea configurará el entorno para el laboratorio abriendo el informe de inicio.
+Para completar este ejercicio, abre primero un explorador web e introduce la siguiente URL para descargar la carpeta zip:
 
-1. En Power BI Desktop, ve a **Abrir > Examinar este dispositivo**.
+`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/06-design-report-in-power-bi-desktop/06-design-report.zip`
 
-1. Abra el archivo **Sales Analysis** de la carpeta **D:\Allfiles\Labs\06-design-report-in-power-bi-desktop\Starter**.
 
-   *Nota: En este momento, Power BI te pedirá que inicies sesión si aún no lo has hecho. Puedes iniciar sesión o seleccionar **Cancelar** y continuar con el laboratorio.*
+Extráela a la carpeta **C:\Users\Student\Downloads\06-design-report**.
 
-1. Cree una copia del archivo. Para ello, vaya a **Archivo** > **Guardar como** y guarde la copia en la carpeta **D:\Allfiles0\MySolution**.
+Abre el archivo **06-Starter-Sales Analysis.pbix**.
 
-## **Diseño de la página 1**
+> ***Nota**: Puedes ignorar el inicio de sesión al seleccionar **Cancelar**. Cierra todas las ventanas informativas que se abran. Si se te pide que apliques los cambios, selecciona **Aplicar más tarde**.*
 
-En esta tarea diseñará la primera página del informe. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
+## Diseño de la página 1
+
+En este ejercicio, diseñarás la primera página del informe. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
 
 ![Imagen de la página 1, que consta de un logotipo, dos segmentaciones y tres objetos visuales.](Linked_image_Files/06-finished-report-page.png)
 
 1. Para cambiar el nombre de la página en Power BI Desktop, en la parte inferior izquierda, haga clic con el botón derecho en **Página 1**, elija **Cambiar nombre de página** y dele el nombre **Información general**.
 
-    *Sugerencia: También puede hacer doble clic en el nombre de la página para cambiarle el nombre.*
+    > *Sugerencia: También puede hacer doble clic en el nombre de la página para cambiarle el nombre.*
 
 1. Para agregar una imagen, en la ficha de cinta **Insertar**, en el grupo **Elementos**, seleccione **Imagen**.
 
     ![Imagen 1](Linked_image_Files/07-design-report-in-power-bi-desktop_image15.png)
 
-1. En la ventana **Abrir**, vaya a la carpeta **D:\Allfiles\Resources**.
+1. En la ventana **Abrir**, ve a la carpeta **C:\Users\Student\Downloads\06-design-report**.
 
 1. Seleccione el archivo **AdventureWorksLogo.jpg** y **Abrir**.
 
@@ -58,8 +57,8 @@ En esta tarea diseñará la primera página del informe. Cuando haya completado 
      ![Imagen 49](Linked_image_Files/07-design-report-in-power-bi-desktop_image18.png)
 
 1. En el panel **Datos**, arrastre el campo **Fecha \| Año** (no el nivel **Año** de la jerarquía) a la segmentación **Campo** en el panel Visualizaciones.
-    
-    *Los laboratorios usan una notación abreviada para hacer referencia a un campo. Tendrá este aspecto: **Fecha \| Año**. En este ejemplo, **Fecha** es el nombre de la tabla y **Año** es el nombre del campo.*
+
+    > *Los laboratorios usan una notación abreviada para hacer referencia a un campo. Tendrá este aspecto: **Fecha \| Año**. En este ejemplo, **Fecha** es el nombre de la tabla y **Año** es el nombre del campo.*
 
 1. Para convertir la segmentación de lista en una lista desplegable, vaya a **Visualizaciones > Objeto visual > Visual > Configuración de segmentación > Estilo** y elija **Lista desplegable** en el menú desplegable.
 
@@ -70,7 +69,7 @@ En esta tarea diseñará la primera página del informe. Cuando haya completado 
      ![Imagen 19](Linked_image_Files/07-design-report-in-power-bi-desktop_image20.png)
 
 1. En la segmentación **Año**, abra la lista desplegable, seleccione **FY2020** y, después, contraiga la lista desplegable.
-    1. *La página del informe ahora se filtra por el año **FY2020**.*
+    > *La página del informe ahora se filtra por el año **FY2020**.*
 
      ![Imagen 20](Linked_image_Files/07-design-report-in-power-bi-desktop_image21.png)
 
@@ -94,12 +93,12 @@ En esta tarea diseñará la primera página del informe. Cuando haya completado 
 
 1. Arrastre y coloque los siguientes campos al objeto visual:
 
-     - Fecha \| Mes
-     - Ventas \| Ventas
+     - **Fecha \| Mes**
+     - **Ventas \| Ventas**
 
 1. En el panel de campos del objeto visual (situado debajo del panel **Visualizaciones**), fíjese en que los campos están asignados a los apartados o áreas **Eje X** y **Eje Y de columna**.
-    
-    *Si arrastra campos a un objeto visual, se agregarán a los apartados o áreas predeterminados. Para mayor precisión, puede arrastrar campos directamente a los apartados o áreas, como hará a continuación.*
+
+    > *Si arrastra campos a un objeto visual, se agregarán a los apartados o áreas predeterminados. Para mayor precisión, puede arrastrar campos directamente a los apartados o áreas, como hará a continuación.*
 
      ![Imagen 27](Linked_image_Files/07-design-report-in-power-bi-desktop_image28_N.png)
 
@@ -107,13 +106,13 @@ En esta tarea diseñará la primera página del informe. Cuando haya completado 
 
      ![Imagen 28](Linked_image_Files/07-design-report-in-power-bi-desktop_image29.png)
 
-1. Tenga en cuenta que el objeto visual solo tiene 11 meses.
-    
-    *El último mes del año actual, junio de 2020, no tiene ninguna venta (todavía). De forma predeterminada, el objeto visual ha eliminado los meses con ventas en blanco. Ahora configurará el objeto visual para que muestre todos los meses.*
+1. Ten en cuenta que el objeto visual solo tiene 11 meses.
+
+    > *El último mes del año actual, junio de 2020, no tiene ninguna venta (todavía). De forma predeterminada, el objeto visual ha eliminado los meses con ventas en blanco. Ahora configurará el objeto visual para que muestre todos los meses.*
 
 1. En el panel de campos del objeto visual, en el apartado o área **Eje X**, seleccione la flecha abajo del campo **Month** y elija **Mostrar elementos sin datos**.
-    
-    *Observe que ahora aparece el mes **Junio de 2020**.*
+
+    > *Observe que ahora aparece el mes **Junio de 2020**.*
 
      ![Imagen 52](Linked_image_Files/07-design-report-in-power-bi-desktop_image30.png)
 
@@ -162,13 +161,13 @@ En esta tarea diseñará la primera página del informe. Cuando haya completado 
 
 *Ahora se ha completado el diseño de la primera página.*
 
-## **Diseño de la página 2**
+## Diseño de la página 2
 
-En esta tarea diseñará la segunda página del informe. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
+En este ejercicio, diseñarás la segunda página del informe. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
 
  ![Imagen de la página 2, que consta de una segmentación y una matriz.](Linked_image_Files/07-design-report-in-power-bi-desktop_image37.png)
 
-*Importante: Cuando ya se hayan proporcionado instrucciones detalladas en los laboratorios, los pasos proporcionarán instrucciones más concisas. Si necesita las instrucciones detalladas, puede volver a consultar las otras tareas de este laboratorio.*
+> ***Importante**: Cuando ya se hayan proporcionado instrucciones detalladas, los pasos del laboratorio proporcionarán instrucciones más concisas. Si necesitas las instrucciones detalladas, puedes volver a consultar las otras tareas de este laboratorio.*
 
 1. Para crear una nueva página, en la parte inferior izquierda, seleccione el icono de signo más y cambie el nombre de la página nueva a **Beneficio**.
 
@@ -190,11 +189,12 @@ En esta tarea diseñará la segunda página del informe. Cuando haya completado 
 
 1. Agregue los siguientes cinco campos de la tabla **Ventas** al apartado o área **Valores**:
 
-     - Pedidos (de la carpeta **Recuentos**)
-     - Ventas
-     - Costos
-     - Ganancias (desde la carpeta **Precios**)
-     - Margen de beneficio (desde la carpeta **Precios**)
+     - **Pedidos** (desde la carpeta **Recuentos**)
+     - **Ccial**
+     - **Costee**
+     - **Ganancias** (desde la carpeta **Precios**)
+     - **Margen de beneficio** (desde la carpeta **Precios**)
+
 
      ![Imagen 55](Linked_image_Files/07-design-report-in-power-bi-desktop_image43.png)
 
@@ -203,26 +203,26 @@ En esta tarea diseñará la segunda página del informe. Cuando haya completado 
      ![Imagen 57](Linked_image_Files/07-design-report-in-power-bi-desktop_image44.png)
 
 1. En el panel **Datos**, arrastre el campo **Producto \| Categoría** al apartado **Filtros de esta página**.
-    
-    *Los campos agregados al panel **Filtros** pueden lograr el mismo resultado que una segmentación. Una diferencia es que no ocupan espacio en la página del informe. Otra diferencia es que se pueden configurar para alcanzar requisitos de filtrado más avanzados.*
+
+    > *Los campos agregados al panel **Filtros** pueden lograr el mismo resultado que una segmentación. Una diferencia es que no ocupan espacio en la página del informe. Otra diferencia es que se pueden configurar para alcanzar requisitos de filtrado más avanzados.*
 
 1. Dentro de la tarjeta de filtro, en la parte superior derecha, seleccione la flecha para contraer la tarjeta.
 
 1. Agregue cada uno de los siguientes campos de la tabla **Producto** al apartado o área **Filtros de esta página** directamente debajo de la tarjeta **Categoría** y contráigalos:
 
-     - Subcategoría
-     - Producto
-     - Color
+     - **Subcategoría**
+     - **Identificador**
+     - **Color**
 
      ![Imagen 60](Linked_image_Files/07-design-report-in-power-bi-desktop_image46.png)
 
 1. Guarde el archivo de Power BI Desktop.
 
- *Ahora se ha completado el diseño de la segunda página.*
+*Ahora se ha completado el diseño de la segunda página.*
 
-## **Página de diseño 3**
+## Página de diseño 3
 
-En esta tarea diseñará la tercera y última página del informe. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
+En este ejercicio, diseñarás la tercera y última página del informe. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
 
  ![Imagen de la página 3, que consta de una segmentación y tres objetos visuales.](Linked_image_Files/07-design-report-in-power-bi-desktop_image47.png)
 
@@ -250,10 +250,10 @@ En esta tarea diseñará la tercera y última página del informe. Cuando haya c
 
 1. Agregue los cuatro campos siguientes al objeto visual:
 
-     - Ventas \| Ventas
-     - Destinos \| Destino
-     - Destinos \| Varianza
-     - Destinos \| Margen de varianza
+     - **Ventas \| Ventas**
+     - **Destino \| Destinos**
+     - **Destinos \| Varianza**
+     - **Destinos \| Margen de varianza**
 
 1. Aplique formato al objeto visual:
 
@@ -284,45 +284,47 @@ En esta tarea diseñará la tercera y última página del informe. Cuando haya c
 
 1. Para modificar el tipo de visualización, en el panel **Visualizaciones**, seleccione **Gráfico de columnas agrupadas**.
 
+     > *Ahora es posible ver los mismos datos que se expresan mediante dos tipos de visualización diferentes.*
+
      ![Imagen 61](Linked_image_Files/07-design-report-in-power-bi-desktop_image58.png)
 
- *Ahora es posible ver los mismos datos expresados con dos tipos de visualización diferentes. No obstante, este no es un buen uso del diseño de página. Lo mejorará en el laboratorio **Mejora de un informe en Power BI Desktop** superponiendo objetos visuales. Al agregar botones a la página, permitirá que el usuario del informe determine cuál de los dos objetos visuales estará visible.*
+ *Se ha completado el diseño de la última página.*
 
- *Ahora se ha completado el diseño de la tercera y última página.*
+## Publicación y exploración del informe
 
-## **Publicación del informe**
+En este ejercicio, publicarás el informe en el servicio Power BI y explorarás el comportamiento del informe publicado.
 
-En esta tarea publicará el informe en el servicio Power BI.
+> **Nota**: Puedes revisar el resto del ejercicio, incluso si no tienes acceso al servicio Power BI en línea para realizar las tareas directamente.
 
 1. Seleccione la página **Información general** y guarde el archivo de Power BI Desktop.
 
 1. En la pestaña de la cinta **Inicio**, en el grupo **Compartir**, seleccione **Publicar**.
-    
-    *Si aún no ha iniciado sesión en Power BI Desktop, deberá iniciar sesión para publicar el informe.*
+
+    > *Si aún no ha iniciado sesión en Power BI Desktop, deberá iniciar sesión para publicar el informe.*
 
      ![Imagen 67](Linked_image_Files/07-design-report-in-power-bi-desktop_image59.png)
 
 1. En la ventana **Publicar en Power BI**, observe que **Mi área de trabajo** esté seleccionado.
-    
-    *En este laboratorio no profundizaremos en los distintos elementos del servicio Power BI.*
 
-1. Para publicar el informe, elija **Seleccionar**. Esta operación puede tardar unos minutos. 
+    > *En este laboratorio no profundizaremos en los distintos elementos del servicio Power BI.*
+
+1. Para publicar el informe, elija **Seleccionar**. Esta operación puede tardar unos minutos.
+
 1. Cuando la publicación se haya realizado correctamente, seleccione **Entendido**.
 
-## **Exploración del informe**
-
-En esta tarea explorará el informe que se publicó en Power BI.
-
-1. Abra el explorador Microsoft Edge e inicie sesión en **https://app.powerbi.com** .
+1. Abra el explorador Microsoft Edge e inicie sesión en `https://app.powerbi.com` .
 
 1. En la ventana del explorador Microsoft Edge, en el panel **Navegación** del servicio Power BI (situado a la izquierda, podría estar contraído), expanda **Mi área de trabajo**.
 
     ![Captura de pantalla 2024-04-18 101424](https://github.com/afelix-95/PL-300-Microsoft-Power-BI-Data-Analyst/assets/148110824/346415bc-e559-4559-84b5-ef3a1f808461)
 
 1. Revise el contenido del área de trabajo.
-    1. *En un área de trabajo pueden existir cuatro tipos de elementos. Hablaremos de los **informes** y los **modelos semánticos**.*
-    1. *Puede que tengas que actualizar el navegador Microsoft Edge si el modelo semántico no es visible.*
-    1. *Al publicar el archivo de Power BI Desktop, el modelo de datos se publicó como modelo semántico.*
+
+    - En un área de trabajo pueden existir cuatro tipos de elementos. Hablamos de los **informes** y los **modelos semánticos**.
+
+    - Puede que tengas que actualizar el navegador Microsoft Edge si el modelo semántico no es visible.
+
+    - Al publicar el archivo de Power BI Desktop, el modelo de datos se publicó como modelo semántico.
 
 1. Para abrir el informe, seleccione el informe **Sales Analysis**.
 
@@ -334,21 +336,21 @@ En esta tarea explorará el informe que se publicó en Power BI.
 
 1. Con la tecla **Ctrl** presionada, seleccione otro mes.
 
-     *Nota: De forma predeterminada, el filtro cruzado filtra el resto de objetos visuales de la página.*
+     > *Nota: De forma predeterminada, el filtro cruzado filtra el resto de objetos visuales de la página.*
 
 1. Observe que el gráfico de barras está filtrado y resaltado, con la parte en negrita de las barras que representan los meses filtrados.
 
-1. Mantenga el cursor sobre el objeto visual del gráfico de barras y, después, en la parte superior derecha, mantenga el cursor sobre el icono de filtro. 
-    
-    *El icono de filtro le permite comprender todos los filtros que se aplican al objeto visual, incluidas las segmentaciones y los filtros cruzados de otros objetos visuales.*
+1. Mantenga el cursor sobre el objeto visual del gráfico de barras y, después, en la parte superior derecha, mantenga el cursor sobre el icono de filtro.
+
+    > *El icono de filtro le permite comprender todos los filtros que se aplican al objeto visual, incluidas las segmentaciones y los filtros cruzados de otros objetos visuales.*
 
 1. Mantenga el cursor sobre una barra y observe la información sobre herramientas que aparece.
 
 1. Para deshacer el filtro cruzado, en el gráfico de columnas o líneas, seleccione un área vacía del objeto visual.
 
 1. Mantenga el cursor sobre el objeto visual de gráfico de columnas apiladas y, en la parte superior derecha, seleccione el icono **Modo de enfoque**.
-    
-    *El modo de enfoque amplía el objeto visual hasta que ocupa toda la página.*
+
+    > *El modo de enfoque amplía el objeto visual hasta que ocupa toda la página.*
 
      ![Imagen 96](Linked_image_Files/07-published-report-visual-filter.png)
 
@@ -367,12 +369,12 @@ En esta tarea explorará el informe que se publicó en Power BI.
      ![Imagen 84](Linked_image_Files/07-design-report-in-power-bi-desktop_image68.png)
 
 1. Tenga en cuenta que la segmentación **Región** tiene una selección diferente de la segmentación **Región** en la página **Información general**.
-    
-    *Las segmentaciones no están sincronizadas. Modificará el diseño del informe para asegurarse de que las páginas se sincronizan en el laboratorio **Mejora de un informe en Power BI Desktop**.*
+
+    > *Las segmentaciones no están sincronizadas. Modificará el diseño del informe para asegurarse de que las páginas se sincronizan en el laboratorio **Mejora de un informe en Power BI Desktop**.*
 
 1. En el panel **Filtros**, que se encuentra a la derecha, expanda una tarjeta de filtro y aplique algunos de ellos.
-    
-    *El panel **Filtros** permite definir más filtros de los que podrían caber en una página a modo de segmentaciones.*
+
+    > *El panel **Filtros** permite definir más filtros de los que podrían caber en una página a modo de segmentaciones.*
 
 1. En el objeto visual de matriz, use el botón de signo más (+) para expandir la jerarquía **Fiscal**.
 
@@ -392,10 +394,4 @@ En esta tarea explorará el informe que se publicó en Power BI.
 
      ![Imagen 91](Linked_image_Files/07-design-report-in-power-bi-desktop_image71.png)
 
-### **Finalización**
-
-En esta tarea, completará el laboratorio.
-
-Para volver a "Mi área de trabajo", seleccione **Mi área de trabajo** en el banner de la página web.
-
- *Mejorará el diseño del informe con características avanzadas en el laboratorio **Mejora de un informe en Power BI Desktop**.*
+## Laboratorio completado

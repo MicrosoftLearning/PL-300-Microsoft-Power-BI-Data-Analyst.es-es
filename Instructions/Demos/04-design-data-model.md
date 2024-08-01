@@ -1,6 +1,5 @@
 ---
 demo:
-  course: 'PL-300, DP-605'
   title: "Diseño de un modelo de datos en Power\_BI"
   module: Design a data model in Power BI
 ---

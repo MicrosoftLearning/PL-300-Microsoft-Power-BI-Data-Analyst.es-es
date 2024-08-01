@@ -1,6 +1,5 @@
 ---
 demo:
-  course: PL-300
   title: "Realización de análisis de datos en Power\_BI"
   module: Perform data analysis in Power BI
 ---

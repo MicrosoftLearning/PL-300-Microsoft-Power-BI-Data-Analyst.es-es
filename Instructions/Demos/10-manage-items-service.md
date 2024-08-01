@@ -1,6 +1,5 @@
 ---
 demo:
-  course: PL-300
   title: Administración de archivos y modelos semánticos en Power BI
   module: Deploy and manage Power BI service items
 ---
