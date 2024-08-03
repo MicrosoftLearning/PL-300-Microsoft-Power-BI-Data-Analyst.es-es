@@ -1,6 +1,5 @@
 ---
 demo:
-  course: 'PL-300, DP-605'
   title: Creación de informes en Power BI
   module: Create reports in Power BI
 ---

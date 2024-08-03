@@ -1,6 +1,5 @@
 ---
 demo:
-  course: 'PL-300, DP-605'
   title: Configuración de su propio entorno
   module: Set up your own environment
 ---

@@ -1,6 +1,5 @@
 ---
 demo:
-  course: 'PL-300, DP-605'
   title: "Creación y administración de áreas de trabajo en Power\_BI"
   module: Deploy and manage Power BI service items
 ---

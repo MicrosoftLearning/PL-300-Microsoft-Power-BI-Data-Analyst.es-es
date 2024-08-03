@@ -1,13 +1,12 @@
 ---
 lab:
-  course: 'PL-300, DP-605'
   title: "Carga de datos transformados en Power\_BI Desktop"
   module: 'Clean, Transform, and Load Data in Power BI'
 ---
 
 # Carga de datos transformados en Power BI Desktop
 
-## **Caso de laboratorio**
+## Caso de laboratorio
 
 En este laboratorio, usará técnicas de limpieza y transformación de datos para empezar a dar forma al modelo de datos. Después, se aplicarán las consultas para que se cargue cada una de ellas como una tabla en el modelo de datos.
 
@@ -18,39 +17,23 @@ En este laboratorio, aprenderá a:
 
 **Este laboratorio debe durar unos 45 minutos**.
 
-## **Introducción**
+## Introducción
 
-En esta tarea, configurará el entorno para el laboratorio.
+Para completar este ejercicio, abre primero un explorador web e introduce la siguiente URL para descargar la carpeta zip:
 
-*Importante: Si completó el laboratorio anterior en la misma VM, vaya a la siguiente tarea.*
+`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/02-load-data-with-power-query-in-power-bi-desktop/02-load-data.zip`
 
-1. Abra Power BI Desktop.
+Extráela a la carpeta **C:\Users\Student\Downloads\02-load-data**.
 
-    ![Icono de Power BI Desktop](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
+Abre el archivo **02-Starter-Sales Analysis.pbix**.
 
-1. Para abrir el archivo de inicio de Power BI Desktop, selecciona **Abrir > Examinar este dispositivo**.
+> ***Nota**: Puedes ignorar el inicio de sesión al seleccionar **Cancelar**. Cierra todas las ventanas informativas que se abran. Si se te pide que apliques los cambios, selecciona **Aplicar más tarde**.*
 
-1. En la ventana **Abrir**, vaya a la carpeta **D:\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Starter** y abra el archivo **Análisis de ventas**.
-
-   *Nota: En este momento, Power BI te pedirá que inicies sesión si aún no lo has hecho. Puedes iniciar sesión o seleccionar **Cancelar** y continuar con el laboratorio.*
-
-1. Cierre todas las ventanas informativas que se abran.
-
-1. Fíjese en el mensaje de advertencia debajo de la cinta.
-
-    *Este mensaje le avisa de que no se han aplicado consultas para cargar el archivo como tablas de modelo. Aplicará consultas más adelante en este laboratorio.*
-
-    Para descartar el mensaje de advertencia, seleccione la **X** situada a la derecha del mensaje de advertencia.
-
-1. Para crear una copia del archivo, vaya a **Archivo > Guardar como** y guárdelo en la carpeta **D:\Allfiles\MySolution**.
-
-1. Si se le pide que aplique los cambios, seleccione **Aplicar más tarde**.
-
-## **Configuración de la consulta SalesPerson**
+## Configuración de la consulta SalesPerson
 
 En esta tarea, usará el Editor de Power Query para configurar la consulta **Vendedor**.
 
-*Importante: Cuando se le indique que cambie el nombre de las columnas, es importante que las cambie de nombre tal como se describe.*
+> ***Importante**: Cuando se te indique que cambies el nombre de las columnas, es importante que las cambies de nombre tal como se describe.*
 
 1. Para abrir la ventana **Editor de Power Query**, en la ficha de cinta **Inicio**, dentro del grupo **Consultas**, seleccione el icono **Transformar datos**.
 
@@ -62,11 +45,11 @@ En esta tarea, usará el Editor de Power Query para configurar la consulta **Ven
 
 1. Para cambiar el nombre de la consulta, en el panel **Configuración de la consulta** (situado a la derecha), en el cuadro **Nombre**, reemplace el texto por **SalesPerson** y luego presione **Entrar**. A continuación, compruebe que el nombre se ha actualizado en el panel **Consultas**.
 
-    *El nombre de la consulta determina el nombre de la tabla del modelo. Se recomienda definir nombres concisos a la vez que descriptivos.*
+    > *El nombre de la consulta determina el nombre de la tabla del modelo. Se recomienda definir nombres concisos a la vez que descriptivos.*
 
 1. Para ubicar una columna específica, en la ficha de cinta **Inicio**, seleccione la flecha hacia abajo **Administrar columnas**, seleccione la flecha hacia abajo **Elegir columnas** y luego seleccione **Ir a columna**.
 
-    *Ir a Columna es una característica útil con muchas columnas. De lo contrario, puede desplazar horizontalmente las columnas de búsqueda.*
+    > *Ir a Columna es una característica útil con muchas columnas. De lo contrario, puede desplazar horizontalmente las columnas de búsqueda.*
 
      ![Administrar columnas > Elegir columnas > Ir a columna](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image13.png)
 
@@ -78,7 +61,7 @@ En esta tarea, usará el Editor de Power Query para configurar la consulta **Ven
 
 1. En el panel **Configuración de la consulta**, en la lista **Pasos aplicados**, fíjese en la incorporación del paso **Filas filtradas**.
 
-    *Cada transformación que se cree tiene como resultado otra lógica de paso. Es posible editar o eliminar pasos. También es posible seleccionar un paso para obtener una vista previa de los resultados de la consulta en esa fase de transformación.*
+    > *Cada transformación que se cree tiene como resultado otra lógica de paso. Es posible editar o eliminar pasos. También es posible seleccionar un paso para obtener una vista previa de los resultados de la consulta en esa fase de transformación.*
 
      ![Pasos aplicados](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image17.png)
 
@@ -105,7 +88,7 @@ En esta tarea, usará el Editor de Power Query para configurar la consulta **Ven
 
 1. Haga clic con el botón derecho en cualquiera de los encabezados de columna seleccionados y, después, en el menú contextual, seleccione **Combinar columnas**.
 
-    *Muchas transformaciones comunes se pueden aplicar haciendo clic con el botón secundario en el encabezado de columna y, posteriormente, eligiendo en el menú contextual. Sin embargo, hay más transformaciones disponibles en la cinta de opciones.*
+    > *Muchas transformaciones comunes se pueden aplicar haciendo clic con el botón secundario en el encabezado de columna y, posteriormente, eligiendo en el menú contextual. Sin embargo, hay más transformaciones disponibles en la cinta de opciones.*
 
 1. En la ventana **Combinar columnas**, en la lista desplegable **Separador** seleccione **Espacio**.
 
@@ -115,9 +98,9 @@ En esta tarea, usará el Editor de Power Query para configurar la consulta **Ven
 
 1. Use los pasos anteriores para cambiar el nombre de la columna **EmailAddress** a **UPN**.
 
-    *UPN es un acrónimo para el nombre principal de usuario.*
+    > *UPN es un acrónimo para el nombre principal de usuario.*
 
-1. En la parte inferior izquierda, en la barra de estado, compruebe que la consulta tiene cinco columnas y 18 filas.
+**En la parte inferior izquierda, en la barra de estado, comprueba que la consulta tiene 5 columnas y 18 filas.**
 
 ## **Configuración de la consulta SalesPersonRegion**
 
@@ -133,13 +116,13 @@ En esta tarea, se configurará la consulta **SalespersonRegion**.
 
 1. Haga clic con el botón secundario en cualquiera de los encabezados de selección de columna y, después, en el menú contextual, seleccione **Quitar columnas**.
 
-1. En la barra de estado, compruebe que la consulta tiene dos columnas y 39 filas.
+**En la barra de estado, comprueba que la consulta tiene 2 columnas y 39 filas.**
 
-## **Configuración de la consulta Product**
+## Configuración de la consulta Product
 
 En esta tarea, se configurará la consulta **Product**.
 
-*Importante: Cuando ya se hayan proporcionado instrucciones detalladas, los pasos de laboratorio proporcionarán instrucciones más concisas. Si necesita instrucciones detalladas, puede volver a consultar los pasos de tareas anteriores.*
+> ***Importante**: Cuando ya se hayan proporcionado instrucciones detalladas, los pasos del laboratorio proporcionarán instrucciones más concisas. Si necesitas instrucciones detalladas, puedes volver a consultar los pasos de tareas anteriores.*
 
 1. Seleccione la consulta **DimProduct** y cambie el nombre de la consulta a **Producto**.
 
@@ -160,11 +143,12 @@ En esta tarea, se configurará la consulta **Product**.
     ![Icono de expansión de columna](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image31.png)
 
 1. Consulte la lista completa de columnas y, a continuación, seleccione el cuadro **Seleccionar todas las columnas** para anular la selección de todas las columnas.
-2. Seleccione **EnglishProductSubcategoryName** y **DimProductCategory** y desactive la casilla **Usar el nombre de columna original como prefijo** antes de seleccionar **Aceptar**.
 
-    *Al seleccionar estas dos columnas, se aplicará una transformación para combinar con la tabla **DimProductSubcategory** y, después, incluir estas columnas. La columna **DimProductCategory** es, de hecho, otra tabla relacionada en el origen de datos.*
+1. Seleccione **EnglishProductSubcategoryName** y **DimProductCategory** y desactive la casilla **Usar el nombre de columna original como prefijo** antes de seleccionar **Aceptar**.
 
-    *Los nombres de columna de la consulta deben ser siempre únicos. Cuando está activada, esta casilla prefijaría cada columna con el nombre de columna expandido (en este caso, **DimProductSubcategory**). Como se sabe que los nombres de columna seleccionados no entran en conflicto con los de la consulta **Product**, se anula la selección de la opción.*
+    > *Al seleccionar estas dos columnas, se aplicará una transformación para combinar con la tabla **DimProductSubcategory** y, después, incluir estas columnas. La columna **DimProductCategory** es, de hecho, otra tabla relacionada en el origen de datos.*
+    >
+    > *Los nombres de columna de la consulta deben ser siempre únicos. Cuando está activada, esta casilla prefijaría cada columna con el nombre de columna expandido (en este caso, **DimProductSubcategory**). Como se sabe que los nombres de columna seleccionados no entran en conflicto con los de la consulta **Product**, se anula la selección de la opción.*
 
 1. Tenga en cuenta que la transformación dio como resultado la adición de dos columnas y que se ha quitado la columna **DimProductSubcategory**.
 
@@ -177,9 +161,9 @@ En esta tarea, se configurará la consulta **Product**.
     - **EnglishProductSubcategoryName** por **Subcategory**
     - **EnglishProductCategoryName** por **Category**
 
-1. En la barra de estado, compruebe que la consulta tiene 6 columnas y 397 filas.
+**En la barra de estado, comprueba que la consulta tiene 6 columnas y 397 filas.**
 
-## **Configuración de la consulta Reseller**
+## Configuración de la consulta Reseller
 
 En esta tarea configurará la tabla **Revendedor**.
 
@@ -216,9 +200,9 @@ En esta tarea configurará la tabla **Revendedor**.
     - **StateProvinceName** por **State-Province**
     - **EnglishCountryRegionName** por **Country-Region**
 
-1. En la barra de estado, compruebe que la consulta tiene 6 columnas y 701 filas.
+**En la barra de estado, comprueba que la consulta tiene 6 columnas y 701 filas.**
 
-## **Configuración de la consulta Region**
+## Configuración de la consulta Region
 
 En esta tarea, se configurará la consulta **Region**.
 
@@ -226,7 +210,7 @@ En esta tarea, se configurará la consulta **Region**.
 
 1. Aplique un filtro a la columna **SalesTerritoryAlternateKey** para quitar el valor 0 (cero).
 
-    *Esto quitará una fila.*
+    > *Esto quitará una fila.*
 
 1. Quite todas las columnas, **excepto** las siguientes:
 
@@ -241,9 +225,9 @@ En esta tarea, se configurará la consulta **Region**.
     - **SalesTerritoryCountry** por **Country**
     - **SalesTerritoryGroup** por **Group**
 
-1. En la barra de estado, compruebe que la consulta tiene cuatro columnas y 10 filas.
+**En la barra de estado, comprueba que la consulta tiene 4 columnas y 10 filas.**
 
-## **Configuración de la consulta Sales**
+## Configuración de la consulta Sales
 
 En esta tarea, configurará la consulte **Ventas**.
 
@@ -263,7 +247,7 @@ En esta tarea, configurará la consulte **Ventas**.
     - SalesAmount
     - DimProduct
 
-        *Nota: Puede que recuerde que, en el laboratorio **Preparación de datos en Power BI Desktop**, a un pequeño porcentaje de las filas **FactResellerSales** le faltaban valores de **TotalProductCost**. La columna **DimProduct** se ha incluido a fin de recuperar la columna del costo estándar del producto, para ayudar a corregir los valores que faltan.*
+    > ***Nota**: Puede que recuerdes que, en el laboratorio **Preparación de datos en Power BI Desktop**, a un pequeño porcentaje de filas **FactResellerSales** le faltaban valores de **TotalProductCost**. La columna **DimProduct** se ha incluido a fin de recuperar la columna del coste estándar del producto, para ayudar a corregir los valores que faltan.*
 
 1. Expanda la columna **DimProduct**, desactive todas las columnas y, después, incluya únicamente la columna **StandardCost**.
 
@@ -277,9 +261,9 @@ En esta tarea, configurará la consulte **Ventas**.
 
    ` if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost] `
 
-    *Puede copiar la expresión desde el archivo **D:\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt**.*
+    > ***Nota**: Puedes copiar la expresión del archivo **Snippets.txt** en la carpeta 02-load-data.*
 
-    *Esta expresión comprueba si falta el valor **TotalProductCost**. Si falta, genera un valor multiplicando el valor de **OrderQuantity** por el de **StandardCost**; de lo contrario, utiliza el valor existente de **TotalProductCost**.*
+    > *Esta expresión comprueba si falta el valor **TotalProductCost**. Si falta, genera un valor multiplicando el valor de **OrderQuantity** por el de **StandardCost**; de lo contrario, utiliza el valor existente de **TotalProductCost**.*
 
 1. Quite las dos columnas siguientes:
 
@@ -294,23 +278,21 @@ En esta tarea, configurará la consulte **Ventas**.
 
 1. Para modificar el tipo de datos de la columna, en el encabezado de columna **Cantidad**, a la izquierda del nombre de la columna, seleccione el icono **1.2** y, luego, **Número entero**.
 
-    *Es importante configurar el tipo de datos correcto. Cuando la columna contiene un valor numérico, también es importante elegir el tipo correcto si espera realizar cálculos de matemáticos.*
+    > *Es importante configurar el tipo de datos correcto. Cuando la columna contiene un valor numérico, también es importante elegir el tipo correcto si espera realizar cálculos de matemáticos.*
 
      ![Imagen 5667](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image50.png)
 
 1. Modifique los tipos de datos siguientes de tres columnas a **Número decimal fijo**.
 
-    *El tipo de datos de número decimal fijo permite 19 dígitos y permite una mayor precisión para evitar errores de redondeo. Es importante usar el tipo de número decimal fijo para los valores financieros o las tasas (como los tipos de cambio).*
+    > *El tipo de datos de número decimal fijo permite 19 dígitos y permite una mayor precisión para evitar errores de redondeo. Es importante usar el tipo de número decimal fijo para los valores financieros o las tasas (como los tipos de cambio).*
 
     - Unit Price
     - Sales
     - Costo
 
-1. En la barra de estado, compruebe que la consulta tiene 10 columnas y más de 999 filas.
+**En la barra de estado, comprueba que la consulta tiene 10 columnas y más de 999 filas.** *Se cargarán un máximo de 1000 filas como datos de vista previa para cada consulta.*
 
-    *Se cargarán un máximo de 1000 filas como datos de vista previa para cada consulta.*
-
-## **Configuración de la consulta Targets**
+## Configuración de la consulta Targets
 
 En esta tarea, se configurará la consulta **Targets**.
 
@@ -324,7 +306,7 @@ En esta tarea, se configurará la consulta **Targets**.
 
 1. Aplique un filtro a la columna **Value** para quitar los valores de guion (-).
 
-    *Puede que recuerde que el carácter de guion se usó en el archivo CSV de origen para representar cero (0).*
+    > *Puede que recuerde que el carácter de guion se usó en el archivo CSV de origen para representar cero (0).*
 
 1. Cambie el nombre de las dos columnas siguientes:
 
@@ -333,7 +315,7 @@ En esta tarea, se configurará la consulta **Targets**.
 
 1. Para preparar los valores de la columna **MonthNumber**, haga clic con el botón secundario en el encabezado de columna **MonthNumber** y, después, seleccione **Reemplazar valores**.
 
-    *Ahora se aplicarán transformaciones para generar una columna de fecha. La fecha se derivará de las columnas **Year** y **MonthNumber**. Creará la columna mediante la característica **Columnas a partir de ejemplos**.*
+    > *Ahora se aplicarán transformaciones para generar una columna de fecha. La fecha se derivará de las columnas **Year** y **MonthNumber**. Creará la columna mediante la característica **Columnas a partir de ejemplos**.*
 
 1. En la ventana **Reemplazar valores**, en el cuadro **Valor para buscar**, escriba **M** y deje la opción **Reemplazar por** vacía.
 
@@ -347,11 +329,11 @@ En esta tarea, se configurará la consulta **Targets**.
 
 1. En la columna **Column1**, en la primera celda de la cuadrícula, empiece a escribir **7/1/2017** y luego presione **Entrar**.
 
-    *La máquina virtual usa la configuración regional de EE. UU., por lo que esta fecha es de hecho el 1 de julio de 2017. Otras configuraciones regionales pueden requerir un **0** antes de la fecha.*
+    > ***Note**: La máquina virtual usa la configuración regional de EE. UU., por lo que esta fecha es el 1 de julio de 2017. Otras configuraciones regionales pueden requerir un **0** antes de la fecha.*
 
 1. Observe que las celdas de la cuadrícula se actualizan con valores previstos.
 
-    *La característica ha previsto con precisión que se están combinando valores de las columnas **Year** y **MonthNumber**.*
+    > *La característica ha previsto con precisión que se están combinando valores de las columnas **Year** y **MonthNumber**.*
 
 1. Observe también la fórmula presentada sobre la cuadrícula de consulta.
 
@@ -371,15 +353,15 @@ En esta tarea, se configurará la consulta **Targets**.
 
 1. Para multiplicar los valores de **Destino** por 1000, seleccione el encabezado de columna **Destino** y, después, en la ficha de cinta **Transformar**, desde el grupo **Columna de número**, seleccione **Estándar** y, luego, **Multiplicar**.
 
-    *Puede que recuerde que los valores de destino se almacenaron como miles.*
+    > *Puede que recuerde que los valores de destino se almacenaron como miles.*
 
      ![Imagen 5682](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image63.png)
 
 1. En la ventana **Multiplicar**, en el cuadro **Valor** escriba **1000** y seleccione **Aceptar**.
 
-1. En la barra de estado, compruebe que la consulta tiene tres columnas y 809 filas.
+**En la barra de estado, comprueba que la consulta tiene 3 columnas y 809 filas.**
 
-## **Configuración de la consulta ColorFormats**
+## Configuración de la consulta ColorFormats
 
 En esta tarea, se configurará la consulta **ColorFormats**.
 
@@ -389,9 +371,9 @@ En esta tarea, se configurará la consulta **ColorFormats**.
 
      ![Imagen 5688](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image68.png)
 
-1. En la barra de estado, compruebe que la consulta tiene tres columnas y 10 filas.
+**En la barra de estado, comprueba que la consulta tiene 3 columnas y 10 filas.**
 
-## **Actualización de la consulta Product**
+## Actualización de la consulta Product
 
 En esta tarea, se actualizará la consulta **Product** mediante la combinación de la consulta **ColorFormats**.
 
@@ -399,7 +381,7 @@ En esta tarea, se actualizará la consulta **Product** mediante la combinación 
 
 1. Para combinar la consulta **ColorFormats**, en la ficha de cinta **Inicio**, seleccione la flecha hacia abajo **Combinar** y, luego, **Combinar consultas**.
 
-    *La combinación de consultas permite la integración de datos, en este caso a partir de orígenes de datos diferentes (SQL Server y un archivo CSV).*
+    > *La combinación de consultas permite la integración de datos, en este caso a partir de orígenes de datos diferentes (SQL Server y un archivo CSV).*
 
      ![Imagen 5654](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image71.png)
 
@@ -415,7 +397,7 @@ En esta tarea, se actualizará la consulta **Product** mediante la combinación 
 
 1. Cuando se abra la ventana **Niveles de privacidad**, para cada uno de los dos orígenes de datos, en la lista desplegable correspondiente, seleccione **Organizativo** y, a continuación, **Guardar**.
 
-    *Los niveles de privacidad se pueden configurar para que el origen de datos determine si los datos se pueden compartir entre orígenes. Establecer cada origen de datos como **Organizativo** les permite compartir datos, en caso necesario. Los orígenes de datos privados nunca se pueden compartir con otros orígenes de datos. Esto no significa que los datos privados no se puedan compartir, sino que el motor de Power Query no puede compartir datos entre los orígenes.*
+    > *Los niveles de privacidad se pueden configurar para que el origen de datos determine si los datos se pueden compartir entre orígenes. Establecer cada origen de datos como **Organizativo** les permite compartir datos, en caso necesario. Los orígenes de datos privados nunca se pueden compartir con otros orígenes de datos. Esto no significa que los datos privados no se puedan compartir, sino que el motor de Power Query no puede compartir datos entre los orígenes.*
 
      ![Imagen 5691](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image74.png)
 
@@ -426,9 +408,9 @@ En esta tarea, se actualizará la consulta **Product** mediante la combinación 
     - Background Color Format
     - Font Color Format
 
-1. En la barra de estado, compruebe que la consulta tiene 8 columnas y 397 filas.
+**En la barra de estado, comprueba que la consulta tiene ahora 8 columnas y 397 filas.**
 
-## **Actualización de la consulta ColorFormats**
+## Actualización de la consulta ColorFormats
 
 En esta tarea, se actualizará la consulta **ColorFormats** para deshabilitar su carga.
 
@@ -440,35 +422,29 @@ En esta tarea, se actualizará la consulta **ColorFormats** para deshabilitar su
 
 1. En la ventana **Propiedades de la consulta**, desactive la casilla **Habilitar carga para el informe**.
 
-    *Deshabilitar la carga significa que no se cargará como una tabla en el modelo de datos. Esto se hace porque la consulta se combinó con la consulta **Producto**, que está habilitada para cargarse en el modelo de datos.*
+    > *Deshabilitar la carga significa que no se cargará como una tabla en el modelo de datos. Esto se hace porque la consulta se combinó con la consulta **Producto**, que está habilitada para cargarse en el modelo de datos.*
 
      ![Imagen 323](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image81.png)
 
-### **Finalización**
+### Revisión del producto final
 
-En esta tarea, completará el laboratorio.
+En el Editor de Power Query, comprueba que tienes **8 consultas**, denominadas correctamente como se indica a continuación:
 
-1. Compruebe que tiene ocho consultas, con el nombre correcto de la siguiente forma:
+- SalesPerson
+- SalesPersonRegion
+- Product
+- Reseller
+- Region
+- Sales
+- Targets
+- ColorFormats (que no se cargará en el modelo de datos)
 
-    - SalesPerson
-    - SalesPersonRegion
-    - Product
-    - Reseller
-    - Region
-    - Sales
-    - Targets
-    - ColorFormats (que no se cargará en el modelo de datos)
+Selecciona **Cerrar &amp; Aplicar** para cargar los datos en el modelo y cerrar la ventana Editor de Power Query.
 
-1. Para cargar el modelo de datos, en la vista Backstage de **Archivo**, seleccione **Cerrar y aplicar**.
+![Imagen 326](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image83.png)
 
-    *Todas las consultas habilitadas para carga se cargan ahora en el modelo de datos.*
+Ahora puedes ver el lienzo en Power BI Desktop, con filtros, visualizaciones y paneles de datos a la derecha. En el panel Datos, observa las **7 tablas** que se cargan en el modelo de datos.
 
-     ![Imagen 326](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image83.png)
+![Imagen 3](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image84.png)
 
-1. En el panel **Datos** (que se encuentra a la derecha), observe las siete tablas que se cargan en el modelo de datos.
-
-     ![Imagen 3](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image84.png)
-
-1. Guarde el archivo de Power BI Desktop.
-
-*Configurará tablas y relaciones de modelos de datos en el laboratorio **Modelado de datos en Power BI Desktop**.*
+## Laboratorio completado

@@ -1,14 +1,12 @@
 ---
 lab:
-  course: PL-300
   title: "Creación de un panel de Power\_BI"
   module: Create Dashboards
 ---
 
+# Creación de un panel de Power BI
 
-# **Creación de un panel de Power BI**
-
-## **Caso de laboratorio**
+## Caso de laboratorio
 
 En este laboratorio, creará el panel **Supervisión de ventas** en el servicio Power BI mediante un informe existente.
 
@@ -19,45 +17,33 @@ En este laboratorio, aprenderá a:
 
 **Este laboratorio debe durar unos 30 minutos**.
 
-## **Introducción e inicio de sesión**
+## Introducción
 
-En esta tarea configurará el entorno para el laboratorio iniciando sesión en Power BI.
+Para completar este ejercicio, abre primero un explorador web e introduce la siguiente URL para descargar la carpeta zip:
 
-*Nota: Si ya ha iniciado sesión en Power BI, pase a la siguiente tarea.*
+`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/09-create-power-bi-dashboard/09-create-dashboard.zip`
 
-1. Para abrir Microsoft Edge, en la barra de tareas, seleccione el acceso directo del programa Microsoft Edge.
+Extráela a la carpeta **C:\Users\Student\Downloads\09-create-dashboard**.
 
-     ![Imagen 12](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image1.png)
+## **Publicación del informe**
 
-1. En la ventana del explorador Microsoft Edge, vaya a **https://app.powerbi.com**.
-
-    *Sugerencia: También puede usar el favorito del servicio Power BI en la barra de favoritos de Microsoft Edge.*
-
-1. Complete el proceso de inicio de sesión con las credenciales de su organización (o las que se le hayan proporcionado). Si Microsoft Edge le solicita si quiere mantener la sesión iniciada, seleccione **Sí**.
-
-1. En la ventana del explorador Microsoft Edge, en el panel **Navegación** del servicio Power BI, expanda **Mi área de trabajo**. Deje abierta la ventana del explorador Microsoft Edge.
-
-     ![Imagen 22](Linked_image_Files/07-my-workspace-new.png)
-
-## **Introducción y publicación del informe**
-
-En esta tarea, configurarás el entorno para el laboratorio creando un modelo semántico. *Si ya has publicado el modelo semántico, pasa a la siguiente tarea.*
+En esta tarea, configurarás el entorno para el laboratorio creando un modelo semántico.
 
 1. En la ventana del explorador Microsoft Edge, en el servicio Power BI, vaya a **Mi área de trabajo**.
 
 1. Seleccione **Cargar > Examinar**.
 
-1. Vaya a la carpeta **D:\Allfiles\Labs\09-create-power-bi-dashboard\Starter**.
+1. Ve a la carpeta **C:\Users\Student\Downloads\09-create-dashboard**.
 
-1. Seleccione el archivo **Sales Analysis.pbix** y, a continuación, **Abrir**.
+1. Selecciona el archivo **09-Starter-Sales Analysis.pbix** y luego, **Abrir**.
 
-*Si se te pide que sustituyas el modelo semántico, selecciona **Sustituirlo**.*
+    > *Si se te pide que sustituyas el modelo semántico, selecciona **Sustituirlo**.*
 
 ## **Creación de un panel**
 
 En esta tarea creará el panel **Supervisión de ventas**. Anclará un visual del informe y agregará un icono basado en un URI de datos de imagen, además de usar Preguntas y respuestas para crear un icono.
 
-1. En el servicio Power BI, abra el informe **Sales Analysis**.
+1. En el servicio Power BI, abre el informe **09-Starter-Sales Analysis**.
 
 1. En la página **Información general**, establezca la segmentación **Año** en **FY2020**.
 
@@ -65,7 +51,7 @@ En esta tarea creará el panel **Supervisión de ventas**. Anclará un visual de
 
 1. Establezca la segmentación **Región** en **Seleccionar todo**.
 
-    *Los objetos visuales anclados se establecen con el contexto de filtro en el momento del anclaje. Si el objeto visual subyacente cambia, deberá actualizar también el icono del panel. En el caso de los filtros basados en el tiempo, es mejor usar una segmentación de fecha relativa (o Preguntas y respuestas usando una pregunta relativa basada en el tiempo).*
+    > *Los objetos visuales anclados se establecen con el contexto de filtro en el momento del anclaje. Si el objeto visual subyacente cambia, deberá actualizar también el icono del panel. En el caso de los filtros basados en el tiempo, es mejor usar una segmentación de fecha relativa (o Preguntas y respuestas usando una pregunta relativa basada en el tiempo).*
 
 1. Para crear un panel y anclar un objeto visual, mantenga el cursor sobre el objeto visual (columna/línea) **Sales and Profit Margin by Month** y seleccione el pin.
 
@@ -81,9 +67,9 @@ En esta tarea creará el panel **Supervisión de ventas**. Anclará un visual de
 
     ![Imagen 45](Linked_image_Files/09-create-power-bi-dashboard_image22.png)
 
-1. Para agregar un icono basado en una pregunta, en la parte superior izquierda del panel, seleccione **Pregunte algo sobre sus datos**.
-    
-    *Puede usar la característica Preguntas y respuestas para formular una pregunta y Power BI responderá con un objeto visual.*
+1. Para agregar un icono basado en una pregunta, en la parte superior izquierda del panel, seleccione **Pregunte algo sobre sus datos**. 
+
+    *Puedes usar la característica de preguntas y respuestas para formular una pregunta, y Power BI responderá con un objeto visual.*
 
     ![Imagen 7](Linked_image_Files/09-create-power-bi-dashboard_image23.png)
 
@@ -92,8 +78,8 @@ En esta tarea creará el panel **Supervisión de ventas**. Anclará un visual de
 1. Quite todo el texto del cuadro Preguntas y respuestas, y escriba lo siguiente: **Ventas hasta la fecha**.
 
 1. Observe que la respuesta es **(En blanco)**.
-    
-    *Quizá recuerda que agregó la medida **Ventas hasta la fecha** en el laboratorio **Creación de cálculos DAX avanzados en Power BI Desktop**. Esta medida es una expresión de inteligencia de tiempo y, por tanto, requiere un filtro en la tabla **Date** para generar un resultado.*
+
+    > *Quizás recuerdas que agregaste la medida **Ventas hasta la fecha** en el laboratorio **Creación de cálculos DAX avanzados en Power BI Desktop**. Esta medida es una expresión de inteligencia de tiempo y, por tanto, requiere un filtro en la tabla **Fecha** para generar un resultado.*
 
     ![Imagen 14](Linked_image_Files/09-create-power-bi-dashboard_image25.png)
 
@@ -107,23 +93,23 @@ En esta tarea creará el panel **Supervisión de ventas**. Anclará un visual de
 
     ![Imagen 15](Linked_image_Files/09-create-power-bi-dashboard_image28.png)
 
-1. Cuando se le pida que ancle el icono al panel, seleccione **Anclar**.
+1. Cuando se te pida que ancles el icono al panel **Supervisión de ventas**, selecciona **Anclar**.
 
 1. Para volver al panel, en la esquina superior izquierda, seleccione **Salir de Preguntas y respuestas**.
 
 1. Para agregar el logotipo de la empresa, en la barra de menús, seleccione **Editar** y elija **Agregar icono**.
     
-    *El uso de esta técnica para agregar un icono le permite mejorar el panel con elementos multimedia, como contenido web, imágenes, cuadros de texto con formato enriquecido y vídeo (con vínculos de YouTube o Vimeo).*
+    > *El uso de esta técnica para agregar un icono le permite mejorar el panel con elementos multimedia, como contenido web, imágenes, cuadros de texto con formato enriquecido y vídeo (con vínculos de YouTube o Vimeo).*
 
 1. En el panel **Agregar icono** (a la derecha), seleccione el icono **Imagen** y elija **Siguiente**.
 
-1. En el panel **Agregar icono de imagen**, en el cuadro **URL**, escriba la dirección URL completa que se encuentra en el archivo **D:\Allfiles\Resources\AdventureWorksLogo_DataURL.txt** y elija **Aplicar**.
+1. En el panel **Agregar icono de imagen**, en el cuadro **URL**, escribe la dirección URL completa que se encuentra en el archivo **C:\Users\Student\Downloads\09-create-dashboard\AdventureWorksLogo_DataURL.txt** y selecciona **Aplicar**.
     
-    *Puede insertar una imagen mediante su dirección URL o puede usar una dirección URL de datos, que inserta el contenido en línea.*
+    > *Puede insertar una imagen mediante su dirección URL o puede usar una dirección URL de datos, que inserta el contenido en línea.*
 
 1. Para cambiar el tamaño del icono del logotipo, arrastra la esquina inferior derecha y cambia el tamaño del icono a una unidad de ancho y una unidad de alto.
     
-    *El tamaño de los iconos está limitado a una forma rectangular.*
+    > *El tamaño de los iconos está limitado a una forma rectangular.*
 
 1. Organice los iconos de modo que el logotipo aparezca en la parte superior izquierda, con el icono **Ventas del año hasta la fecha** en la parte inferior, y el icono **Ventas, margen de beneficio**, en la parte derecha.
 
@@ -157,11 +143,13 @@ En esta tarea modificará los detalles de dos iconos.
 
 En este ejercicio, primero se cargarán los datos del pedidos de ventas de junio de 2020 en la base de datos **AdventureWorksDW2020**. A continuación, abrirá el archivo de Power BI Desktop, actualizará los datos y cargará el archivo en el área de trabajo.
 
+> ***Nota**: Si no puedes conectarte a la base de datos, puedes usar el archivo **09-Solution-Sales-Analysis.pbix**. En lugar de actualizar la base de datos y el modelo semántico, carga el archivo de solución en **Mi área de trabajo** y ve los cambios a los que se hace referencia en las siguientes tareas.*
+
 ## **Actualización de la base de datos de laboratorio**
 
 En esta tarea, se ejecutará un script de PowerShell para actualizar los datos de la base de datos **AdventureWorksDW2020**.
 
-1. En el Explorador de archivos, dentro de la carpeta **D:\Allfiles\Setup**, haga clic con el botón derecho en el archivo **UpdateDatabase-2-AddSales.ps1** y, después, seleccione **Ejecutar con PowerShell**.
+1. En el Explorador de archivos, dentro de la carpeta **C:\Users\Student\Downloads\09-create-dashboard**, haz clic con el botón derecho en el archivo **UpdateDatabase-2-AddSales.ps1** y, después, selecciona **Ejecutar con PowerShell**.
 
     ![Imagen 28](Linked_image_Files/09-create-power-bi-dashboard_image46.png)
 
@@ -173,7 +161,7 @@ En esta tarea, se ejecutará un script de PowerShell para actualizar los datos d
 
 ## **Actualización del archivo de Power BI Desktop**
 
-En esta tarea abrirá el archivo **Sales Analysis** de Power BI Desktop, actualizará los datos y cargará el archivo en su área de trabajo **Sales Analysis**.
+En esta tarea, abrirás el archivo **09-Starter-Sales Analysis** de Power BI Desktop, actualizarás los datos y cargarás el archivo en tu área de trabajo **Análisis de ventas**.
 
 1. En el archivo de Power BI Desktop, en el panel **Datos**, haga clic con el botón derecho en la tabla **Ventas** y, a continuación, seleccione **Actualizar datos**.
 
@@ -200,13 +188,9 @@ En esta tarea revisará el panel para ver las ventas actualizadas.
 2. En el icono **Ventas, margen de beneficio**, en el subtítulo, observe que los datos se han actualizado a **AHORA**.
 
 3. Observe también que ahora hay una columna para **Junio de 2020**.
-    
-    *Si no ve los datos de junio de 2020, es posible que tenga que presionar **F5** para volver a cargar el explorador web.*
+
+    > *Si no ve los datos de junio de 2020, es posible que tenga que presionar **F5** para volver a cargar el explorador web.*
 
     ![Imagen 33](Linked_image_Files/09-create-power-bi-dashboard_image50.png)
 
-### **Finalización**
-
-En esta tarea, completará el laboratorio.
-
-1. Guarde el informe y cierre el explorador.
+## Laboratorio completado

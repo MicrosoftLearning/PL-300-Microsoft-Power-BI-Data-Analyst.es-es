@@ -1,14 +1,12 @@
 ---
 lab:
-  course: PL-300
   title: Aplicación de seguridad de nivel de fila
   module: Enforce Row-Level Security
 ---
 
+# Aplicación de seguridad de nivel de fila
 
-# **Aplicación de seguridad de nivel de fila**
-
-## **Caso de laboratorio**
+## Caso de laboratorio
 
 En este laboratorio, aplicará la seguridad de nivel de fila para asegurarse de que un vendedor solo pueda analizar los datos de ventas de las regiones que tenga asignadas.
 
@@ -19,33 +17,19 @@ En este laboratorio, aprenderá a:
 
 **Este laboratorio debe durar unos 20 minutos**.
 
-## **Introducción**
+## Introducción
 
-En esta tarea configurará el entorno para el laboratorio.
+Para completar este ejercicio, abre primero un explorador web e introduce la siguiente URL para descargar la carpeta zip:
 
-*Importante: Si ha realizado el laboratorio anterior (y lo ha completado correctamente) no realice esta tarea, continúe a partir de la siguiente.*
+`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/10-row-level-security/10-row-level-security.zip`
 
-1. Abra Power BI Desktop.
+Extráela a la carpeta **C:\Users\Student\Downloads\10-row-level-security**.
 
-    ![Icono de Power BI Desktop](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
+Abre el archivo **10-Starter-Sales Analysis.pbix**.
 
-1. Para abrir el archivo de inicio de Power BI Desktop, selecciona **Abrir > Examinar este dispositivo**.
+> ***Nota**: Puedes ignorar el inicio de sesión al seleccionar **Cancelar**. Cierra todas las ventanas informativas que se abran. Si se te pide que apliques los cambios, selecciona **Aplicar más tarde**.*
 
-1. En la ventana **Abrir**, vaya a la carpeta **D:\Allfiles\Labs\10-create-power-bi-dashboard\Starter** y abra el archivo **Análisis de ventas**.
-
-   *Nota: En este momento, Power BI te pedirá que inicies sesión si aún no lo has hecho. Puedes iniciar sesión o seleccionar **Cancelar** y continuar con el laboratorio.*
-
-1. Cierre todas las ventanas informativas que se abran.
-
-1. Fíjese en el mensaje de advertencia debajo de la cinta. *Este mensaje le avisa de que no se han aplicado consultas para cargar el archivo como tablas de modelo. Aplicará consultas más adelante en este laboratorio.*
-    
-    *Para descartar el mensaje de advertencia, seleccione la **X** situada a la derecha del mensaje de advertencia.*
-
-1. Para crear una copia del archivo, vaya a **Archivo > Guardar como** y guárdelo en la carpeta **D:\Allfiles\MySolution**.
-
-1. Si se le pide que aplique los cambios, seleccione **Aplicar más tarde**.
-
-## **Aplicar seguridad de nivel de fila**
+## Aplicar seguridad de nivel de fila
 
 En esta tarea, aplicará seguridad de nivel de fila para asegurarse de que los vendedores solo puedan ver las ventas realizadas en sus regiones asignadas.
 
@@ -55,10 +39,9 @@ En esta tarea, aplicará seguridad de nivel de fila para asegurarse de que los v
 
 1. En el panel **Campos**, seleccione la tabla **Vendedor (Rendimiento)** .
 
-
-1. Revise los datos y verá que Michael Blythe (EmployeeKey 281) tiene un valor de UPN de **michael-blythe@adventureworks.com** .
+1. Revise los datos y verá que Michael Blythe (EmployeeKey 281) tiene un valor de UPN de **`michael-blythe@adventureworks.com`** .
     
-    *Puede recordar que Michael Blythe está asignado a tres regiones de ventas: Noreste de EE. UU., Centro de EE. UU. y Sudeste de EE. UU.*
+    > *Puede recordar que Michael Blythe está asignado a tres regiones de ventas: Noreste de EE. UU., Centro de EE. UU. y Sudeste de EE. UU.*
 
 1. En la ficha de cinta **Inicio**, en el grupo **Seguridad**, selecciona **Administrar roles**.
 
@@ -76,15 +59,13 @@ En esta tarea, aplicará seguridad de nivel de fila para asegurarse de que los v
 
 1. En el editor de DAX, escribe la siguiente expresión:
 
-    **DAX**
-
-    ```
+    ```DAX
     [UPN] = USERPRINCIPALNAME()
     ```
-    
-    *USERPRINCIPALNAME() es una función de expresiones de análisis de datos (DAX) que devuelve el nombre del usuario autenticado. Significa que la tabla **Salesperson (Performance)** filtrará por el nombre principal de usuario (UPN) del usuario que realiza la consulta del modelo.*
 
    ![Imagen 11](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image25.png)
+
+    > *USERPRINCIPALNAME() es una función de expresiones de análisis de datos (DAX) que devuelve el nombre del usuario autenticado. Significa que la tabla **Salesperson (Performance)** filtrará por el nombre principal de usuario (UPN) del usuario que realiza la consulta del modelo.*
 
 1. Selecciona **Guardar** y **Cerrar**.
 
@@ -92,11 +73,11 @@ En esta tarea, aplicará seguridad de nivel de fila para asegurarse de que los v
 
    ![Imagen 5708](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image27.png)
 
-1. En la ventana **Ver como roles**, compruebe el elemento **Otro usuario** y, después, en el cuadro correspondiente, escriba **michael-blythe@adventureworks.com** .
+1. En la ventana **Ver como roles**, compruebe el elemento **Otro usuario** y, después, en el cuadro correspondiente, escriba **`michael-blythe@adventureworks.com`** .
 
 1. Compruebe el rol **Vendedor** y, a continuación, seleccione **Aceptar**.
     
-    *Esta configuración da como resultado el uso del rol **Salespeople** y la suplantación del usuario con el nombre Michael Blythe.*
+    > *Esta configuración da como resultado el uso del rol **Salespeople** y la suplantación del usuario con el nombre Michael Blythe.*
 
    ![Imagen 5709](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image28.png)
 
@@ -120,10 +101,6 @@ En esta tarea, aplicará seguridad de nivel de fila para asegurarse de que los v
 
    ![Captura de pantalla 2024-04-18 145556](https://github.com/afelix-95/PL-300-Microsoft-Power-BI-Data-Analyst/assets/148110824/deeb4eac-b639-433d-a9d4-29c8e127008e)
 
-### **Finalización**
-
-En esta tarea, completará el laboratorio.
-
-1. Seleccione **Guardar** y guarde el archivo de Power BI Desktop para finalizar el laboratorio.
-
 *Nota: Cuando el archivo de Power BI Desktop se publique en el servicio Power BI, deberá completar una tarea posterior a la publicación para asignar las entidades de seguridad al rol **Vendedor**. No lo haremos en este laboratorio.*
+
+## Laboratorio completado
