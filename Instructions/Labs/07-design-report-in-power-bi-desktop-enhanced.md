@@ -15,7 +15,7 @@ En este laboratorio, aprenderá a:
 - Sincronizar segmentaciones
 - Creación de una página de obtención de detalles
 - Aplicar formato condicional
-- Crear y usar marcadores
+- Crear y usar marcadores y botones
 
 **Este laboratorio debe durar unos 45 minutos**.
 
