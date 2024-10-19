@@ -43,6 +43,8 @@ En esta tarea, usará el Editor de Power Query para configurar la consulta **Ven
 
      ![Imagen 1](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image11.png)
 
+> **Nota:** Si recibes un mensaje de advertencia que te pide que especifiques cómo conectarte, selecciona **Editar credenciales**, conéctate con las credenciales actuales y selecciona **Aceptar** para usar una conexión sin cifrar.
+ 
 1. Para cambiar el nombre de la consulta, en el panel **Configuración de la consulta** (situado a la derecha), en el cuadro **Nombre**, reemplace el texto por **SalesPerson** y luego presione **Entrar**. A continuación, compruebe que el nombre se ha actualizado en el panel **Consultas**.
 
     > *El nombre de la consulta determina el nombre de la tabla del modelo. Se recomienda definir nombres concisos a la vez que descriptivos.*
@@ -297,6 +299,8 @@ En esta tarea, configurará la consulte **Ventas**.
 En esta tarea, se configurará la consulta **Targets**.
 
 1. Seleccione la consulta **ResellerSalesTargets** y cambie el nombre a **Destinos**.
+
+> **Nota:** Si recibes un mensaje de advertencia que te pide que especifiques cómo conectarte, selecciona **Editar credenciales** y usa el acceso anónimo.
 
 1. Para anular la dinamización de las columnas de 12 meses (**M01**-**M12**), en primer lugar seleccione varias opciones encabezados de columna **Year** y **EmployeeID**.
 
