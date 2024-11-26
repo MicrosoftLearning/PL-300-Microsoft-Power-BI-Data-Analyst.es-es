@@ -17,7 +17,7 @@ En este laboratorio, aprenderá a:
 - Usar el parámetro Eje opcional al crear métricas de comparación.
 - Usar el parámetro Restablecer opcional para personalizar los cálculos acumulativos en un eje de varios niveles.
 
-**Este laboratorio debe durar unos 45 minutos**.
+**Este laboratorio debe durar unos 30 minutos**.
 
 ## Introducción
 
@@ -91,7 +91,7 @@ En esta tarea, crearás un gráfico de barras que muestra el importe de ventas, 
 
    - Suma de ventas
    - Suma del costo
-   - Beneficios
+   - Profit
 
    ![Imagen 07](Linked_image_Files/05b-create-visual-calculations-in-power-bi-desktop_image07.png)
 

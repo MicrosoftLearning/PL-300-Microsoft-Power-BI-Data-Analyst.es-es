@@ -242,7 +242,7 @@ En esta tarea actualizará varias columnas mediante actualizaciones masivas úni
 
 En esta tarea, cambiarás a la vista Informe, revisarás la interfaz del modelo de datos y configurarás el ajuste automático de fecha y hora.
 
-1. Cambie a la vista **Informe**.
+1. Cambia a la vista **Informe**.
 
 1. En el panel **Datos**, observe lo siguiente:
 

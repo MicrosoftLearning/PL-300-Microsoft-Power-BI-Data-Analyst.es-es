@@ -217,7 +217,7 @@ En esta tarea, completará el diseño de la tabla **Date** (Fecha) ocultando una
     - **Date \| Date** (Fecha | Fecha) a **Targets \| TargetMonth** (Objetivos | Mes de destino)
 
 
-    > *Los laboratorios usan una notación abreviada para hacer referencia a un campo. Tendrá este aspecto: **Sales \| Unit Price** (Ventas | Precio unitario). En este ejemplo, **Sales** (Ventas) es el nombre de la tabla y **Unit Price** (Precio unitario) es el nombre del campo.*
+    > *Los laboratorios usan una notación abreviada para hacer referencia a un campo. Tendrá este aspecto: **Sales \| Unit Price**. En este ejemplo, **Sales** es el nombre de la tabla y **Unit Price** es el nombre del campo.*
 
 1. Oculte las dos columnas siguientes:
 
