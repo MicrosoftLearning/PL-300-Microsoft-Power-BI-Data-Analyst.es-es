@@ -31,8 +31,6 @@ Abre el archivo **05b-Starter-Sales Analysis.pbix**.
 
 > ***Nota**: Puedes ignorar el inicio de sesión al seleccionar **Cancelar**. Cierra todas las ventanas informativas que se abran. Si se te pide que apliques los cambios, selecciona **Aplicar más tarde**.*
 
-En Power BI Desktop, ve a **Archivo > Opciones y configuración > Opciones > Características de versión preliminar**. Selecciona **Cálculos visuales** y  **Aceptar**. Los cálculos de objeto visual se habilitan después de reiniciar Power BI Desktop.
-
 ## Creación de un objeto visual de gráfico de barras
 
 En esta tarea, crearás un gráfico de barras que muestra el importe de ventas, el coste total del producto y las ganancias por año fiscal, con métricas de comparación como información sobre herramientas.
@@ -128,7 +126,7 @@ En esta tarea, crearás un objeto visual de matriz que compara el importe de ven
 1. En la ventana de edición de cálculos visuales, escribe y guarda el siguiente cálculo:
 
    ```DAX
-    Versus first = [Sales] - FIRST([Sales])
+    Versus first = [Sum of Sales] - FIRST([Sum of Sales])
    ```
 
 > Observa cómo la matriz muestra la diferencia en el importe de ventas de cada categoría frente a la primera categoría.
@@ -136,7 +134,7 @@ En esta tarea, crearás un objeto visual de matriz que compara el importe de ven
 1. Selecciona el campo **Frente a primero** en el apartado o área **Valores** y actualiza el cálculo agregando el valor ROWS del parámetro Eje a FIRST:
 
    ```DAX
-    Versus first = [Sales] - FIRST([Sales], ROWS)
+    Versus first = [Sum of Sales] - FIRST([Sum of Sales], ROWS)
    ```
 
 > Observa cómo nada cambia, ya que FILAS es el valor predeterminado para el parámetro Eje.
