@@ -178,7 +178,7 @@ En esta tarea, configurarás la tabla **Revendedor** para agregar una jerarquía
 
     - Country-Region como **País o región**
     - State-Province como **Estado o provincia**
-    - City** como **Ciudad**
+    - City como **Ciudad**
 
 ## Configuración de la tabla Sales
 
@@ -257,7 +257,7 @@ En esta tarea, cambiarás a la vista Informe, revisarás la interfaz del modelo 
 
       ![Imagen 359](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image40.png)
 
-> *Importante**: *Estas jerarquías no las has creado tú. Se han creado de forma automática como configuración predeterminada. No obstante, hay un problema. El año fiscal de Adventure Works comienza el 1 de julio de cada año. Sin embargo, en estas jerarquías de fechas creadas automáticamente, la jerarquía de fecha comienza el 1 de enero de cada año.*
+> **Importante**: *estas jerarquías no las has creado tú. Se han creado de forma automática como configuración predeterminada. No obstante, hay un problema. El año fiscal de Adventure Works comienza el 1 de julio de cada año. Sin embargo, en estas jerarquías de fechas creadas automáticamente, la jerarquía de fecha comienza el 1 de enero de cada año.*
 
 1. Para desactivar la configuración automática de **Fecha y hora**, ve a **Archivo > Opciones y configuración > Opciones**.
 
