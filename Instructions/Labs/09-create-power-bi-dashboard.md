@@ -31,7 +31,7 @@ En esta tarea, configurarás el entorno para el laboratorio creando un modelo se
 
 1. En la ventana del explorador Microsoft Edge, en el servicio Power BI, vaya a **Mi área de trabajo**.
 
-1. Seleccione **Cargar > Examinar**.
+1. Selecciona **Importar > Informe o Informe paginado > Desde este equipo**.
 
 1. Ve a la carpeta **C:\Users\Student\Downloads\09-create-dashboard**.
 
