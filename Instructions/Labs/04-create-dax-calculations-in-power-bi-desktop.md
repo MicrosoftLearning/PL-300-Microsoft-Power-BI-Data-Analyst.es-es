@@ -135,7 +135,7 @@ En esta tarea agregará más columnas para habilitar el filtrado y la agrupació
 1. Use las definiciones de archivo de fragmentos de código para crear las siguientes dos columnas calculadas para la tabla **Date** (Fecha):
 
     - Quarter (Trimestre)
-    - Mes
+    - Month
 
 1. Comprueba que se han agregado las nuevas columnas.
 
