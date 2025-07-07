@@ -1,7 +1,7 @@
 ---
 demo:
   title: "Implementación de seguridad a nivel de fila en Power\_BI"
-  module: Deploy and manage Power BI service items
+  module: Secure data access in Power BI
 ---
 
 # Implementación de seguridad a nivel de fila en Power BI
