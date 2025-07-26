@@ -1,6 +1,6 @@
 ---
 lab:
-  title: "Creación de paneles en Power\_BI"
+  title: "(Opcional) Creación de paneles en Power\_BI"
   module: Create dashboards in Power BI
 ---
 
@@ -24,6 +24,8 @@ Para completar este ejercicio, abre primero un explorador web e introduce la sig
 `https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/12-create-power-bi-dashboard/12-create-dashboard.zip`
 
 Extraiga la carpeta en la carpeta **C:\Users\Student\Downloads\12-create-dashboard**.
+
+> _**Nota**: Necesitará al menos una licencia **gratuita de Power BI** para publicar el informe. Abra el explorador Microsoft Edge e inicie sesión en `https://app.powerbi.com`. Cuando se le pida que resuelva un rompecabezas o que inicie una evaluación gratuita de Fabric, puede omitirlo y cerrar el explorador.
 
 ## **Publicación del informe**
 
