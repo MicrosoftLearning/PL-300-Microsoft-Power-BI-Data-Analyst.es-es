@@ -100,10 +100,6 @@ En este ejercicio, mejorará la página de obtención de detalles con formato co
 
     ![Imagen 9](Linked_image_Files/09-enhance-power-bi-reports_image29.png)
 
-1. En la ventana **Iconos – Margen de beneficio**, en la lista desplegable **Aplicar a**, seleccione **Valores y totales**.
-
-    ![Imagen 10](Linked_image_Files/09-enhance-power-bi-reports_image30a.png)
-
 1. En la ventana **Iconos: Margen de beneficio**, en la lista desplegable **Diseño de los iconos**, seleccione **A la derecha de los datos**.
 
     ![Imagen 11](Linked_image_Files/09-enhance-power-bi-reports_image30.png)
@@ -129,6 +125,10 @@ En este ejercicio, mejorará la página de obtención de detalles con formato co
     ![Imagen 13](Linked_image_Files/09-enhance-power-bi-reports_image32.png)
 
     > _Las reglas se pueden interpretar de la siguiente manera: mostrar un rombo de color rojo si el valor de margen de beneficio es menor que 0; de lo contrario, si el valor es mayor o igual a cero, mostrar un círculo de color verde._
+
+1. En la ventana **Iconos – Margen de beneficio**, en la lista desplegable **Aplicar a**, seleccione **Valores y totales**.
+
+    ![Imagen 10](Linked_image_Files/09-enhance-power-bi-reports_image30a.png)
 
 1. Seleccione **Aceptar**.
 
@@ -249,6 +249,8 @@ En este ejercicio, mejorará la página _Mi rendimiento_ con botones, lo que per
 
 En este ejercicio, publicarás el informe en el servicio Power BI y explorarás el comportamiento del informe publicado.
 
+> _**Nota**: Necesitará al menos una licencia **gratuita de Power BI** para publicar el informe. Abra el explorador Microsoft Edge e inicie sesión en `https://app.powerbi.com`. Cuando se le pida que resuelva un rompecabezas o que inicie una evaluación gratuita de Fabric, puede omitirlo y cerrar el explorador.
+
 > _**Nota**: Puede revisar el resto del ejercicio, incluso si no tiene acceso al servicio Power BI para realizar las tareas directamente._
 
 1. Seleccione la página _Información general_.
@@ -277,7 +279,7 @@ En este ejercicio, publicarás el informe en el servicio Power BI y explorarás
 
 1. En la ventana del explorador, en el panel **Navegación** del servicio Power BI (situado a la izquierda, podría estar contraído), seleccione **Mi área de trabajo**.
 
-1. Para abrir el informe, seleccione el informe _07-Starter-Sales Analysis_.
+1. Para explorar el informe, seleccione el informe _09-Starter-Sales Analysis_.
 
 1. Para probar la característica de obtención de detalles, en la página _Información general_, en el objeto visual _Suma de cantidad por categoría_, haga clic con el botón derecho en la barra _Clothing_ (Ropa) y seleccione **Obtención de detalles | Detalles del producto**.
 
