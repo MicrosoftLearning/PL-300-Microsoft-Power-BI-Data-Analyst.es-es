@@ -325,6 +325,8 @@ En esta tarea, sincronizará las segmentaciones _Año_ y _Región_.
 
 En este ejercicio publicará el informe en el servicio Power BI. A continuación, explorará el comportamiento del informe publicado.
 
+> _**Nota**: Necesitará al menos una licencia **gratuita de Power BI** para publicar el informe. Abra el explorador Microsoft Edge e inicie sesión en `https://app.powerbi.com`. Cuando se le pida que resuelva un rompecabezas o que inicie una evaluación gratuita de Fabric, puede omitirlo y cerrar el explorador.
+
 > _**Nota**: Puede revisar el resto del ejercicio, incluso si no tiene acceso al servicio Power BI para realizar las tareas directamente._
 
 1. Seleccione la página _Información general_ y guarde el archivo de Power BI Desktop.
