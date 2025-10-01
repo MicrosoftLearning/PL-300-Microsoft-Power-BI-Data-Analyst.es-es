@@ -8,12 +8,7 @@ lab:
 
 ## Caso de laboratorio
 
-En este laboratorio, aplicará la seguridad de nivel de fila para asegurarse de que un vendedor solo pueda analizar los datos de ventas de las regiones que tenga asignadas.
-
-En este laboratorio, aprenderá a:
-
-- Aplique la seguridad de nivel de fila.
-- Elija entre métodos dinámicos y estáticos.
+En este laboratorio, aplicará la seguridad de nivel de fila para asegurarse de que un vendedor solo pueda analizar los datos de ventas de las regiones que tenga asignadas. Aplicará la seguridad de nivel de fila mediante el método dinámico.
 
 **Este laboratorio debe durar unos 20 minutos**.
 
@@ -27,13 +22,13 @@ Extraiga la carpeta en la carpeta **C:\Users\Student\Downloads\11-secure-data**.
 
 Abra el archivo **11-Starter-Sales Analysis.pbix**.
 
-> ***Nota**: Puedes ignorar el inicio de sesión al seleccionar **Cancelar**. Cierra todas las ventanas informativas que se abran. Si se te pide que apliques los cambios, selecciona **Aplicar más tarde**.*
+> _**Nota**: Es posible que vea un cuadro de diálogo de inicio de sesión a medida que se carga el archivo. Seleccione **Cancelar** para descartar el cuadro de diálogo de inicio de sesión. Cierre todas las ventanas informativas que se abran. Si se le pide aplicar los cambios, seleccione **Aplicar más tarde**._
 
 ## Aplicar seguridad de nivel de fila
 
 En esta tarea, aplicará seguridad de nivel de fila para asegurarse de que los vendedores solo puedan ver las ventas realizadas en sus regiones asignadas.
 
-1. Cambia a la vista Tabla.
+1. Cambia a la **vista Tabla**.
 
    ![Imagen 5701](Linked_image_Files/11-secure-data-access_image20.png)
 
@@ -104,3 +99,13 @@ En esta tarea, aplicará seguridad de nivel de fila para asegurarse de que los v
 *Nota: Cuando el archivo de Power BI Desktop se publique en el servicio Power BI, deberá completar una tarea posterior a la publicación para asignar las entidades de seguridad al rol **Vendedor**. No lo haremos en este laboratorio.*
 
 ## Laboratorio completado
+
+Puede optar por guardar el informe de Power BI, aunque no es necesario para este laboratorio. 
+
+1. Cierre la ventana del explorador de Microsoft Edge.
+1. En Power BI Desktop, vaya al menú **"Archivo"** en la esquina superior izquierda y seleccione **"Guardar como"**. 
+1. Seleccione **Examinar este dispositivo**.
+1. Seleccione la carpeta donde desea guardar el archivo y asígnele un nombre descriptivo. 
+1. Seleccione el botón **Guardar** para guardar el informe como un archivo .pbix. 
+1. Si aparece un cuadro de diálogo en el que se le pide que aplique los cambios pendientes en la consulta, seleccione **Aplicar**.
+1. Cierre Power BI Desktop.

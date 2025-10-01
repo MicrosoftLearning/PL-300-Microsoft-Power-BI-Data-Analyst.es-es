@@ -28,7 +28,7 @@ Extraiga el archivo a la carpeta **C:\sers\student\Downloads\04-dax-calculations
 
 Abre el archivo **04-Starter-Sales Analysis.pbix**.
 
-> _**Nota**: Puede ignorar el inicio de sesión si selecciona **Cancelar**. Cierre todas las ventanas informativas que se abran. Si se le pide aplicar los cambios, seleccione **Aplicar más tarde**._
+> _**Nota**: Es posible que vea un cuadro de diálogo de inicio de sesión a medida que se carga el archivo. Seleccione **Cancelar** para descartar el cuadro de diálogo de inicio de sesión. Cierre todas las ventanas informativas que se abran. Si se le pide aplicar los cambios, seleccione **Aplicar más tarde**._
 
 ## Creación de la tabla calculada Comercial
 
@@ -38,7 +38,7 @@ Una tabla calculada se crea especificando primero el nombre de la tabla, seguido
 
 Introduzca una fórmula DAX válida en la barra de _fórmula_. La barra de fórmulas incluye funciones como autocompletar, Intellisense y codificación por colores, que permiten introducir la fórmula con rapidez y precisión.
 
-1. En Power BI Desktop, en la vista Informe, en la cinta de opciones **Modelado**, en el grupo **Cálculos**, seleccione **Nueva tabla**.
+1. En Power BI Desktop, en la **vista Informe**, en la cinta de opciones **Modelado**, en el grupo **Cálculos**, seleccione **Nueva tabla**.
 
     ![Imagen 1](Linked_image_Files/04-create-dax-calculations_image9.png)
 
@@ -58,7 +58,7 @@ Introduzca una fórmula DAX válida en la barra de _fórmula_. La barra de fórm
     >
     > _A diferencia de las tablas con origen en Power Query, las tablas calculadas no se pueden usar para cargar datos de orígenes de datos externos. Solo pueden transformar datos en función de lo que ya se haya cargado en el modelo de datos._
 
-1. Cambie a la vista Modelo y observe que la tabla `Salesperson` está disponible.
+1. Cambie a la **vista Modelo** y observe que la tabla `Salesperson` está disponible.
 
 1. Cree una relación a partir de la columna `Salesperson | EmployeeKey` y la columna `Sales | EmployeeKey`.
 
@@ -86,7 +86,7 @@ Introduzca una fórmula DAX válida en la barra de _fórmula_. La barra de fórm
 
 En esta tarea, creará la tabla `Date`.
 
-1. Cambia a la vista Tabla. En la pestaña **Inicio** de la cinta de opciones, desde el grupo **Cálculos**, seleccione **Nueva tabla**.
+1. Cambia a la **vista Tabla**. En la pestaña **Inicio** de la cinta de opciones, desde el grupo **Cálculos**, seleccione **Nueva tabla**.
 
     ![Imagen 4](Linked_image_Files/04-create-dax-calculations_image15.png)
 
@@ -141,7 +141,7 @@ En esta tarea agregará más columnas para habilitar el filtrado y la agrupació
 
     ![Imagen 9](Linked_image_Files/04-create-dax-calculations_image21.png)
 
-1. Para validar los cálculos, cambie a la vista Informe.
+1. Para validar los cálculos, cambie a la **vista Informe**.
 
 1. Para crear una nueva página del informe, seleccione el icono de signo más situado junto a la **página 1**.
 
@@ -169,7 +169,7 @@ En esta tarea agregará más columnas para habilitar el filtrado y la agrupació
 
     > _De forma predeterminada, los valores de texto se ordenan alfabéticamente, los números se ordenan de menor a mayor y las fechas se ordenan de la más antigua a la más reciente._
 
-1. Para personalizar el orden de los campos `Month`, cambie a la vista Tabla.
+1. Para personalizar el orden de los campos `Month`, cambie a la **vista Tabla**.
 
 1. Agregue la columna `MonthKey` a la tabla `Date`.
 
@@ -180,11 +180,11 @@ En esta tarea agregará más columnas para habilitar el filtrado y la agrupació
 
     > _Esta fórmula calcula un valor numérico para cada combinación de año/mes._
 
-1. En la vista Tabla, compruebe que la nueva columna contiene valores numéricos (por ejemplo, 201707 para julio de 2017, etc.).
+1. En la **vista Tabla**, compruebe que la nueva columna contiene valores numéricos (por ejemplo, 201707 para julio de 2017, etc.).
 
     ![Imagen 15](Linked_image_Files/04-create-dax-calculations_image28.png)
 
-1. Cambie a la vista Informe.
+1. Cambie a la **vista Informe**.
 
 1. En el panel **Datos** y seleccione el campo `Month`.
 
@@ -200,7 +200,7 @@ En esta tarea agregará más columnas para habilitar el filtrado y la agrupació
 
 En esta tarea, completará el diseño de la tabla `Date` ocultando una columna y creando una jerarquía. A continuación, creará relaciones con las tablas `Sales` y `Targets`.
 
-1. Cambia a la vista Modelo.
+1. Cambia a la vista **Modelo**.
 
 1. En la tabla `Date`, oculte la columna `MonthKey` (establezca **Is Hidden** (Está oculto) en _Sí_).
 
@@ -230,7 +230,7 @@ En esta tarea, completará el diseño de la tabla `Date` ocultando una columna y
 
 En esta tarea, marcará la tabla `Date` como tabla de fechas.
 
-1. Cambia a la vista Informe.
+1. Cambia a la vista **Informe**.
 
 1. En el panel **Datos**, seleccione la tabla `Date` (no el campo `Date`).
 
@@ -256,7 +256,7 @@ En esta tarea, marcará la tabla `Date` como tabla de fechas.
 
 En esta tarea, creará medidas simples. Las medidas simples agregan valores en una sola columna o recuento de filas de una tabla.
 
-1. En la vista Informe, en **Página 2**, desde el panel **Datos**, arrastre el campo `Sales | Unit Price` al visual de matriz.
+1. En la **vista Informe**, en **Página 2**, desde el panel **Datos**, arrastre el campo `Sales | Unit Price` al objeto visual de matriz.
 
     ![Imagen 23](Linked_image_Files/04-create-dax-calculations_image35.png)
 
@@ -299,7 +299,7 @@ En esta tarea, creará medidas simples. Las medidas simples agregan valores en u
     >
     > _En este caso, el número de pedidos se calcula contando los valores distintos de las columnas `SalesOrderNumber`, mientras que el número de líneas de pedido es simplemente el número de filas de la tabla (cada fila es una línea de un pedido)._
 
-1. Cambie a la vista Modelo y, a continuación, haga una selección múltiple de las cuatro medidas de precio: `Avg Price`, `Max Price`, `Median Price` y `Min Price`.
+1. Cambie a la **vista Modelo** y, a continuación, haga una selección múltiple de las cuatro medidas de precio: `Avg Price`, `Max Price`, `Median Price` y `Min Price`.
 
 1. Para la selección múltiple de medidas, configure los siguientes requisitos:
 
@@ -319,7 +319,7 @@ En esta tarea, creará medidas simples. Las medidas simples agregan valores en u
 
     ![Imagen 27](Linked_image_Files/04-create-dax-calculations_image41.png)
 
-1. En la vista Informe, en el campo **Valores** de la visualización de matriz, para **Promedio del precio unitario**, seleccione **X** para eliminarlo.
+1. En la **vista Informe**, en el campo **Valores** del objeto visual de matriz, en **Promedio del precio unitario**, seleccione **X** para eliminarlo.
 
     ![Imagen 28](Linked_image_Files/04-create-dax-calculations_image41a.png)
 
@@ -341,7 +341,7 @@ En esta tarea, creará medidas simples. Las medidas simples agregan valores en u
 
 En esta tarea creará más medidas que usan fórmulas más complejas.
 
-1. En la vista Informe, seleccione **Página 1** y revise la tabla visual de vendedores (a la derecha), observando el total de la columna **Suma de objetivo**.
+1. En la **vista Informe**, seleccione **Página 1** y revise el objeto visual de la tabla de vendedores (a la derecha), observando el total de la columna **Suma de objetivo**.
 
     ![Imagen 30](Linked_image_Files/04-create-dax-calculations_image45.png)
 
@@ -349,7 +349,7 @@ En esta tarea creará más medidas que usan fórmulas más complejas.
 
 1. Cambie el nombre de la columna `Targets | Target` a _TargetAmount_.
 
-    > _Sugerencia: Hay varias maneras de cambiar el nombre de la columna en la vista Informe: en el panel **Datos**, puede hacer clic con el botón derecho en la columna y luego seleccionar **Cambiar nombre**, o hacer doble clic en la columna o presionar **F2**._
+    > _Sugerencia: Hay varias maneras de cambiar el nombre de la columna en la **vista Informe**: En el panel **Datos**, puede hacer clic con el botón derecho en la columna y, a continuación, seleccionar **Cambiar nombre**, o bien hacer doble clic en la columna, o incluso presionar **F2**._
 
 1. Cree la siguiente medida en la tabla `Targets`:
 
@@ -403,3 +403,12 @@ En esta tarea creará más medidas que usan fórmulas más complejas.
 1. Guarde el archivo de Power BI Desktop.
 
 ## Laboratorio completado
+
+Puede optar por guardar el informe de Power BI, aunque no es necesario para este laboratorio. En el ejercicio siguiente, trabajará con un archivo de inicio creado previamente.
+
+1. Vaya al menú **"Archivo"** en la esquina superior izquierda y seleccione **"Guardar como"**. 
+1. Seleccione **Examinar este dispositivo**.
+1. Seleccione la carpeta donde desea guardar el archivo y asígnele un nombre descriptivo. 
+1. Seleccione el botón **Guardar** para guardar el informe como un archivo .pbix. 
+1. Si aparece un cuadro de diálogo en el que se le pide que aplique los cambios pendientes en la consulta, seleccione **Aplicar**.
+1. Cierre Power BI Desktop.

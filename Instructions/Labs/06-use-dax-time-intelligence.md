@@ -26,13 +26,13 @@ Extraiga el archivo en la carpeta **C:\Users\Student\Downloads\06-time-intellige
 
 Abre el archivo **06-Starter-Sales Analysis.pbix**.
 
-> _**Nota**: Puede ignorar el inicio de sesión si selecciona **Cancelar**. Cierre todas las ventanas informativas que se abran. Si se le pide aplicar los cambios, seleccione **Aplicar más tarde**._
+> _**Nota**: Es posible que vea un cuadro de diálogo de inicio de sesión a medida que se carga el archivo. Seleccione **Cancelar** para descartar el cuadro de diálogo de inicio de sesión. Cierre todas las ventanas informativas que se abran. Si se le pide aplicar los cambios, seleccione **Aplicar más tarde**._
 
 ## Creación de una medida del año hasta la fecha
 
 En esta tarea, crearás una medida de ventas de año hasta la fecha mediante funciones de inteligencia de tiempo.
 
-1. En Power BI Desktop, En la vista Informe, en la **Página 2**, observe el objeto visual de matriz que muestra varias medidas con años y meses agrupados en las filas.
+1. En Power BI Desktop, en la **vista Informe**, en **Página 2**, observe que el objeto visual de matriz muestra varias medidas con los años y meses agrupados en las filas.
 
 2. Agregue una medida a la tabla `Sales`, en función de la siguiente expresión, y con un formato de cero posiciones decimales:
 
@@ -122,10 +122,19 @@ En esta tarea, crearás una medida del aumento interanual de las ventas mediante
 
     > _La medida de crecimiento interanual identifica casi el 400 % (o 4 veces) el aumento de las ventas durante el mismo período del año anterior._
 
-1. En la vista Modelo, coloque las dos nuevas medidas en una carpeta para mostrar denominada _Inteligencia de tiempo_.
+1. En la **vista Modelo**, coloque las dos nuevas medidas en una carpeta para mostrar denominada _Time Intelligence_.
 
     ![Imagen 4](Linked_image_Files/06-use-dax-time-intelligence-functions_image24.png)
 
 1. Guarde el archivo de Power BI Desktop.
 
 ## Laboratorio completado
+
+Puede optar por guardar el informe de Power BI, aunque no es necesario para este laboratorio. En el ejercicio siguiente, trabajará con un archivo de inicio creado previamente.
+
+1. Vaya al menú **"Archivo"** en la esquina superior izquierda y seleccione **"Guardar como"**. 
+1. Seleccione **Examinar este dispositivo**.
+1. Seleccione la carpeta donde desea guardar el archivo y asígnele un nombre descriptivo. 
+1. Seleccione el botón **Guardar** para guardar el informe como un archivo .pbix. 
+1. Si aparece un cuadro de diálogo en el que se le pide que aplique los cambios pendientes en la consulta, seleccione **Aplicar**.
+1. Cierre Power BI Desktop.

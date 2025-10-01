@@ -27,7 +27,7 @@ Extraiga la carpeta en la carpeta **C:\Users\Student\Downloads\02-transform-data
 
 Abre el archivo **02-Starter-Sales Analysis.pbix**.
 
-> ***Nota**: Puedes ignorar el inicio de sesión al seleccionar **Cancelar**. Cierra todas las ventanas informativas que se abran. Si se te pide que apliques los cambios, selecciona **Aplicar más tarde**.*
+> _**Nota**: Es posible que vea un cuadro de diálogo de inicio de sesión a medida que se carga el archivo. Seleccione **Cancelar** para descartar el cuadro de diálogo de inicio de sesión. Cierre todas las ventanas informativas que se abran. Si se le pide aplicar los cambios, seleccione **Aplicar más tarde**._
 
 ## Configuración de la consulta SalesPerson
 
@@ -51,11 +51,11 @@ En esta tarea, usará el Editor de Power Query para configurar la consulta **Ven
 
 1. Para buscar una columna específica, en la pestaña **Inicio** de la cinta de opciones, desde dentro del grupo **Administrar columnas**, seleccione la flecha hacia abajo **Elegir columnas** y, después, **Ir a columna**.
 
-    > *Ir a Columna es una característica útil con muchas columnas. De lo contrario, puede desplazar horizontalmente las columnas de búsqueda.*
+    > _**Ir a Columna** es una característica útil cuando hay muchas columnas. De lo contrario, puede desplazarse horizontalmente para buscar columnas._
 
     ![Administrar columnas > Elegir columnas > Ir a columna](Linked_image_Files/02-transform-data-power-bi_image13.png)
 
-1. En la ventana **Ir a columna**, para ordenar la lista por nombre de columna, seleccione el botón de ordenar **AZ** y, después, **Nombre** y **SalesPersonFlag**. Haga clic en **OK**.
+1. En la ventana **Ir a columna**, para ordenar la lista por nombre de columna, seleccione el botón de ordenar **AZ** y, después, **Nombre**. 
 
     ![Ir a las opciones de ordenación de columnas](Linked_image_Files/02-transform-data-power-bi_image14.png)
 
@@ -90,7 +90,7 @@ En esta tarea, usará el Editor de Power Query para configurar la consulta **Ven
 
 1. Haga clic con el botón derecho en cualquiera de los encabezados de columna seleccionados y, después, en el menú contextual, seleccione **Combinar columnas**.
 
-    > *Muchas transformaciones comunes se pueden aplicar haciendo clic con el botón secundario en el encabezado de columna y, posteriormente, eligiendo en el menú contextual. Sin embargo, hay más transformaciones disponibles en la cinta de opciones.*
+    > *Muchas transformaciones comunes se pueden aplicar haciendo clic con el botón secundario en el encabezado de columna y, posteriormente, eligiendo en el menú contextual. Tenga en cuenta que hay transformaciones adicionales disponibles en la cinta de opciones.*
 
 1. En la ventana **Combinar columnas**, en la lista desplegable **Separador** seleccione **Espacio**.
 
@@ -98,13 +98,13 @@ En esta tarea, usará el Editor de Power Query para configurar la consulta **Ven
 
 1. Para cambiar el nombre de la columna **EmployeeNationalIDAlternateKey**, haga doble clic en el encabezado de columna **EmployeeNationalIDAlternateKey** y reemplace el texto por **EmployeeID** y, a continuación, presione **Entrar**.
 
-1. Use los pasos anteriores para cambiar el nombre de la columna **EmailAddress** a **UPN**.
+1. Cambie el nombre de la columna **EmailAddress** a **UPN**.
 
     > *UPN es un acrónimo para el nombre principal de usuario.*
 
-**En la parte inferior izquierda, en la barra de estado, comprueba que la consulta tiene 5 columnas y 18 filas.**
+**En la barra de estado de la esquina inferior izquierda del Editor de Power Query, compruebe que la consulta tiene 5 columnas y 18 filas.**
 
-## **Configuración de la consulta SalesPersonRegion**
+## Configuración de la consulta SalesPersonRegion
 
 En esta tarea, se configurará la consulta **SalespersonRegion**.
 
@@ -186,9 +186,9 @@ En esta tarea configurará la tabla **Revendedor**.
     - StateProvinceName
     - EnglishCountryRegionName
 
-1. En el encabezado de la columna **Tipo de empresa**, seleccione la flecha hacia abajo y luego revise los distintos valores de columna y observe los valores **Warehouse** y **Ware House**.
+1. En el encabezado de columna **BusinessType**, seleccione la flecha abajo y, a continuación, revise los valores de columna distintos y observe los valores **Warehouse** y **Ware House**.
 
-1. Haga clic con el botón derecho en el encabezado de columna **Business Type** y, después, seleccione **Reemplazar valores**.
+1. Haga clic con el botón derecho en el encabezado de columna **BusinessType** y seleccione **Reemplazar valores**.
 
 1. En la ventana **Reemplazar valores**, configure los valores siguientes:
 
@@ -432,7 +432,7 @@ En esta tarea, se actualizará la consulta **ColorFormats** para deshabilitar su
 
     ![Imagen 323](Linked_image_Files/02-transform-data-power-bi_image81.png)
 
-### Revisión del producto final
+## Revisión del producto final
 
 1. En el Editor de Power Query, comprueba que tienes **8 consultas**, denominadas correctamente como se indica a continuación:
 
@@ -454,3 +454,12 @@ En esta tarea, se actualizará la consulta **ColorFormats** para deshabilitar su
     ![Imagen 3](Linked_image_Files/02-transform-data-power-bi_image84.png)
 
 ## Laboratorio completado
+
+Puede optar por guardar el informe de Power BI, aunque no es necesario para este laboratorio. En el ejercicio siguiente, trabajará con un archivo de inicio creado previamente.
+
+1. Vaya al menú **"Archivo"** en la esquina superior izquierda y seleccione **"Guardar como"**. 
+1. Seleccione **Examinar este dispositivo**.
+1. Seleccione la carpeta donde desea guardar el archivo y asígnele un nombre descriptivo. 
+1. Seleccione el botón **Guardar** para guardar el informe como un archivo .pbix. 
+1. Si aparece un cuadro de diálogo en el que se le pide que aplique los cambios pendientes en la consulta, seleccione **Aplicar**.
+1. Cierre Power BI Desktop.

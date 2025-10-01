@@ -28,7 +28,7 @@ Extraiga el archivo en la carpeta **C:\Users\Student\Downloads\09-enhanced-repor
 
 Abra el archivo **09-Starter-Sales Analysis.pbix**.
 
-> _**Nota**: Puede ignorar el inicio de sesión si selecciona **Cancelar**. Cierre todas las ventanas informativas que se abran. Si se le pide aplicar los cambios, seleccione **Aplicar más tarde**._
+> _**Nota**: Es posible que vea un cuadro de diálogo de inicio de sesión a medida que se carga el archivo. Seleccione **Cancelar** para descartar el cuadro de diálogo de inicio de sesión. Cierre todas las ventanas informativas que se abran. Si se le pide aplicar los cambios, seleccione **Aplicar más tarde**._
 
 ## Configuración de una página de obtención de detalles
 
@@ -249,7 +249,7 @@ En este ejercicio, mejorará la página _Mi rendimiento_ con botones, lo que per
 
 En este ejercicio, publicarás el informe en el servicio Power BI y explorarás el comportamiento del informe publicado.
 
-> _**Nota**: Necesitará al menos una licencia **gratuita de Power BI** para publicar el informe. Abra el explorador Microsoft Edge e inicie sesión en `https://app.powerbi.com`. Cuando se le pida que resuelva un rompecabezas o que inicie una evaluación gratuita de Fabric, puede omitirlo y cerrar el explorador.
+> _**Nota**: Necesitará al menos una licencia **gratuita de Power BI** para publicar el informe. Abra el explorador Microsoft Edge y vaya a _ `https://app.powerbi.com`_.  Inicie sesión con las credenciales del inquilino de Microsoft 365 proporcionadas por el host de laboratorio autorizado (ALH). Cuando se le pida que resuelva un rompecabezas o que inicie una evaluación gratuita de Fabric, puede omitir este mensaje y cerrar el explorador._
 
 > _**Nota**: Puede revisar el resto del ejercicio, incluso si no tiene acceso al servicio Power BI para realizar las tareas directamente._
 
@@ -294,3 +294,6 @@ En este ejercicio, publicarás el informe en el servicio Power BI y explorarás
 1. Seleccione cada uno de los botones y, después, observe que se muestra otro objeto visual.
 
 ## Laboratorio completado
+
+1. Cierre el explorador Microsoft Edge.
+1. Cierre Power BI Desktop.

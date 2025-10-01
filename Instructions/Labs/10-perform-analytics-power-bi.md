@@ -27,7 +27,7 @@ Extraiga la carpeta en la carpeta **C:\Users\Student\Downloads\10-perform-analyt
 
 1. Abre el archivo **10-Starter-Sales Analysis.pbix**.
 
-> ***Nota**: Puedes ignorar el inicio de sesión al seleccionar **Cancelar**. Cierra todas las ventanas informativas que se abran. Si se te pide que apliques los cambios, selecciona **Aplicar más tarde**.*
+> _**Nota**: Es posible que vea un cuadro de diálogo de inicio de sesión a medida que se carga el archivo. Seleccione **Cancelar** para descartar el cuadro de diálogo de inicio de sesión. Cierre todas las ventanas informativas que se abran. Si se le pide aplicar los cambios, seleccione **Aplicar más tarde**._
 
 ## Creación de un gráfico de dispersión animado
 
@@ -128,3 +128,12 @@ En esta tarea creará una previsión para determinar los posibles ingresos de ve
 1. En el panel **Filtros**, filtre solo por **Ropa** y observe que genera un resultado diferente.
 
 ## Laboratorio completado
+
+Puede optar por guardar el informe de Power BI, aunque no es necesario para este laboratorio. En el ejercicio siguiente, trabajará con un archivo de inicio creado previamente.
+
+1. Vaya al menú **"Archivo"** en la esquina superior izquierda y seleccione **"Guardar como"**. 
+1. Seleccione **Examinar este dispositivo**.
+1. Seleccione la carpeta donde desea guardar el archivo y asígnele un nombre descriptivo. 
+1. Seleccione el botón **Guardar** para guardar el informe como un archivo .pbix. 
+1. Si aparece un cuadro de diálogo en el que se le pide que aplique los cambios pendientes en la consulta, seleccione **Aplicar**.
+1. Cierre Power BI Desktop.
