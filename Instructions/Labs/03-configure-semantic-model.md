@@ -30,7 +30,7 @@ Extraiga el archivo en la carpeta **C:\Users\Student\Downloads\03-model-data**.
 
 Abre el archivo **03-Starter-Sales Analysis.pbix**.
 
-> _**Nota**: Puede ignorar el inicio de sesión si selecciona **Cancelar**. Cierre todas las ventanas informativas que se abran. Si se le pide aplicar los cambios, seleccione **Aplicar más tarde**._
+> _**Nota**: Es posible que vea un cuadro de diálogo de inicio de sesión a medida que se carga el archivo. Seleccione **Cancelar** para descartar el cuadro de diálogo de inicio de sesión. Cierre todas las ventanas informativas que se abran. Si se le pide aplicar los cambios, seleccione **Aplicar más tarde**._
 
 ## Crear relaciones de modelos
 
@@ -50,7 +50,7 @@ En esta tarea, creará relaciones del modelo. El archivo se configuró para no i
 
     > _El problema es que la tabla se basa en campos de otras tablas. La expectativa es que en cada categoría de producto se muestren las ventas de esa categoría. Sin embargo, como no existe una relación de modelo entre estas tablas, la tabla `Sales` no se filtra. Ahora agregará una relación para propagar los filtros entre las tablas._
 
-1. Para cambiar al diseñador de modelos, a la izquierda, seleccione el icono Vista modelo.
+1. Para cambiar al diseñador de modelos, a la izquierda, seleccione el icono **vista Modelo**.
 
     ![Imagen 2](Linked_image_Files/03-configure-semantic-model-model-view.png)
 
@@ -89,17 +89,17 @@ En esta tarea, creará relaciones del modelo. El archivo se configuró para no i
     >
     > Sugerencia: Pase el cursor sobre la relación para resaltar las columnas relacionadas.
 
-1. Cambie a la vista Informe y observe que la visualización de la tabla se ha actualizado para mostrar valores diferentes para cada categoría de producto.
+1. Cambie a la **vista Informe** y observe que la visualización de la tabla se ha actualizado para mostrar valores diferentes para cada categoría de producto.
 
     > _Los filtros aplicados a la tabla `Product` se propagan ahora a la tabla `Sales`._
 
     ![Imagen 7](Linked_image_Files/03-configure-semantic-model-table-with-relationship.png)
 
-### Creación de relaciones adicionales
+## Creación de relaciones adicionales
 
 Hay una manera más fácil de crear una relación. En el diagrama del modelo, puede arrastrar y colocar columnas para crear una relación.
 
-1. Para crear una nueva relación mediante una técnica diferente, cambie a la vista Modelo.
+1. Para crear una nueva relación mediante una técnica diferente, cambie a la **vista Modelo**.
 
 1. En la tabla `Reseller`, arrastre la columna `ResellerKey` a la columna `ResellerKey` de la tabla `Sales`.
 
@@ -124,7 +124,7 @@ Hay una manera más fácil de crear una relación. En el diagrama del modelo, pu
 
 En esta tarea, configurarás la tabla `Product` con una jerarquía y una carpeta para mostrar.
 
-1. Cambia a la vista Modelo.
+1. Cambia a la vista **Modelo**.
 
 1. En el panel **Datos**, si es necesario, expanda la tabla `Product` para mostrar todos los campos.
 
@@ -258,9 +258,9 @@ En esta tarea actualizará varias columnas mediante actualizaciones masivas úni
 
 ## Exploración de la interfaz del modelo
 
-En esta tarea, cambiarás a la vista Informe, revisarás la interfaz del modelo de datos y configurarás el ajuste automático de fecha y hora.
+En esta tarea, cambiará a la **vista Informe**, revisará la interfaz del modelo de datos y configurará el ajuste automático de fecha y hora.
 
-1. Cambio a la vista Informe.
+1. Cambia a la vista **Informe**.
 
 1. En el panel **Datos**, observe lo siguiente:
 
@@ -348,7 +348,7 @@ En esta tarea creará dos medidas rápidas para calcular los beneficios y el mar
 
 En esta tarea, creará una relación de muchos a muchos entre la tabla `Salesperson` y la tabla `Sales`.
 
-1. En la vista Informe, seleccione un área en blanco de la página del informe.
+1. En la **vista Informe**, seleccione un área en blanco de la página del informe.
 
 1. Para crear una nueva tabla visual, en el panel **Datos**, marque los dos campos siguientes:
 
@@ -363,7 +363,7 @@ En esta tarea, creará una relación de muchos a muchos entre la tabla `Salesper
 
 1. Observe que _Michael Blythe_ ha generado casi 9 millones de dólares de ventas.
 
-1. Cambie a la vista Modelo y arrastre la tabla `SalespersonRegion` para colocarla entre las tablas `Region` y `Salesperson`.
+1. Cambie a la **vista Modelo** y arrastre la tabla `SalespersonRegion` para colocarla entre las tablas `Region` y `Salesperson`.
 
 1. Use la técnica de arrastrar y colocar para crear las dos relaciones de modelo siguientes:
 
@@ -372,9 +372,9 @@ En esta tarea, creará una relación de muchos a muchos entre la tabla `Salesper
 
     > _La tabla `SalespersonRegion` puede considerarse una tabla puente._
 
-1. Cambie a la vista Informe y observe que el objeto visual no se ha actualizado. El resultado de ventas de Michael Blythe no ha cambiado.
+1. Cambie a la **vista Informe** y observe que el objeto visual no se ha actualizado. El resultado de ventas de Michael Blythe no ha cambiado.
 
-1. Vuelva a la vista Modelo y, a continuación, siga las indicaciones del filtro de relaciones (punta de flecha) de la tabla `Salesperson`.
+1. Vuelva a la **vista Modelo** y, a continuación, siga las indicaciones del filtro de relaciones (punta de flecha) de la tabla `Salesperson`.
 
     > _Considere que la tabla `Salesperson` filtra la tabla `Sales`. También filtra la tabla `SalespersonRegion`, pero no continúa propagando filtros a la tabla `Region` (la punta de flecha apunta en la dirección equivocada)._
 
@@ -394,11 +394,11 @@ En esta tarea, creará una relación de muchos a muchos entre la tabla `Salesper
 
     ![Imagen 30](Linked_image_Files/03-configure-semantic-model_u_image14.png)
 
-1. Cambie a la vista Informe y, después, observe que los valores de ventas todavía no han cambiado.
+1. Cambie a la **vista Informe** y observe que los valores de ventas todavía no han cambiado.
 
     > _El problema ahora está relacionado con el hecho de que hay dos posibles rutas de propagación del filtro entre las tablas `Salesperson` y `Sales`. Esta ambigüedad se resuelve de manera interna, en función de una evaluación del "número mínimo de tablas". Para ser claros, no debe diseñar modelos con este tipo de ambigüedad, la cuestión se abordará en parte más adelante en este laboratorio, y por la realización del laboratorio **Crear cálculos DAX en Power BI Desktop**._
 
-1. Cambia a la vista Modelo.
+1. Cambia a la vista **Modelo**.
 
 1. Para forzar la propagación del filtro a través de la tabla puente, edite (haga doble clic) la relación entre las tablas `Salesperson` y `Sales`.
 
@@ -414,7 +414,7 @@ En esta tarea, creará una relación de muchos a muchos entre la tabla `Salesper
 
     ![Imagen 32](Linked_image_Files/03-configure-semantic-model_u_image17.png)
 
-1. Cambia a la vista Informe y observe que las ventas de Michael Blythe ascienden ahora a casi 22 millones de dólares.
+1. Cambia a la **vista Informe** y observe que las ventas de Michael Blythe ascienden ahora a casi 22 millones de dólares.
 
 1. Observe también que las ventas de cada vendedor, si se sumaran, superarían el total de la tabla.
 
@@ -422,7 +422,7 @@ En esta tarea, creará una relación de muchos a muchos entre la tabla `Salesper
      >
      > _Aunque la relación de varios a varios ya funciona, ahora no se pueden analizar las ventas realizadas por un vendedor (porque la relación está inactiva). Podrá reactivar la relación al introducir una tabla calculada que permitirá el análisis de ventas realizado en las regiones de ventas asignadas al vendedor (para un análisis del rendimiento) en el laboratorio **Creación de cálculos DAX en Power BI Desktop, parte 1**._
 
-1. Cambie a la vista Modelo y, en el diagrama del modelo, seleccione la tabla `Salesperson`.
+1. Cambie a la **vista Modelo** y, en el diagrama del modelo, seleccione la tabla `Salesperson`.
 
 1. En el panel **Propiedades**, en el cuadro **Nombre**, reemplace el texto por _Salesperson (Performance)_ (Vendedor (rendimiento)).
 
@@ -434,7 +434,7 @@ En esta tarea creará una relación con la tabla `Targets`.
 
 1. Cree una relación a partir de la columna `Salesperson (Performance) | EmployeeID` y la columna `Targets | EmployeeID`.
 
-1. En la vista Informe, añada el campo `Targets | Target` al visual de la tabla.
+1. En la **vista Informe**, añada el campo `Targets | Target` al objeto visual de la tabla.
 
 1. Cambie el tamaño del objeto visual de tabla para que todas las columnas estén visibles.
 
@@ -445,3 +445,12 @@ En esta tarea creará una relación con la tabla `Targets`.
 1. Guarde el archivo de Power BI Desktop.
 
 ## Laboratorio completado
+
+Puede optar por guardar el informe de Power BI, aunque no es necesario para este laboratorio. En el ejercicio siguiente, trabajará con un archivo de inicio creado previamente.
+
+1. Vaya al menú **"Archivo"** en la esquina superior izquierda y seleccione **"Guardar como"**. 
+1. Seleccione **Examinar este dispositivo**.
+1. Seleccione la carpeta donde desea guardar el archivo y asígnele un nombre descriptivo. 
+1. Seleccione el botón **Guardar** para guardar el informe como un archivo .pbix. 
+1. Si aparece un cuadro de diálogo en el que se le pide que aplique los cambios pendientes en la consulta, seleccione **Aplicar**.
+1. Cierre Power BI Desktop.

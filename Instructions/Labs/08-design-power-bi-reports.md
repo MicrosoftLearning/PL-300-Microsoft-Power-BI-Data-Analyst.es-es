@@ -30,11 +30,11 @@ Extraiga el archivo a la carpeta **C:\sers\student\Downloads\08-design-report**.
 
 Abre el archivo **08-Starter-Sales Analysis.pbix**.
 
-> _**Nota**: Puede ignorar el inicio de sesión si selecciona **Cancelar**. Cierre todas las ventanas informativas que se abran. Si se le pide aplicar los cambios, seleccione **Aplicar más tarde**._
+> _**Nota**: Es posible que vea un cuadro de diálogo de inicio de sesión a medida que se carga el archivo. Seleccione **Cancelar** para descartar el cuadro de diálogo de inicio de sesión. Cierre todas las ventanas informativas que se abran. Si se le pide aplicar los cambios, seleccione **Aplicar más tarde**._
 
 ## Diseño de la página 1
 
-En este ejercicio, diseñarás la primera página del informe. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
+En esta tarea diseñará la primera página del informe. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
 
 ![Recorte de pantalla de la página 1, que incluye un logotipo, dos segmentaciones y tres objetos visuales.](Linked_image_Files/06-finished-report-page.png)
 
@@ -61,6 +61,8 @@ En este ejercicio, diseñarás la primera página del informe. Cuando haya compl
 1. En el panel **Datos**, arrastre el campo `Date | Year` (no el nivel `Year` de la jerarquía) al apartado **Campo** del panel **Visualizaciones**.
 
     > _Los laboratorios usan una notación abreviada para hacer referencia a un campo. Tendrá este aspecto: `Date | Year`. En este ejemplo, `Date` es el nombre de la tabla y `Year` es el nombre del campo._
+
+    ![Imagen 17](Linked_image_Files/08-design-power-bi-reports_image16.png)
 
 1. Para convertir la segmentación de una lista en una lista desplegable, en el panel **Visualizaciones**, seleccione **Dar formato al objeto visual**. Expanda **Configuración de la segmentación** y, a continuación, establezca el **Estilo** desplegable en **Desplegable**.
 
@@ -166,7 +168,7 @@ En este ejercicio, diseñarás la primera página del informe. Cuando haya compl
 
 ## Diseño de la página 2
 
-En este ejercicio, diseñarás la segunda página del informe. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
+En esta tarea diseñará la segunda página del informe. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
 
 ![Recorte de pantalla de la página 2, que incluye una segmentación y una matriz.](Linked_image_Files/08-design-power-bi-reports_image37.png)
 
@@ -224,7 +226,7 @@ En este ejercicio, diseñarás la segunda página del informe. Cuando haya compl
 
 ## Página de diseño 3
 
-En este ejercicio, diseñarás la tercera y última página del informe. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
+En esta tarea diseñará la tercera y última página del informe. Cuando haya completado el diseño, la página tendrá un aspecto similar al siguiente:
 
 ![Recorte de pantalla de la página 3, que incluye una segmentación y tres objetos visuales.](Linked_image_Files/08-design-power-bi-reports_image47.png)
 
@@ -323,9 +325,9 @@ En esta tarea, sincronizará las segmentaciones _Año_ y _Región_.
 
 ## Publicación y exploración del informe
 
-En este ejercicio publicará el informe en el servicio Power BI. A continuación, explorará el comportamiento del informe publicado.
+En esta tarea publicará el informe en el servicio Power BI. A continuación, explorará el comportamiento del informe publicado.
 
-> _**Nota**: Necesitará al menos una licencia **gratuita de Power BI** para publicar el informe. Abra el explorador Microsoft Edge e inicie sesión en `https://app.powerbi.com`. Cuando se le pida que resuelva un rompecabezas o que inicie una evaluación gratuita de Fabric, puede omitirlo y cerrar el explorador.
+> _**Nota**: Necesitará al menos una licencia **gratuita de Power BI** para publicar el informe. Abra el explorador Microsoft Edge y vaya a _ `https://app.powerbi.com`_.  Inicie sesión con las credenciales del inquilino de Microsoft 365 proporcionadas por el host de laboratorio autorizado (ALH). Cuando se le pida que resuelva un rompecabezas o que inicie una evaluación gratuita de Fabric, puede omitir este mensaje y cerrar el explorador._
 
 > _**Nota**: Puede revisar el resto del ejercicio, incluso si no tiene acceso al servicio Power BI para realizar las tareas directamente._
 
@@ -345,7 +347,7 @@ En este ejercicio publicará el informe en el servicio Power BI. A continuació
 
 1. Cuando la publicación se realice correctamente, seleccione **Entendido**.
 
-1. Abra el explorador Microsoft Edge e inicie sesión en `https://app.powerbi.com`.
+1. Abra el explorador Microsoft Edge y, a continuación, vaya a `https://app.powerbi.com`.
 
 1. En la ventana del explorador, en el panel **Navegación** del servicio Power BI (situado a la izquierda, podría estar contraído), expanda **Mi área de trabajo**.
 
@@ -426,3 +428,6 @@ En este ejercicio publicará el informe en el servicio Power BI. A continuació
     ![Imagen 48](Linked_image_Files/08-design-power-bi-reports_image71.png)
 
 ## Laboratorio completado
+
+1. Cierre el explorador Microsoft Edge.
+1. Cierre Power BI Desktop.

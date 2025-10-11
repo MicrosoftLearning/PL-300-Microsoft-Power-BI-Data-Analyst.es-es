@@ -6,7 +6,7 @@ lab:
 
 # Obtención de datos en Power BI
 
-## **Caso de laboratorio**
+## Caso de laboratorio
 
 Este laboratorio está diseñado para presentarle la aplicación de Power BI Desktop y cómo conectarse a los datos y usar técnicas de vista previa de datos para comprender las características y la calidad de los datos de origen.
 
@@ -44,7 +44,7 @@ Esta tarea le enseña a conectarse a una base de datos de SQL Server e importar 
 
 1. En la ventana **Base de datos de SQL Server**, en el cuadro **Servidor**, escriba **localhost** y deje **Base de datos** en blanco y, a continuación, seleccione **Aceptar**.
 
-    > ***Nota**: En este laboratorio, se conectará a la base de datos de SQL Server mediante **localhost**. Aunque este enfoque funciona aquí, no se recomienda para sus propias soluciones porque los orígenes de datos de puerta de enlace no pueden resolver **localhost**.*
+    > ***Nota**: En este laboratorio, se conectará a la base de datos de SQL Server mediante **localhost**. Aunque es válido para el laboratorio, no se considera un procedimiento recomendado para las soluciones del mundo real.*
 
 1. Si se te solicitan credenciales, selecciona **Windows > Usar mis credenciales actuales** y luego haz clic en **Conectar**.
 
@@ -60,7 +60,7 @@ Esta tarea le enseña a conectarse a una base de datos de SQL Server e importar 
 
     > ***Nota**: Los datos de la vista previa permiten ver las columnas y un ejemplo de filas.*
 
-1. Para importar los datos de tabla, **activa la casilla** situada junto a las tablas siguientes:
+1. Seleccione las tablas siguientes **activando las casillas** situadas junto a sus nombres.
 
     - DimEmployee
     - DimEmployeeSalesTerritory
@@ -73,7 +73,7 @@ Esta tarea le enseña a conectarse a una base de datos de SQL Server e importar 
 
 Ahora te has conectado a seis tablas de una base de datos de SQL Server.
 
-## **Vista previa de datos en el Editor de Power Query**
+## Vista previa de datos en el Editor de Power Query
 
 Esta tarea presenta el Editor de Power Query y permite revisar los datos y generar perfiles de estos. Esto le ayuda a determinar cómo limpiar y transformar los datos más adelante. También revisará ambas tablas de dimensiones con el prefijo "Dim" y las tablas de hechos con el prefijo "Fact".
 
@@ -81,7 +81,7 @@ Esta tarea presenta el Editor de Power Query y permite revisar los datos y gener
 
      ![Lista de consultas cargadas](Linked_image_Files/01-get-data-in-power-bi_image20.png)
 
-1. Seleccione la primera consulta **DimEmployee**.
+1. Seleccione la consulta **DimEmployee**.
 
     > *La tabla **DimEmployee** de la base de datos SQL Server almacena una fila para cada empleado. Un subconjunto de las filas de esta tabla representa a los vendedores, que serán pertinentes para el modelo que va a desarrollar.*
 
@@ -141,7 +141,7 @@ Esta tarea presenta el Editor de Power Query y permite revisar los datos y gener
 
     > *El hecho de que falten valores en la columna **TotalProductCost** supone un problema de calidad de los datos.*
 
-## **Obtención de datos de un archivo CSV**
+## Obtención de datos de un archivo CSV
 
 En esta tarea, creará una nueva consulta basada en archivos CSV.
 
@@ -155,7 +155,7 @@ En esta tarea, creará una nueva consulta basada en archivos CSV.
 
     > *El archivo CSV **ResellerSalesTargets** contiene una fila por vendedor y año. Cada fila registra 12 objetivos de ventas mensuales (expresados en miles). El año comercial de la empresa Adventure Works comienza el 1 de julio.*
 
-1. Observe que ninguna columna contiene valores vacíos.  Cuando no hay un objetivo de ventas mensual, se almacena un carácter de guion.
+1. Observe que ninguna columna contiene valores vacíos.  Si falta un destino de ventas mensuales, la columna muestra un guion en su lugar.
 
 1. Revise los iconos de cada encabezado de columna, a la izquierda del nombre de columna. Los iconos representan el tipo de datos de la columna. **123** es un número entero y **ABC** es texto.
 
@@ -170,3 +170,12 @@ Ahora deberías tener dos nuevas consultas: **ResellerSalesTargets** y **ColorFo
  ![Lista de consultas](Linked_image_Files/01-get-data-in-power-bi_image43.png)
 
 ## Laboratorio completado
+
+Puede optar por guardar el informe de Power BI, aunque no es necesario para este laboratorio. En el ejercicio siguiente, trabajará con un archivo de inicio creado previamente.
+
+1. Vaya al menú **"Archivo"** en la esquina superior izquierda y seleccione **"Guardar como"**. 
+1. Seleccione **Examinar este dispositivo**.
+1. Seleccione la carpeta donde desea guardar el archivo y asígnele un nombre descriptivo. 
+1. Seleccione el botón **Guardar** para guardar el informe como un archivo .pbix. 
+1. Si aparece un cuadro de diálogo en el que se le pide que aplique los cambios pendientes en la consulta, seleccione **Aplicar**.
+1. Cierre Power BI Desktop.

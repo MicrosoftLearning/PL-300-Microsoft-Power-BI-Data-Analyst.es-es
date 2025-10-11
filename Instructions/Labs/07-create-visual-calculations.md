@@ -6,7 +6,7 @@ lab:
 
 # Creación de cálculos visuales en Power BI Desktop
 
-## **Caso de laboratorio**
+## Caso de laboratorio
 
 En este laboratorio, crearás cálculos visuales con Data Analysis Expressions (DAX).
 
@@ -29,7 +29,7 @@ Extraiga la carpeta a la carpeta **C:\Users\Student\Downloads\07-visual-calculat
 
 Abre el archivo **07-Starter-Sales Analysis.pbix**.
 
-> ***Nota**: Puedes ignorar el inicio de sesión al seleccionar **Cancelar**. Cierra todas las ventanas informativas que se abran. Si se te pide que apliques los cambios, selecciona **Aplicar más tarde**.*
+> _**Nota**: Es posible que vea un cuadro de diálogo de inicio de sesión a medida que se carga el archivo. Seleccione **Cancelar** para descartar el cuadro de diálogo de inicio de sesión. Cierre todas las ventanas informativas que se abran. Si se le pide aplicar los cambios, seleccione **Aplicar más tarde**._
 
 ## Creación de un objeto visual de gráfico de barras
 
@@ -51,7 +51,7 @@ En esta tarea, crearás un gráfico de barras que muestra el importe de ventas, 
 
     > Ahora tienes un gráfico de barras que muestra la suma de ventas y la suma de costes por año ordenada cronológicamente.
 
-### Adición de cálculos
+## Adición de cálculos
 
 1. Con el gráfico de barras seleccionado, selecciona **Nuevo cálculo visual** en la cinta de opciones:
 
@@ -119,7 +119,7 @@ En esta tarea, crearás un objeto visual de matriz que compara el importe de ven
 
     > *Los laboratorios usan una notación abreviada para hacer referencia a un campo. Tendrá este aspecto: **Fecha \| Año**. En este ejemplo, **Fecha** es el nombre de la tabla y **Año** es el nombre del campo.*
 
-### Adición de cálculos
+## Adición de cálculos
 
 1. Con la matriz seleccionada, selecciona **Nuevo cálculo visual** en la cinta de opciones.
 
@@ -160,7 +160,7 @@ En esta tarea, crearás un gráfico de líneas que muestra la suma acumulada de 
     - Eje X: **Fecha \| Año** y **Fecha \| Trimestre**
     - Eje Y: **Ventas \| Ventas**
 
-### Adición de suma acumulada
+## Adición de suma acumulada
 
 1. Con el gráfico de líneas seleccionado, expande el menú en **Nuevo cálculo visual** y selecciona **Suma acumulada** en las opciones de plantilla.
 
@@ -168,7 +168,7 @@ En esta tarea, crearás un gráfico de líneas que muestra la suma acumulada de 
 
    ![Imagen 09](Linked_image_Files/07-create-visual-calculations_image09.png)
 
-### Actualización de la suma acumulada para que se reinicie cada año fiscal nuevo
+## Actualización de la suma acumulada para que se reinicie cada año fiscal nuevo
 
 1. Mientras sigues en la ventana de edición de cálculos visuales, selecciona el campo **Suma acumulada** en **Eje Y**, actualiza la expresión para este cálculo agregando el parámetro de restablecimiento HIGHESTPARENT y confirma los cambios:
 
@@ -181,3 +181,12 @@ Comprueba que la suma acumulada se reinicia cada año fiscal nuevo:
    ![Imagen 10](Linked_image_Files/07-create-visual-calculations_image10.png)
 
 ## Laboratorio completado
+
+Puede optar por guardar el informe de Power BI, aunque no es necesario para este laboratorio. En el ejercicio siguiente, trabajará con un archivo de inicio creado previamente.
+
+1. Vaya al menú **"Archivo"** en la esquina superior izquierda y seleccione **"Guardar como"**. 
+1. Seleccione **Examinar este dispositivo**.
+1. Seleccione la carpeta donde desea guardar el archivo y asígnele un nombre descriptivo. 
+1. Seleccione el botón **Guardar** para guardar el informe como un archivo .pbix. 
+1. Si aparece un cuadro de diálogo en el que se le pide que aplique los cambios pendientes en la consulta, seleccione **Aplicar**.
+1. Cierre Power BI Desktop.
