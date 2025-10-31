@@ -8,7 +8,7 @@ layout: home
 
 A continuación se enumeran hipervínculos a cada uno de los ejercicios de laboratorio y demostraciones.
 
-> **Nota**: Si encuentra algún error con el contenido, [cree una incidencia en el repositorio de GitHub](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/issues/new/choose).
+> **Nota**: Si encuentra algún error con el contenido,[cree una incidencia en el repositorio de GitHub](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/issues/new/choose).
 
 ## Ejercicios del laboratorio
 

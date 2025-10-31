@@ -7,15 +7,15 @@ demo:
 
 ## Agregar un grupo
 
-1. Agregue otra página nueva al informe denominada **Análisis de categoría**.
+1. Agregue otra página nueva al informe denominada**Análisis de categoría**.
 
-1. Copie, pegue y después sincronice el **Year Slicer** de la página **Análisis de beneficios** con la nueva página.
+1. Copie, pegue y después sincronice el**Year Slicer** de la página**Análisis de beneficios** con la nueva página.
 
-1. Agregue un nuevo grupo basado en la columna **Category** de la tabla **Product**.
+1. Agregue un nuevo grupo basado en la columna**Category** de la tabla**Product**.
 
 1. Cree un grupo basado en el valor Trainer.
 
-1. Marque la casilla **Incluir otro grupo**.
+1. Marque la casilla**Incluir otro grupo**.
 
 1. Agregue un objeto visual de matriz y colóquelo y cambie su tamaño para que llene la página.
 
@@ -29,7 +29,7 @@ demo:
 
 ## Aplicar formato condicional
 
-1. En el objeto visual de matriz, aplíquele formato condicional de color de fondo al campo **Margen de beneficio**.
+1. En el objeto visual de matriz, aplíquele formato condicional de color de fondo al campo**Margen de beneficio**.
 
 1. Seleccione rojo para el color mínimo y verde para el color máximo.
 
@@ -39,6 +39,6 @@ demo:
 
 1. Publique el informe en el área de trabajo más nueva, sobrescribiéndolo cuando se le solicite.
 
-1. En el servicio Power BI, abra el informe **Análisis de ventas** e interactúe con cada una de las páginas del informe.
+1. En el servicio Power BI, abra el informe**Análisis de ventas** e interactúe con cada una de las páginas del informe.
 
 1. Deje el archivo de Power BI Desktop abierto.

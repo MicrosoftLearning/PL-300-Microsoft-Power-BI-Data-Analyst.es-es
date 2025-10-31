@@ -14,27 +14,27 @@ demo:
 
 ## Apertura del panel compartido
 
-1. Cambie a la ventana del servicio Power BI del **instructor**.
+1. Cambie a la ventana del servicio Power BI del**instructor**.
 
-1. Abra el panel **Supervisión de ventas**.
+1. Abra el panel**Supervisión de ventas**.
 
 1. En el menú, seleccione Compartir.
 
 1. Comparta el panel con la cuenta del destinatario.
 
-1. Cambie a la ventana del servicio Power BI del **destinatario**.
+1. Cambie a la ventana del servicio Power BI del**destinatario**.
 
-1. Abre **Compartido conmigo** y abre el panel Supervisión de ventas.
+1. Abre**Compartido conmigo** y abre el panel Supervisión de ventas.
 
 1. Señale que el panel es de solo lectura.
 
 ## Creación de una aplicación
 
-1. Cambie a la ventana del servicio Power BI del **instructor**.
+1. Cambie a la ventana del servicio Power BI del**instructor**.
 
 1. En el panel Navegación, seleccione el nombre del área de trabajo.
 
-1. En la esquina superior derecha, seleccione **Crear aplicación**.
+1. En la esquina superior derecha, seleccione**Crear aplicación**.
 
 1. En la sección Configuración, escriba un texto de descripción y, opcionalmente, elija un color de tema.
 
@@ -46,7 +46,7 @@ demo:
 
 ## Obtención y apertura de la aplicación
 
-1. Cambie a la ventana del servicio Power BI del **destinatario**.
+1. Cambie a la ventana del servicio Power BI del**destinatario**.
 
 1. Abra Aplicaciones y obtenga la aplicación que acaba de publicar.
 
