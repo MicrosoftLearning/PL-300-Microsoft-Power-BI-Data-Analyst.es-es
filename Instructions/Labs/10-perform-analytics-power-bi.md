@@ -8,7 +8,7 @@ lab:
 
 ## Caso de laboratorio
 
-En este laboratorio, creará el informe **Exploración de ventas**.
+En este laboratorio, creará el informe**Exploración de ventas**.
 
 En este laboratorio, aprenderá a:
 
@@ -23,21 +23,21 @@ Para completar este ejercicio, abre primero un explorador web e introduce la sig
 
 `https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/10-perform-analytics-power-bi/10-perform-analytics.zip`
 
-Extraiga la carpeta en la carpeta **C:\Users\Student\Downloads\10-perform-analytics**.
+Extraiga la carpeta en la carpeta**C:\Users\Student\Downloads\10-perform-analytics**.
 
-1. Abre el archivo **10-Starter-Sales Analysis.pbix**.
+1. Abre el archivo**10-Starter-Sales Analysis.pbix**.
 
-> _**Nota**: Es posible que vea un cuadro de diálogo de inicio de sesión a medida que se carga el archivo. Seleccione **Cancelar** para descartar el cuadro de diálogo de inicio de sesión. Cierre todas las ventanas informativas que se abran. Si se le pide aplicar los cambios, seleccione **Aplicar más tarde**._
+> _**Nota**: Es posible que vea un cuadro de diálogo de inicio de sesión a medida que se carga el archivo. Seleccione**Cancelar** para descartar el cuadro de diálogo de inicio de sesión. Cierre todas las ventanas informativas que se abran. Si se le pide aplicar los cambios, seleccione**Aplicar más tarde**._
 
 ## Creación de un gráfico de dispersión animado
 
 En esta tarea, creará un gráfico de dispersión que se puede animar.
 
-1. Crea una página nueva y asígnale el nombre **Scatter Chart**.
+1. Crea una página nueva y asígnale el nombre**Scatter Chart**.
 
-1. Agregue un objeto visual **Gráfico de dispersión** a la página del informe y, después, cambie su tamaño y colóquelo para que ocupe toda la página.
+1. Agregue un objeto visual**Gráfico de dispersión** a la página del informe y, después, cambie su tamaño y colóquelo para que ocupe toda la página.
 
-    > *El gráfico se puede animar cuando se agrega un campo al apartado o área **Eje de reproducción**.*
+    > *El gráfico se puede animar cuando se agrega un campo al apartado o área**Eje de reproducción**.*
 
      ![Imagen 18](Linked_image_Files/10-perform-analytics-power-bi_image15.png)
 
@@ -45,23 +45,23 @@ En esta tarea, creará un gráfico de dispersión que se puede animar.
 
 1. Agregue los campos siguientes a los apartados o áreas del objeto visual:
 
-    > *Los laboratorios utilizan una notación abreviada para hacer referencia a un campo, con este formato: **Reseller** **\|** **Business Type**. En este ejemplo, **Reseller** es el nombre de la tabla y **Business Type** es el nombre del campo.*
+    > *Los laboratorios utilizan una notación abreviada para hacer referencia a un campo, con este formato:**Reseller****\|****Business Type**. En este ejemplo,**Reseller** es el nombre de la tabla y**Business Type** es el nombre del campo.*
 
-     - Eje X: **Ventas \| Ventas**
-     - Eje Y: **Ventas \| Margen de beneficio**
-     - Leyenda: **Revendedor \| Tipo de negocio**
-     - Tamaño: **Ventas \| Cantidad**
-     - Eje de reproducción: **Fecha \| Trimestre**
+     - Eje X:**Ventas \| Ventas**
+     - Eje Y:**Ventas \| Margen de beneficio**
+     - Leyenda:**Revendedor \| Tipo de negocio**
+     - Tamaño:**Ventas \| Cantidad**
+     - Eje de reproducción:**Fecha \| Trimestre**
 
-1. En el panel **Filtros**, agregue el campo **Producto \| Categoría** al apartado o área **Filtros** de esta página.
+1. En el panel**Filtros**, agregue el campo**Producto \| Categoría** al apartado o área**Filtros** de esta página.
 
-1. En la tarjeta de filtro, filtre por **Bicicletas**.
+1. En la tarjeta de filtro, filtre por**Bicicletas**.
 
-1. Para animar el gráfico, en la esquina inferior izquierda, seleccione **Reproducir**.
+1. Para animar el gráfico, en la esquina inferior izquierda, seleccione**Reproducir**.
 
     ![Imagen 41](Linked_image_Files/10-perform-analytics-power-bi_image19.png)
 
-1. Vea todo el ciclo de animación desde **FY2018 Q1** hasta **FY2020 Q4**.
+1. Vea todo el ciclo de animación desde**FY2018 Q1** hasta**FY2020 Q4**.
 
     > *El gráfico de dispersión permite comprender los valores de medida de manera simultánea: en este caso, cantidad de pedido, ingresos de ventas y margen de beneficios.*
     > 
@@ -71,7 +71,7 @@ En esta tarea, creará un gráfico de dispersión que se puede animar.
 
 1. Mantenga el cursor sobre cualquier burbuja para mostrar una información sobre herramientas en la que se describen los valores de medida para el tipo de distribuidor en ese momento dado.
 
-1. En el panel **Filtros**, filtre solo por **Clothing** (Ropa) y observe que genera un resultado muy diferente.
+1. En el panel**Filtros**, filtre solo por**Clothing** (Ropa) y observe que genera un resultado muy diferente.
 
 1. Guarde el archivo de Power BI Desktop.
 
@@ -79,9 +79,9 @@ En esta tarea, creará un gráfico de dispersión que se puede animar.
 
 En esta tarea creará una previsión para determinar los posibles ingresos de ventas futuros.
 
-1. Agregue una nueva página y, después, cambie el nombre de la página por **Previsión**.
+1. Agregue una nueva página y, después, cambie el nombre de la página por**Previsión**.
 
-1. Agregue un objeto visual **Gráfico de líneas** a la página del informe y, después, cambie su tamaño y colóquelo para que ocupe toda la página.
+1. Agregue un objeto visual**Gráfico de líneas** a la página del informe y, después, cambie su tamaño y colóquelo para que ocupe toda la página.
 
      ![Imagen 19](Linked_image_Files/10-perform-analytics-power-bi_image21.png)
 
@@ -89,33 +89,33 @@ En esta tarea creará una previsión para determinar los posibles ingresos de ve
 
 1. Agregue los campos siguientes a los apartados o áreas del objeto visual:
 
-     - Eje X: **Fecha \| Fecha**
-     - Eje Y: **Ventas \| Ventas**
+     - Eje X:**Fecha \| Fecha**
+     - Eje Y:**Ventas \| Ventas**
 
-1. En el panel **Filtros**, agregue el campo **Fecha \| Año** al apartado o área **Filtros de esta página**.
+1. En el panel**Filtros**, agregue el campo**Fecha \| Año** al apartado o área**Filtros de esta página**.
 
-1. En la tarjeta de filtro, filtre por dos años: **FY2019** y **FY2020**.
+1. En la tarjeta de filtro, filtre por dos años:**FY2019** y**FY2020**.
 
     > *Al realizar la previsión sobre una línea temporal, necesitará al menos dos ciclos (años) de datos para generar una previsión precisa y estable.*
 
-1. Agregue también el campo **Producto \| Categoría** al apartado o área **Filtros de esta página** y filtre por **Bikes**.
+1. Agregue también el campo**Producto \| Categoría** al apartado o área**Filtros de esta página** y filtre por**Bikes**.
 
-1. Para agregar una previsión, debajo del panel **Visualizaciones**, seleccione el panel **Analytics** (Análisis).
+1. Para agregar una previsión, debajo del panel**Visualizaciones**, seleccione el panel**Analytics** (Análisis).
 
      ![Imagen 20](Linked_image_Files/10-perform-analytics-power-bi_image26.png)
 
-1. Expanda la sección **Previsión**.
+1. Expanda la sección**Previsión**.
 
-    > *Si la sección **Previsión** no está disponible, probablemente se deba a que el objeto visual no se ha configurado correctamente. La previsión solo está disponible cuando se cumplen dos condiciones: el eje tiene un único campo de tipo fecha y solo hay un campo de valor.*
+    > *Si la sección**Previsión** no está disponible, probablemente se deba a que el objeto visual no se ha configurado correctamente. La previsión solo está disponible cuando se cumplen dos condiciones: el eje tiene un único campo de tipo fecha y solo hay un campo de valor.*
 
-1. **Active** la opción **Previsión**.
+1. **Active** la opción**Previsión**.
 
-1. Configure las siguientes propiedades de previsión y elija **Aplicar**:
+1. Configure las siguientes propiedades de previsión y elija**Aplicar**:
 
-    - Unidades: **Meses**
+    - Unidades:**Meses**
     - **Predecir duración**: 1 mes
-    - Estacionalidad: **365**
-    - Intervalo de confianza: **80 %**
+    - Estacionalidad:**365**
+    - Intervalo de confianza:**80 %**
 
     ![Imagen 52](Linked_image_Files/10-perform-analytics-power-bi_image29.png)
 
@@ -125,15 +125,15 @@ En esta tarea creará una previsión para determinar los posibles ingresos de ve
     >
     > *Cuando conozca la duración del ciclo, en este caso anual, debe especificar los puntos de estacionalidad. A veces podría ser semanal (7) o mensual (30).*
 
-1. En el panel **Filtros**, filtre solo por **Ropa** y observe que genera un resultado diferente.
+1. En el panel**Filtros**, filtre solo por**Ropa** y observe que genera un resultado diferente.
 
 ## Laboratorio completado
 
 Puede optar por guardar el informe de Power BI, aunque no es necesario para este laboratorio. En el ejercicio siguiente, trabajará con un archivo de inicio creado previamente.
 
 1. Vaya al menú **"Archivo"** en la esquina superior izquierda y seleccione **"Guardar como"**. 
-1. Seleccione **Examinar este dispositivo**.
+1. Seleccione**Examinar este dispositivo**.
 1. Seleccione la carpeta donde desea guardar el archivo y asígnele un nombre descriptivo. 
-1. Seleccione el botón **Guardar** para guardar el informe como un archivo .pbix. 
-1. Si aparece un cuadro de diálogo en el que se le pide que aplique los cambios pendientes en la consulta, seleccione **Aplicar**.
+1. Seleccione el botón**Guardar** para guardar el informe como un archivo .pbix. 
+1. Si aparece un cuadro de diálogo en el que se le pide que aplique los cambios pendientes en la consulta, seleccione**Aplicar**.
 1. Cierre Power BI Desktop.

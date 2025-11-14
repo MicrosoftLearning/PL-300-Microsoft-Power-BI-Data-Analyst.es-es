@@ -1,10 +1,10 @@
 # PL-300: Microsoft Power BI Data Analyst
 
-Este repositorio contiene los ejercicios del laboratorio práctico del curso de Microsoft [PL-300: Microsoft Power BI Data Analyst](https://docs.microsoft.com/en-us/learn/certifications/courses/PL-300T00). Los laboratorios están pensados para complementar los materiales de aprendizaje y permiten a los alumnos practicar el uso de las tecnologías descritas en estos materiales.
+Este repositorio contiene los ejercicios del laboratorio práctico del curso de Microsoft[PL-300: Microsoft Power BI Data Analyst](https://docs.microsoft.com/en-us/learn/certifications/courses/PL-300T00). Los laboratorios están pensados para complementar los materiales de aprendizaje y permiten a los alumnos practicar el uso de las tecnologías descritas en estos materiales.
 
-- **¿Es MCT?** Consulte nuestra [guía de usuario de GitHub para MCT](https://microsoftlearning.github.io/MCT-User-Guide/).
-- **¿Necesita crear manualmente las instrucciones de laboratorio?** Las instrucciones están disponibles en el repositorio [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build).
-- **¿Necesita un recordatorio sobre qué laboratorios corresponden a cada presentación del curso?** - Consulte la [página de GitHub](https://microsoftlearning.github.io/PL-300-Microsoft-Power-BI-Data-Analyst/).
+- **¿Es MCT?** Consulte nuestra[guía de usuario de GitHub para MCT](https://microsoftlearning.github.io/MCT-User-Guide/).
+- **¿Necesita crear manualmente las instrucciones de laboratorio?** Las instrucciones están disponibles en el repositorio[MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build).
+- **¿Necesita un recordatorio sobre qué laboratorios corresponden a cada presentación del curso?** - Consulte la[página de GitHub](https://microsoftlearning.github.io/PL-300-Microsoft-Power-BI-Data-Analyst/).
 
 ## ¿Qué vamos a hacer?
 
