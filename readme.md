@@ -1,3 +1,5 @@
+**⚠️ This GitHub repo will retire on 30th December 2025.** 
+
 # PL-300: Microsoft Power BI Data Analyst
 
 Este repositorio contiene los ejercicios del laboratorio práctico del curso de Microsoft[PL-300: Microsoft Power BI Data Analyst](https://docs.microsoft.com/en-us/learn/certifications/courses/PL-300T00). Los laboratorios están pensados para complementar los materiales de aprendizaje y permiten a los alumnos practicar el uso de las tecnologías descritas en estos materiales.
